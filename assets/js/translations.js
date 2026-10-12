@@ -50,9 +50,9 @@ const translations = {
     'breadcrumb-terms': 'Terms of Use',
 
     // Hero Section
-    'hero-welcome': 'Welcome to BetterSolano.org',
+    'hero-welcome': 'Welcome to Better Muntinlupa',
     'hero-subtitle':
-      'Access government services, information, and resources for the people of Solano, Nueva Vizcaya.',
+      'Access city services, information, and civic resources for the people of Muntinlupa City.',
     'hero-browse': 'Browse Services',
     'hero-contact': 'Contact Us',
     'hero-search-placeholder': 'Search for services...',
@@ -676,7 +676,7 @@ const translations = {
     'a11y-css3': 'CSS3',
     'a11y-education': 'Education',
     'a11y-empowering-the-people-of-solano-with-transparent':
-      'Empowering the people of Solano with transparent access to the services, programs, and public funds of LGU Solano.',
+      'Empowering the people of Muntinlupa with transparent access to city services, programs, and public funds.',
     'a11y-environment': 'Environment',
     'a11y-freedom-of-information': 'Freedom of Information',
     'a11y-health': 'Health',
@@ -716,7 +716,7 @@ const translations = {
     'a11y-text-alternatives': 'Text Alternatives',
     'a11y-typescript': 'TypeScript',
     'a11y-volunteer-with-us': 'Volunteer with us',
-    'a11y-volunteerbettersolanoorg': 'volunteer@bettersolano.org',
+    'a11y-volunteerbettermuntinlupaorg': 'contact@bettermuntinlupa.org',
     'a11y-wcag-21-level-aa': 'WCAG 2.1 Level AA',
     'a11y-works-on-all-devices-and-screen-sizes': 'Works on all devices and screen sizes.',
     'acct-1-day': '1 day',
@@ -773,7 +773,7 @@ const translations = {
     'acct-duration': 'Duration',
     'acct-education': 'Education',
     'acct-empowering-the-people-of-solano-with-transparent':
-      'Empowering the people of Solano with transparent access to the services, programs, and public funds of LGU Solano.',
+      'Empowering the people of Muntinlupa with transparent access to city services, programs, and public funds.',
     'acct-environment': 'Environment',
     'acct-evangeline-b-ramos': 'Evangeline B. Ramos',
     'acct-financial-reports-are-submitted-monthly-to-coa':
@@ -906,7 +906,7 @@ const translations = {
     'agri-contribute-code-with-us': 'Contribute code with us',
     'agri-education': 'Education',
     'agri-empowering-the-people-of-solano-with-transparent':
-      'Empowering the people of Solano with transparent access to the services, programs, and public funds of LGU Solano.',
+      'Empowering the people of Muntinlupa with transparent access to city services, programs, and public funds.',
     'agri-environment': 'Environment',
     'agri-freedom-of-information': 'Freedom of Information',
     'agri-health': 'Health',
@@ -976,7 +976,7 @@ const translations = {
     'assessor-education': 'Education',
     'assessor-email': 'Email',
     'assessor-empowering-the-people-of-solano-with-transparent':
-      'Empowering the people of Solano with transparent access to the services, programs, and public funds of LGU Solano.',
+      'Empowering the people of Muntinlupa with transparent access to city services, programs, and public funds.',
     'assessor-environment': 'Environment',
     'assessor-fee': 'Fee',
     'assessor-fee-2': 'Fee:',
@@ -1123,7 +1123,7 @@ const translations = {
     'bc-documents-needed-for-your-application': 'Documents needed for your application',
     'bc-education': 'Education',
     'bc-empowering-the-people-of-solano-with-transparent':
-      'Empowering the people of Solano with transparent access to the services, programs, and public funds of LGU Solano.',
+      'Empowering the people of Muntinlupa with transparent access to city services, programs, and public funds.',
     'bc-environment': 'Environment',
     'bc-fee': 'Fee',
     'bc-fill-out-request-form': 'Fill Out Request Form',
@@ -1208,7 +1208,7 @@ const translations = {
     'biz-contribute-code-with-us': 'Contribute code with us',
     'biz-education': 'Education',
     'biz-empowering-the-people-of-solano-with-transparent':
-      'Empowering the people of Solano with transparent access to the services, programs, and public funds of LGU Solano.',
+      'Empowering the people of Muntinlupa with transparent access to city services, programs, and public funds.',
     'biz-environment': 'Environment',
     'biz-freedom-of-information': 'Freedom of Information',
     'biz-health': 'Health',
@@ -1304,7 +1304,7 @@ const translations = {
     'bpl-duration': 'Duration',
     'bpl-education': 'Education',
     'bpl-empowering-the-people-of-solano-with-transparent':
-      'Empowering the people of Solano with transparent access to the services, programs, and public funds of LGU Solano.',
+      'Empowering the people of Muntinlupa with transparent access to city services, programs, and public funds.',
     'bpl-environment': 'Environment',
     'bpl-fee': 'Fee',
     'bpl-fees-vary-based-on-business-type-capitalization':
@@ -1459,7 +1459,7 @@ const translations = {
     'budget-education': 'Education',
     'budget-egb-construction-corporation': 'EGB Construction Corporation',
     'budget-empowering-the-people-of-solano-with-transparent':
-      'Empowering the people of Solano with transparent access to the services, programs, and public funds of LGU Solano.',
+      'Empowering the people of Muntinlupa with transparent access to city services, programs, and public funds.',
     'budget-environment': 'Environment',
     'budget-expenditure-allocation': 'Expenditure Allocation',
     'budget-external-sources': 'External Sources',
@@ -1539,7 +1539,7 @@ const translations = {
     'cert-contribute-code-with-us': 'Contribute code with us',
     'cert-education': 'Education',
     'cert-empowering-the-people-of-solano-with-transparent':
-      'Empowering the people of Solano with transparent access to the services, programs, and public funds of LGU Solano.',
+      'Empowering the people of Muntinlupa with transparent access to city services, programs, and public funds.',
     'cert-environment': 'Environment',
     'cert-freedom-of-information': 'Freedom of Information',
     'cert-health': 'Health',
@@ -1577,7 +1577,7 @@ const translations = {
     'contact-dilg-solano-0906-188-0868': 'DILG Solano 0906 188 0868',
     'contact-education': 'Education',
     'contact-empowering-the-people-of-solano-with-transparent':
-      'Empowering the people of Solano with transparent access to the services, programs, and public funds of LGU Solano.',
+      'Empowering the people of Muntinlupa with transparent access to city services, programs, and public funds.',
     'contact-environment': 'Environment',
     'contact-for-medical-emergencies-and-hospital-inquiries':
       'For medical emergencies and hospital inquiries.',
@@ -1698,7 +1698,7 @@ const translations = {
     'cr-education': 'Education',
     'cr-email': 'Email',
     'cr-empowering-the-people-of-solano-with-transparent':
-      'Empowering the people of Solano with transparent access to the services, programs, and public funds of LGU Solano.',
+      'Empowering the people of Muntinlupa with transparent access to city services, programs, and public funds.',
     'cr-environment': 'Environment',
     'cr-fee': 'Fee',
     'cr-fees': 'Fees',
@@ -1837,7 +1837,7 @@ const translations = {
     'dc-embalmer': 'Embalmer',
     'dc-embalmers-certification': "Embalmer's Certification",
     'dc-empowering-the-people-of-solano-with-transparent':
-      'Empowering the people of Solano with transparent access to the services, programs, and public funds of LGU Solano.',
+      'Empowering the people of Muntinlupa with transparent access to city services, programs, and public funds.',
     'dc-environment': 'Environment',
     'dc-fee': 'Fee',
     'dc-fee-summary': 'Fee Summary',
@@ -1954,7 +1954,7 @@ const translations = {
     'edu-empowering-filipino-students-and-educators-with':
       'Empowering Filipino students and educators with 1,000+ free and open-source productivity tools across 18 categories — from document processing and design to AI and development.',
     'edu-empowering-the-people-of-solano-with-transparent':
-      'Empowering the people of Solano with transparent access to the services, programs, and public funds of LGU Solano.',
+      'Empowering the people of Muntinlupa with transparent access to city services, programs, and public funds.',
     'edu-environment': 'Environment',
     'edu-free-tools-for-education': 'Free Tools for Education',
     'edu-freedom-of-information': 'Freedom of Information',
@@ -2043,7 +2043,7 @@ const translations = {
     'eng-electronics-permit': 'Electronics Permit',
     'eng-electronics-plans': 'Electronics Plans',
     'eng-empowering-the-people-of-solano-with-transparent':
-      'Empowering the people of Solano with transparent access to the services, programs, and public funds of LGU Solano.',
+      'Empowering the people of Muntinlupa with transparent access to city services, programs, and public funds.',
     'eng-engineer-iii': 'Engineer III',
     'eng-engineering': 'Engineering',
     'eng-engineering-aide': 'Engineering Aide',
@@ -2146,7 +2146,7 @@ const translations = {
     'env-drainage-sewerage-management': 'Drainage & Sewerage Management',
     'env-education': 'Education',
     'env-empowering-the-people-of-solano-with-transparent':
-      'Empowering the people of Solano with transparent access to the services, programs, and public funds of LGU Solano.',
+      'Empowering the people of Muntinlupa with transparent access to city services, programs, and public funds.',
     'env-environment': 'Environment',
     'env-fee': 'Fee:',
     'env-flood-control-mitigation': 'Flood Control & Mitigation',
@@ -2196,7 +2196,7 @@ const translations = {
     'err403-contribute-code-with-us': 'Contribute code with us',
     'err403-education': 'Education',
     'err403-empowering-the-people-of-solano-with-transparent':
-      'Empowering the people of Solano with transparent access to the services, programs, and public funds of LGU Solano.',
+      'Empowering the people of Muntinlupa with transparent access to city services, programs, and public funds.',
     'err403-environment': 'Environment',
     'err403-freedom-of-information': 'Freedom of Information',
     'err403-go-to-homepage': 'Go to Homepage',
@@ -2231,7 +2231,7 @@ const translations = {
     'err404-contribute-code-with-us': 'Contribute code with us',
     'err404-education': 'Education',
     'err404-empowering-the-people-of-solano-with-transparent':
-      'Empowering the people of Solano with transparent access to the services, programs, and public funds of LGU Solano.',
+      'Empowering the people of Muntinlupa with transparent access to city services, programs, and public funds.',
     'err404-environment': 'Environment',
     'err404-freedom-of-information': 'Freedom of Information',
     'err404-go-to-homepage': 'Go to Homepage',
@@ -2267,7 +2267,7 @@ const translations = {
     'err500-contribute-code-with-us': 'Contribute code with us',
     'err500-education': 'Education',
     'err500-empowering-the-people-of-solano-with-transparent':
-      'Empowering the people of Solano with transparent access to the services, programs, and public funds of LGU Solano.',
+      'Empowering the people of Muntinlupa with transparent access to city services, programs, and public funds.',
     'err500-environment': 'Environment',
     'err500-freedom-of-information': 'Freedom of Information',
     'err500-go-to-homepage': 'Go to Homepage',
@@ -2325,7 +2325,7 @@ const translations = {
       'DTI Registration (for sole proprietorship) or SEC Registration (for corporation)',
     'faq-education': 'Education',
     'faq-empowering-the-people-of-solano-with-transparent':
-      'Empowering the people of Solano with transparent access to the services, programs, and public funds of LGU Solano.',
+      'Empowering the people of Muntinlupa with transparent access to city services, programs, and public funds.',
     'faq-environment': 'Environment',
     'faq-for-birth-certificates-registered-in-solano-it':
       'For birth certificates registered in Solano, it typically takes 15-30 minutes while you wait, provided the record is readily available.',
@@ -2378,7 +2378,7 @@ const translations = {
     'faq-visit-the-municipal-treasurers-office-at-the':
       "Visit the Municipal Treasurer's Office at the Municipal Hall with your Tax Declaration or latest Official Receipt. Payment is in cash. Property taxes are due quarterly, but you may pay annually to avail of discounts.",
     'faq-volunteer-with-us': 'Volunteer with us',
-    'faq-volunteerbettersolanoorg': 'volunteer@bettersolano.org',
+    'faq-volunteerbettermuntinlupaorg': 'contact@bettermuntinlupa.org',
     'faq-what-are-the-office-hours-of-the-municipal-hall':
       'What are the office hours of the Municipal Hall?',
     'faq-what-benefits-do-senior-citizens-receive': 'What benefits do senior citizens receive?',
@@ -2439,7 +2439,7 @@ const translations = {
     'gov-education-science-technology-transportation':
       'Education, Science & Technology, Transportation, Commerce, Trade & Industry',
     'gov-empowering-the-people-of-solano-with-transparent':
-      'Empowering the people of Solano with transparent access to the services, programs, and public funds of LGU Solano.',
+      'Empowering the people of Muntinlupa with transparent access to city services, programs, and public funds.',
     'gov-engineersolanogovph': 'engineer@solano.gov.ph',
     'gov-entrepreneurship-economic-development-historical':
       'Entrepreneurship & Economic Development, Historical Records & Preservation of Heritage, Culture and the Arts',
@@ -2629,7 +2629,7 @@ const translations = {
     'gs-email': 'Email',
     'gs-emergency-medical-services': 'Emergency Medical Services',
     'gs-empowering-the-people-of-solano-with-transparent':
-      'Empowering the people of Solano with transparent access to the services, programs, and public funds of LGU Solano.',
+      'Empowering the people of Muntinlupa with transparent access to city services, programs, and public funds.',
     'gs-emtdriver': 'EMT/Driver',
     'gs-environment': 'Environment',
     'gs-equipment': 'Equipment',
@@ -2772,7 +2772,7 @@ const translations = {
     'health-dadap-bhs': 'Dadap BHS',
     'health-education': 'Education',
     'health-empowering-the-people-of-solano-with-transparent':
-      'Empowering the people of Solano with transparent access to the services, programs, and public funds of LGU Solano.',
+      'Empowering the people of Muntinlupa with transparent access to city services, programs, and public funds.',
     'health-environment': 'Environment',
     'health-freedom-of-information': 'Freedom of Information',
     'health-health': 'Health',
@@ -2848,7 +2848,7 @@ const translations = {
     'home-create-account': 'Create Account',
     'home-education': 'Education',
     'home-empowering-the-people-of-solano-with-transparent':
-      'Empowering the people of Solano with transparent access to the services, programs, and public funds of LGU Solano.',
+      'Empowering the people of Muntinlupa with transparent access to city services, programs, and public funds.',
     'home-environment': 'Environment',
     'home-father-alejandro-vidal': 'Father Alejandro Vidal',
     'home-fetching-the-latest-news-from-solano': 'Fetching the latest news from Solano.',
@@ -2971,7 +2971,7 @@ const translations = {
     'hrm-employee-id': 'Employee ID',
     'hrm-employee-id-for-current-employees': 'Employee ID (for current employees)',
     'hrm-empowering-the-people-of-solano-with-transparent':
-      'Empowering the people of Solano with transparent access to the services, programs, and public funds of LGU Solano.',
+      'Empowering the people of Muntinlupa with transparent access to city services, programs, and public funds.',
     'hrm-environment': 'Environment',
     'hrm-fee-free': 'Fee: Free',
     'hrm-fee-free-for-current-employees': 'Fee: Free for current employees',
@@ -3104,7 +3104,7 @@ const translations = {
     'infra-contribute-code-with-us': 'Contribute code with us',
     'infra-education': 'Education',
     'infra-empowering-the-people-of-solano-with-transparent':
-      'Empowering the people of Solano with transparent access to the services, programs, and public funds of LGU Solano.',
+      'Empowering the people of Muntinlupa with transparent access to city services, programs, and public funds.',
     'infra-engineering-services': 'Engineering Services',
     'infra-environment': 'Environment',
     'infra-fee': 'Fee:',
@@ -3168,7 +3168,7 @@ const translations = {
       'Detailed discussion and debate on the proposed ordinance',
     'leg-education': 'Education',
     'leg-empowering-the-people-of-solano-with-transparent':
-      'Empowering the people of Solano with transparent access to the services, programs, and public funds of LGU Solano.',
+      'Empowering the people of Muntinlupa with transparent access to city services, programs, and public funds.',
     'leg-environment': 'Environment',
     'leg-expressions-of-the-legislative-bodys-will-or':
       "Expressions of the legislative body's will or opinion on specific matters, often used for commendations, requests, or policy positions.",
@@ -3320,7 +3320,7 @@ const translations = {
       'Distribution of tilapia, carp, and other fingerlings',
     'magri-education': 'Education',
     'magri-empowering-the-people-of-solano-with-transparent':
-      'Empowering the people of Solano with transparent access to the services, programs, and public funds of LGU Solano.',
+      'Empowering the people of Muntinlupa with transparent access to city services, programs, and public funds.',
     'magri-environment': 'Environment',
     'magri-farm-location-certification': 'Farm Location Certification',
     'magri-farm-machinery-services': 'Farm Machinery Services',
@@ -3519,7 +3519,7 @@ const translations = {
     'market-economic-enterprise-development-office': 'Economic Enterprise & Development Office',
     'market-education': 'Education',
     'market-empowering-the-people-of-solano-with-transparent':
-      'Empowering the people of Solano with transparent access to the services, programs, and public funds of LGU Solano.',
+      'Empowering the people of Muntinlupa with transparent access to city services, programs, and public funds.',
     'market-entrance-fees': 'Entrance Fees',
     'market-entrance-fees-are-based-on-goods-being-sold':
       'Entrance fees are based on goods being sold',
@@ -3681,7 +3681,7 @@ const translations = {
     'mbudget-duration': 'Duration',
     'mbudget-education': 'Education',
     'mbudget-empowering-the-people-of-solano-with-transparent':
-      'Empowering the people of Solano with transparent access to the services, programs, and public funds of LGU Solano.',
+      'Empowering the people of Muntinlupa with transparent access to city services, programs, and public funds.',
     'mbudget-ensure-all-documents-are-complete-before':
       'Ensure all documents are complete before submission',
     'mbudget-environment': 'Environment',
@@ -3844,7 +3844,7 @@ const translations = {
     'mc-edgar-mc': 'Edgar Mc',
     'mc-education': 'Education',
     'mc-empowering-the-people-of-solano-with-transparent':
-      'Empowering the people of Solano with transparent access to the services, programs, and public funds of LGU Solano.',
+      'Empowering the people of Muntinlupa with transparent access to city services, programs, and public funds.',
     'mc-environment': 'Environment',
     'mc-fee': 'Fee',
     'mc-fifteen-15-days': 'fifteen (15) days',
@@ -4022,7 +4022,7 @@ const translations = {
     'mcr-duration': 'Duration',
     'mcr-education': 'Education',
     'mcr-empowering-the-people-of-solano-with-transparent':
-      'Empowering the people of Solano with transparent access to the services, programs, and public funds of LGU Solano.',
+      'Empowering the people of Muntinlupa with transparent access to city services, programs, and public funds.',
     'mcr-environment': 'Environment',
     'mcr-fee': 'Fee',
     'mcr-fee-per-copy': 'Fee per Copy',
@@ -4185,7 +4185,7 @@ const translations = {
     'mgs-education': 'Education',
     'mgs-electricity': 'Electricity',
     'mgs-empowering-the-people-of-solano-with-transparent':
-      'Empowering the people of Solano with transparent access to the services, programs, and public funds of LGU Solano.',
+      'Empowering the people of Muntinlupa with transparent access to city services, programs, and public funds.',
     'mgs-environment': 'Environment',
     'mgs-equipment-accountability-is-strictly-enforced':
       'Equipment accountability is strictly enforced',
@@ -4348,7 +4348,7 @@ const translations = {
     'mpdo-duly-accomplished-application-form': 'Duly accomplished Application Form',
     'mpdo-education': 'Education',
     'mpdo-empowering-the-people-of-solano-with-transparent':
-      'Empowering the people of Solano with transparent access to the services, programs, and public funds of LGU Solano.',
+      'Empowering the people of Muntinlupa with transparent access to city services, programs, and public funds.',
     'mpdo-environment': 'Environment',
     'mpdo-environmental-compliance-certificate-if-required':
       'Environmental Compliance Certificate (if required)',
@@ -4504,7 +4504,7 @@ const translations = {
       'Emergency financial assistance for various needs',
     'mswdo-employment-facilitation-ef': 'Employment Facilitation (EF)',
     'mswdo-empowering-the-people-of-solano-with-transparent':
-      'Empowering the people of Solano with transparent access to the services, programs, and public funds of LGU Solano.',
+      'Empowering the people of Muntinlupa with transparent access to city services, programs, and public funds.',
     'mswdo-enrollment-requirements': 'Enrollment Requirements',
     'mswdo-environment': 'Environment',
     'mswdo-families-in-crisis-situations': 'Families in crisis situations',
@@ -4744,7 +4744,7 @@ const translations = {
     'mswdosvc-educational-assistance': 'Educational assistance',
     'mswdosvc-emergency-cases-are-given-priority': 'Emergency cases are given priority',
     'mswdosvc-empowering-the-people-of-solano-with-transparent':
-      'Empowering the people of Solano with transparent access to the services, programs, and public funds of LGU Solano.',
+      'Empowering the people of Muntinlupa with transparent access to city services, programs, and public funds.',
     'mswdosvc-encoding-and-processing-of-pwd-id': 'Encoding and processing of PWD ID',
     'mswdosvc-encoding-and-processing-of-senior-citizen-id':
       'Encoding and processing of Senior Citizen ID',
@@ -4916,7 +4916,7 @@ const translations = {
     'news-contribute-code-with-us': 'Contribute code with us',
     'news-education': 'Education',
     'news-empowering-the-people-of-solano-with-transparent':
-      'Empowering the people of Solano with transparent access to the services, programs, and public funds of LGU Solano.',
+      'Empowering the people of Muntinlupa with transparent access to city services, programs, and public funds.',
     'news-environment': 'Environment',
     'news-fetching-news-and-updates-from-solano': 'Fetching news and updates from Solano.',
     'news-freedom-of-information': 'Freedom of Information',
@@ -4956,7 +4956,7 @@ const translations = {
     'officials-education': 'Education',
     'officials-elected-officials': 'Elected Officials',
     'officials-empowering-the-people-of-solano-with-transparent':
-      'Empowering the people of Solano with transparent access to the services, programs, and public funds of LGU Solano.',
+      'Empowering the people of Muntinlupa with transparent access to city services, programs, and public funds.',
     'officials-environment': 'Environment',
     'officials-executive-branch': 'Executive Branch',
     'officials-freedom-of-information': 'Freedom of Information',
@@ -5017,7 +5017,7 @@ const translations = {
     'ord-contribute-code-with-us': 'Contribute code with us',
     'ord-education': 'Education',
     'ord-empowering-the-people-of-solano-with-transparent':
-      'Empowering the people of Solano with transparent access to the services, programs, and public funds of LGU Solano.',
+      'Empowering the people of Muntinlupa with transparent access to city services, programs, and public funds.',
     'ord-environment': 'Environment',
     'ord-freedom-of-information': 'Freedom of Information',
     'ord-health': 'Health',
@@ -5046,10 +5046,10 @@ const translations = {
     'privacy-agriculture': 'Agriculture',
     'privacy-analytics-cookies': 'Analytics Cookies:',
     'privacy-analytics-data': 'Analytics Data:',
-    'privacy-bettersolanoorg-is-a-general-audience-website':
-      'BetterSolano.org is a general audience website providing civic information. We do not knowingly collect personal information from children under 18 years of age without parental consent.',
-    'privacy-bettersolanoorg-we-us-or-our-is-committed-to':
-      'BetterSolano.org ("we," "us," or "our") is committed to protecting your privacy and ensuring the security of your personal information. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you visit our website.',
+    'privacy-bettermuntinlupaorg-is-a-general-audience-website':
+      'Better Muntinlupa is a general audience website providing civic information. We do not knowingly collect personal information from children under 18 years of age without parental consent.',
+    'privacy-bettermuntinlupaorg-we-us-or-our-is-committed-to':
+      'Better Muntinlupa ("we," "us," or "our") is committed to protecting your privacy and ensuring the security of your personal information. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you visit our website.',
     'privacy-blgf-portal': 'BLGF Portal',
     'privacy-browser-type-and-version': 'Browser type and version',
     'privacy-business': 'Business',
@@ -5081,7 +5081,7 @@ const translations = {
     'privacy-email-address-when-you-contact-us-or-submit':
       'Email address (when you contact us or submit feedback)',
     'privacy-empowering-the-people-of-solano-with-transparent':
-      'Empowering the people of Solano with transparent access to the services, programs, and public funds of LGU Solano.',
+      'Empowering the people of Muntinlupa with transparent access to city services, programs, and public funds.',
     'privacy-environment': 'Environment',
     'privacy-essential-cookies': 'Essential Cookies:',
     'privacy-exercising-your-rights': 'Exercising Your Rights',
@@ -5182,7 +5182,7 @@ const translations = {
     'privacy-under-the-data-privacy-act-of-2012-you-have-the':
       'Under the Data Privacy Act of 2012, you have the following rights regarding your personal information:',
     'privacy-volunteer-with-us': 'Volunteer with us',
-    'privacy-volunteerbettersolanoorg': 'volunteer@bettersolano.org',
+    'privacy-volunteerbettermuntinlupaorg': 'contact@bettermuntinlupa.org',
     'privacy-we-collect-minimal-information-necessary-to':
       'We collect minimal information necessary to operate this civic platform effectively:',
     'privacy-we-do-not-sell-trade-or-rent-your-personal':
@@ -5264,7 +5264,7 @@ const translations = {
     'propdec-effectivity-of-assessment': 'Effectivity of Assessment',
     'propdec-effectivity-quarter-and-year': 'Effectivity Quarter and Year',
     'propdec-empowering-the-people-of-solano-with-transparent':
-      'Empowering the people of Solano with transparent access to the services, programs, and public funds of LGU Solano.',
+      'Empowering the people of Muntinlupa with transparent access to city services, programs, and public funds.',
     'propdec-environment': 'Environment',
     'propdec-estimated-economic-life': 'Estimated Economic Life',
     'propdec-for-building-declaration': 'For Building Declaration',
@@ -5353,7 +5353,7 @@ const translations = {
     'reso-contribute-code-with-us': 'Contribute code with us',
     'reso-education': 'Education',
     'reso-empowering-the-people-of-solano-with-transparent':
-      'Empowering the people of Solano with transparent access to the services, programs, and public funds of LGU Solano.',
+      'Empowering the people of Muntinlupa with transparent access to city services, programs, and public funds.',
     'reso-environment': 'Environment',
     'reso-freedom-of-information': 'Freedom of Information',
     'reso-health': 'Health',
@@ -5397,7 +5397,7 @@ const translations = {
     'safety-emergency-response-and-disaster-preparedness':
       'Emergency response and disaster preparedness programs.',
     'safety-empowering-the-people-of-solano-with-transparent':
-      'Empowering the people of Solano with transparent access to the services, programs, and public funds of LGU Solano.',
+      'Empowering the people of Muntinlupa with transparent access to city services, programs, and public funds.',
     'safety-environment': 'Environment',
     'safety-fee': 'Fee:',
     'safety-for-emergencies-and-inquiries-contact-these':
@@ -5483,7 +5483,7 @@ const translations = {
     'sitemap-education': 'Education',
     'sitemap-elected-officials': 'Elected Officials',
     'sitemap-empowering-the-people-of-solano-with-transparent':
-      'Empowering the people of Solano with transparent access to the services, programs, and public funds of LGU Solano.',
+      'Empowering the people of Muntinlupa with transparent access to city services, programs, and public funds.',
     'sitemap-engineering-office': 'Engineering Office',
     'sitemap-environment': 'Environment',
     'sitemap-external-resources': 'External Resources',
@@ -5593,7 +5593,7 @@ const translations = {
     'slaughter-economic-enterprise-development-office': 'Economic Enterprise & Development Office',
     'slaughter-education': 'Education',
     'slaughter-empowering-the-people-of-solano-with-transparent':
-      'Empowering the people of Solano with transparent access to the services, programs, and public funds of LGU Solano.',
+      'Empowering the people of Muntinlupa with transparent access to city services, programs, and public funds.',
     'slaughter-environment': 'Environment',
     'slaughter-facility-maintenance': 'Facility Maintenance',
     'slaughter-fee': 'Fee',
@@ -5704,7 +5704,7 @@ const translations = {
     'social-contribute-code-with-us': 'Contribute code with us',
     'social-education': 'Education',
     'social-empowering-the-people-of-solano-with-transparent':
-      'Empowering the people of Solano with transparent access to the services, programs, and public funds of LGU Solano.',
+      'Empowering the people of Muntinlupa with transparent access to city services, programs, and public funds.',
     'social-environment': 'Environment',
     'social-fee': 'Fee:',
     'social-freedom-of-information': 'Freedom of Information',
@@ -5771,7 +5771,7 @@ const translations = {
     'stats-economy': 'Economy',
     'stats-education': 'Education',
     'stats-empowering-the-people-of-solano-with-transparent':
-      'Empowering the people of Solano with transparent access to the services, programs, and public funds of LGU Solano.',
+      'Empowering the people of Muntinlupa with transparent access to city services, programs, and public funds.',
     'stats-environment': 'Environment',
     'stats-finance': 'Finance',
     'stats-financial-standing-for-fiscal-year-2023': 'Financial standing for fiscal year 2023',
@@ -5850,7 +5850,7 @@ const translations = {
     'svc-contribute-code-with-us': 'Contribute code with us',
     'svc-education': 'Education',
     'svc-empowering-the-people-of-solano-with-transparent':
-      'Empowering the people of Solano with transparent access to the services, programs, and public funds of LGU Solano.',
+      'Empowering the people of Muntinlupa with transparent access to city services, programs, and public funds.',
     'svc-environment': 'Environment',
     'svc-freedom-of-information': 'Freedom of Information',
     'svc-getting-married': 'Getting Married',
@@ -5890,7 +5890,7 @@ const translations = {
     'tax-contribute-code-with-us': 'Contribute code with us',
     'tax-education': 'Education',
     'tax-empowering-the-people-of-solano-with-transparent':
-      'Empowering the people of Solano with transparent access to the services, programs, and public funds of LGU Solano.',
+      'Empowering the people of Muntinlupa with transparent access to city services, programs, and public funds.',
     'tax-environment': 'Environment',
     'tax-freedom-of-information': 'Freedom of Information',
     'tax-health': 'Health',
@@ -5944,7 +5944,7 @@ const translations = {
     'terms-all-information-on-this-website-is-provided-as-is':
       'All information on this website is provided "AS IS" without warranty of any kind, whether express or implied. This includes, but is not limited to:',
     'terms-although-volunteers-aim-to-keep-the-website':
-      'Although volunteers aim to keep the website accessible and functional, BetterSolano.org cannot guarantee that the website will be:',
+      'Although volunteers aim to keep the website accessible and functional, Better Muntinlupa cannot guarantee that the website will be:',
     'terms-any-bugs-viruses-or-other-harmful-components':
       'Any bugs, viruses, or other harmful components transmitted through the site',
     'terms-any-errors-omissions-or-outdated-information':
@@ -5957,12 +5957,12 @@ const translations = {
       'As a volunteer-run initiative, this website does not replace official government channels. Residents and stakeholders are encouraged to conduct their own independent research and verification of all information found here and to consult official LGU Solano offices and government agencies when making important decisions.',
     'terms-as-is-disclaimer': '"As Is" Disclaimer',
     'terms-available-or-accessible-at-all-times': 'Available or accessible at all times',
-    'terms-bettersolanoorg-is-a-civic-platform-dedicated-to':
-      'BetterSolano.org is a civic platform dedicated to empowering the people of Solano by providing transparent access to the services, programs, and public funds of LGU Solano.',
-    'terms-bettersolanoorg-provides-public-domain':
-      'BetterSolano.org provides public domain information to support civic engagement, transparency, and informed participation in local governance.',
-    'terms-bettersolanoorg-values-accuracy-public-safety-and':
-      'BetterSolano.org values accuracy, public safety, and respect for rights. Despite good-faith efforts, some content may become outdated, incomplete, or raise legitimate concerns.',
+    'terms-bettermuntinlupaorg-is-a-civic-platform-dedicated-to':
+      'Better Muntinlupa is a civic platform dedicated to empowering the people of Solano by providing transparent access to the services, programs, and public funds of LGU Solano.',
+    'terms-bettermuntinlupaorg-provides-public-domain':
+      'Better Muntinlupa provides public domain information to support civic engagement, transparency, and informed participation in local governance.',
+    'terms-bettermuntinlupaorg-values-accuracy-public-safety-and':
+      'Better Muntinlupa values accuracy, public safety, and respect for rights. Despite good-faith efforts, some content may become outdated, incomplete, or raise legitimate concerns.',
     'terms-blgf-portal': 'BLGF Portal',
     'terms-business': 'Business',
     'terms-by-accessing-and-using-this-website-you':
@@ -6000,7 +6000,7 @@ const translations = {
       'Editorial decisions about content rest with the website team, guided by public interest and civic responsibility.',
     'terms-education': 'Education',
     'terms-empowering-the-people-of-solano-with-transparent':
-      'Empowering the people of Solano with transparent access to the services, programs, and public funds of LGU Solano.',
+      'Empowering the people of Muntinlupa with transparent access to city services, programs, and public funds.',
     'terms-environment': 'Environment',
     'terms-errorfree-or-uninterrupted': 'Error-free or uninterrupted',
     'terms-external-references': 'External References',
@@ -6018,7 +6018,7 @@ const translations = {
       'Fully compatible with all devices, browsers, or assistive technologies',
     'terms-governing-law': 'Governing Law',
     'terms-government': 'Government',
-    'terms-guidelines-for-using-bettersolanoorg': 'Guidelines for using BetterSolano.org',
+    'terms-guidelines-for-using-bettermuntinlupaorg': 'Guidelines for using Better Muntinlupa',
     'terms-health': 'Health',
     'terms-home': 'Home',
     'terms-if-any-provision-of-these-terms-is-found-to-be':
@@ -6056,7 +6056,7 @@ const translations = {
     'terms-public-domain-content-and-volunteer-operation':
       'Public Domain Content and Volunteer Operation',
     'terms-public-domain-content-may-be-freely-used-copied':
-      'Public domain content may be freely used, copied, distributed, and modified without permission or attribution, although attribution to BetterSolano.org and LGU Solano is encouraged as a civic courtesy.',
+      'Public domain content may be freely used, copied, distributed, and modified without permission or attribution, although attribution to Better Muntinlupa and LGU Solano is encouraged as a civic courtesy.',
     'terms-public-safety': 'Public Safety',
     'terms-quick-links': 'Quick Links',
     'terms-resolution-framework': 'Resolution Framework',
@@ -6113,12 +6113,12 @@ const translations = {
     'terms-verify-information-directly-from-original-and':
       'Verify information directly from original and official sources',
     'terms-volunteer-with-us': 'Volunteer with us',
-    'terms-volunteerbettersolanoorg': 'volunteer@bettersolano.org',
+    'terms-volunteerbettermuntinlupaorg': 'contact@bettermuntinlupa.org',
     'terms-warranties-of-merchantability': 'Warranties of merchantability',
     'terms-website-availability': 'Website Availability',
     'terms-when-reaching-out-kindly-include': 'When reaching out, kindly include:',
     'terms-while-volunteers-make-every-effort-to-secure':
-      'While volunteers make every effort to secure BetterSolano.org from online threats and keep information accurate, no system can be guaranteed to be perfectly secure, error-free, or completely up-to-date at all times.',
+      'While volunteers make every effort to secure Better Muntinlupa from online threats and keep information accurate, no system can be guaranteed to be perfectly secure, error-free, or completely up-to-date at all times.',
     'terms-you-are-strongly-encouraged-to': 'You are strongly encouraged to:',
     'terms-your-contact-information-for-followup': 'Your contact information for follow-up',
     'terms-your-use-of-or-reliance-on-this-website-or-its':
@@ -6174,7 +6174,7 @@ const translations = {
     'treas-discountpenalty': 'Discount/Penalty',
     'treas-education': 'Education',
     'treas-empowering-the-people-of-solano-with-transparent':
-      'Empowering the people of Solano with transparent access to the services, programs, and public funds of LGU Solano.',
+      'Empowering the people of Muntinlupa with transparent access to city services, programs, and public funds.',
     'treas-environment': 'Environment',
     'treas-fee': 'Fee:',
     'treas-fee-collection': 'Fee Collection',
@@ -6298,7 +6298,7 @@ const translations = {
     'tricycle-contribute-code-with-us': 'Contribute code with us',
     'tricycle-education': 'Education',
     'tricycle-empowering-the-people-of-solano-with-transparent':
-      'Empowering the people of Solano with transparent access to the services, programs, and public funds of LGU Solano.',
+      'Empowering the people of Muntinlupa with transparent access to city services, programs, and public funds.',
     'tricycle-encoding-of-application': 'Encoding of Application',
     'tricycle-environment': 'Environment',
     'tricycle-franchise-steps': 'Franchise Steps',
@@ -6503,9 +6503,9 @@ const translations = {
     'breadcrumb-sitemap': 'Mapa ng Site',
     'breadcrumb-privacy': 'Patakaran sa Pagkapribado',
     'breadcrumb-terms': 'Mga Tuntunin ng Paggamit',
-    'hero-welcome': 'Maligayang Pagdating sa BetterSolano.org',
+    'hero-welcome': 'Maligayang Pagdating sa Better Muntinlupa',
     'hero-subtitle':
-      'I-access ang mga serbisyo ng pamahalaan, impormasyon, at mga mapagkukunan para sa mga mamamayan ng Solano, Nueva Vizcaya.',
+      'I-access ang mga serbisyo ng pamahalaan, impormasyon, at mga mapagkukunan para sa mga mamamayan ng Lungsod ng Muntinlupa.',
     'hero-browse': 'Tingnan ang mga Serbisyo',
     'hero-contact': 'Makipag-ugnayan sa Amin',
     'hero-search-placeholder': 'Maghanap ng serbisyo...',
@@ -7070,7 +7070,7 @@ const translations = {
     'a11y-css3': 'CSS3',
     'a11y-education': 'Edukasyon',
     'a11y-empowering-the-people-of-solano-with-transparent':
-      'Pagbibigay-kapangyarihan sa mga mamamayan ng Solano na may transparent na access sa mga serbisyo, programa, at pampublikong pondo ng LGU Solano.',
+      'Pagbibigay-kapangyarihan sa mga mamamayan ng Muntinlupa na may transparent na access sa mga serbisyo, programa, at pampublikong pondo ng lungsod.',
     'a11y-environment': 'Kapaligiran',
     'a11y-freedom-of-information': 'Kalayaan sa Impormasyon',
     'a11y-health': 'Kalusugan',
@@ -7112,7 +7112,7 @@ const translations = {
     'a11y-text-alternatives': 'Mga Alternatibong Teksto',
     'a11y-typescript': 'TypeScript',
     'a11y-volunteer-with-us': 'Mag-volunteer sa amin',
-    'a11y-volunteerbettersolanoorg': 'volunteer@bettersolano.org',
+    'a11y-volunteerbettermuntinlupaorg': 'contact@bettermuntinlupa.org',
     'a11y-wcag-21-level-aa': 'WCAG 2.1 Level AA',
     'a11y-works-on-all-devices-and-screen-sizes': 'Gumagana sa lahat ng device at laki ng screen.',
     'acct-1-day': '1 araw',
@@ -7170,7 +7170,7 @@ const translations = {
     'acct-duration': 'Tagal',
     'acct-education': 'Edukasyon',
     'acct-empowering-the-people-of-solano-with-transparent':
-      'Pagbibigay-kapangyarihan sa mga mamamayan ng Solano na may transparent na access sa mga serbisyo, programa, at pampublikong pondo ng LGU Solano.',
+      'Pagbibigay-kapangyarihan sa mga mamamayan ng Muntinlupa na may transparent na access sa mga serbisyo, programa, at pampublikong pondo ng lungsod.',
     'acct-environment': 'Kapaligiran',
     'acct-evangeline-b-ramos': 'Evangeline B. Ramos',
     'acct-financial-reports-are-submitted-monthly-to-coa':
@@ -7305,7 +7305,7 @@ const translations = {
     'agri-contribute-code-with-us': 'Mag-ambag ng code sa amin',
     'agri-education': 'Edukasyon',
     'agri-empowering-the-people-of-solano-with-transparent':
-      'Pagbibigay-kapangyarihan sa mga mamamayan ng Solano na may transparent na access sa mga serbisyo, programa, at pampublikong pondo ng LGU Solano.',
+      'Pagbibigay-kapangyarihan sa mga mamamayan ng Muntinlupa na may transparent na access sa mga serbisyo, programa, at pampublikong pondo ng lungsod.',
     'agri-environment': 'Kapaligiran',
     'agri-freedom-of-information': 'Kalayaan sa Impormasyon',
     'agri-health': 'Kalusugan',
@@ -7376,7 +7376,7 @@ const translations = {
     'assessor-education': 'Edukasyon',
     'assessor-email': 'Email',
     'assessor-empowering-the-people-of-solano-with-transparent':
-      'Pagbibigay-kapangyarihan sa mga mamamayan ng Solano na may transparent na access sa mga serbisyo, programa, at pampublikong pondo ng LGU Solano.',
+      'Pagbibigay-kapangyarihan sa mga mamamayan ng Muntinlupa na may transparent na access sa mga serbisyo, programa, at pampublikong pondo ng lungsod.',
     'assessor-environment': 'Kapaligiran',
     'assessor-fee': 'Bayad',
     'assessor-fee-2': 'Bayad:',
@@ -7526,7 +7526,7 @@ const translations = {
       'Mga dokumentong kailangan para sa iyong aplikasyon',
     'bc-education': 'Edukasyon',
     'bc-empowering-the-people-of-solano-with-transparent':
-      'Pagbibigay-kapangyarihan sa mga mamamayan ng Solano na may transparent na access sa mga serbisyo, programa, at pampublikong pondo ng LGU Solano.',
+      'Pagbibigay-kapangyarihan sa mga mamamayan ng Muntinlupa na may transparent na access sa mga serbisyo, programa, at pampublikong pondo ng lungsod.',
     'bc-environment': 'Kapaligiran',
     'bc-fee': 'Bayad',
     'bc-fill-out-request-form': 'Punan ang Form ng Kahilingan',
@@ -7612,7 +7612,7 @@ const translations = {
     'biz-contribute-code-with-us': 'Mag-ambag ng code sa amin',
     'biz-education': 'Edukasyon',
     'biz-empowering-the-people-of-solano-with-transparent':
-      'Pagbibigay-kapangyarihan sa mga mamamayan ng Solano na may transparent na access sa mga serbisyo, programa, at pampublikong pondo ng LGU Solano.',
+      'Pagbibigay-kapangyarihan sa mga mamamayan ng Muntinlupa na may transparent na access sa mga serbisyo, programa, at pampublikong pondo ng lungsod.',
     'biz-environment': 'Kapaligiran',
     'biz-freedom-of-information': 'Kalayaan sa Impormasyon',
     'biz-health': 'Kalusugan',
@@ -7711,7 +7711,7 @@ const translations = {
     'bpl-duration': 'Tagal',
     'bpl-education': 'Edukasyon',
     'bpl-empowering-the-people-of-solano-with-transparent':
-      'Pagbibigay-kapangyarihan sa mga mamamayan ng Solano na may transparent na access sa mga serbisyo, programa, at pampublikong pondo ng LGU Solano.',
+      'Pagbibigay-kapangyarihan sa mga mamamayan ng Muntinlupa na may transparent na access sa mga serbisyo, programa, at pampublikong pondo ng lungsod.',
     'bpl-environment': 'Kapaligiran',
     'bpl-fee': 'Bayad',
     'bpl-fees-vary-based-on-business-type-capitalization':
@@ -7868,7 +7868,7 @@ const translations = {
     'budget-education': 'Edukasyon',
     'budget-egb-construction-corporation': 'EGB Construction Corporation',
     'budget-empowering-the-people-of-solano-with-transparent':
-      'Pagbibigay-kapangyarihan sa mga mamamayan ng Solano na may transparent na access sa mga serbisyo, programa, at pampublikong pondo ng LGU Solano.',
+      'Pagbibigay-kapangyarihan sa mga mamamayan ng Muntinlupa na may transparent na access sa mga serbisyo, programa, at pampublikong pondo ng lungsod.',
     'budget-environment': 'Kapaligiran',
     'budget-expenditure-allocation': 'Alokasyon ng Gastusin',
     'budget-external-sources': 'Mga Panlabas na Pinagmumulan',
@@ -7949,7 +7949,7 @@ const translations = {
     'cert-contribute-code-with-us': 'Mag-ambag ng code sa amin',
     'cert-education': 'Edukasyon',
     'cert-empowering-the-people-of-solano-with-transparent':
-      'Pagbibigay-kapangyarihan sa mga mamamayan ng Solano na may transparent na access sa mga serbisyo, programa, at pampublikong pondo ng LGU Solano.',
+      'Pagbibigay-kapangyarihan sa mga mamamayan ng Muntinlupa na may transparent na access sa mga serbisyo, programa, at pampublikong pondo ng lungsod.',
     'cert-environment': 'Kapaligiran',
     'cert-freedom-of-information': 'Kalayaan sa Impormasyon',
     'cert-health': 'Kalusugan',
@@ -7987,7 +7987,7 @@ const translations = {
     'contact-dilg-solano-0906-188-0868': 'DILG Solano 0906 188 0868',
     'contact-education': 'Edukasyon',
     'contact-empowering-the-people-of-solano-with-transparent':
-      'Pagbibigay-kapangyarihan sa mga mamamayan ng Solano na may transparent na access sa mga serbisyo, programa, at pampublikong pondo ng LGU Solano.',
+      'Pagbibigay-kapangyarihan sa mga mamamayan ng Muntinlupa na may transparent na access sa mga serbisyo, programa, at pampublikong pondo ng lungsod.',
     'contact-environment': 'Kapaligiran',
     'contact-for-medical-emergencies-and-hospital-inquiries':
       'For medical emergencies and hospital mga pagtatanong.',
@@ -8109,7 +8109,7 @@ const translations = {
     'cr-education': 'Edukasyon',
     'cr-email': 'Email',
     'cr-empowering-the-people-of-solano-with-transparent':
-      'Pagbibigay-kapangyarihan sa mga mamamayan ng Solano na may transparent na access sa mga serbisyo, programa, at pampublikong pondo ng LGU Solano.',
+      'Pagbibigay-kapangyarihan sa mga mamamayan ng Muntinlupa na may transparent na access sa mga serbisyo, programa, at pampublikong pondo ng lungsod.',
     'cr-environment': 'Kapaligiran',
     'cr-fee': 'Bayad',
     'cr-fees': 'Mga Bayad',
@@ -8250,7 +8250,7 @@ const translations = {
     'dc-embalmer': 'Embalmer',
     'dc-embalmers-certification': 'Sertipikasyon ng Embalmer',
     'dc-empowering-the-people-of-solano-with-transparent':
-      'Pagbibigay-kapangyarihan sa mga mamamayan ng Solano na may transparent na access sa mga serbisyo, programa, at pampublikong pondo ng LGU Solano.',
+      'Pagbibigay-kapangyarihan sa mga mamamayan ng Muntinlupa na may transparent na access sa mga serbisyo, programa, at pampublikong pondo ng lungsod.',
     'dc-environment': 'Kapaligiran',
     'dc-fee': 'Bayad',
     'dc-fee-summary': 'Buod ng Bayad',
@@ -8368,7 +8368,7 @@ const translations = {
     'edu-empowering-filipino-students-and-educators-with':
       'Empowering Filipino students and educators with 1,000+ libre and open-source productivity tools across 18 categories — from dokumento processing and design to AI and development.',
     'edu-empowering-the-people-of-solano-with-transparent':
-      'Pagbibigay-kapangyarihan sa mga mamamayan ng Solano na may transparent na access sa mga serbisyo, programa, at pampublikong pondo ng LGU Solano.',
+      'Pagbibigay-kapangyarihan sa mga mamamayan ng Muntinlupa na may transparent na access sa mga serbisyo, programa, at pampublikong pondo ng lungsod.',
     'edu-environment': 'Kapaligiran',
     'edu-free-tools-for-education': 'Libreng Tools para sa Education',
     'edu-freedom-of-information': 'Kalayaan sa Impormasyon',
@@ -8457,7 +8457,7 @@ const translations = {
     'eng-electronics-permit': 'Permiso sa Elektroniks',
     'eng-electronics-plans': 'Mga Plano ng Elektroniks',
     'eng-empowering-the-people-of-solano-with-transparent':
-      'Pagbibigay-kapangyarihan sa mga mamamayan ng Solano na may transparent na access sa mga serbisyo, programa, at pampublikong pondo ng LGU Solano.',
+      'Pagbibigay-kapangyarihan sa mga mamamayan ng Muntinlupa na may transparent na access sa mga serbisyo, programa, at pampublikong pondo ng lungsod.',
     'eng-engineer-iii': 'Inhinyero III',
     'eng-engineering': 'Inhinyeriya',
     'eng-engineering-aide': 'Katulong sa Inhinyeriya',
@@ -8560,7 +8560,7 @@ const translations = {
     'env-drainage-sewerage-management': 'Pamamahala ng Drainage at Alkantarilya',
     'env-education': 'Edukasyon',
     'env-empowering-the-people-of-solano-with-transparent':
-      'Pagbibigay-kapangyarihan sa mga mamamayan ng Solano na may transparent na access sa mga serbisyo, programa, at pampublikong pondo ng LGU Solano.',
+      'Pagbibigay-kapangyarihan sa mga mamamayan ng Muntinlupa na may transparent na access sa mga serbisyo, programa, at pampublikong pondo ng lungsod.',
     'env-environment': 'Kapaligiran',
     'env-fee': 'Bayad:',
     'env-flood-control-mitigation': 'Flood Control at Pagpapagaan',
@@ -8611,7 +8611,7 @@ const translations = {
     'err403-contribute-code-with-us': 'Mag-ambag ng code sa amin',
     'err403-education': 'Edukasyon',
     'err403-empowering-the-people-of-solano-with-transparent':
-      'Pagbibigay-kapangyarihan sa mga mamamayan ng Solano na may transparent na access sa mga serbisyo, programa, at pampublikong pondo ng LGU Solano.',
+      'Pagbibigay-kapangyarihan sa mga mamamayan ng Muntinlupa na may transparent na access sa mga serbisyo, programa, at pampublikong pondo ng lungsod.',
     'err403-environment': 'Kapaligiran',
     'err403-freedom-of-information': 'Kalayaan sa Impormasyon',
     'err403-go-to-homepage': 'Pumunta sa Homepage',
@@ -8646,7 +8646,7 @@ const translations = {
     'err404-contribute-code-with-us': 'Mag-ambag ng code sa amin',
     'err404-education': 'Edukasyon',
     'err404-empowering-the-people-of-solano-with-transparent':
-      'Pagbibigay-kapangyarihan sa mga mamamayan ng Solano na may transparent na access sa mga serbisyo, programa, at pampublikong pondo ng LGU Solano.',
+      'Pagbibigay-kapangyarihan sa mga mamamayan ng Muntinlupa na may transparent na access sa mga serbisyo, programa, at pampublikong pondo ng lungsod.',
     'err404-environment': 'Kapaligiran',
     'err404-freedom-of-information': 'Kalayaan sa Impormasyon',
     'err404-go-to-homepage': 'Pumunta sa Homepage',
@@ -8682,7 +8682,7 @@ const translations = {
     'err500-contribute-code-with-us': 'Mag-ambag ng code sa amin',
     'err500-education': 'Edukasyon',
     'err500-empowering-the-people-of-solano-with-transparent':
-      'Pagbibigay-kapangyarihan sa mga mamamayan ng Solano na may transparent na access sa mga serbisyo, programa, at pampublikong pondo ng LGU Solano.',
+      'Pagbibigay-kapangyarihan sa mga mamamayan ng Muntinlupa na may transparent na access sa mga serbisyo, programa, at pampublikong pondo ng lungsod.',
     'err500-environment': 'Kapaligiran',
     'err500-freedom-of-information': 'Kalayaan sa Impormasyon',
     'err500-go-to-homepage': 'Pumunta sa Homepage',
@@ -8740,7 +8740,7 @@ const translations = {
       'DTI Registration (para sa sole proprietorship) o SEC Registration (para sa korporasyon)',
     'faq-education': 'Edukasyon',
     'faq-empowering-the-people-of-solano-with-transparent':
-      'Pagbibigay-kapangyarihan sa mga mamamayan ng Solano na may transparent na access sa mga serbisyo, programa, at pampublikong pondo ng LGU Solano.',
+      'Pagbibigay-kapangyarihan sa mga mamamayan ng Muntinlupa na may transparent na access sa mga serbisyo, programa, at pampublikong pondo ng lungsod.',
     'faq-environment': 'Kapaligiran',
     'faq-for-birth-certificates-registered-in-solano-it':
       'For kapanganakan mga sertipiko registered in Solano, it typically takes 15-30 minutes while you maghintay, provided the rekord is readily magagamit.',
@@ -8792,7 +8792,7 @@ const translations = {
     'faq-visit-the-municipal-treasurers-office-at-the':
       'Bumisita sa Opisina ng Ingat-Yaman ng Munisipyo sa Munisipyo na may iyong Tax Declaration o pinakabagong Opisyal na Resibo. Ang pagbabayad ay sa cash. Ang mga buwis sa ari-arian ay dapat bayaran quarterly, ngunit maaari kang magbayad taun-taon upang makakuha ng diskwento.',
     'faq-volunteer-with-us': 'Mag-volunteer sa amin',
-    'faq-volunteerbettersolanoorg': 'volunteer@bettersolano.org',
+    'faq-volunteerbettermuntinlupaorg': 'contact@bettermuntinlupa.org',
     'faq-what-are-the-office-hours-of-the-municipal-hall':
       'What ay ang office hours ng ang Munisipyo?',
     'faq-what-benefits-do-senior-citizens-receive':
@@ -8856,7 +8856,7 @@ const translations = {
     'gov-education-science-technology-transportation':
       'Edukasyon, Agham at Teknolohiya, Transportasyon, Komersyo, Kalakalan at Industriya',
     'gov-empowering-the-people-of-solano-with-transparent':
-      'Pagbibigay-kapangyarihan sa mga mamamayan ng Solano na may transparent na access sa mga serbisyo, programa, at pampublikong pondo ng LGU Solano.',
+      'Pagbibigay-kapangyarihan sa mga mamamayan ng Muntinlupa na may transparent na access sa mga serbisyo, programa, at pampublikong pondo ng lungsod.',
     'gov-engineersolanogovph': 'engineer@solano.gov.ph',
     'gov-entrepreneurship-economic-development-historical':
       'Entrepreneurship & Economic Development, Historical Mga rekord & Preservation of Heritage, Culture and the Arts',
@@ -9046,7 +9046,7 @@ const translations = {
     'gs-email': 'Email',
     'gs-emergency-medical-services': 'Emergency Medical Mga serbisyo',
     'gs-empowering-the-people-of-solano-with-transparent':
-      'Pagbibigay-kapangyarihan sa mga mamamayan ng Solano na may transparent na access sa mga serbisyo, programa, at pampublikong pondo ng LGU Solano.',
+      'Pagbibigay-kapangyarihan sa mga mamamayan ng Muntinlupa na may transparent na access sa mga serbisyo, programa, at pampublikong pondo ng lungsod.',
     'gs-emtdriver': 'EMT/Driver',
     'gs-environment': 'Kapaligiran',
     'gs-equipment': 'Kagamitan',
@@ -9190,7 +9190,7 @@ const translations = {
     'health-dadap-bhs': 'Dadap BHS',
     'health-education': 'Edukasyon',
     'health-empowering-the-people-of-solano-with-transparent':
-      'Pagbibigay-kapangyarihan sa mga mamamayan ng Solano na may transparent na access sa mga serbisyo, programa, at pampublikong pondo ng LGU Solano.',
+      'Pagbibigay-kapangyarihan sa mga mamamayan ng Muntinlupa na may transparent na access sa mga serbisyo, programa, at pampublikong pondo ng lungsod.',
     'health-environment': 'Kapaligiran',
     'health-freedom-of-information': 'Kalayaan sa Impormasyon',
     'health-health': 'Kalusugan',
@@ -9266,7 +9266,7 @@ const translations = {
     'home-create-account': 'Gumawa ng Account',
     'home-education': 'Edukasyon',
     'home-empowering-the-people-of-solano-with-transparent':
-      'Pagbibigay-kapangyarihan sa mga mamamayan ng Solano na may transparent na access sa mga serbisyo, programa, at pampublikong pondo ng LGU Solano.',
+      'Pagbibigay-kapangyarihan sa mga mamamayan ng Muntinlupa na may transparent na access sa mga serbisyo, programa, at pampublikong pondo ng lungsod.',
     'home-environment': 'Kapaligiran',
     'home-father-alejandro-vidal': 'Padre Alejandro Vidal',
     'home-fetching-the-latest-news-from-solano': 'Kinukuha ang pinakabagong balita mula sa Solano.',
@@ -9390,7 +9390,7 @@ const translations = {
     'hrm-employee-id': 'Empleyado ID',
     'hrm-employee-id-for-current-employees': 'Empleyado ID (for kasalukuyang mga empleyado)',
     'hrm-empowering-the-people-of-solano-with-transparent':
-      'Pagbibigay-kapangyarihan sa mga mamamayan ng Solano na may transparent na access sa mga serbisyo, programa, at pampublikong pondo ng LGU Solano.',
+      'Pagbibigay-kapangyarihan sa mga mamamayan ng Muntinlupa na may transparent na access sa mga serbisyo, programa, at pampublikong pondo ng lungsod.',
     'hrm-environment': 'Kapaligiran',
     'hrm-fee-free': 'Bayad: Libre',
     'hrm-fee-free-for-current-employees': 'Bayad: Libre for kasalukuyang mga empleyado',
@@ -9525,7 +9525,7 @@ const translations = {
     'infra-contribute-code-with-us': 'Mag-ambag ng code sa amin',
     'infra-education': 'Edukasyon',
     'infra-empowering-the-people-of-solano-with-transparent':
-      'Pagbibigay-kapangyarihan sa mga mamamayan ng Solano na may transparent na access sa mga serbisyo, programa, at pampublikong pondo ng LGU Solano.',
+      'Pagbibigay-kapangyarihan sa mga mamamayan ng Muntinlupa na may transparent na access sa mga serbisyo, programa, at pampublikong pondo ng lungsod.',
     'infra-engineering-services': 'Mga Serbisyo sa Inhinyeriya',
     'infra-environment': 'Kapaligiran',
     'infra-fee': 'Bayad:',
@@ -9590,7 +9590,7 @@ const translations = {
       'Detalyadong talakayan at debate sa iminumungkahing ordinansa',
     'leg-education': 'Edukasyon',
     'leg-empowering-the-people-of-solano-with-transparent':
-      'Pagbibigay-kapangyarihan sa mga mamamayan ng Solano na may transparent na access sa mga serbisyo, programa, at pampublikong pondo ng LGU Solano.',
+      'Pagbibigay-kapangyarihan sa mga mamamayan ng Muntinlupa na may transparent na access sa mga serbisyo, programa, at pampublikong pondo ng lungsod.',
     'leg-environment': 'Kapaligiran',
     'leg-expressions-of-the-legislative-bodys-will-or':
       "Expressions ng ang legislative body's ay o opinion sa tiyak na mga usapin, often used para sa commendations, mga kahilingan, o patakaran positions.",
@@ -9741,7 +9741,7 @@ const translations = {
       'Pamamahagi ng mga tilapia, karpa, at iba pang fingerling',
     'magri-education': 'Edukasyon',
     'magri-empowering-the-people-of-solano-with-transparent':
-      'Pagbibigay-kapangyarihan sa mga mamamayan ng Solano na may transparent na access sa mga serbisyo, programa, at pampublikong pondo ng LGU Solano.',
+      'Pagbibigay-kapangyarihan sa mga mamamayan ng Muntinlupa na may transparent na access sa mga serbisyo, programa, at pampublikong pondo ng lungsod.',
     'magri-environment': 'Kapaligiran',
     'magri-farm-location-certification': 'Sertipikasyon ng Lokasyon ng Bukid',
     'magri-farm-machinery-services': 'Farm Machinery Mga serbisyo',
@@ -9951,7 +9951,7 @@ const translations = {
     'market-economic-enterprise-development-office': 'Economic Enterprise & Development Opisina',
     'market-education': 'Edukasyon',
     'market-empowering-the-people-of-solano-with-transparent':
-      'Pagbibigay-kapangyarihan sa mga mamamayan ng Solano na may transparent na access sa mga serbisyo, programa, at pampublikong pondo ng LGU Solano.',
+      'Pagbibigay-kapangyarihan sa mga mamamayan ng Muntinlupa na may transparent na access sa mga serbisyo, programa, at pampublikong pondo ng lungsod.',
     'market-entrance-fees': 'Mga Bayad sa Pagpasok',
     'market-entrance-fees-are-based-on-goods-being-sold':
       'Ang mga bayad sa pagpasok ay batay sa mga kalakal na ibinebenta',
@@ -10115,7 +10115,7 @@ const translations = {
     'mbudget-duration': 'Tagal',
     'mbudget-education': 'Edukasyon',
     'mbudget-empowering-the-people-of-solano-with-transparent':
-      'Pagbibigay-kapangyarihan sa mga mamamayan ng Solano na may transparent na access sa mga serbisyo, programa, at pampublikong pondo ng LGU Solano.',
+      'Pagbibigay-kapangyarihan sa mga mamamayan ng Muntinlupa na may transparent na access sa mga serbisyo, programa, at pampublikong pondo ng lungsod.',
     'mbudget-ensure-all-documents-are-complete-before':
       'Ensure lahat ng mga dokumento ay kumpletong bago pagsusumite',
     'mbudget-environment': 'Kapaligiran',
@@ -10281,7 +10281,7 @@ const translations = {
     'mc-edgar-mc': 'Edgar Mc',
     'mc-education': 'Edukasyon',
     'mc-empowering-the-people-of-solano-with-transparent':
-      'Pagbibigay-kapangyarihan sa mga mamamayan ng Solano na may transparent na access sa mga serbisyo, programa, at pampublikong pondo ng LGU Solano.',
+      'Pagbibigay-kapangyarihan sa mga mamamayan ng Muntinlupa na may transparent na access sa mga serbisyo, programa, at pampublikong pondo ng lungsod.',
     'mc-environment': 'Kapaligiran',
     'mc-fee': 'Bayad',
     'mc-fifteen-15-days': 'labinlimang (15) araw',
@@ -10462,7 +10462,7 @@ const translations = {
     'mcr-duration': 'Tagal',
     'mcr-education': 'Edukasyon',
     'mcr-empowering-the-people-of-solano-with-transparent':
-      'Pagbibigay-kapangyarihan sa mga mamamayan ng Solano na may transparent na access sa mga serbisyo, programa, at pampublikong pondo ng LGU Solano.',
+      'Pagbibigay-kapangyarihan sa mga mamamayan ng Muntinlupa na may transparent na access sa mga serbisyo, programa, at pampublikong pondo ng lungsod.',
     'mcr-environment': 'Kapaligiran',
     'mcr-fee': 'Bayad',
     'mcr-fee-per-copy': 'Bayad bawat Kopya',
@@ -10628,7 +10628,7 @@ const translations = {
     'mgs-education': 'Edukasyon',
     'mgs-electricity': 'Kuryente',
     'mgs-empowering-the-people-of-solano-with-transparent':
-      'Pagbibigay-kapangyarihan sa mga mamamayan ng Solano na may transparent na access sa mga serbisyo, programa, at pampublikong pondo ng LGU Solano.',
+      'Pagbibigay-kapangyarihan sa mga mamamayan ng Muntinlupa na may transparent na access sa mga serbisyo, programa, at pampublikong pondo ng lungsod.',
     'mgs-environment': 'Kapaligiran',
     'mgs-equipment-accountability-is-strictly-enforced':
       'Ang pananagutan sa kagamitan ay mahigpit na ipinapatupad',
@@ -10799,7 +10799,7 @@ const translations = {
     'mpdo-duly-accomplished-application-form': 'Wastong napunang Application Form',
     'mpdo-education': 'Edukasyon',
     'mpdo-empowering-the-people-of-solano-with-transparent':
-      'Pagbibigay-kapangyarihan sa mga mamamayan ng Solano na may transparent na access sa mga serbisyo, programa, at pampublikong pondo ng LGU Solano.',
+      'Pagbibigay-kapangyarihan sa mga mamamayan ng Muntinlupa na may transparent na access sa mga serbisyo, programa, at pampublikong pondo ng lungsod.',
     'mpdo-environment': 'Kapaligiran',
     'mpdo-environmental-compliance-certificate-if-required':
       'Sertipiko ng Pagsunod sa Kapaligiran (if kinakailangan)',
@@ -10957,7 +10957,7 @@ const translations = {
       "Emergency na tulong pinansyal para sa iba't ibang pangangailangan",
     'mswdo-employment-facilitation-ef': 'Pagpapadali ng Trabaho (EF)',
     'mswdo-empowering-the-people-of-solano-with-transparent':
-      'Pagbibigay-kapangyarihan sa mga mamamayan ng Solano na may transparent na access sa mga serbisyo, programa, at pampublikong pondo ng LGU Solano.',
+      'Pagbibigay-kapangyarihan sa mga mamamayan ng Muntinlupa na may transparent na access sa mga serbisyo, programa, at pampublikong pondo ng lungsod.',
     'mswdo-enrollment-requirements': 'Mga Kinakailangan sa Pagpapatala',
     'mswdo-environment': 'Kapaligiran',
     'mswdo-families-in-crisis-situations': 'Mga pamilya sa mga sitwasyon ng krisis',
@@ -11201,7 +11201,7 @@ const translations = {
     'mswdosvc-emergency-cases-are-given-priority':
       'Ang mga kaso ng emergency ay binibigyan ng prayoridad',
     'mswdosvc-empowering-the-people-of-solano-with-transparent':
-      'Pagbibigay-kapangyarihan sa mga mamamayan ng Solano na may transparent na access sa mga serbisyo, programa, at pampublikong pondo ng LGU Solano.',
+      'Pagbibigay-kapangyarihan sa mga mamamayan ng Muntinlupa na may transparent na access sa mga serbisyo, programa, at pampublikong pondo ng lungsod.',
     'mswdosvc-encoding-and-processing-of-pwd-id': 'Pag-encode at pagproseso ng PWD ID',
     'mswdosvc-encoding-and-processing-of-senior-citizen-id':
       'Pag-encode at pagproseso ng Senior Citizen ID',
@@ -11376,7 +11376,7 @@ const translations = {
     'news-contribute-code-with-us': 'Mag-ambag ng code sa amin',
     'news-education': 'Edukasyon',
     'news-empowering-the-people-of-solano-with-transparent':
-      'Pagbibigay-kapangyarihan sa mga mamamayan ng Solano na may transparent na access sa mga serbisyo, programa, at pampublikong pondo ng LGU Solano.',
+      'Pagbibigay-kapangyarihan sa mga mamamayan ng Muntinlupa na may transparent na access sa mga serbisyo, programa, at pampublikong pondo ng lungsod.',
     'news-environment': 'Kapaligiran',
     'news-fetching-news-and-updates-from-solano':
       'Kinukuha ang mga balita at update mula sa Solano.',
@@ -11417,7 +11417,7 @@ const translations = {
     'officials-education': 'Edukasyon',
     'officials-elected-officials': 'Mga Halal na Opisyal',
     'officials-empowering-the-people-of-solano-with-transparent':
-      'Pagbibigay-kapangyarihan sa mga mamamayan ng Solano na may transparent na access sa mga serbisyo, programa, at pampublikong pondo ng LGU Solano.',
+      'Pagbibigay-kapangyarihan sa mga mamamayan ng Muntinlupa na may transparent na access sa mga serbisyo, programa, at pampublikong pondo ng lungsod.',
     'officials-environment': 'Kapaligiran',
     'officials-executive-branch': 'Ehekutibong Sangay',
     'officials-freedom-of-information': 'Kalayaan sa Impormasyon',
@@ -11479,7 +11479,7 @@ const translations = {
     'ord-contribute-code-with-us': 'Mag-ambag ng code sa amin',
     'ord-education': 'Edukasyon',
     'ord-empowering-the-people-of-solano-with-transparent':
-      'Pagbibigay-kapangyarihan sa mga mamamayan ng Solano na may transparent na access sa mga serbisyo, programa, at pampublikong pondo ng LGU Solano.',
+      'Pagbibigay-kapangyarihan sa mga mamamayan ng Muntinlupa na may transparent na access sa mga serbisyo, programa, at pampublikong pondo ng lungsod.',
     'ord-environment': 'Kapaligiran',
     'ord-freedom-of-information': 'Kalayaan sa Impormasyon',
     'ord-health': 'Kalusugan',
@@ -11508,10 +11508,10 @@ const translations = {
     'privacy-agriculture': 'Agrikultura',
     'privacy-analytics-cookies': 'Mga Analytics Cookie:',
     'privacy-analytics-data': 'Datos ng Analytics:',
-    'privacy-bettersolanoorg-is-a-general-audience-website':
-      'Ang BetterSolano.org ay isang website para sa pangkalahatang madla na nagbibigay ng civic na impormasyon. Hindi namin sinasadyang kinokolekta ang personal na impormasyon mula sa mga bata under 18 years ng age nang walang parental pahintulot.',
-    'privacy-bettersolanoorg-we-us-or-our-is-committed-to':
-      'BetterSolano.org (\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"we,\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\" \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"us,\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\" or \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"our\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\") is committed to protecting your privacy and ensuring the security of your personal impormasyon. This Privacy Patakaran explains how we kolektahin, gamitin, ibunyag, and safeguard your impormasyon when you bisitahin our website.',
+    'privacy-bettermuntinlupaorg-is-a-general-audience-website':
+      'Ang Better Muntinlupa ay isang website para sa pangkalahatang madla na nagbibigay ng civic na impormasyon. Hindi namin sinasadyang kinokolekta ang personal na impormasyon mula sa mga bata under 18 years ng age nang walang parental pahintulot.',
+    'privacy-bettermuntinlupaorg-we-us-or-our-is-committed-to':
+      'Better Muntinlupa (\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"we,\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\" \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"us,\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\" or \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"our\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\") is committed to protecting your privacy and ensuring the security of your personal impormasyon. This Privacy Patakaran explains how we kolektahin, gamitin, ibunyag, and safeguard your impormasyon when you bisitahin our website.',
     'privacy-blgf-portal': 'BLGF Portal',
     'privacy-browser-type-and-version': 'Uri at bersyon ng browser',
     'privacy-business': 'Negosyo',
@@ -11543,7 +11543,7 @@ const translations = {
     'privacy-email-address-when-you-contact-us-or-submit':
       'Mag-email address (when you makipag-ugnayan us or isumite feedback)',
     'privacy-empowering-the-people-of-solano-with-transparent':
-      'Pagbibigay-kapangyarihan sa mga mamamayan ng Solano na may transparent na access sa mga serbisyo, programa, at pampublikong pondo ng LGU Solano.',
+      'Pagbibigay-kapangyarihan sa mga mamamayan ng Muntinlupa na may transparent na access sa mga serbisyo, programa, at pampublikong pondo ng lungsod.',
     'privacy-environment': 'Kapaligiran',
     'privacy-essential-cookies': 'Mga Mahahalagang Cookie:',
     'privacy-exercising-your-rights': 'Paggamit ng Iyong mga Karapatan',
@@ -11647,7 +11647,7 @@ const translations = {
     'privacy-under-the-data-privacy-act-of-2012-you-have-the':
       'Under ang Data Privacy Act ng 2012, ikaw ay maaari ang following mga karapatan regarding iyong personal na impormasyon:',
     'privacy-volunteer-with-us': 'Mag-volunteer sa amin',
-    'privacy-volunteerbettersolanoorg': 'volunteer@bettersolano.org',
+    'privacy-volunteerbettermuntinlupaorg': 'contact@bettermuntinlupa.org',
     'privacy-we-collect-minimal-information-necessary-to':
       'We kolektahin minimal impormasyon necessary to operate this civic platform effectively:',
     'privacy-we-do-not-sell-trade-or-rent-your-personal':
@@ -11730,7 +11730,7 @@ const translations = {
     'propdec-effectivity-of-assessment': 'Effectivity of Pagtatasa',
     'propdec-effectivity-quarter-and-year': 'Quarter at Taon ng Bisa',
     'propdec-empowering-the-people-of-solano-with-transparent':
-      'Pagbibigay-kapangyarihan sa mga mamamayan ng Solano na may transparent na access sa mga serbisyo, programa, at pampublikong pondo ng LGU Solano.',
+      'Pagbibigay-kapangyarihan sa mga mamamayan ng Muntinlupa na may transparent na access sa mga serbisyo, programa, at pampublikong pondo ng lungsod.',
     'propdec-environment': 'Kapaligiran',
     'propdec-estimated-economic-life': 'Tinatayang Buhay Pang-ekonomiya',
     'propdec-for-building-declaration': 'For Gusali Declaration',
@@ -11820,7 +11820,7 @@ const translations = {
     'reso-contribute-code-with-us': 'Mag-ambag ng code sa amin',
     'reso-education': 'Edukasyon',
     'reso-empowering-the-people-of-solano-with-transparent':
-      'Pagbibigay-kapangyarihan sa mga mamamayan ng Solano na may transparent na access sa mga serbisyo, programa, at pampublikong pondo ng LGU Solano.',
+      'Pagbibigay-kapangyarihan sa mga mamamayan ng Muntinlupa na may transparent na access sa mga serbisyo, programa, at pampublikong pondo ng lungsod.',
     'reso-environment': 'Kapaligiran',
     'reso-freedom-of-information': 'Kalayaan sa Impormasyon',
     'reso-health': 'Kalusugan',
@@ -11864,7 +11864,7 @@ const translations = {
     'safety-emergency-response-and-disaster-preparedness':
       'Mga programa ng pagtugon sa emergency at paghahanda sa sakuna.',
     'safety-empowering-the-people-of-solano-with-transparent':
-      'Pagbibigay-kapangyarihan sa mga mamamayan ng Solano na may transparent na access sa mga serbisyo, programa, at pampublikong pondo ng LGU Solano.',
+      'Pagbibigay-kapangyarihan sa mga mamamayan ng Muntinlupa na may transparent na access sa mga serbisyo, programa, at pampublikong pondo ng lungsod.',
     'safety-environment': 'Kapaligiran',
     'safety-fee': 'Bayad:',
     'safety-for-emergencies-and-inquiries-contact-these':
@@ -11950,7 +11950,7 @@ const translations = {
     'sitemap-education': 'Edukasyon',
     'sitemap-elected-officials': 'Mga Halal na Opisyal',
     'sitemap-empowering-the-people-of-solano-with-transparent':
-      'Pagbibigay-kapangyarihan sa mga mamamayan ng Solano na may transparent na access sa mga serbisyo, programa, at pampublikong pondo ng LGU Solano.',
+      'Pagbibigay-kapangyarihan sa mga mamamayan ng Muntinlupa na may transparent na access sa mga serbisyo, programa, at pampublikong pondo ng lungsod.',
     'sitemap-engineering-office': 'Opisina ng Inhinyero',
     'sitemap-environment': 'Kapaligiran',
     'sitemap-external-resources': 'Mga Panlabas na Mapagkukunan',
@@ -12060,7 +12060,7 @@ const translations = {
     'slaughter-economic-enterprise-development-office': 'Economic Enterprise & Development Opisina',
     'slaughter-education': 'Edukasyon',
     'slaughter-empowering-the-people-of-solano-with-transparent':
-      'Pagbibigay-kapangyarihan sa mga mamamayan ng Solano na may transparent na access sa mga serbisyo, programa, at pampublikong pondo ng LGU Solano.',
+      'Pagbibigay-kapangyarihan sa mga mamamayan ng Muntinlupa na may transparent na access sa mga serbisyo, programa, at pampublikong pondo ng lungsod.',
     'slaughter-environment': 'Kapaligiran',
     'slaughter-facility-maintenance': 'Pagpapanatili ng Pasilidad',
     'slaughter-fee': 'Bayad',
@@ -12172,7 +12172,7 @@ const translations = {
     'social-contribute-code-with-us': 'Mag-ambag ng code sa amin',
     'social-education': 'Edukasyon',
     'social-empowering-the-people-of-solano-with-transparent':
-      'Pagbibigay-kapangyarihan sa mga mamamayan ng Solano na may transparent na access sa mga serbisyo, programa, at pampublikong pondo ng LGU Solano.',
+      'Pagbibigay-kapangyarihan sa mga mamamayan ng Muntinlupa na may transparent na access sa mga serbisyo, programa, at pampublikong pondo ng lungsod.',
     'social-environment': 'Kapaligiran',
     'social-fee': 'Bayad:',
     'social-freedom-of-information': 'Kalayaan sa Impormasyon',
@@ -12239,7 +12239,7 @@ const translations = {
     'stats-economy': 'Ekonomiya',
     'stats-education': 'Edukasyon',
     'stats-empowering-the-people-of-solano-with-transparent':
-      'Pagbibigay-kapangyarihan sa mga mamamayan ng Solano na may transparent na access sa mga serbisyo, programa, at pampublikong pondo ng LGU Solano.',
+      'Pagbibigay-kapangyarihan sa mga mamamayan ng Muntinlupa na may transparent na access sa mga serbisyo, programa, at pampublikong pondo ng lungsod.',
     'stats-environment': 'Kapaligiran',
     'stats-finance': 'Pananalapi',
     'stats-financial-standing-for-fiscal-year-2023':
@@ -12319,7 +12319,7 @@ const translations = {
     'svc-contribute-code-with-us': 'Mag-ambag ng code sa amin',
     'svc-education': 'Edukasyon',
     'svc-empowering-the-people-of-solano-with-transparent':
-      'Pagbibigay-kapangyarihan sa mga mamamayan ng Solano na may transparent na access sa mga serbisyo, programa, at pampublikong pondo ng LGU Solano.',
+      'Pagbibigay-kapangyarihan sa mga mamamayan ng Muntinlupa na may transparent na access sa mga serbisyo, programa, at pampublikong pondo ng lungsod.',
     'svc-environment': 'Kapaligiran',
     'svc-freedom-of-information': 'Kalayaan sa Impormasyon',
     'svc-getting-married': 'Pagpapakasal',
@@ -12359,7 +12359,7 @@ const translations = {
     'tax-contribute-code-with-us': 'Mag-ambag ng code sa amin',
     'tax-education': 'Edukasyon',
     'tax-empowering-the-people-of-solano-with-transparent':
-      'Pagbibigay-kapangyarihan sa mga mamamayan ng Solano na may transparent na access sa mga serbisyo, programa, at pampublikong pondo ng LGU Solano.',
+      'Pagbibigay-kapangyarihan sa mga mamamayan ng Muntinlupa na may transparent na access sa mga serbisyo, programa, at pampublikong pondo ng lungsod.',
     'tax-environment': 'Kapaligiran',
     'tax-freedom-of-information': 'Kalayaan sa Impormasyon',
     'tax-health': 'Kalusugan',
@@ -12414,7 +12414,7 @@ const translations = {
     'terms-all-information-on-this-website-is-provided-as-is':
       'Ang lahat ng impormasyon sa website na ito ay ibinibigay \\\\\\"AS IS\\\\\\" nang walang warranty ng anumang uri, maging hayag o ipinahiwatig. Kabilang dito ngunit hindi limitado sa:',
     'terms-although-volunteers-aim-to-keep-the-website':
-      'Bagaman naglalayong panatilihing accessible sa functional ang website ng mga boluntaryo, Hindi magagarantiya ng BetterSolano.org na ang website ay magiging:',
+      'Bagaman naglalayong panatilihing accessible sa functional ang website ng mga boluntaryo, Hindi magagarantiya ng Better Muntinlupa na ang website ay magiging:',
     'terms-any-bugs-viruses-or-other-harmful-components':
       'Any bugs, viruses, or iba pang harmful components transmitted through the site',
     'terms-any-errors-omissions-or-outdated-information':
@@ -12428,12 +12428,12 @@ const translations = {
     'terms-as-is-disclaimer':
       '\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"As Is\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\" Disclaimer',
     'terms-available-or-accessible-at-all-times': 'Magagamit or naa-access at all times',
-    'terms-bettersolanoorg-is-a-civic-platform-dedicated-to':
-      'Ang BetterSolano.org ay isang civic platform na nakatuon sa pagbibigay-kapangyarihan sa mga tao ng Solano sa pamamagitan ng pagbibigay ng transparent na access sa ang mga serbisyo, mga programa, sa pampublikong funds ng LGU Solano.',
-    'terms-bettersolanoorg-provides-public-domain':
-      'Ang BetterSolano.org ay nagbibigay ng impormasyon sa pampublikong domain upang suportahan ang civic engagement, transparency, sa maaari kaalamang pakikilahok sa lokal na governance.',
-    'terms-bettersolanoorg-values-accuracy-public-safety-and':
-      'Pinahahalagahan ng BetterSolano.org ang katumpakan, kaligtasan ng publiko, sa paggalang sa mga karapatan. Sa kabila ng mga pagsisikap na maaari mabuting layunin, ang ilang nilalaman ay maaaringcome outdated, incomplete, o raise legitimate mga alalahanin.',
+    'terms-bettermuntinlupaorg-is-a-civic-platform-dedicated-to':
+      'Ang Better Muntinlupa ay isang civic platform na nakatuon sa pagbibigay-kapangyarihan sa mga tao ng Solano sa pamamagitan ng pagbibigay ng transparent na access sa ang mga serbisyo, mga programa, sa pampublikong funds ng LGU Solano.',
+    'terms-bettermuntinlupaorg-provides-public-domain':
+      'Ang Better Muntinlupa ay nagbibigay ng impormasyon sa pampublikong domain upang suportahan ang civic engagement, transparency, sa maaari kaalamang pakikilahok sa lokal na governance.',
+    'terms-bettermuntinlupaorg-values-accuracy-public-safety-and':
+      'Pinahahalagahan ng Better Muntinlupa ang katumpakan, kaligtasan ng publiko, sa paggalang sa mga karapatan. Sa kabila ng mga pagsisikap na maaari mabuting layunin, ang ilang nilalaman ay maaaringcome outdated, incomplete, o raise legitimate mga alalahanin.',
     'terms-blgf-portal': 'BLGF Portal',
     'terms-business': 'Negosyo',
     'terms-by-accessing-and-using-this-website-you':
@@ -12471,7 +12471,7 @@ const translations = {
       'Editorial decisions about content rest with the website team, guided by pampubliko interes and civic responsibility.',
     'terms-education': 'Edukasyon',
     'terms-empowering-the-people-of-solano-with-transparent':
-      'Pagbibigay-kapangyarihan sa mga mamamayan ng Solano na may transparent na access sa mga serbisyo, programa, at pampublikong pondo ng LGU Solano.',
+      'Pagbibigay-kapangyarihan sa mga mamamayan ng Muntinlupa na may transparent na access sa mga serbisyo, programa, at pampublikong pondo ng lungsod.',
     'terms-environment': 'Kapaligiran',
     'terms-errorfree-or-uninterrupted': 'Walang error o walang pagkaantala',
     'terms-external-references': 'Mga Panlabas na Sanggunian',
@@ -12489,7 +12489,7 @@ const translations = {
       'Ganap na tugma sa lahat ng device, browser, o assistive technology',
     'terms-governing-law': 'Namamahalang Batas',
     'terms-government': 'Pamahalaan',
-    'terms-guidelines-for-using-bettersolanoorg': 'Mga alituntunin for using BetterSolano.org',
+    'terms-guidelines-for-using-bettermuntinlupaorg': 'Mga alituntunin for using Better Muntinlupa',
     'terms-health': 'Kalusugan',
     'terms-home': 'Tahanan',
     'terms-if-any-provision-of-these-terms-is-found-to-be':
@@ -12527,7 +12527,7 @@ const translations = {
     'terms-public-domain-content-and-volunteer-operation':
       'Pampubliko Domain Content and Volunteer Operation',
     'terms-public-domain-content-may-be-freely-used-copied':
-      'Pampubliko domain content may be freely used, copied, distributed, and modified without permission or attribution, although attribution to BetterSolano.org and LGU Solano is encouraged as a civic courtesy.',
+      'Pampubliko domain content may be freely used, copied, distributed, and modified without permission or attribution, although attribution to Better Muntinlupa and LGU Solano is encouraged as a civic courtesy.',
     'terms-public-safety': 'Kaligtasang Pampubliko',
     'terms-quick-links': 'Mga Mabilisang Link',
     'terms-resolution-framework': 'Balangkas ng Resolusyon',
@@ -12585,12 +12585,12 @@ const translations = {
     'terms-verify-information-directly-from-original-and':
       'Verify impormasyon directly mula sa original sa opisyal na sources',
     'terms-volunteer-with-us': 'Mag-volunteer sa amin',
-    'terms-volunteerbettersolanoorg': 'volunteer@bettersolano.org',
+    'terms-volunteerbettermuntinlupaorg': 'contact@bettermuntinlupa.org',
     'terms-warranties-of-merchantability': 'Mga garantiya ng kakayahang ibenta',
     'terms-website-availability': 'Pagkakaroon ng Website',
     'terms-when-reaching-out-kindly-include': 'When reaching out, kindly isama:',
     'terms-while-volunteers-make-every-effort-to-secure':
-      'Bagaman ang mga boluntaryo ay nagsusumikap na pangalagaan ang BetterSolano.org mula sa mga online na banta at panatilihing tumpak ang impormasyon, walang sistema ang maaaring garantiyahan na perpektong ligtas, walang error, o ganap na napapanahon sa lahat ng oras.',
+      'Bagaman ang mga boluntaryo ay nagsusumikap na pangalagaan ang Better Muntinlupa mula sa mga online na banta at panatilihing tumpak ang impormasyon, walang sistema ang maaaring garantiyahan na perpektong ligtas, walang error, o ganap na napapanahon sa lahat ng oras.',
     'terms-you-are-strongly-encouraged-to': 'Lubos kang hinihikayat na:',
     'terms-your-contact-information-for-followup': 'Your makipag-ugnayan impormasyon for follow-up',
     'terms-your-use-of-or-reliance-on-this-website-or-its':
@@ -12646,7 +12646,7 @@ const translations = {
     'treas-discountpenalty': 'Diskwento/Multa',
     'treas-education': 'Edukasyon',
     'treas-empowering-the-people-of-solano-with-transparent':
-      'Pagbibigay-kapangyarihan sa mga mamamayan ng Solano na may transparent na access sa mga serbisyo, programa, at pampublikong pondo ng LGU Solano.',
+      'Pagbibigay-kapangyarihan sa mga mamamayan ng Muntinlupa na may transparent na access sa mga serbisyo, programa, at pampublikong pondo ng lungsod.',
     'treas-environment': 'Kapaligiran',
     'treas-fee': 'Bayad:',
     'treas-fee-collection': 'Koleksyon ng Bayad',
@@ -12771,7 +12771,7 @@ const translations = {
     'tricycle-contribute-code-with-us': 'Mag-ambag ng code sa amin',
     'tricycle-education': 'Edukasyon',
     'tricycle-empowering-the-people-of-solano-with-transparent':
-      'Pagbibigay-kapangyarihan sa mga mamamayan ng Solano na may transparent na access sa mga serbisyo, programa, at pampublikong pondo ng LGU Solano.',
+      'Pagbibigay-kapangyarihan sa mga mamamayan ng Muntinlupa na may transparent na access sa mga serbisyo, programa, at pampublikong pondo ng lungsod.',
     'tricycle-encoding-of-application': 'Encoding of Aplikasyon',
     'tricycle-environment': 'Kapaligiran',
     'tricycle-franchise-steps': 'Mga Hakbang sa Prangkisa',
@@ -12976,9 +12976,9 @@ const translations = {
     'breadcrumb-sitemap': 'Mapa ti Site',
     'breadcrumb-privacy': 'Pagannurotan ti Pagkapribado',
     'breadcrumb-terms': 'Dagiti Kondision ti Panagusar',
-    'hero-welcome': 'Naragsak a Panangyawat iti BetterSolano.org',
+    'hero-welcome': 'Naragsak a Panangyawat iti Better Muntinlupa',
     'hero-subtitle':
-      'Aksesen dagiti serbisio ti gobierno, impormasion, ken dagiti rekurso para kadagiti umili ti Solano, Nueva Vizcaya.',
+      'Aksesen dagiti serbisio ti gobierno, impormasion, ken dagiti rekurso para kadagiti umili ti Muntinlupa City.',
     'hero-browse': 'Kitaen dagiti Serbisio',
     'hero-contact': 'Kontaken Dakami',
     'hero-search-placeholder': 'Agsapul ti serbisio...',
@@ -13543,7 +13543,7 @@ const translations = {
     'a11y-css3': 'CSS3',
     'a11y-education': 'Edukasion',
     'a11y-empowering-the-people-of-solano-with-transparent':
-      'Panangted ti bileg kadagiti umili ti Solano nga addaan ti transparente a panag-akses kadagiti serbisio, programa, ken pampubliko a pondo ti LGU Solano.',
+      'Panangted ti bileg kadagiti umili ti Muntinlupa nga addaan ti transparente a panag-akses kadagiti serbisio, programa, ken pampubliko a pondo ti siudad.',
     'a11y-environment': 'Aglawlaw',
     'a11y-freedom-of-information': 'Wayawaya ti Impormasion',
     'a11y-health': 'Salun-at',
@@ -13585,7 +13585,7 @@ const translations = {
     'a11y-text-alternatives': 'Dagiti Alternatibo a Teksto',
     'a11y-typescript': 'TypeScript',
     'a11y-volunteer-with-us': 'Ag-volunteer kadakami',
-    'a11y-volunteerbettersolanoorg': 'volunteer@bettersolano.org',
+    'a11y-volunteerbettermuntinlupaorg': 'contact@bettermuntinlupa.org',
     'a11y-wcag-21-level-aa': 'WCAG 2.1 Level AA',
     'a11y-works-on-all-devices-and-screen-sizes':
       'Agtrabtrabaho iti amin a device ken kadakkel ti screen.',
@@ -13644,7 +13644,7 @@ const translations = {
     'acct-duration': 'Kaatiddog',
     'acct-education': 'Edukasion',
     'acct-empowering-the-people-of-solano-with-transparent':
-      'Panangted ti bileg kadagiti umili ti Solano nga addaan ti transparente a panag-akses kadagiti serbisio, programa, ken pampubliko a pondo ti LGU Solano.',
+      'Panangted ti bileg kadagiti umili ti Muntinlupa nga addaan ti transparente a panag-akses kadagiti serbisio, programa, ken pampubliko a pondo ti siudad.',
     'acct-environment': 'Aglawlaw',
     'acct-evangeline-b-ramos': 'Evangeline B. Ramos',
     'acct-financial-reports-are-submitted-monthly-to-coa':
@@ -13780,7 +13780,7 @@ const translations = {
     'agri-contribute-code-with-us': 'Ag-ambag ti code kadakami',
     'agri-education': 'Edukasion',
     'agri-empowering-the-people-of-solano-with-transparent':
-      'Panangted ti bileg kadagiti umili ti Solano nga addaan ti transparente a panag-akses kadagiti serbisio, programa, ken pampubliko a pondo ti LGU Solano.',
+      'Panangted ti bileg kadagiti umili ti Muntinlupa nga addaan ti transparente a panag-akses kadagiti serbisio, programa, ken pampubliko a pondo ti siudad.',
     'agri-environment': 'Aglawlaw',
     'agri-freedom-of-information': 'Wayawaya ti Impormasion',
     'agri-health': 'Salun-at',
@@ -13851,7 +13851,7 @@ const translations = {
     'assessor-education': 'Edukasion',
     'assessor-email': 'Email',
     'assessor-empowering-the-people-of-solano-with-transparent':
-      'Panangted ti bileg kadagiti umili ti Solano nga addaan ti transparente a panag-akses kadagiti serbisio, programa, ken pampubliko a pondo ti LGU Solano.',
+      'Panangted ti bileg kadagiti umili ti Muntinlupa nga addaan ti transparente a panag-akses kadagiti serbisio, programa, ken pampubliko a pondo ti siudad.',
     'assessor-environment': 'Aglawlaw',
     'assessor-fee': 'Bayad',
     'assessor-fee-2': 'Bayad:',
@@ -14001,7 +14001,7 @@ const translations = {
       'Dagiti dokumento a kasapulan para iti aplikasionmo',
     'bc-education': 'Edukasion',
     'bc-empowering-the-people-of-solano-with-transparent':
-      'Panangted ti bileg kadagiti umili ti Solano nga addaan ti transparente a panag-akses kadagiti serbisio, programa, ken pampubliko a pondo ti LGU Solano.',
+      'Panangted ti bileg kadagiti umili ti Muntinlupa nga addaan ti transparente a panag-akses kadagiti serbisio, programa, ken pampubliko a pondo ti siudad.',
     'bc-environment': 'Aglawlaw',
     'bc-fee': 'Bayad',
     'bc-fill-out-request-form': 'Punnuam ti Form ti Dawat',
@@ -14087,7 +14087,7 @@ const translations = {
     'biz-contribute-code-with-us': 'Ag-ambag ti code kadakami',
     'biz-education': 'Edukasion',
     'biz-empowering-the-people-of-solano-with-transparent':
-      'Panangted ti bileg kadagiti umili ti Solano nga addaan ti transparente a panag-akses kadagiti serbisio, programa, ken pampubliko a pondo ti LGU Solano.',
+      'Panangted ti bileg kadagiti umili ti Muntinlupa nga addaan ti transparente a panag-akses kadagiti serbisio, programa, ken pampubliko a pondo ti siudad.',
     'biz-environment': 'Aglawlaw',
     'biz-freedom-of-information': 'Wayawaya ti Impormasion',
     'biz-health': 'Salun-at',
@@ -14187,7 +14187,7 @@ const translations = {
     'bpl-duration': 'Kaatiddog',
     'bpl-education': 'Edukasion',
     'bpl-empowering-the-people-of-solano-with-transparent':
-      'Panangted ti bileg kadagiti umili ti Solano nga addaan ti transparente a panag-akses kadagiti serbisio, programa, ken pampubliko a pondo ti LGU Solano.',
+      'Panangted ti bileg kadagiti umili ti Muntinlupa nga addaan ti transparente a panag-akses kadagiti serbisio, programa, ken pampubliko a pondo ti siudad.',
     'bpl-environment': 'Aglawlaw',
     'bpl-fee': 'Bayad',
     'bpl-fees-vary-based-on-business-type-capitalization':
@@ -14347,7 +14347,7 @@ const translations = {
     'budget-education': 'Edukasion',
     'budget-egb-construction-corporation': 'EGB Construction Corporation',
     'budget-empowering-the-people-of-solano-with-transparent':
-      'Panangted ti bileg kadagiti umili ti Solano nga addaan ti transparente a panag-akses kadagiti serbisio, programa, ken pampubliko a pondo ti LGU Solano.',
+      'Panangted ti bileg kadagiti umili ti Muntinlupa nga addaan ti transparente a panag-akses kadagiti serbisio, programa, ken pampubliko a pondo ti siudad.',
     'budget-environment': 'Aglawlaw',
     'budget-expenditure-allocation': 'Alokasion ti Gastos',
     'budget-external-sources': 'Dagiti Akinruar a Pagtaudan',
@@ -14428,7 +14428,7 @@ const translations = {
     'cert-contribute-code-with-us': 'Ag-ambag ti code kadakami',
     'cert-education': 'Edukasion',
     'cert-empowering-the-people-of-solano-with-transparent':
-      'Panangted ti bileg kadagiti umili ti Solano nga addaan ti transparente a panag-akses kadagiti serbisio, programa, ken pampubliko a pondo ti LGU Solano.',
+      'Panangted ti bileg kadagiti umili ti Muntinlupa nga addaan ti transparente a panag-akses kadagiti serbisio, programa, ken pampubliko a pondo ti siudad.',
     'cert-environment': 'Aglawlaw',
     'cert-freedom-of-information': 'Wayawaya ti Impormasion',
     'cert-health': 'Salun-at',
@@ -14466,7 +14466,7 @@ const translations = {
     'contact-dilg-solano-0906-188-0868': 'DILG Solano 0906 188 0868',
     'contact-education': 'Edukasion',
     'contact-empowering-the-people-of-solano-with-transparent':
-      'Panangted ti bileg kadagiti umili ti Solano nga addaan ti transparente a panag-akses kadagiti serbisio, programa, ken pampubliko a pondo ti LGU Solano.',
+      'Panangted ti bileg kadagiti umili ti Muntinlupa nga addaan ti transparente a panag-akses kadagiti serbisio, programa, ken pampubliko a pondo ti siudad.',
     'contact-environment': 'Aglawlaw',
     'contact-for-medical-emergencies-and-hospital-inquiries':
       'For medical emergencies and hospital dagiti panagsaludsod.',
@@ -14588,7 +14588,7 @@ const translations = {
     'cr-education': 'Edukasion',
     'cr-email': 'Email',
     'cr-empowering-the-people-of-solano-with-transparent':
-      'Panangted ti bileg kadagiti umili ti Solano nga addaan ti transparente a panag-akses kadagiti serbisio, programa, ken pampubliko a pondo ti LGU Solano.',
+      'Panangted ti bileg kadagiti umili ti Muntinlupa nga addaan ti transparente a panag-akses kadagiti serbisio, programa, ken pampubliko a pondo ti siudad.',
     'cr-environment': 'Aglawlaw',
     'cr-fee': 'Bayad',
     'cr-fees': 'Dagiti Bayad',
@@ -14729,7 +14729,7 @@ const translations = {
     'dc-embalmer': 'Embalmer',
     'dc-embalmers-certification': 'Sertipikasion ti Embalmer',
     'dc-empowering-the-people-of-solano-with-transparent':
-      'Panangted ti bileg kadagiti umili ti Solano nga addaan ti transparente a panag-akses kadagiti serbisio, programa, ken pampubliko a pondo ti LGU Solano.',
+      'Panangted ti bileg kadagiti umili ti Muntinlupa nga addaan ti transparente a panag-akses kadagiti serbisio, programa, ken pampubliko a pondo ti siudad.',
     'dc-environment': 'Aglawlaw',
     'dc-fee': 'Bayad',
     'dc-fee-summary': 'Buod ti Bayad',
@@ -14848,7 +14848,7 @@ const translations = {
     'edu-empowering-filipino-students-and-educators-with':
       'Empowering Filipino students and educators with 1,000+ libre and open-source productivity tools across 18 categories — from dokumento processing and design to AI and development.',
     'edu-empowering-the-people-of-solano-with-transparent':
-      'Panangted ti bileg kadagiti umili ti Solano nga addaan ti transparente a panag-akses kadagiti serbisio, programa, ken pampubliko a pondo ti LGU Solano.',
+      'Panangted ti bileg kadagiti umili ti Muntinlupa nga addaan ti transparente a panag-akses kadagiti serbisio, programa, ken pampubliko a pondo ti siudad.',
     'edu-environment': 'Aglawlaw',
     'edu-free-tools-for-education': 'Libreng Tools para iti Education',
     'edu-freedom-of-information': 'Wayawaya ti Impormasion',
@@ -14939,7 +14939,7 @@ const translations = {
     'eng-electronics-permit': 'Permiso iti Elektroniks',
     'eng-electronics-plans': 'Dagiti Plano ti Elektroniks',
     'eng-empowering-the-people-of-solano-with-transparent':
-      'Panangted ti bileg kadagiti umili ti Solano nga addaan ti transparente a panag-akses kadagiti serbisio, programa, ken pampubliko a pondo ti LGU Solano.',
+      'Panangted ti bileg kadagiti umili ti Muntinlupa nga addaan ti transparente a panag-akses kadagiti serbisio, programa, ken pampubliko a pondo ti siudad.',
     'eng-engineer-iii': 'Inhinyero III',
     'eng-engineering': 'Inhinyeria',
     'eng-engineering-aide': 'Katulong iti Inhinyeria',
@@ -15042,7 +15042,7 @@ const translations = {
     'env-drainage-sewerage-management': 'Panagtaripato ti Drainage ken Alkantarilya',
     'env-education': 'Edukasion',
     'env-empowering-the-people-of-solano-with-transparent':
-      'Panangted ti bileg kadagiti umili ti Solano nga addaan ti transparente a panag-akses kadagiti serbisio, programa, ken pampubliko a pondo ti LGU Solano.',
+      'Panangted ti bileg kadagiti umili ti Muntinlupa nga addaan ti transparente a panag-akses kadagiti serbisio, programa, ken pampubliko a pondo ti siudad.',
     'env-environment': 'Aglawlaw',
     'env-fee': 'Bayad:',
     'env-flood-control-mitigation': 'Flood Control ken Pagpapagaan',
@@ -15094,7 +15094,7 @@ const translations = {
     'err403-contribute-code-with-us': 'Ag-ambag ti code kadakami',
     'err403-education': 'Edukasion',
     'err403-empowering-the-people-of-solano-with-transparent':
-      'Panangted ti bileg kadagiti umili ti Solano nga addaan ti transparente a panag-akses kadagiti serbisio, programa, ken pampubliko a pondo ti LGU Solano.',
+      'Panangted ti bileg kadagiti umili ti Muntinlupa nga addaan ti transparente a panag-akses kadagiti serbisio, programa, ken pampubliko a pondo ti siudad.',
     'err403-environment': 'Aglawlaw',
     'err403-freedom-of-information': 'Wayawaya ti Impormasion',
     'err403-go-to-homepage': 'Mapan iti Homepage',
@@ -15129,7 +15129,7 @@ const translations = {
     'err404-contribute-code-with-us': 'Ag-ambag ti code kadakami',
     'err404-education': 'Edukasion',
     'err404-empowering-the-people-of-solano-with-transparent':
-      'Panangted ti bileg kadagiti umili ti Solano nga addaan ti transparente a panag-akses kadagiti serbisio, programa, ken pampubliko a pondo ti LGU Solano.',
+      'Panangted ti bileg kadagiti umili ti Muntinlupa nga addaan ti transparente a panag-akses kadagiti serbisio, programa, ken pampubliko a pondo ti siudad.',
     'err404-environment': 'Aglawlaw',
     'err404-freedom-of-information': 'Wayawaya ti Impormasion',
     'err404-go-to-homepage': 'Mapan iti Homepage',
@@ -15165,7 +15165,7 @@ const translations = {
     'err500-contribute-code-with-us': 'Ag-ambag ti code kadakami',
     'err500-education': 'Edukasion',
     'err500-empowering-the-people-of-solano-with-transparent':
-      'Panangted ti bileg kadagiti umili ti Solano nga addaan ti transparente a panag-akses kadagiti serbisio, programa, ken pampubliko a pondo ti LGU Solano.',
+      'Panangted ti bileg kadagiti umili ti Muntinlupa nga addaan ti transparente a panag-akses kadagiti serbisio, programa, ken pampubliko a pondo ti siudad.',
     'err500-environment': 'Aglawlaw',
     'err500-freedom-of-information': 'Wayawaya ti Impormasion',
     'err500-go-to-homepage': 'Mapan iti Homepage',
@@ -15223,7 +15223,7 @@ const translations = {
       'DTI Registration (para iti sole proprietorship) wenno SEC Registration (para iti korporasyon)',
     'faq-education': 'Edukasion',
     'faq-empowering-the-people-of-solano-with-transparent':
-      'Panangted ti bileg kadagiti umili ti Solano nga addaan ti transparente a panag-akses kadagiti serbisio, programa, ken pampubliko a pondo ti LGU Solano.',
+      'Panangted ti bileg kadagiti umili ti Muntinlupa nga addaan ti transparente a panag-akses kadagiti serbisio, programa, ken pampubliko a pondo ti siudad.',
     'faq-environment': 'Aglawlaw',
     'faq-for-birth-certificates-registered-in-solano-it':
       'For pannakayanak dagiti sertipiko registered in Solano, it typically takes 15-30 minutes while you aguray, provided the rekord is readily magun-od.',
@@ -15275,7 +15275,7 @@ const translations = {
     'faq-visit-the-municipal-treasurers-office-at-the':
       'Bisitaen ti Opisina ti Tesorero ti Munisipalidad iti Munisipalidad nga addaan iti Tax Declaration wenno kaudian nga Opisyal a Resibo. Ti panagbayad ket cash. Dagiti buwis iti kukua ket masapul a bayadan quarterly, ngem mabalinmo ti agbayad iti tinawen tapno magun-od ti diskwento.',
     'faq-volunteer-with-us': 'Ag-volunteer kadakami',
-    'faq-volunteerbettersolanoorg': 'volunteer@bettersolano.org',
+    'faq-volunteerbettermuntinlupaorg': 'contact@bettermuntinlupa.org',
     'faq-what-are-the-office-hours-of-the-municipal-hall':
       'What ay ti office hours ti ti Munisipalidad?',
     'faq-what-benefits-do-senior-citizens-receive':
@@ -15339,7 +15339,7 @@ const translations = {
     'gov-education-science-technology-transportation':
       'Edukasyon, Agham ken Teknolohiya, Transportasyon, Komersyo, Kalakalan ken Industriya',
     'gov-empowering-the-people-of-solano-with-transparent':
-      'Panangted ti bileg kadagiti umili ti Solano nga addaan ti transparente a panag-akses kadagiti serbisio, programa, ken pampubliko a pondo ti LGU Solano.',
+      'Panangted ti bileg kadagiti umili ti Muntinlupa nga addaan ti transparente a panag-akses kadagiti serbisio, programa, ken pampubliko a pondo ti siudad.',
     'gov-engineersolanogovph': 'engineer@solano.gov.ph',
     'gov-entrepreneurship-economic-development-historical':
       'Entrepreneurship & Economic Development, Historical Dagiti rekord & Preservation of Heritage, Culture and the Arts',
@@ -15529,7 +15529,7 @@ const translations = {
     'gs-email': 'Email',
     'gs-emergency-medical-services': 'Emergency Medical Dagiti serbisio',
     'gs-empowering-the-people-of-solano-with-transparent':
-      'Panangted ti bileg kadagiti umili ti Solano nga addaan ti transparente a panag-akses kadagiti serbisio, programa, ken pampubliko a pondo ti LGU Solano.',
+      'Panangted ti bileg kadagiti umili ti Muntinlupa nga addaan ti transparente a panag-akses kadagiti serbisio, programa, ken pampubliko a pondo ti siudad.',
     'gs-emtdriver': 'EMT/Driver',
     'gs-environment': 'Aglawlaw',
     'gs-equipment': 'Ramit',
@@ -15673,7 +15673,7 @@ const translations = {
     'health-dadap-bhs': 'Dadap BHS',
     'health-education': 'Edukasion',
     'health-empowering-the-people-of-solano-with-transparent':
-      'Panangted ti bileg kadagiti umili ti Solano nga addaan ti transparente a panag-akses kadagiti serbisio, programa, ken pampubliko a pondo ti LGU Solano.',
+      'Panangted ti bileg kadagiti umili ti Muntinlupa nga addaan ti transparente a panag-akses kadagiti serbisio, programa, ken pampubliko a pondo ti siudad.',
     'health-environment': 'Aglawlaw',
     'health-freedom-of-information': 'Wayawaya ti Impormasion',
     'health-health': 'Salun-at',
@@ -15750,7 +15750,7 @@ const translations = {
     'home-create-account': 'Gumawa ti Account',
     'home-education': 'Edukasion',
     'home-empowering-the-people-of-solano-with-transparent':
-      'Panangted ti bileg kadagiti umili ti Solano nga addaan ti transparente a panag-akses kadagiti serbisio, programa, ken pampubliko a pondo ti LGU Solano.',
+      'Panangted ti bileg kadagiti umili ti Muntinlupa nga addaan ti transparente a panag-akses kadagiti serbisio, programa, ken pampubliko a pondo ti siudad.',
     'home-environment': 'Aglawlaw',
     'home-father-alejandro-vidal': 'Padre Alejandro Vidal',
     'home-fetching-the-latest-news-from-solano':
@@ -15874,7 +15874,7 @@ const translations = {
     'hrm-employee-id': 'Empleado ID',
     'hrm-employee-id-for-current-employees': 'Empleado ID (for agdama dagiti empleado)',
     'hrm-empowering-the-people-of-solano-with-transparent':
-      'Panangted ti bileg kadagiti umili ti Solano nga addaan ti transparente a panag-akses kadagiti serbisio, programa, ken pampubliko a pondo ti LGU Solano.',
+      'Panangted ti bileg kadagiti umili ti Muntinlupa nga addaan ti transparente a panag-akses kadagiti serbisio, programa, ken pampubliko a pondo ti siudad.',
     'hrm-environment': 'Aglawlaw',
     'hrm-fee-free': 'Bayad: Libre',
     'hrm-fee-free-for-current-employees': 'Bayad: Libre for agdama dagiti empleado',
@@ -16010,7 +16010,7 @@ const translations = {
     'infra-contribute-code-with-us': 'Ag-ambag ti code kadakami',
     'infra-education': 'Edukasion',
     'infra-empowering-the-people-of-solano-with-transparent':
-      'Panangted ti bileg kadagiti umili ti Solano nga addaan ti transparente a panag-akses kadagiti serbisio, programa, ken pampubliko a pondo ti LGU Solano.',
+      'Panangted ti bileg kadagiti umili ti Muntinlupa nga addaan ti transparente a panag-akses kadagiti serbisio, programa, ken pampubliko a pondo ti siudad.',
     'infra-engineering-services': 'Dagiti Serbisio iti Inhinyeria',
     'infra-environment': 'Aglawlaw',
     'infra-fee': 'Bayad:',
@@ -16074,7 +16074,7 @@ const translations = {
       'Detalyadong talakayan ken debate iti iminumungkahing ordinansa',
     'leg-education': 'Edukasion',
     'leg-empowering-the-people-of-solano-with-transparent':
-      'Panangted ti bileg kadagiti umili ti Solano nga addaan ti transparente a panag-akses kadagiti serbisio, programa, ken pampubliko a pondo ti LGU Solano.',
+      'Panangted ti bileg kadagiti umili ti Muntinlupa nga addaan ti transparente a panag-akses kadagiti serbisio, programa, ken pampubliko a pondo ti siudad.',
     'leg-environment': 'Aglawlaw',
     'leg-expressions-of-the-legislative-bodys-will-or':
       "Expressions ti ti legislative body's ay wenno opinion iti tiyak na dagiti usapin, often used para iti commendations, dagiti kiddaw, wenno patakaran positions.",
@@ -16225,7 +16225,7 @@ const translations = {
       'Panagipakat ti dagiti tilapia, karpa, ken iba pang fingerling',
     'magri-education': 'Edukasion',
     'magri-empowering-the-people-of-solano-with-transparent':
-      'Panangted ti bileg kadagiti umili ti Solano nga addaan ti transparente a panag-akses kadagiti serbisio, programa, ken pampubliko a pondo ti LGU Solano.',
+      'Panangted ti bileg kadagiti umili ti Muntinlupa nga addaan ti transparente a panag-akses kadagiti serbisio, programa, ken pampubliko a pondo ti siudad.',
     'magri-environment': 'Aglawlaw',
     'magri-farm-location-certification': 'Sertipikasion ti Lokasion ti Bukid',
     'magri-farm-machinery-services': 'Farm Machinery Dagiti serbisio',
@@ -16433,7 +16433,7 @@ const translations = {
     'market-economic-enterprise-development-office': 'Economic Enterprise & Development Opisina',
     'market-education': 'Edukasion',
     'market-empowering-the-people-of-solano-with-transparent':
-      'Panangted ti bileg kadagiti umili ti Solano nga addaan ti transparente a panag-akses kadagiti serbisio, programa, ken pampubliko a pondo ti LGU Solano.',
+      'Panangted ti bileg kadagiti umili ti Muntinlupa nga addaan ti transparente a panag-akses kadagiti serbisio, programa, ken pampubliko a pondo ti siudad.',
     'market-entrance-fees': 'Dagiti Bayad iti Pagpasok',
     'market-entrance-fees-are-based-on-goods-being-sold':
       'Ti dagiti bayad iti pagpasok ay batay iti dagiti kalakal na ibinebenta',
@@ -16596,7 +16596,7 @@ const translations = {
     'mbudget-duration': 'Kaatiddog',
     'mbudget-education': 'Edukasion',
     'mbudget-empowering-the-people-of-solano-with-transparent':
-      'Panangted ti bileg kadagiti umili ti Solano nga addaan ti transparente a panag-akses kadagiti serbisio, programa, ken pampubliko a pondo ti LGU Solano.',
+      'Panangted ti bileg kadagiti umili ti Muntinlupa nga addaan ti transparente a panag-akses kadagiti serbisio, programa, ken pampubliko a pondo ti siudad.',
     'mbudget-ensure-all-documents-are-complete-before':
       'Ensure lahat ti dagiti dokumento ay kumpletong baro panagisumite',
     'mbudget-environment': 'Aglawlaw',
@@ -16762,7 +16762,7 @@ const translations = {
     'mc-edgar-mc': 'Edgar Mc',
     'mc-education': 'Edukasion',
     'mc-empowering-the-people-of-solano-with-transparent':
-      'Panangted ti bileg kadagiti umili ti Solano nga addaan ti transparente a panag-akses kadagiti serbisio, programa, ken pampubliko a pondo ti LGU Solano.',
+      'Panangted ti bileg kadagiti umili ti Muntinlupa nga addaan ti transparente a panag-akses kadagiti serbisio, programa, ken pampubliko a pondo ti siudad.',
     'mc-environment': 'Aglawlaw',
     'mc-fee': 'Bayad',
     'mc-fifteen-15-days': 'labinlimang (15) aldaw',
@@ -16944,7 +16944,7 @@ const translations = {
     'mcr-duration': 'Kaatiddog',
     'mcr-education': 'Edukasion',
     'mcr-empowering-the-people-of-solano-with-transparent':
-      'Panangted ti bileg kadagiti umili ti Solano nga addaan ti transparente a panag-akses kadagiti serbisio, programa, ken pampubliko a pondo ti LGU Solano.',
+      'Panangted ti bileg kadagiti umili ti Muntinlupa nga addaan ti transparente a panag-akses kadagiti serbisio, programa, ken pampubliko a pondo ti siudad.',
     'mcr-environment': 'Aglawlaw',
     'mcr-fee': 'Bayad',
     'mcr-fee-per-copy': 'Bayad tunggal Kopia',
@@ -17111,7 +17111,7 @@ const translations = {
     'mgs-education': 'Edukasion',
     'mgs-electricity': 'Koriente',
     'mgs-empowering-the-people-of-solano-with-transparent':
-      'Panangted ti bileg kadagiti umili ti Solano nga addaan ti transparente a panag-akses kadagiti serbisio, programa, ken pampubliko a pondo ti LGU Solano.',
+      'Panangted ti bileg kadagiti umili ti Muntinlupa nga addaan ti transparente a panag-akses kadagiti serbisio, programa, ken pampubliko a pondo ti siudad.',
     'mgs-environment': 'Aglawlaw',
     'mgs-equipment-accountability-is-strictly-enforced':
       'Ti pananagutan iti ramit ay mahigpit na ipinapatupad',
@@ -17281,7 +17281,7 @@ const translations = {
     'mpdo-duly-accomplished-application-form': 'Wastong napunang Application Form',
     'mpdo-education': 'Edukasion',
     'mpdo-empowering-the-people-of-solano-with-transparent':
-      'Panangted ti bileg kadagiti umili ti Solano nga addaan ti transparente a panag-akses kadagiti serbisio, programa, ken pampubliko a pondo ti LGU Solano.',
+      'Panangted ti bileg kadagiti umili ti Muntinlupa nga addaan ti transparente a panag-akses kadagiti serbisio, programa, ken pampubliko a pondo ti siudad.',
     'mpdo-environment': 'Aglawlaw',
     'mpdo-environmental-compliance-certificate-if-required':
       'Sertipiko ti Panagtungpal iti Aglawlaw (if kasapulan)',
@@ -17439,7 +17439,7 @@ const translations = {
       "Emergency na tulong pinansyal para iti iba't ibang pangangailangan",
     'mswdo-employment-facilitation-ef': 'Panagpasimple ti Trabaho (EF)',
     'mswdo-empowering-the-people-of-solano-with-transparent':
-      'Panangted ti bileg kadagiti umili ti Solano nga addaan ti transparente a panag-akses kadagiti serbisio, programa, ken pampubliko a pondo ti LGU Solano.',
+      'Panangted ti bileg kadagiti umili ti Muntinlupa nga addaan ti transparente a panag-akses kadagiti serbisio, programa, ken pampubliko a pondo ti siudad.',
     'mswdo-enrollment-requirements': 'Dagiti Kasapulan iti Pagpapatala',
     'mswdo-environment': 'Aglawlaw',
     'mswdo-families-in-crisis-situations': 'Dagiti pamilya iti dagiti sitwasyon ti krisis',
@@ -17684,7 +17684,7 @@ const translations = {
     'mswdosvc-emergency-cases-are-given-priority':
       'Ti dagiti kaso ti emergency ay binibigyan ti prayoridad',
     'mswdosvc-empowering-the-people-of-solano-with-transparent':
-      'Panangted ti bileg kadagiti umili ti Solano nga addaan ti transparente a panag-akses kadagiti serbisio, programa, ken pampubliko a pondo ti LGU Solano.',
+      'Panangted ti bileg kadagiti umili ti Muntinlupa nga addaan ti transparente a panag-akses kadagiti serbisio, programa, ken pampubliko a pondo ti siudad.',
     'mswdosvc-encoding-and-processing-of-pwd-id': 'Pag-encode ken panagproseso ti PWD ID',
     'mswdosvc-encoding-and-processing-of-senior-citizen-id':
       'Pag-encode ken panagproseso ti Senior Citizen ID',
@@ -17860,7 +17860,7 @@ const translations = {
     'news-contribute-code-with-us': 'Ag-ambag ti code kadakami',
     'news-education': 'Edukasion',
     'news-empowering-the-people-of-solano-with-transparent':
-      'Panangted ti bileg kadagiti umili ti Solano nga addaan ti transparente a panag-akses kadagiti serbisio, programa, ken pampubliko a pondo ti LGU Solano.',
+      'Panangted ti bileg kadagiti umili ti Muntinlupa nga addaan ti transparente a panag-akses kadagiti serbisio, programa, ken pampubliko a pondo ti siudad.',
     'news-environment': 'Aglawlaw',
     'news-fetching-news-and-updates-from-solano':
       'Kinukuha ti dagiti damag ken update manipud iti Solano.',
@@ -17901,7 +17901,7 @@ const translations = {
     'officials-education': 'Edukasion',
     'officials-elected-officials': 'Dagiti Nahalal nga Opisial',
     'officials-empowering-the-people-of-solano-with-transparent':
-      'Panangted ti bileg kadagiti umili ti Solano nga addaan ti transparente a panag-akses kadagiti serbisio, programa, ken pampubliko a pondo ti LGU Solano.',
+      'Panangted ti bileg kadagiti umili ti Muntinlupa nga addaan ti transparente a panag-akses kadagiti serbisio, programa, ken pampubliko a pondo ti siudad.',
     'officials-environment': 'Aglawlaw',
     'officials-executive-branch': 'Ehekutibo a Sanga',
     'officials-freedom-of-information': 'Wayawaya ti Impormasion',
@@ -17963,7 +17963,7 @@ const translations = {
     'ord-contribute-code-with-us': 'Ag-ambag ti code kadakami',
     'ord-education': 'Edukasion',
     'ord-empowering-the-people-of-solano-with-transparent':
-      'Panangted ti bileg kadagiti umili ti Solano nga addaan ti transparente a panag-akses kadagiti serbisio, programa, ken pampubliko a pondo ti LGU Solano.',
+      'Panangted ti bileg kadagiti umili ti Muntinlupa nga addaan ti transparente a panag-akses kadagiti serbisio, programa, ken pampubliko a pondo ti siudad.',
     'ord-environment': 'Aglawlaw',
     'ord-freedom-of-information': 'Wayawaya ti Impormasion',
     'ord-health': 'Salun-at',
@@ -17993,10 +17993,10 @@ const translations = {
     'privacy-agriculture': 'Agrikultura',
     'privacy-analytics-cookies': 'Dagiti Analytics Cookie:',
     'privacy-analytics-data': 'Datos ti Analytics:',
-    'privacy-bettersolanoorg-is-a-general-audience-website':
-      'Ti BetterSolano.org ay isang website para iti pangkalahatang madla na nagbibigay ti civic na impormasion. Saan namin sinasadyang kinokolekta ti personal na impormasion manipud iti dagiti bata under 18 years ti age nang walang parental pahintulot.',
-    'privacy-bettersolanoorg-we-us-or-our-is-committed-to':
-      'BetterSolano.org (\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"we,\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\" \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"us,\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\" or \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"our\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\") is committed to protecting your privacy and ensuring the security of your personal impormasion. This Privacy Patakaran explains how we kolektaen, usaren, ipalgak, and safeguard your impormasion when you bisitaen our website.',
+    'privacy-bettermuntinlupaorg-is-a-general-audience-website':
+      'Ti Better Muntinlupa ay isang website para iti pangkalahatang madla na nagbibigay ti civic na impormasion. Saan namin sinasadyang kinokolekta ti personal na impormasion manipud iti dagiti bata under 18 years ti age nang walang parental pahintulot.',
+    'privacy-bettermuntinlupaorg-we-us-or-our-is-committed-to':
+      'Better Muntinlupa (\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"we,\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\" \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"us,\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\" or \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"our\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\") is committed to protecting your privacy and ensuring the security of your personal impormasion. This Privacy Patakaran explains how we kolektaen, usaren, ipalgak, and safeguard your impormasion when you bisitaen our website.',
     'privacy-blgf-portal': 'BLGF Portal',
     'privacy-browser-type-and-version': 'Uri ken bersyon ti browser',
     'privacy-business': 'Negosio',
@@ -18028,7 +18028,7 @@ const translations = {
     'privacy-email-address-when-you-contact-us-or-submit':
       'Ag-email address (when you kontaken us or isumite feedback)',
     'privacy-empowering-the-people-of-solano-with-transparent':
-      'Panangted ti bileg kadagiti umili ti Solano nga addaan ti transparente a panag-akses kadagiti serbisio, programa, ken pampubliko a pondo ti LGU Solano.',
+      'Panangted ti bileg kadagiti umili ti Muntinlupa nga addaan ti transparente a panag-akses kadagiti serbisio, programa, ken pampubliko a pondo ti siudad.',
     'privacy-environment': 'Aglawlaw',
     'privacy-essential-cookies': 'Dagiti Mahahalagang Cookie:',
     'privacy-exercising-your-rights': 'Paggamit ti Iyong dagiti Karapatan',
@@ -18132,7 +18132,7 @@ const translations = {
     'privacy-under-the-data-privacy-act-of-2012-you-have-the':
       'Under ti Data Privacy Act ti 2012, ikaw ay maaari ti following dagiti karapatan regarding iyong personal na impormasion:',
     'privacy-volunteer-with-us': 'Ag-volunteer kadakami',
-    'privacy-volunteerbettersolanoorg': 'volunteer@bettersolano.org',
+    'privacy-volunteerbettermuntinlupaorg': 'contact@bettermuntinlupa.org',
     'privacy-we-collect-minimal-information-necessary-to':
       'We kolektaen minimal impormasion necessary to operate this civic platform effectively:',
     'privacy-we-do-not-sell-trade-or-rent-your-personal':
@@ -18215,7 +18215,7 @@ const translations = {
     'propdec-effectivity-of-assessment': 'Effectivity of Panagpatasa',
     'propdec-effectivity-quarter-and-year': 'Quarter ken Tawen ti Bisa',
     'propdec-empowering-the-people-of-solano-with-transparent':
-      'Panangted ti bileg kadagiti umili ti Solano nga addaan ti transparente a panag-akses kadagiti serbisio, programa, ken pampubliko a pondo ti LGU Solano.',
+      'Panangted ti bileg kadagiti umili ti Muntinlupa nga addaan ti transparente a panag-akses kadagiti serbisio, programa, ken pampubliko a pondo ti siudad.',
     'propdec-environment': 'Aglawlaw',
     'propdec-estimated-economic-life': 'Tinatayang Buhay Pang-ekonomiya',
     'propdec-for-building-declaration': 'For Pasdek Declaration',
@@ -18306,7 +18306,7 @@ const translations = {
     'reso-contribute-code-with-us': 'Ag-ambag ti code kadakami',
     'reso-education': 'Edukasion',
     'reso-empowering-the-people-of-solano-with-transparent':
-      'Panangted ti bileg kadagiti umili ti Solano nga addaan ti transparente a panag-akses kadagiti serbisio, programa, ken pampubliko a pondo ti LGU Solano.',
+      'Panangted ti bileg kadagiti umili ti Muntinlupa nga addaan ti transparente a panag-akses kadagiti serbisio, programa, ken pampubliko a pondo ti siudad.',
     'reso-environment': 'Aglawlaw',
     'reso-freedom-of-information': 'Wayawaya ti Impormasion',
     'reso-health': 'Salun-at',
@@ -18350,7 +18350,7 @@ const translations = {
     'safety-emergency-response-and-disaster-preparedness':
       'Dagiti programa ti pagtugon iti emergency ken panagisagana iti didigra.',
     'safety-empowering-the-people-of-solano-with-transparent':
-      'Panangted ti bileg kadagiti umili ti Solano nga addaan ti transparente a panag-akses kadagiti serbisio, programa, ken pampubliko a pondo ti LGU Solano.',
+      'Panangted ti bileg kadagiti umili ti Muntinlupa nga addaan ti transparente a panag-akses kadagiti serbisio, programa, ken pampubliko a pondo ti siudad.',
     'safety-environment': 'Aglawlaw',
     'safety-fee': 'Bayad:',
     'safety-for-emergencies-and-inquiries-contact-these':
@@ -18436,7 +18436,7 @@ const translations = {
     'sitemap-education': 'Edukasion',
     'sitemap-elected-officials': 'Dagiti Nahalal nga Opisial',
     'sitemap-empowering-the-people-of-solano-with-transparent':
-      'Panangted ti bileg kadagiti umili ti Solano nga addaan ti transparente a panag-akses kadagiti serbisio, programa, ken pampubliko a pondo ti LGU Solano.',
+      'Panangted ti bileg kadagiti umili ti Muntinlupa nga addaan ti transparente a panag-akses kadagiti serbisio, programa, ken pampubliko a pondo ti siudad.',
     'sitemap-engineering-office': 'Opisina ti Inhinyero',
     'sitemap-environment': 'Aglawlaw',
     'sitemap-external-resources': 'Dagiti Panlabas na Mapagkukunan',
@@ -18546,7 +18546,7 @@ const translations = {
     'slaughter-economic-enterprise-development-office': 'Economic Enterprise & Development Opisina',
     'slaughter-education': 'Edukasion',
     'slaughter-empowering-the-people-of-solano-with-transparent':
-      'Panangted ti bileg kadagiti umili ti Solano nga addaan ti transparente a panag-akses kadagiti serbisio, programa, ken pampubliko a pondo ti LGU Solano.',
+      'Panangted ti bileg kadagiti umili ti Muntinlupa nga addaan ti transparente a panag-akses kadagiti serbisio, programa, ken pampubliko a pondo ti siudad.',
     'slaughter-environment': 'Aglawlaw',
     'slaughter-facility-maintenance': 'Panagtaginayon ti Pasilidad',
     'slaughter-fee': 'Bayad',
@@ -18659,7 +18659,7 @@ const translations = {
     'social-contribute-code-with-us': 'Ag-ambag ti code kadakami',
     'social-education': 'Edukasion',
     'social-empowering-the-people-of-solano-with-transparent':
-      'Panangted ti bileg kadagiti umili ti Solano nga addaan ti transparente a panag-akses kadagiti serbisio, programa, ken pampubliko a pondo ti LGU Solano.',
+      'Panangted ti bileg kadagiti umili ti Muntinlupa nga addaan ti transparente a panag-akses kadagiti serbisio, programa, ken pampubliko a pondo ti siudad.',
     'social-environment': 'Aglawlaw',
     'social-fee': 'Bayad:',
     'social-freedom-of-information': 'Wayawaya ti Impormasion',
@@ -18726,7 +18726,7 @@ const translations = {
     'stats-economy': 'Ekonomiya',
     'stats-education': 'Edukasion',
     'stats-empowering-the-people-of-solano-with-transparent':
-      'Panangted ti bileg kadagiti umili ti Solano nga addaan ti transparente a panag-akses kadagiti serbisio, programa, ken pampubliko a pondo ti LGU Solano.',
+      'Panangted ti bileg kadagiti umili ti Muntinlupa nga addaan ti transparente a panag-akses kadagiti serbisio, programa, ken pampubliko a pondo ti siudad.',
     'stats-environment': 'Aglawlaw',
     'stats-finance': 'Pananalapi',
     'stats-financial-standing-for-fiscal-year-2023':
@@ -18807,7 +18807,7 @@ const translations = {
     'svc-contribute-code-with-us': 'Ag-ambag ti code kadakami',
     'svc-education': 'Edukasion',
     'svc-empowering-the-people-of-solano-with-transparent':
-      'Panangted ti bileg kadagiti umili ti Solano nga addaan ti transparente a panag-akses kadagiti serbisio, programa, ken pampubliko a pondo ti LGU Solano.',
+      'Panangted ti bileg kadagiti umili ti Muntinlupa nga addaan ti transparente a panag-akses kadagiti serbisio, programa, ken pampubliko a pondo ti siudad.',
     'svc-environment': 'Aglawlaw',
     'svc-freedom-of-information': 'Wayawaya ti Impormasion',
     'svc-getting-married': 'Pagpapakasal',
@@ -18847,7 +18847,7 @@ const translations = {
     'tax-contribute-code-with-us': 'Ag-ambag ti code kadakami',
     'tax-education': 'Edukasion',
     'tax-empowering-the-people-of-solano-with-transparent':
-      'Panangted ti bileg kadagiti umili ti Solano nga addaan ti transparente a panag-akses kadagiti serbisio, programa, ken pampubliko a pondo ti LGU Solano.',
+      'Panangted ti bileg kadagiti umili ti Muntinlupa nga addaan ti transparente a panag-akses kadagiti serbisio, programa, ken pampubliko a pondo ti siudad.',
     'tax-environment': 'Aglawlaw',
     'tax-freedom-of-information': 'Wayawaya ti Impormasion',
     'tax-health': 'Salun-at',
@@ -18901,7 +18901,7 @@ const translations = {
     'terms-all-information-on-this-website-is-provided-as-is':
       'Ti amin nga impormasion iti daytoy a website ket maipaay a \\\\\\"AS IS\\\\\\" nga awan ti warranty ti aniaman a kita, hayag man wenno ipinahiwatig. Karaman ditoy ngem saan a limitado iti:',
     'terms-although-volunteers-aim-to-keep-the-website':
-      'Bagaman naglalayong panatilihing accessible iti functional ti website ti dagiti boluntaryo, Saan magagarantiya ti BetterSolano.org na ti website ay magiging:',
+      'Bagaman naglalayong panatilihing accessible iti functional ti website ti dagiti boluntaryo, Saan magagarantiya ti Better Muntinlupa na ti website ay magiging:',
     'terms-any-bugs-viruses-or-other-harmful-components':
       'Any bugs, viruses, or sabali harmful components transmitted through the site',
     'terms-any-errors-omissions-or-outdated-information':
@@ -18915,12 +18915,12 @@ const translations = {
     'terms-as-is-disclaimer':
       '\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"As Is\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\" Disclaimer',
     'terms-available-or-accessible-at-all-times': 'Magun-od or magun-od at all times',
-    'terms-bettersolanoorg-is-a-civic-platform-dedicated-to':
-      'Ti BetterSolano.org ay isang civic platform na nakatuon iti panagipaay-kapangyarihan iti dagiti tao ti Solano iti pamamagitan ti panagipaay ti transparent na access iti ti dagiti serbisio, dagiti programa, iti pampublikong funds ti LGU Solano.',
-    'terms-bettersolanoorg-provides-public-domain':
-      'Ti BetterSolano.org ay nagbibigay ti impormasion iti pampublikong domain upang suportahan ti civic engagement, transparency, iti maaari kaalamang pakikilahok iti lokal na governance.',
-    'terms-bettersolanoorg-values-accuracy-public-safety-and':
-      'Pinahahalagahan ti BetterSolano.org ti katumpakan, kaligtasan ti publiko, iti paggalang iti dagiti karapatan. Sa kabila ti dagiti pagsisikap na maaari mabuting layunin, ti ilang nilalaman ay maaaringcome outdated, incomplete, wenno raise legitimate dagiti alalahanin.',
+    'terms-bettermuntinlupaorg-is-a-civic-platform-dedicated-to':
+      'Ti Better Muntinlupa ay isang civic platform na nakatuon iti panagipaay-kapangyarihan iti dagiti tao ti Solano iti pamamagitan ti panagipaay ti transparent na access iti ti dagiti serbisio, dagiti programa, iti pampublikong funds ti LGU Solano.',
+    'terms-bettermuntinlupaorg-provides-public-domain':
+      'Ti Better Muntinlupa ay nagbibigay ti impormasion iti pampublikong domain upang suportahan ti civic engagement, transparency, iti maaari kaalamang pakikilahok iti lokal na governance.',
+    'terms-bettermuntinlupaorg-values-accuracy-public-safety-and':
+      'Pinahahalagahan ti Better Muntinlupa ti katumpakan, kaligtasan ti publiko, iti paggalang iti dagiti karapatan. Sa kabila ti dagiti pagsisikap na maaari mabuting layunin, ti ilang nilalaman ay maaaringcome outdated, incomplete, wenno raise legitimate dagiti alalahanin.',
     'terms-blgf-portal': 'BLGF Portal',
     'terms-business': 'Negosio',
     'terms-by-accessing-and-using-this-website-you':
@@ -18958,7 +18958,7 @@ const translations = {
       'Editorial decisions about content rest with the website team, guided by publiko interes and civic responsibility.',
     'terms-education': 'Edukasion',
     'terms-empowering-the-people-of-solano-with-transparent':
-      'Panangted ti bileg kadagiti umili ti Solano nga addaan ti transparente a panag-akses kadagiti serbisio, programa, ken pampubliko a pondo ti LGU Solano.',
+      'Panangted ti bileg kadagiti umili ti Muntinlupa nga addaan ti transparente a panag-akses kadagiti serbisio, programa, ken pampubliko a pondo ti siudad.',
     'terms-environment': 'Aglawlaw',
     'terms-errorfree-or-uninterrupted': 'Awan ti error wenno walang pagkaantala',
     'terms-external-references': 'Dagiti Panlabas na Sanggunian',
@@ -18976,7 +18976,7 @@ const translations = {
       'Ganap na tugma iti lahat ti device, browser, wenno assistive technology',
     'terms-governing-law': 'Mangituray a Linteg',
     'terms-government': 'Gobierno',
-    'terms-guidelines-for-using-bettersolanoorg': 'Dagiti giya for using BetterSolano.org',
+    'terms-guidelines-for-using-bettermuntinlupaorg': 'Dagiti giya for using Better Muntinlupa',
     'terms-health': 'Salun-at',
     'terms-home': 'Pagtaengan',
     'terms-if-any-provision-of-these-terms-is-found-to-be':
@@ -19014,7 +19014,7 @@ const translations = {
     'terms-public-domain-content-and-volunteer-operation':
       'Publiko Domain Content and Volunteer Operation',
     'terms-public-domain-content-may-be-freely-used-copied':
-      'Publiko domain content may be freely used, copied, distributed, and modified without permission or attribution, although attribution to BetterSolano.org and LGU Solano is encouraged as a civic courtesy.',
+      'Publiko domain content may be freely used, copied, distributed, and modified without permission or attribution, although attribution to Better Muntinlupa and LGU Solano is encouraged as a civic courtesy.',
     'terms-public-safety': 'Kaligtasan Pampubliko',
     'terms-quick-links': 'Dagiti Napartak a Silpo',
     'terms-resolution-framework': 'Balangkas ti Resolusion',
@@ -19072,12 +19072,12 @@ const translations = {
     'terms-verify-information-directly-from-original-and':
       'Verify impormasion directly manipud iti original iti opisyal na sources',
     'terms-volunteer-with-us': 'Ag-volunteer kadakami',
-    'terms-volunteerbettersolanoorg': 'volunteer@bettersolano.org',
+    'terms-volunteerbettermuntinlupaorg': 'contact@bettermuntinlupa.org',
     'terms-warranties-of-merchantability': 'Dagiti garantiya ti kakayahang ibenta',
     'terms-website-availability': 'Pannakagun-od ti Website',
     'terms-when-reaching-out-kindly-include': 'When reaching out, kindly iraman:',
     'terms-while-volunteers-make-every-effort-to-secure':
-      'Nupay ti dagiti boluntaryo ay nagsusumikap na pangalagaan ti BetterSolano.org manipud iti dagiti online na banta ken panatilihing tumpak ti impormasion, walang sistema ti maaaring garantiyahan na perpektong ligtas, walang error, wenno ganap na napapanahon iti lahat ti oras.',
+      'Nupay ti dagiti boluntaryo ay nagsusumikap na pangalagaan ti Better Muntinlupa manipud iti dagiti online na banta ken panatilihing tumpak ti impormasion, walang sistema ti maaaring garantiyahan na perpektong ligtas, walang error, wenno ganap na napapanahon iti lahat ti oras.',
     'terms-you-are-strongly-encouraged-to': 'Lubos kang hinihikayat na:',
     'terms-your-contact-information-for-followup': 'Your kontaken impormasion for follow-up',
     'terms-your-use-of-or-reliance-on-this-website-or-its':
@@ -19133,7 +19133,7 @@ const translations = {
     'treas-discountpenalty': 'Diskwento/Multa',
     'treas-education': 'Edukasion',
     'treas-empowering-the-people-of-solano-with-transparent':
-      'Panangted ti bileg kadagiti umili ti Solano nga addaan ti transparente a panag-akses kadagiti serbisio, programa, ken pampubliko a pondo ti LGU Solano.',
+      'Panangted ti bileg kadagiti umili ti Muntinlupa nga addaan ti transparente a panag-akses kadagiti serbisio, programa, ken pampubliko a pondo ti siudad.',
     'treas-environment': 'Aglawlaw',
     'treas-fee': 'Bayad:',
     'treas-fee-collection': 'Koleksyon ti Bayad',
@@ -19259,7 +19259,7 @@ const translations = {
     'tricycle-contribute-code-with-us': 'Ag-ambag ti code kadakami',
     'tricycle-education': 'Edukasion',
     'tricycle-empowering-the-people-of-solano-with-transparent':
-      'Panangted ti bileg kadagiti umili ti Solano nga addaan ti transparente a panag-akses kadagiti serbisio, programa, ken pampubliko a pondo ti LGU Solano.',
+      'Panangted ti bileg kadagiti umili ti Muntinlupa nga addaan ti transparente a panag-akses kadagiti serbisio, programa, ken pampubliko a pondo ti siudad.',
     'tricycle-encoding-of-application': 'Encoding of Aplikasion',
     'tricycle-environment': 'Aglawlaw',
     'tricycle-franchise-steps': 'Dagiti Hakbang iti Prangkisa',

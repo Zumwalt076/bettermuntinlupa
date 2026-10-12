@@ -15,6 +15,7 @@
       updateVersionDisplay(data.version);
 
       // Store in window for programmatic access
+      window.BETTERMUNTINLUPA_VERSION = data;
       window.BETTERSOLANO_VERSION = data;
     } catch (error) {
       console.warn('Could not load version:', error.message);

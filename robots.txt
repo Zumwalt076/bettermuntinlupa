@@ -1,5 +1,4 @@
-# Better Solano - Robots.txt
-# Author: Ramon Logan Jr
+# Better Muntinlupa - Robots.txt
 # This file tells search engine crawlers which pages to index
 
 User-agent: *
@@ -7,7 +6,7 @@ Allow: /
 Allow: /assets/images/banners/opengraph.png
 
 # Sitemap location
-Sitemap: https://bettersolano.org/sitemap.xml
+Sitemap: https://bettermuntinlupa.org/sitemap.xml
 
 # Crawl-delay for polite crawling
 Crawl-delay: 1

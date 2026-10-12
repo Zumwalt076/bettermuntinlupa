@@ -32,10 +32,10 @@ function showInstallBanner() {
   banner.innerHTML =
     '<div class="pwa-install-content">' +
     '<i class="bi bi-download" aria-hidden="true"></i>' +
-    '<span>Install BetterSolano for quick access to services.</span>' +
+    '<span>Install Better Muntinlupa for quick access to city services.</span>' +
     '</div>' +
     '<div class="pwa-install-actions">' +
-    '<button class="pwa-install-btn" aria-label="Install BetterSolano app">Install</button>' +
+    '<button class="pwa-install-btn" aria-label="Install Better Muntinlupa app">Install</button>' +
     '<button class="pwa-install-dismiss" aria-label="Dismiss install prompt">&times;</button>' +
     '</div>';
 

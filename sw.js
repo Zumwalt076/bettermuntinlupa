@@ -1,11 +1,11 @@
 /**
- * BetterSolano Service Worker
+ * Better Muntinlupa Service Worker
  * Enterprise-grade PWA with versioned caching, runtime strategies, and offline resilience.
  */
 
-var CACHE_VERSION = 'v4';
-var STATIC_CACHE = 'bettersolano-static-' + CACHE_VERSION;
-var RUNTIME_CACHE = 'bettersolano-runtime-' + CACHE_VERSION;
+var CACHE_VERSION = 'v5';
+var STATIC_CACHE = 'bettermuntinlupa-static-' + CACHE_VERSION;
+var RUNTIME_CACHE = 'bettermuntinlupa-runtime-' + CACHE_VERSION;
 var OFFLINE_URL = '/offline.html';
 
 // Core shell: precached on install for instant offline load
@@ -19,8 +19,8 @@ var PRECACHE_URLS = [
   '/assets/js/main.js',
   '/assets/js/translations.js',
   '/assets/js/info-bar.js',
-  '/assets/images/logo/better-solano-logo.svg',
-  '/assets/images/logo/better-solano-logo-white.svg',
+  '/assets/images/logo/better-muntinlupa-logo.svg',
+  '/assets/images/logo/better-muntinlupa-logo-white.svg',
   '/assets/images/logo/favicon.svg',
   '/assets/images/logo/favicon.ico',
   '/manifest.webmanifest',

@@ -220,12 +220,14 @@ const CONFIG = {
   EXCHANGE_RATE_TTL: 30 * 60 * 1000, // 30 minutes
   WEATHER_TTL: 15 * 60 * 1000, // 15 minutes
   TIME_UPDATE_INTERVAL: 1000, // 1 second
-  SOLANO_LAT: 16.5167,
-  SOLANO_LON: 121.1833,
+  MUNTINLUPA_LAT: 14.3939,
+  MUNTINLUPA_LON: 121.0412,
+  SOLANO_LAT: 14.3939,
+  SOLANO_LON: 121.0412,
   CURRENCIES: ['USD', 'GBP', 'SAR', 'AED', 'JPY', 'CAD', 'AUD'],
   CACHE_KEYS: {
     EXCHANGE_RATES: 'infobar_exchange_rates',
-    WEATHER: 'infobar_weather',
+    WEATHER: 'infobar_weather_muntinlupa',
   },
 };
 
@@ -396,9 +398,9 @@ const WeatherService = {
           temperature: data.current_weather.temperature,
           timestamp: Date.now(),
           location: {
-            lat: CONFIG.SOLANO_LAT,
-            lon: CONFIG.SOLANO_LON,
-            name: 'Solano, Nueva Vizcaya',
+            lat: CONFIG.MUNTINLUPA_LAT,
+            lon: CONFIG.MUNTINLUPA_LON,
+            name: 'Muntinlupa City',
           },
         };
       }
@@ -453,9 +455,9 @@ const WeatherService = {
       temperature: null,
       timestamp: Date.now(),
       location: {
-        lat: CONFIG.SOLANO_LAT,
-        lon: CONFIG.SOLANO_LON,
-        name: 'Solano, Nueva Vizcaya',
+        lat: CONFIG.MUNTINLUPA_LAT,
+        lon: CONFIG.MUNTINLUPA_LON,
+        name: 'Muntinlupa City',
       },
     };
   },

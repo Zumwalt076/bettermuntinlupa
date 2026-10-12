@@ -1297,7 +1297,7 @@
   }
 
   if (typeof window !== 'undefined') {
-    window.BetterSolanoSearch = {
+    const searchApi = {
       searchServices,
       getSuggestions,
       getPopularSearches,
@@ -1306,5 +1306,7 @@
       trackSearch,
       clearRecentSearches,
     };
+    window.BetterMuntinlupaSearch = searchApi;
+    window.BetterSolanoSearch = searchApi;
   }
 })();
