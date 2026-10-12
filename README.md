@@ -28,7 +28,44 @@ Explore our GitHub Issues to suggest improvements and contribute.
 
 ## Project Status
 
-🔵 Planned — Recruiting contributors and organizing the project.
+🟡 Initial setup — The static BetterSolano template has been imported. Branding, local content, and Vercel deployment are being prepared.
+
+The imported pages still contain Solano branding and sample data. They are a development starting point and are not ready for public deployment.
+
+## Run Locally
+
+Use Node.js 22 LTS or newer and Python 3. Install the development tools:
+
+```sh
+npm ci
+```
+
+Start the site with clean URL support:
+
+```sh
+npm run dev
+```
+
+Open http://localhost:8000. Stop the server with Ctrl+C.
+
+To copy the public site into `dist/` and preview it:
+
+```sh
+npm run build
+npm run serve:dist
+```
+
+Open http://localhost:8080. The copy build does not need installed npm dependencies. Vercel configuration will be added in issue #4.
+
+The imported Playwright tests cover the volunteer popup; broader release checks are planned in issue #5. Use `npm run test:chrome` with Chrome installed, or install a Playwright browser with `npx playwright install firefox` and run `npm test -- --project=firefox`.
+
+## Template Credits
+
+Adapted from [BetterSolano](https://github.com/BetterSolano/bettersolano), main commit `9e96474dd2e0e968a8975a6b1da20f9ca36cc636`, by Ramon Logan Jr.
+
+The static pages, assets, JSON data, and existing popup tests were imported. The React application, admin tools, Facebook/FTP workflows, and cPanel deployment tools were excluded. Local run scripts and a basic static copy build were added for this project.
+
+Our original [MIT license](LICENSE) remains in place. The template's code is MIT and its non-code content is [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). The upstream notices are preserved in [LICENSE.upstream](LICENSE.upstream), which is also included in the build output.
 
 ## Disclaimer
 

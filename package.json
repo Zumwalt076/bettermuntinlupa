@@ -1,0 +1,33 @@
+{
+  "name": "bettermuntinlupa",
+  "version": "1.1.19",
+  "description": "Independent, community-led civic information website for Muntinlupa City",
+  "scripts": {
+    "dev": "python3 serve.py --directory . --port 8000",
+    "serve": "python3 serve.py --directory . --port 8000",
+    "build": "node scripts/build.js",
+    "serve:dist": "python3 serve.py --directory dist --port 8080",
+    "test": "playwright test",
+    "test:chrome": "playwright test --project=chrome",
+    "test:report": "playwright show-report",
+    "format": "prettier --write .",
+    "format:check": "prettier --check ."
+  },
+  "keywords": [
+    "muntinlupa",
+    "civic-tech",
+    "government",
+    "lgu"
+  ],
+  "license": "MIT",
+  "devDependencies": {
+    "@playwright/test": "^1.61.0",
+    "playwright": "^1.61.0",
+    "prettier": "^3.8.1"
+  },
+  "overrides": {
+    "tmp": "0.2.7",
+    "js-yaml": "^4.2.0",
+    "uuid": "^11.1.1"
+  }
+}
