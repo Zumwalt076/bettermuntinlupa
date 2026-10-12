@@ -2,20 +2,20 @@
 
 **Prepared:** 12 October 2026 (Philippine time)  
 **Repository:** https://github.com/Zumwalt076/bettermuntinlupa  
-**Developer:** @markccalugay (per supplied screenshots)  
-**Project owner:** @Zumwalt076  
+**contributor:** @markccalugay (per supplied screenshots)  
+**co-contributor:** @Zumwalt076  
 **Status:** Working toward first public preview; not yet independently verified as deployed.
 
 > **Verification note:** This checklist uses the screenshots of PR #10 and Issue #8 and the BetterGov guide. A live GitHub issue/repository audit was unavailable. Treat unchecked items as tasks to verify, not as confirmed failures.
 
 ## TONIGHT — P0: Get a working website preview and avoid a premature launch
 
-### A. Merge initial website foundation — Owner: Zumwalt076, reviewer: developer
+### A. Merge initial website foundation — Owner: Zumwalt076, reviewer: contributor
 - [ ] Open [PR #10](https://github.com/Zumwalt076/bettermuntinlupa/pull/10).
 - [ ] Confirm **base: main** and **compare: feat/initial-deployment** in your own repository.
 - [ ] Review **Files changed (126)**, especially README, LICENSE, any build configuration, assets, placeholder data, and deleted/changed files.
 - [ ] Confirm there are no credentials, private keys, personal records, or unnecessary analytics/tracking scripts.
-- [ ] Ask the developer to confirm exactly how to build and preview the site and that inherited upstream license credits are intact.
+- [ ] Ask the contributor to confirm exactly how to build and preview the site and that inherited upstream license credits are intact.
 - [ ] If ready, click **Files changed → Review changes → Approve → Submit review** (if GitHub offers these controls to you).
 - [ ] Return to **Conversation → Merge pull request → Confirm merge** (if GitHub reports it is mergeable and you approve the change).
 - [ ] Open the repository's **main** branch to confirm the files have arrived.
@@ -23,17 +23,17 @@
 
 **Done when:** Template and branding foundation exists in `main`, reviewed and merge-confirmed.
 
-### B. Deploy a staging/preview site — Owner: developer with project owner
+### B. Deploy a staging/preview site — Owner: contributor with co-contributor
 - [ ] Open [Issue #4](https://github.com/Zumwalt076/bettermuntinlupa/issues/4).
-- [ ] Ask the developer whether the project is a static build and which output folder and build command it uses.
-- [ ] Choose a host from the BetterGov guide (Vercel, Netlify, or GitHub Pages). Vercel steps: open https://vercel.com/new, sign in, import the GitHub repository, confirm build settings with the developer, then click Deploy.
+- [ ] Ask the contributor whether the project is a static build and which output folder and build command it uses.
+- [ ] Choose a host from the BetterGov guide (Vercel, Netlify, or GitHub Pages). Vercel steps: open https://vercel.com/new, sign in, import the GitHub repository, confirm build settings with the contributor, then click Deploy.
 - [ ] Do not paste secrets into repository files or commit `.env` files. Configure environment secrets in the host if required.
 - [ ] Obtain and save the working preview URL.
 - [ ] Confirm that a new commit to `main` can update the deployed site as intended.
 
 **Done when:** Both collaborators can open the preview URL on desktop and mobile.
 
-### C. Verify that the inherited content is safe and accurate — Owner: Zumwalt076 with developer
+### C. Verify that the inherited content is safe and accurate — Owner: Zumwalt076 with contributor
 - [ ] Open [Issue #3](https://github.com/Zumwalt076/bettermuntinlupa/issues/3).
 - [ ] Review every section of the preview for leftover **Solano** names, facts, officials, budgets, projects, contact numbers, location text, coordinates, maps, weather, social links, and images.
 - [ ] Remove any incorrect inherited local-government figures rather than relabeling them as Muntinlupa.
@@ -43,16 +43,16 @@
 
 **Done when:** No copied Solano-specific data is being presented as Muntinlupa facts.
 
-### D. Release and usability checks — Owner: developer, reviewed by Zumwalt076
+### D. Release and usability checks — Owner: contributor, reviewed by Zumwalt076
 - [ ] Open [Issue #5](https://github.com/Zumwalt076/bettermuntinlupa/issues/5).
-- [ ] Developer runs existing repo build, JavaScript/JSON linting, and any smoke tests and reports whether each passes. Do not assume GitHub's 'Ready to merge' status means tests have passed.
+- [ ] contributor runs existing repo build, JavaScript/JSON linting, and any smoke tests and reports whether each passes. Do not assume GitHub's 'Ready to merge' status means tests have passed.
 - [ ] Open every menu and important link; check for missing pages/404 errors.
 - [ ] Review the website on phone and desktop, including navigation, typography, logo positions, and readability.
 - [ ] Confirm map, weather, language switcher, search, forms, and links either function or are hidden/labeled under development.
 - [ ] Check browser console/network errors and ensure the site loads without exposed credentials.
 - [ ] Decide on **preview only** versus **public launch**. Do not advertise as launched until the release checks and basic data review pass.
 
-**Done when:** Preview passes visible checks and developer confirms a successful build.
+**Done when:** Preview passes visible checks and contributor confirms a successful build.
 
 ## TONIGHT — P1: Register properly with BetterGov and clean up public copy
 
@@ -66,7 +66,7 @@
 
 **Done when:** A directory PR is submitted or Muntinlupa is visibly listed accurately; note that maintainers must merge it.
 
-### F. Legal/disclaimer and public content — Owner: Zumwalt076 with developer
+### F. Legal/disclaimer and public content — Owner: Zumwalt076 with contributor
 - [ ] Open [Issue #9](https://github.com/Zumwalt076/bettermuntinlupa/issues/9).
 - [ ] Review About, Contact, Privacy, Terms, Disclaimer, and Contribute links; remove stale template language.
 - [ ] Confirm repository license and credit for the upstream template are preserved in accordance with the original template's terms.
@@ -84,11 +84,11 @@
 - [ ] Export **standard SVG** with **421.6 × 151.7 viewBox** named `better-muntinlupa-logo.svg`.
 - [ ] Export **white SVG** with **421.6 × 151.7 viewBox** named `better-muntinlupa-logo-white.svg`.
 - [ ] Export **square favicon SVG** with **250 × 250 viewBox** named `favicon.svg`.
-- [ ] Upload/replace the files under `assets/images/logo/` in a new branch and open a PR, or ask the developer to do the replacements. Keep exact filenames.
+- [ ] Upload/replace the files under `assets/images/logo/` in a new branch and open a PR, or ask the contributor to do the replacements. Keep exact filenames.
 - [ ] Check standard logo on light background, white logo on dark background, and favicon in browser tab. Check desktop/mobile sizes.
 - [ ] Merge the logo PR and close Issue #8 only after all three assets work.
 
-**Done when:** Three working SVG assets are in `main` and shown correctly in preview. **This is explicitly low-priority according to your developer.**
+**Done when:** Three working SVG assets are in `main` and shown correctly in preview. **This is explicitly low-priority according to your contributor.**
 
 ## NEXT — Data collection and first release content
 
@@ -99,11 +99,11 @@
 - [ ] Separate **national** and **local** budget sources, and distinguish **proposed**, **amended**, **enacted**, **obligated**, **awarded**, **paid**, and **completed** when evidence permits.
 - [ ] For FY 2027, compare the executive NEP with the House-approved version before claiming a specific Muntinlupa amendment or 'insertion'. Do not infer misconduct from a change in appropriations alone.
 - [ ] Check data extraction/scraping conditions and rate-limit requests; retain document URLs and human review before publishing extracted amounts.
-- [ ] Have the developer import the verified records and expose original-source links, publication/as-of dates, and filters.
+- [ ] Have the contributor import the verified records and expose original-source links, publication/as-of dates, and filters.
 
 **Done when:** Citizens can trace published figures back to the cited official documents.
 
-### I. Domain, ownership, and maintainability — Owner: Zumwalt076 with developer
+### I. Domain, ownership, and maintainability — Owner: Zumwalt076 with contributor
 - [ ] Check availability and decide whether to register `bettermuntinlupa.org` or use a temporary preview URL.
 - [ ] Connect domain to hosting and enable HTTPS once the site is ready.
 - [ ] Check page titles, share preview, favicon, `robots.txt`, and sitemap for old Solano domains.
@@ -115,7 +115,7 @@
 
 ## Clear division of responsibility
 
-| Work | Owner | Developer |
+| Work | Owner | contributor |
 |---|---|---|
 | Project vision and launch approval | Accountable | Consulted |
 | Site code, build, preview deployment | Review | Responsible |
