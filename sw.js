@@ -3,7 +3,7 @@
  * Enterprise-grade PWA with versioned caching, runtime strategies, and offline resilience.
  */
 
-var CACHE_VERSION = 'v5';
+var CACHE_VERSION = 'v6';
 var STATIC_CACHE = 'bettermuntinlupa-static-' + CACHE_VERSION;
 var RUNTIME_CACHE = 'bettermuntinlupa-runtime-' + CACHE_VERSION;
 var OFFLINE_URL = '/offline.html';
@@ -236,7 +236,7 @@ self.addEventListener('push', function (event) {
   if (!event.data) return;
   var data = event.data.json();
   event.waitUntil(
-    self.registration.showNotification(data.title || 'BetterSolano', {
+    self.registration.showNotification(data.title || 'Better Muntinlupa', {
       body: data.body || '',
       icon: '/assets/images/logo/favicon.svg',
       badge: '/assets/images/logo/favicon.svg',

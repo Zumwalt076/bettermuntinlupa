@@ -222,8 +222,6 @@ const CONFIG = {
   TIME_UPDATE_INTERVAL: 1000, // 1 second
   MUNTINLUPA_LAT: 14.3939,
   MUNTINLUPA_LON: 121.0412,
-  SOLANO_LAT: 14.3939,
-  SOLANO_LON: 121.0412,
   CURRENCIES: ['USD', 'GBP', 'SAR', 'AED', 'JPY', 'CAD', 'AUD'],
   CACHE_KEYS: {
     EXCHANGE_RATES: 'infobar_exchange_rates',
@@ -384,7 +382,7 @@ const WeatherService = {
   async fetchWeather() {
     try {
       const response = await fetch(
-        `https://api.open-meteo.com/v1/forecast?latitude=${CONFIG.SOLANO_LAT}&longitude=${CONFIG.SOLANO_LON}&current_weather=true`
+        `https://api.open-meteo.com/v1/forecast?latitude=${CONFIG.MUNTINLUPA_LAT}&longitude=${CONFIG.MUNTINLUPA_LON}&current_weather=true`
       );
 
       if (!response.ok) {

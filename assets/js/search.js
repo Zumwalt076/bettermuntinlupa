@@ -1,4 +1,4 @@
-/* Better Solano - Enhanced Search Functionality */
+/* Better Muntinlupa - Enhanced Search Functionality */
 /* Updated: 2025-12-05 */
 
 (function () {

@@ -1,6 +1,6 @@
 /**
- * Weather & Map Section for Better Solano Homepage
- * Displays real-time weather data and interactive map of Solano, Nueva Vizcaya
+ * Weather & Map Section for Better Muntinlupa Homepage
+ * Displays real-time weather data and interactive map of Muntinlupa City
  * With robust fallback system to ensure content always renders
  */
 
@@ -336,7 +336,7 @@
   // Map Component - Initializes and manages the Leaflet map
   // ============================================================================
   const MapComponent = {
-    SOLANO_CENTER: [14.3939, 121.0412],
+    MUNTINLUPA_CENTER: [14.3939, 121.0412],
     MUNTINLUPA_CENTER: [14.3939, 121.0412],
     DEFAULT_ZOOM: 14,
     map: null,
@@ -422,7 +422,7 @@
 
         // Create the map with keyboard navigation support
         this.map = L.map(container, {
-          center: this.SOLANO_CENTER,
+          center: this.MUNTINLUPA_CENTER,
           zoom: this.DEFAULT_ZOOM,
           scrollWheelZoom: false,
           zoomControl: true,
@@ -464,7 +464,7 @@
         tileLayer.addTo(this.map);
 
         // Add marker
-        const marker = L.marker(this.SOLANO_CENTER).addTo(this.map);
+        const marker = L.marker(this.MUNTINLUPA_CENTER).addTo(this.map);
         marker.bindPopup('<strong>Muntinlupa City Hall</strong><br>Putatan, Muntinlupa City 1772');
 
         container.setAttribute('data-map-loaded', 'leaflet');

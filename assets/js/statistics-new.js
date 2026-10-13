@@ -1,6 +1,6 @@
 /**
  * Statistics Page - Enhanced Animations & Charts
- * Better Solano Portal - Minimal Professional Design
+ * Better Muntinlupa Portal - Minimal Professional Design
  */
 
 // Brand colors

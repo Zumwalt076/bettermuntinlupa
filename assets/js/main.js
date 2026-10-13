@@ -1,4 +1,4 @@
-/* Better Solano - Main JavaScript */
+/* Better Muntinlupa - Main JavaScript */
 
 // ─── PWA Install Prompt ─────────────────────────────────────────────────────
 var deferredInstallPrompt = null;

@@ -1,6 +1,6 @@
 /**
  * Statistics Page - Chart.js Implementation
- * Better Solano Portal
+ * Better Muntinlupa Portal
  */
 
 // Site branding color palette for charts
