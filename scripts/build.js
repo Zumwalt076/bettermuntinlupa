@@ -5,7 +5,7 @@ const path = require('node:path');
 const root = path.resolve(__dirname, '..');
 const output = path.join(root, 'dist');
 const directories = [
-  'accessibility', 'assets', 'budget', 'contact', 'data', 'faq',
+  'accessibility', 'assets', 'budget', 'community', 'contact', 'data', 'doing-business', 'faq',
   'government', 'legislative', 'news', 'privacy', 'service-details',
   'services', 'sitemap', 'statistics', 'terms',
 ];
