@@ -10,8 +10,8 @@
   let searchIndex = null;
 
   // Search analytics storage
-  const ANALYTICS_KEY = 'bettersolano_search_analytics';
-  const RECENT_SEARCHES_KEY = 'bettersolano_recent_searches';
+  const ANALYTICS_KEY = 'bettermuntinlupa_search_analytics';
+  const RECENT_SEARCHES_KEY = 'bettermuntinlupa_recent_searches';
   const MAX_RECENT_SEARCHES = 10;
   const MAX_ANALYTICS_ENTRIES = 100;
 
@@ -1307,6 +1307,6 @@
       clearRecentSearches,
     };
     window.BetterMuntinlupaSearch = searchApi;
-    window.BetterSolanoSearch = searchApi;
+    window.BetterMuntinlupaSearch = searchApi;
   }
 })();

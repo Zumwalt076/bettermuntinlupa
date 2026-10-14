@@ -35,13 +35,13 @@
 
 ### C. Verify that the inherited content is safe and accurate — Owner: Zumwalt076 with contributor
 - [ ] Open [Issue #3](https://github.com/Zumwalt076/bettermuntinlupa/issues/3).
-- [ ] Review every section of the preview for leftover **Solano** names, facts, officials, budgets, projects, contact numbers, location text, coordinates, maps, weather, social links, and images.
+- [ ] Review every section of the preview for leftover **Muntinlupa** names, facts, officials, budgets, projects, contact numbers, location text, coordinates, maps, weather, social links, and images.
 - [ ] Remove any incorrect inherited local-government figures rather than relabeling them as Muntinlupa.
 - [ ] Confirm that all published claims have an original source link and an as-of date.
 - [ ] For information not yet verified, hide the item, use a clear 'Data being verified' state, or clearly mark it as a demo placeholder.
 - [ ] Confirm that the website clearly says it is **independent of the City Government of Muntinlupa and not an official government website**.
 
-**Done when:** No copied Solano-specific data is being presented as Muntinlupa facts.
+**Done when:** No copied Muntinlupa-specific data is being presented as Muntinlupa facts.
 
 ### D. Release and usability checks — Owner: contributor, reviewed by Zumwalt076
 - [ ] Open [Issue #5](https://github.com/Zumwalt076/bettermuntinlupa/issues/5).
@@ -106,7 +106,7 @@
 ### I. Domain, ownership, and maintainability — Owner: Zumwalt076 with contributor
 - [ ] Check availability and decide whether to register `bettermuntinlupa.org` or use a temporary preview URL.
 - [ ] Connect domain to hosting and enable HTTPS once the site is ready.
-- [ ] Check page titles, share preview, favicon, `robots.txt`, and sitemap for old Solano domains.
+- [ ] Check page titles, share preview, favicon, `robots.txt`, and sitemap for old Muntinlupa domains.
 - [ ] Decide who controls the domain, DNS, Vercel account, GitHub repository, and billing; document access and recovery.
 - [ ] Require PR review for future significant changes to `main` when contributors join, and enable checks when available.
 - [ ] Add contribution instructions and issue labels; document how data corrections and security reports are handled.

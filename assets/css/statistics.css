@@ -122,6 +122,14 @@
   color: var(--color-text-light);
 }
 
+.stats-data-note {
+  max-width: 760px;
+  margin: 32px auto 0;
+  color: var(--color-text-light);
+  font-size: 0.875rem;
+  text-align: center;
+}
+
 /* Section Styles */
 .stats-section {
   padding: 80px 0;

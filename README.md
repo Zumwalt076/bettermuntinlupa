@@ -28,9 +28,7 @@ Explore our GitHub Issues to suggest improvements and contribute.
 
 ## Project Status
 
-🟡 Initial setup — The static BetterSolano template has been imported. Branding, local content, and Vercel deployment are being prepared.
-
-The imported pages still contain Solano branding and sample data. They are a development starting point and are not ready for public deployment.
+🟡 Muntinlupa branding and core city information are in place. Some detailed local datasets are still being verified and are intentionally withheld until reliable Muntinlupa-specific sources are available. The site is not ready for public deployment.
 
 ## Run Locally
 

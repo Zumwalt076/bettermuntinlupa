@@ -1,4 +1,4 @@
-/* Better Solano - Complete Main Stylesheet */
+/* Better Muntinlupa - Complete Main Stylesheet */
 :root {
   --color-primary: #0032a0;
   --color-primary-dark: #002170;
@@ -2590,7 +2590,7 @@ h6 {
 }
 
 .cost-badge::before {
-  content: 'Cost to the People of Solano';
+  content: 'Cost to the People of Muntinlupa';
   font-size: 0.75rem;
   font-weight: 600;
   text-transform: uppercase;
@@ -6952,7 +6952,7 @@ cklist with Icons - Proper Indentation */
   }
 }
 
-/* Solano Quiz CTA */
+/* Muntinlupa Quiz CTA */
 .quiz-cta-section {
   background:
     radial-gradient(circle, rgba(0, 50, 160, 0.1) 1px, transparent 1px),
@@ -8177,6 +8177,39 @@ a.a11y-contact-item:hover i {
   margin-top: 2px;
 }
 
+.home-stats-districts {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: var(--spacing-md);
+  margin-top: var(--spacing-md);
+}
+
+.home-stats-district {
+  padding: var(--spacing-md);
+  background: white;
+  border: 1px solid #e5e7eb;
+  border-radius: 12px;
+}
+
+.home-stats-district h3 {
+  margin: 0 0 var(--spacing-xs);
+  color: var(--color-primary);
+  font-size: 1rem;
+}
+
+.home-stats-district p {
+  margin: 0;
+  color: var(--color-text-light);
+  font-size: 0.875rem;
+}
+
+.home-stats-location {
+  margin: var(--spacing-md) 0 0;
+  color: var(--color-text-light);
+  font-size: 0.875rem;
+  text-align: center;
+}
+
 /* Home Stats V2 Responsive */
 @media (max-width: 992px) {
   .home-stats-v2-grid {
@@ -8193,6 +8226,10 @@ a.a11y-contact-item:hover i {
     flex-direction: column;
     gap: var(--spacing-sm);
     text-align: center;
+  }
+
+  .home-stats-districts {
+    grid-template-columns: 1fr;
   }
 }
 

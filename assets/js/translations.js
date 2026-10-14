@@ -13,6 +13,8 @@ const translations = {
     'nav-statistics': 'Statistics',
     'nav-legislative': 'Legislative',
     'nav-transparency': 'Transparency',
+    'nav-community': 'Local Communities',
+    'nav-doing-business': 'Doing Business',
     'nav-contact': 'Contact',
     'nav-budget': 'Budget',
     'nav-news': 'News',
@@ -23,8 +25,11 @@ const translations = {
     'nav-accessibility': 'Accessibility',
 
     // Statistics Page
-    'stats-title': 'Municipal Statistics',
-    'stats-subtitle': 'Data and statistics about Solano, Nueva Vizcaya',
+    'stats-title': 'City Statistics',
+    'stats-subtitle': 'Key data and profile information for Muntinlupa City, Metro Manila',
+    'stats-city-profile': 'City Profile',
+    'stats-data-note':
+      'Historical, barangay-level population, financial, and other detailed statistics are omitted until Muntinlupa-specific sources are verified.',
     'stats-demographics': 'Demographics Overview',
     'stats-economic': 'Economic Indicators',
     'stats-barangay': 'Population by Barangay',
@@ -59,7 +64,7 @@ const translations = {
     'hero-find-service': 'Find a Service',
 
     // Appointment CTA
-    'appointment-cta-heading': "Enhancing Appointment Services of LGU Solano Mayor's Office",
+    'appointment-cta-heading': "Enhancing Appointment Services of LGU Muntinlupa Mayor's Office",
     'appointment-cta-subtitle': 'No lines. No back-and-forth. Just efficient appointments.',
     'appointment-schedule-btn': 'Schedule Appointment',
     'appointment-create-btn': 'Create Account',
@@ -90,7 +95,7 @@ const translations = {
     'btn-read-more': 'Read More',
 
     // Municipal Leadership
-    'section-leadership': 'Municipal Leadership',
+    'section-leadership': 'City Leadership',
     'title-mayor': 'City Mayor',
     'title-vice-mayor': 'City Vice Mayor',
     'title-city-representative': 'City Representative',
@@ -122,7 +127,7 @@ const translations = {
     'footer-contact': 'Contact',
     'footer-copyright': 'Better Muntinlupa. All rights reserved.',
     'site-community-disclaimer':
-      'Better Muntinlupa is an independent community initiative, not an official government website.',
+      'Better Muntinlupa is an independent civic-tech community initiative, not an official government website.',
     'site-footer-disclaimer':
       'This independent community site is not affiliated with or endorsed by the City Government of Muntinlupa. Verify details with official government sources.',
     'accessibility-statement': 'Accessibility Statement',
@@ -134,7 +139,7 @@ const translations = {
 
     // Services Page
     'services-title': 'Municipal Services Directory',
-    'services-subtitle': 'Browse all services offered by the Municipality of Solano',
+    'services-subtitle': 'Browse city services and local service information for Muntinlupa',
     'search-placeholder': 'Search services...',
     'search-no-results': 'No services found',
     'search-try-different': 'Try different keywords or browse categories below',
@@ -180,7 +185,7 @@ const translations = {
     'cat-environment': 'Environment & Natural Resources',
     'cat-environment-desc': 'Environmental permits, waste management, and conservation programs.',
     'cat-online': 'Online Services',
-    'cat-online-desc': 'Digital services available through Filipizen and other online platforms.',
+    'cat-online-desc': 'Find local information about city services and online service options.',
     'cat-government': 'Government Services',
     'cat-government-desc': 'General municipal services and administrative functions.',
 
@@ -212,7 +217,7 @@ const translations = {
 
     // Certificates Page - Service Items
     'cert-birth': 'Birth Certificate',
-    'cert-birth-desc': 'Get a certified copy of birth certificate registered in Solano',
+    'cert-birth-desc': 'Get a certified copy of birth certificate registered in Muntinlupa',
     'cert-marriage': 'Marriage Certificate',
     'cert-marriage-desc': 'Register or request certified true copy of marriage certificate',
     'cert-death': 'Death Certificate',
@@ -263,14 +268,15 @@ const translations = {
     'health-stat-facilities': 'Total Health Facilities',
     'health-stat-hospitals': 'Major Hospitals',
     'health-stat-bhs': 'Barangay Health Stations',
-    'health-stat-mho': 'Municipal Health Office',
-    'health-section-hospitals': 'Hospitals in Solano',
-    'health-section-mho': 'Municipal Health Office',
+    'health-stat-mho': 'City Health Office',
+    'health-section-hospitals': 'Hospitals in Muntinlupa',
+    'health-section-mho': 'City Health Office',
     'health-section-bhs': 'Barangay Health Stations',
-    'health-bhs-subtitle': '22 Barangay Health Stations/Centers serving all barangays of Solano',
-    'health-mho-title': 'Solano Municipal Health Office',
+    'health-bhs-subtitle': 'Barangay health services serving communities across Muntinlupa City',
+    'health-data-unavailable': 'Muntinlupa-specific health facility counts and listings are being verified.',
+    'health-mho-title': 'Muntinlupa City Health Office',
     'health-mho-desc':
-      'The Municipal Health Office provides primary healthcare services including a lying-in facility and laboratory services. It serves as the main public health center for the municipality.',
+      'Contact the official Muntinlupa City Health Office for current programs, facilities, and service schedules.',
     'health-service-lying-in': 'Lying-in Facility',
     'health-service-laboratory': 'Laboratory Services',
     'health-service-immunization': 'Immunization',
@@ -294,7 +300,7 @@ const translations = {
 
     // Ordinance Framework Page
     'ord-page-title': 'Ordinance Framework',
-    'ord-page-desc': 'Municipal ordinances enacted by the Sangguniang Bayan ng Solano',
+    'ord-page-desc': 'Municipal ordinances enacted by the Sangguniang Bayan ng Muntinlupa',
     'ord-page-badge': 'Legislative',
     'ord-what-is': 'What is an Ordinance?',
     'ord-what-is-p1':
@@ -309,7 +315,7 @@ const translations = {
     'ord-cat-traffic': 'Traffic & Transportation',
     'ord-cat-zoning': 'Zoning & Land Use',
     'ord-2025-title': '2025 Ordinances',
-    'ord-2025-subtitle': 'Official ordinances enacted by the Sangguniang Bayan ng Solano in 2025',
+    'ord-2025-subtitle': 'Official ordinances enacted by the Sangguniang Bayan ng Muntinlupa in 2025',
     'ord-table-number': 'Ordinance No.',
     'ord-table-title': 'Title',
     'ord-table-date': 'Session Date',
@@ -317,7 +323,7 @@ const translations = {
 
     // Resolution Framework Page
     'reso-page-title': 'Resolution Framework',
-    'reso-page-desc': 'Resolutions passed by the Sangguniang Bayan ng Solano',
+    'reso-page-desc': 'Resolutions passed by the Sangguniang Bayan ng Muntinlupa',
     'reso-page-badge': 'Legislative',
     'reso-what-is': 'What is a Resolution?',
     'reso-what-is-p1':
@@ -332,9 +338,9 @@ const translations = {
     'reso-type-authorization': 'Authorization',
     'reso-type-appropriation': 'Appropriation',
     'reso-2026-title': '2026 Resolutions',
-    'reso-2026-subtitle': 'Official resolutions passed by the Sangguniang Bayan ng Solano in 2026',
+    'reso-2026-subtitle': 'Official resolutions passed by the Sangguniang Bayan ng Muntinlupa in 2026',
     'reso-2025-title': '2025 Resolutions',
-    'reso-2025-subtitle': 'Official resolutions passed by the Sangguniang Bayan ng Solano in 2025',
+    'reso-2025-subtitle': 'Official resolutions passed by the Sangguniang Bayan ng Muntinlupa in 2025',
     'reso-table-number': 'Resolution No.',
     'reso-table-title': 'Title',
     'reso-table-date': 'Session Date',
@@ -342,7 +348,7 @@ const translations = {
 
     // Business Services Page
     'biz-page-title': 'Business Services',
-    'biz-page-desc': 'Permits, licenses, and support for businesses in Solano',
+    'biz-page-desc': 'Permits, licenses, and support for businesses in Muntinlupa',
     'biz-page-badge': 'Business',
     'biz-permit-new': 'Business Permit (New)',
     'biz-permit-new-desc': "Apply for a new mayor's permit to operate a business",
@@ -352,10 +358,10 @@ const translations = {
     'biz-closure-desc': 'File for business closure/termination',
     'biz-cedula': 'Community Tax Certificate',
     'biz-cedula-desc': 'Obtain cedula for individuals and businesses',
-    'biz-online-title': 'Online Business Transactions',
+    'biz-online-title': 'Business & Permit Resources',
     'biz-online-subtitle':
-      'Complete your business transactions online through the official Filipizen portal',
-    'biz-online-badge': 'Online Services via Filipizen',
+      'Find information about business permits and licensing in Muntinlupa.',
+    'biz-online-badge': 'Muntinlupa Business Services',
     'biz-billing': 'Business Online Billing & Payment',
     'biz-billing-desc': 'View and pay your business tax bills online',
     'biz-new-app': 'New Business Application',
@@ -373,8 +379,8 @@ const translations = {
     'tax-real-property-desc': 'Annual tax payment for land and buildings',
     'tax-business': 'Business Tax',
     'tax-business-desc': 'Business-related tax payments',
-    'tax-online-title': 'Online Tax Transactions',
-    'tax-online-subtitle': 'Pay your taxes and fees online through the official Filipizen portal',
+    'tax-online-title': 'Tax Payment Resources',
+    'tax-online-subtitle': 'Find information about city tax payments and fees.',
     'tax-rpt-billing': 'Real Property Tax Billing & Payment',
     'tax-rpt-billing-desc': 'View and pay your real property tax (amilyar) online',
     'tax-payment-order': 'Online Payment Order',
@@ -398,6 +404,8 @@ const translations = {
 
     // Education Page
     'edu-page-title': 'Education Services',
+    'education-directory-unavailable-detail':
+      'School counts and names are not listed until verified against Muntinlupa-specific education sources.',
     'edu-page-desc': 'Scholarships, training programs, and educational support',
     'edu-page-badge': 'Education',
     'edu-scholarship': 'Scholarship Programs',
@@ -455,15 +463,19 @@ const translations = {
     'gov-council-term': 'City councilors for the 2025–2028 term',
     'gov-ex-officio-liga-president': 'Liga ng mga Barangay President / Ex-Officio',
     'official-city-officials-directory': 'Official City Officials directory',
-    'gov-departments': 'Department Heads & Key Offices',
-    'gov-dept-subtitle': 'Municipal offices providing services to citizens',
-    'gov-barangays': 'Barangays of Solano',
-    'gov-barangays-count': '22 Barangays serving our community',
+    'gov-departments': 'City Departments',
+    'gov-dept-subtitle': 'City offices providing services to residents',
+    'gov-barangays': 'Barangays of Muntinlupa City',
+    'gov-barangays-count': '9 Barangays serving our community',
     'gov-organizational-chart': 'Organizational Chart',
     'gov-term': 'Term',
 
     // Budget Page
     'budget-title': 'Budget & Financial Transparency',
+    'budget-data-unavailable': 'Muntinlupa-specific budget data is being verified.',
+    'budget-data-unavailable-detail':
+      'Budget figures and project listings are not shown until they can be verified against official Muntinlupa City sources.',
+    'education-directory-unavailable': 'Muntinlupa school directory is being verified.',
     'budget-subtitle': 'Tracking municipal finances and projects for accountability',
     'budget-overview': '2025 Municipal Budget Overview',
     'budget-total': 'Total Budget',
@@ -558,7 +570,7 @@ const translations = {
 
     // News Page
     'news-title': 'News & Announcements',
-    'news-subtitle': 'Latest updates from the Municipality of Solano',
+    'news-subtitle': 'Latest updates from the City of Muntinlupa',
     'news-latest': 'Latest News',
     'news-announcements': 'Announcements',
     'news-events': 'Events',
@@ -672,9 +684,9 @@ const translations = {
     'a11y-all-functionality-available-using-only-a-keyboard':
       'All functionality available using only a keyboard.',
     'a11y-all-images-have-descriptive-alt-text': 'All images have descriptive alt text.',
-    'a11y-better-solano-is-committed-to-ensuring-digital':
+    'a11y-better-Muntinlupa-is-committed-to-ensuring-digital':
       'Better Muntinlupa is committed to ensuring digital accessibility for people with disabilities. We are continually improving the user experience for everyone and applying the relevant accessibility standards.',
-    'a11y-better-solano-is-committed-to-ensuring-that-our':
+    'a11y-better-Muntinlupa-is-committed-to-ensuring-that-our':
       'Better Muntinlupa is committed to ensuring that our digital services are accessible to all citizens, regardless of ability. We view accessibility not as a feature, but as a fundamental right.',
     'a11y-blgf-portal': 'BLGF Portal',
     'a11y-business': 'Business',
@@ -686,7 +698,7 @@ const translations = {
     'a11y-conformant': 'Conformant',
     'a11y-css3': 'CSS3',
     'a11y-education': 'Education',
-    'a11y-empowering-the-people-of-solano-with-transparent':
+    'a11y-empowering-the-people-of-Muntinlupa-with-transparent':
       'Empowering the people of Muntinlupa with transparent access to city services, programs, and public funds.',
     'a11y-environment': 'Environment',
     'a11y-freedom-of-information': 'Freedom of Information',
@@ -699,11 +711,11 @@ const translations = {
     'a11y-javascript': 'JavaScript',
     'a11y-keyboard-navigation': 'Keyboard Navigation',
     'a11y-last-updated-november-29-2025': 'Last updated: November 29, 2025',
-    'a11y-lgu-solano-facebook': 'LGU Solano Facebook',
+    'a11y-lgu-Muntinlupa-facebook': 'LGU Muntinlupa Facebook',
     'a11y-meets-wcag-aa-contrast-requirements': 'Meets WCAG AA contrast requirements.',
     'a11y-no-time-limits': 'No Time Limits',
     'a11y-no-time-limits-on-reading-or-interacting': 'No time limits on reading or interacting.',
-    'a11y-official-lgu-solano-portal': 'Official LGU Solano Portal',
+    'a11y-official-lgu-Muntinlupa-portal': 'Official LGU Muntinlupa Portal',
     'a11y-open-data-philippines': 'Open Data Philippines',
     'a11y-ordinance-framework': 'Ordinance Framework',
     'a11y-privacy-policy': 'Privacy Policy',
@@ -783,7 +795,7 @@ const translations = {
     'acct-dtr-leave-forms-ot-authorization': 'DTR, Leave forms, OT authorization',
     'acct-duration': 'Duration',
     'acct-education': 'Education',
-    'acct-empowering-the-people-of-solano-with-transparent':
+    'acct-empowering-the-people-of-Muntinlupa-with-transparent':
       'Empowering the people of Muntinlupa with transparent access to city services, programs, and public funds.',
     'acct-environment': 'Environment',
     'acct-evangeline-b-ramos': 'Evangeline B. Ramos',
@@ -807,20 +819,20 @@ const translations = {
     'acct-jocelyn-l-gatan': 'Jocelyn L. Gatan',
     'acct-key-personnel-handling-accounting-services': 'Key personnel handling accounting services',
     'acct-legislative': 'Legislative',
-    'acct-lgu-solano-facebook': 'LGU Solano Facebook',
+    'acct-lgu-Muntinlupa-facebook': 'LGU Muntinlupa Facebook',
     'acct-location': 'Location',
     'acct-mary-jane-c-salvador': 'Mary Jane C. Salvador',
     'acct-mun-accounting': 'Mun. Accounting',
     'acct-municipal-accountant': 'Municipal Accountant',
     'acct-municipal-accounting-office': 'Municipal Accounting Office',
-    'acct-municipal-accounting-office-municipal-hall-solano':
-      'Municipal Accounting Office, Municipal Hall, Solano, Nueva Vizcaya',
+    'acct-municipal-accounting-office-municipal-hall-Muntinlupa':
+      'Municipal Accounting Office, Municipal Hall, Muntinlupa, Metro Manila',
     'acct-municipal-hall': 'Municipal Hall',
     'acct-obligation-request-obr': 'Obligation Request (ObR)',
     'acct-office': 'Office',
     'acct-office-information': 'Office Information',
     'acct-office-personnel': 'Office Personnel',
-    'acct-official-lgu-solano-portal': 'Official LGU Solano Portal',
+    'acct-official-lgu-Muntinlupa-portal': 'Official LGU Muntinlupa Portal',
     'acct-ongoing': 'Ongoing',
     'acct-open-data-philippines': 'Open Data Philippines',
     'acct-ordinance-framework': 'Ordinance Framework',
@@ -916,15 +928,15 @@ const translations = {
     'agri-cmci-dti-portal': 'CMCI DTI Portal',
     'agri-contribute-code-with-us': 'Contribute code with us',
     'agri-education': 'Education',
-    'agri-empowering-the-people-of-solano-with-transparent':
+    'agri-empowering-the-people-of-Muntinlupa-with-transparent':
       'Empowering the people of Muntinlupa with transparent access to city services, programs, and public funds.',
     'agri-environment': 'Environment',
     'agri-freedom-of-information': 'Freedom of Information',
     'agri-health': 'Health',
     'agri-home': 'Home',
     'agri-infrastructure': 'Infrastructure',
-    'agri-lgu-solano-facebook': 'LGU Solano Facebook',
-    'agri-official-lgu-solano-portal': 'Official LGU Solano Portal',
+    'agri-lgu-Muntinlupa-facebook': 'LGU Muntinlupa Facebook',
+    'agri-official-lgu-Muntinlupa-portal': 'Official LGU Muntinlupa Portal',
     'agri-open-data-philippines': 'Open Data Philippines',
     'agri-ordinance-framework': 'Ordinance Framework',
     'agri-privacy-policy': 'Privacy Policy',
@@ -972,7 +984,7 @@ const translations = {
     'assessor-certification-of-the-total-land-area-based-on-tax':
       'Certification of the total land area based on tax records.',
     'assessor-certification-that-a-person-has-no-declared':
-      'Certification that a person has no declared property in Solano.',
+      'Certification that a person has no declared property in Muntinlupa.',
     'assessor-certifications': 'Certifications',
     'assessor-certified-true-copy-of-tax-declaration': 'Certified True Copy of Tax Declaration',
     'assessor-change-of-land-classification-for-assessment':
@@ -985,7 +997,7 @@ const translations = {
     'assessor-duplicate-copy': 'Duplicate Copy',
     'assessor-education': 'Education',
     'assessor-email': 'Email',
-    'assessor-empowering-the-people-of-solano-with-transparent':
+    'assessor-empowering-the-people-of-Muntinlupa-with-transparent':
       'Empowering the people of Muntinlupa with transparent access to city services, programs, and public funds.',
     'assessor-environment': 'Environment',
     'assessor-fee': 'Fee',
@@ -1013,15 +1025,14 @@ const translations = {
     'assessor-land-reclassification': 'Land Reclassification',
     'assessor-land-reclassification-changes-the-category-of':
       'Land reclassification changes the category of land for assessment purposes, which affects the applicable assessment level and tax rate.',
-    'assessor-lgu-solano-facebook': 'LGU Solano Facebook',
+    'assessor-lgu-Muntinlupa-facebook': 'LGU Muntinlupa Facebook',
     'assessor-lis-pendens': 'Lis Pendens',
     'assessor-list-of-all-properties-declared-under-a-persons':
       "List of all properties declared under a person's name.",
     'assessor-location': 'Location',
     'assessor-mortgage-annotation': 'Mortgage Annotation',
     'assessor-municipal-assessors-office': "Municipal Assessor's Office",
-    'assessor-municipal-hall-ground-floor-solano-nueva-vizcaya':
-      'Municipal Hall, Ground Floor Solano, Nueva Vizcaya 3708',
+    'assessor-city-office-location': 'Contact the City Assessor to confirm its current location.',
     'assessor-new-owner': 'New Owner',
     'assessor-new-tax-declaration': 'New Tax Declaration',
     'assessor-new-tax-declaration-is-issued-reflecting-the':
@@ -1033,7 +1044,7 @@ const translations = {
     'assessor-office-hours': 'Office Hours',
     'assessor-official-copy-of-tax-declaration-for-legal-and':
       'Official copy of tax declaration for legal and banking purposes.',
-    'assessor-official-lgu-solano-portal': 'Official LGU Solano Portal',
+    'assessor-official-lgu-Muntinlupa-portal': 'Official LGU Muntinlupa Portal',
     'assessor-open-data-philippines': 'Open Data Philippines',
     'assessor-ordinance-framework': 'Ordinance Framework',
     'assessor-ownercreditor': 'Owner/Creditor',
@@ -1132,7 +1143,7 @@ const translations = {
     'bc-death-certificate': 'Death Certificate',
     'bc-documents-needed-for-your-application': 'Documents needed for your application',
     'bc-education': 'Education',
-    'bc-empowering-the-people-of-solano-with-transparent':
+    'bc-empowering-the-people-of-Muntinlupa-with-transparent':
       'Empowering the people of Muntinlupa with transparent access to city services, programs, and public funds.',
     'bc-environment': 'Environment',
     'bc-fee': 'Fee',
@@ -1152,13 +1163,12 @@ const translations = {
     'bc-legislative': 'Legislative',
     'bc-local-civil-registrar': 'Local Civil Registrar',
     'bc-marriage-certificate': 'Marriage Certificate',
-    'bc-municipal-hall-2nd-floor-solano-nueva-vizcaya':
-      'Municipal Hall, 2nd Floor Solano, Nueva Vizcaya',
+    'bc-city-office-location': 'Contact the City Civil Registrar to confirm its current location.',
     'bc-need-help': 'Need Help?',
     'bc-office-information': 'Office Information',
     'bc-official-certified-copy-of-birth-certificate':
-      'Official certified copy of birth certificate registered in Solano',
-    'bc-official-lgu-solano-portal': 'Official LGU Solano Portal',
+      'Official certified copy of birth certificate registered in Muntinlupa',
+    'bc-official-lgu-Muntinlupa-portal': 'Official LGU Muntinlupa Portal',
     'bc-open-data-philippines': 'Open Data Philippines',
     'bc-ordinance-framework': 'Ordinance Framework',
     'bc-ownerrepresentative': 'Owner/Representative',
@@ -1203,21 +1213,21 @@ const translations = {
       'You can request if you are the owner, parent/guardian, or authorized representative with proper authorization letter.',
     'biz-accessibility': 'Accessibility',
     'biz-agriculture': 'Agriculture',
-    'biz-apply-for-a-new-business-permit-online': 'Apply for a new business permit online',
+    'biz-apply-for-a-new-business-permit-online': 'See local guidance for a new business permit.',
     'biz-apply-for-tricycle-franchise-mtof-and-request':
       'Apply for tricycle franchise (MTOF) and request records',
     'biz-blgf-portal': 'BLGF Portal',
     'biz-bpls-office': 'BPLS Office',
     'biz-business': 'Business',
-    'biz-business-online-billing-payment': 'Business Online Billing & Payment',
-    'biz-business-permit-renewal': 'Business Permit Renewal',
+    'biz-business-online-billing-payment': 'Business Billing & Payment Information',
+    'biz-business-permit-renewal': 'Business Permit Renewal Information',
     'biz-business-permits-licensing': 'Business Permits & Licensing',
     'biz-certificates': 'Certificates',
     'biz-citizens-charter': "Citizen's Charter",
     'biz-cmci-dti-portal': 'CMCI DTI Portal',
     'biz-contribute-code-with-us': 'Contribute code with us',
     'biz-education': 'Education',
-    'biz-empowering-the-people-of-solano-with-transparent':
+    'biz-empowering-the-people-of-Muntinlupa-with-transparent':
       'Empowering the people of Muntinlupa with transparent access to city services, programs, and public funds.',
     'biz-environment': 'Environment',
     'biz-freedom-of-information': 'Freedom of Information',
@@ -1226,19 +1236,19 @@ const translations = {
       'Hog, cattle, goat, and carabao slaughter with meat inspection services',
     'biz-home': 'Home',
     'biz-infrastructure': 'Infrastructure',
-    'biz-lgu-solano-facebook': 'LGU Solano Facebook',
+    'biz-lgu-Muntinlupa-facebook': 'LGU Muntinlupa Facebook',
     'biz-market-clearance-entrance-fees-vendor-services':
       'Market clearance, entrance fees, vendor services, and CTC issuance',
-    'biz-new-business-application': 'New Business Application',
+    'biz-new-business-application': 'New Business Permit Application',
     'biz-new-permits-renewals-mayors-clearance-and-other':
       "New permits, renewals, Mayor's clearance, and other business permits",
-    'biz-official-lgu-solano-portal': 'Official LGU Solano Portal',
+    'biz-official-lgu-Muntinlupa-portal': 'Official LGU Muntinlupa Portal',
     'biz-open-data-philippines': 'Open Data Philippines',
     'biz-ordinance-framework': 'Ordinance Framework',
     'biz-privacy-policy': 'Privacy Policy',
     'biz-public-safety': 'Public Safety',
     'biz-quick-links': 'Quick Links',
-    'biz-renew-your-existing-business-permit-online': 'Renew your existing business permit online',
+    'biz-renew-your-existing-business-permit-online': 'See local guidance for renewing a business permit.',
     'biz-resolution-framework': 'Resolution Framework',
     'biz-resources': 'Resources',
     'biz-sangguniang-bayan': 'Sangguniang Bayan',
@@ -1252,7 +1262,7 @@ const translations = {
     'biz-terms-of-use': 'Terms of Use',
     'biz-tricycle-franchising-records': 'Tricycle Franchising & Records',
     'biz-view-and-pay-your-business-tax-bills-online':
-      'View and pay your business tax bills online',
+      'Find information about business tax billing and payment.',
     'biz-volunteer-with-us': 'Volunteer with us',
     'bpl-10-minutes': '10 minutes',
     'bpl-12-days': '1-2 days',
@@ -1273,7 +1283,7 @@ const translations = {
     'bpl-annual-renewal-of-existing-business-permit':
       'Annual renewal of existing business permit (January 1-20 without surcharge)',
     'bpl-application-for-new-business-permit-for':
-      'Application for new business permit for businesses operating in Solano',
+      'Application for new business permit for businesses operating in Muntinlupa',
     'bpl-application-form-all-requirements': 'Application form, all requirements',
     'bpl-assessment-sheet': 'Assessment sheet',
     'bpl-barangay-business-clearance': 'Barangay Business Clearance',
@@ -1292,7 +1302,7 @@ const translations = {
     'bpl-business-permit-services': 'Business Permit Services',
     'bpl-business-permits-licensing-section': 'Business Permits & Licensing Section',
     'bpl-business-permits-licensing-section-municipal-hall':
-      'Business Permits & Licensing Section, Municipal Hall, Solano, Nueva Vizcaya',
+      'Contact the city office to confirm the current Business Permits & Licensing Section location',
     'bpl-cda-registration-for-cooperatives': 'CDA Registration (for cooperatives)',
     'bpl-certificates': 'Certificates',
     'bpl-citizens-charter': "Citizen's Charter",
@@ -1313,7 +1323,7 @@ const translations = {
     'bpl-duly-accomplished-application-form': 'Duly accomplished Application Form',
     'bpl-duration': 'Duration',
     'bpl-education': 'Education',
-    'bpl-empowering-the-people-of-solano-with-transparent':
+    'bpl-empowering-the-people-of-Muntinlupa-with-transparent':
       'Empowering the people of Muntinlupa with transparent access to city services, programs, and public funds.',
     'bpl-environment': 'Environment',
     'bpl-fee': 'Fee',
@@ -1348,7 +1358,7 @@ const translations = {
       'Late renewal incurs 25% surcharge + 2% monthly interest',
     'bpl-legislative': 'Legislative',
     'bpl-letter-of-intent': 'Letter of Intent',
-    'bpl-lgu-solano-facebook': 'LGU Solano Facebook',
+    'bpl-lgu-Muntinlupa-facebook': 'LGU Muntinlupa Facebook',
     'bpl-licensing-officer': 'Licensing Officer',
     'bpl-list-of-activitiesprogram': 'List of activities/program',
     'bpl-location': 'Location',
@@ -1370,7 +1380,7 @@ const translations = {
     'bpl-office': 'Office',
     'bpl-office-information': 'Office Information',
     'bpl-office-personnel': 'Office Personnel',
-    'bpl-official-lgu-solano-portal': 'Official LGU Solano Portal',
+    'bpl-official-lgu-Muntinlupa-portal': 'Official LGU Muntinlupa Portal',
     'bpl-official-receipt': 'Official Receipt',
     'bpl-open-data-philippines': 'Open Data Philippines',
     'bpl-order-of-payment': 'Order of Payment',
@@ -1463,17 +1473,15 @@ const translations = {
     'budget-contractor': 'Contractor',
     'budget-contribute-code-with-us': 'Contribute code with us',
     'budget-debt-service': 'Debt Service',
-    'budget-dpwh-infrastructure-projects-in-solano': 'DPWH Infrastructure Projects in Solano',
+    'budget-dpwh-infrastructure-projects-in-Muntinlupa': 'DPWH Infrastructure Projects in Muntinlupa',
     'budget-dpwh-transparency-portal': 'DPWH Transparency Portal',
     'budget-economic-services': 'Economic Services',
     'budget-education': 'Education',
-    'budget-egb-construction-corporation': 'EGB Construction Corporation',
-    'budget-empowering-the-people-of-solano-with-transparent':
+    'budget-empowering-the-people-of-Muntinlupa-with-transparent':
       'Empowering the people of Muntinlupa with transparent access to city services, programs, and public funds.',
     'budget-environment': 'Environment',
     'budget-expenditure-allocation': 'Expenditure Allocation',
     'budget-external-sources': 'External Sources',
-    'budget-fcds-package-5-magat-river-flood-control': 'FCDS Package 5 - Magat River Flood Control',
     'budget-financial-report': 'Financial Report',
     'budget-financial-transparency': 'Financial Transparency',
     'budget-flood-control': 'Flood Control',
@@ -1484,8 +1492,6 @@ const translations = {
     'budget-health': 'Health',
     'budget-health-education-welfare': 'Health, Education, Welfare',
     'budget-home': 'Home',
-    'budget-implementing-agency-nueva-vizcaya-district':
-      'Implementing Agency: Nueva Vizcaya District Engineering Office',
     'budget-income-sources': 'Income Sources',
     'budget-infrastructure': 'Infrastructure',
     'budget-infrastructure-development': 'Infrastructure & Development',
@@ -1493,14 +1499,8 @@ const translations = {
     'budget-interest-charges': 'Interest & Charges',
     'budget-jan-mar': 'Jan - Mar',
     'budget-legislative': 'Legislative',
-    'budget-lgu-solano-facebook': 'LGU Solano Facebook',
+    'budget-lgu-Muntinlupa-facebook': 'LGU Muntinlupa Facebook',
     'budget-local-sources': 'Local Sources',
-    'budget-magat-river-bagahabag-section-solano-nueva-vizcaya':
-      'Magat River, Bagahabag Section, Solano, Nueva Vizcaya',
-    'budget-magat-river-bangar-section-1-brgy-bangar-solano':
-      'Magat River, Bangar Section 1, Brgy. Bangar, Solano, Nueva Vizcaya',
-    'budget-magat-river-bangar-section-2-brgy-bangar-solano':
-      'Magat River, Bangar Section 2, Brgy. Bangar, Solano, Nueva Vizcaya',
     'budget-major-development-projects-serving-the-community':
       'Major development projects serving the community',
     'budget-national-government-projects': 'National Government Projects',
@@ -1548,15 +1548,15 @@ const translations = {
     'cert-cmci-dti-portal': 'CMCI DTI Portal',
     'cert-contribute-code-with-us': 'Contribute code with us',
     'cert-education': 'Education',
-    'cert-empowering-the-people-of-solano-with-transparent':
+    'cert-empowering-the-people-of-Muntinlupa-with-transparent':
       'Empowering the people of Muntinlupa with transparent access to city services, programs, and public funds.',
     'cert-environment': 'Environment',
     'cert-freedom-of-information': 'Freedom of Information',
     'cert-health': 'Health',
     'cert-home': 'Home',
     'cert-infrastructure': 'Infrastructure',
-    'cert-lgu-solano-facebook': 'LGU Solano Facebook',
-    'cert-official-lgu-solano-portal': 'Official LGU Solano Portal',
+    'cert-lgu-Muntinlupa-facebook': 'LGU Muntinlupa Facebook',
+    'cert-official-lgu-Muntinlupa-portal': 'Official LGU Muntinlupa Portal',
     'cert-open-data-philippines': 'Open Data Philippines',
     'cert-ordinance-framework': 'Ordinance Framework',
     'cert-privacy-policy': 'Privacy Policy',
@@ -1582,7 +1582,7 @@ const translations = {
     'contact-cmci-dti-portal': 'CMCI DTI Portal',
     'contact-contact': 'Contact',
     'contact-education': 'Education',
-    'contact-empowering-the-people-of-solano-with-transparent':
+    'contact-empowering-the-people-of-Muntinlupa-with-transparent':
       'Empowering the people of Muntinlupa with transparent access to city services, programs, and public funds.',
     'contact-environment': 'Environment',
     'contact-for-medical-emergencies-and-hospital-inquiries':
@@ -1591,13 +1591,12 @@ const translations = {
     'contact-health': 'Health',
     'contact-home': 'Home',
     'contact-infrastructure': 'Infrastructure',
-    'contact-lgu-solano-facebook': 'LGU Solano Facebook',
-    'contact-lgusolanonvgmailcom': 'lgusolanonv@gmail.com',
+    'contact-lgu-Muntinlupa-facebook': 'LGU Muntinlupa Facebook',
     'contact-lunch-break': 'Lunch Break',
     'contact-medical-emergency-hotlines': 'Medical Emergency Hotlines',
     'contact-mobile': 'Mobile',
     'contact-national-local-holidays': 'National & Local Holidays',
-    'contact-official-lgu-solano-portal': 'Official LGU Solano Portal',
+    'contact-official-lgu-Muntinlupa-portal': 'Official LGU Muntinlupa Portal',
     'contact-open': 'Open',
     'contact-open-data-philippines': 'Open Data Philippines',
     'contact-ordinance-framework': 'Ordinance Framework',
@@ -1673,7 +1672,7 @@ const translations = {
     'cr-document-owner': 'Document Owner',
     'cr-education': 'Education',
     'cr-email': 'Email',
-    'cr-empowering-the-people-of-solano-with-transparent':
+    'cr-empowering-the-people-of-Muntinlupa-with-transparent':
       'Empowering the people of Muntinlupa with transparent access to city services, programs, and public funds.',
     'cr-environment': 'Environment',
     'cr-fee': 'Fee',
@@ -1700,7 +1699,7 @@ const translations = {
     'cr-legitimation-annotation': 'Legitimation Annotation',
     'cr-legitimation-is-the-legal-process-by-which':
       "Legitimation is the legal process by which children born out of wedlock are legitimized by the subsequent marriage of their parents. This is annotated on the child's birth certificate.",
-    'cr-lgu-solano-facebook': 'LGU Solano Facebook',
+    'cr-lgu-Muntinlupa-facebook': 'LGU Muntinlupa Facebook',
     'cr-license-waiting': 'License Waiting',
     'cr-local-civil-registrar': 'Local Civil Registrar',
     'cr-location': 'Location',
@@ -1710,10 +1709,9 @@ const translations = {
     'cr-marriage-license-requirements': 'Marriage License Requirements',
     'cr-municipal-civil-registrar': 'Municipal Civil Registrar',
     'cr-municipal-civil-registrars-office': "Municipal Civil Registrar's Office",
-    'cr-municipal-hall-ground-floor-solano-nueva-vizcaya':
-      'Municipal Hall, Ground Floor Solano, Nueva Vizcaya 3708',
+    'cr-city-office-location': 'Contact the City Civil Registrar to confirm its current location.',
     'cr-office-hours': 'Office Hours',
-    'cr-official-lgu-solano-portal': 'Official LGU Solano Portal',
+    'cr-official-lgu-Muntinlupa-portal': 'Official LGU Muntinlupa Portal',
     'cr-open-data-philippines': 'Open Data Philippines',
     'cr-ordinance-framework': 'Ordinance Framework',
     'cr-ownerrelative': 'Owner/Relative',
@@ -1744,9 +1742,9 @@ const translations = {
     'cr-the-certificate-of-no-marriage-record-cenomar-is':
       'The Certificate of No Marriage Record (CENOMAR) is a certification issued by PSA stating that a person has no record of marriage. This is commonly required for marriage license applications, visa applications, and other legal purposes.',
     'cr-the-local-civil-registrar-handles-the':
-      'The Local Civil Registrar handles the registration of deaths and issuance of certified true copies of death certificates for deaths that occurred in Solano.',
+      'The Local Civil Registrar handles the registration of deaths and issuance of certified true copies of death certificates for deaths that occurred in Muntinlupa.',
     'cr-the-local-civil-registrar-issues-certified-true':
-      'The Local Civil Registrar issues certified true copies of birth certificates for individuals whose births were registered in Solano, Nueva Vizcaya.',
+      'The Local Civil Registrar issues certified true copies of birth certificates for individuals whose births were registered in Muntinlupa, Metro Manila.',
     'cr-the-local-civil-registrar-processes-petitions-for':
       'The Local Civil Registrar processes petitions for correction of clerical or typographical errors and change of first name in civil registry documents under RA 9048 and RA 10172.',
     'cr-the-local-civil-registrar-provides':
@@ -1811,7 +1809,7 @@ const translations = {
     'dc-education': 'Education',
     'dc-embalmer': 'Embalmer',
     'dc-embalmers-certification': "Embalmer's Certification",
-    'dc-empowering-the-people-of-solano-with-transparent':
+    'dc-empowering-the-people-of-Muntinlupa-with-transparent':
       'Empowering the people of Muntinlupa with transparent access to city services, programs, and public funds.',
     'dc-environment': 'Environment',
     'dc-fee': 'Fee',
@@ -1840,17 +1838,16 @@ const translations = {
       'Is there a fee for death certificate registration?',
     'dc-juvy': 'Juvy',
     'dc-legislative': 'Legislative',
-    'dc-lgu-solano-facebook': 'LGU Solano Facebook',
+    'dc-lgu-Muntinlupa-facebook': 'LGU Muntinlupa Facebook',
     'dc-local-civil-registrar': 'Local Civil Registrar',
     'dc-marriage-certificate': 'Marriage Certificate',
     'dc-mho-certification-of-cause-of-death': 'MHO Certification of Cause of Death',
     'dc-mto-collection-officer': 'MTO Collection Officer',
-    'dc-municipal-hall-2nd-floor-solano-nueva-vizcaya':
-      'Municipal Hall, 2nd Floor Solano, Nueva Vizcaya',
+    'dc-city-office-location': 'Contact the City Civil Registrar to confirm its current location.',
     'dc-municipal-health-officer': 'Municipal Health Officer',
     'dc-need-help': 'Need Help?',
     'dc-office-information': 'Office Information',
-    'dc-official-lgu-solano-portal': 'Official LGU Solano Portal',
+    'dc-official-lgu-Muntinlupa-portal': 'Official LGU Muntinlupa Portal',
     'dc-oliver': 'Oliver',
     'dc-oliver-receiving-officer': 'Oliver - Receiving Officer',
     'dc-open-data-philippines': 'Open Data Philippines',
@@ -1900,55 +1897,30 @@ const translations = {
     'dc-who-can-apply': 'Who Can Apply',
     'dc-who-can-be-the-informant-for-death-registration':
       'Who can be the informant for death registration?',
-    'edu-22-schools': '22 schools',
-    'edu-6-schools': '6 schools',
-    'edu-7-institutions': '7 institutions',
     'edu-accessibility': 'Accessibility',
-    'edu-aggub-elementary-school': 'Aggub Elementary School',
     'edu-agriculture': 'Agriculture',
-    'edu-aldersgate-college': 'Aldersgate College',
-    'edu-aldersgate-college-elementary-department': 'Aldersgate College - Elementary Department',
-    'edu-aldersgate-college-high-school-department': 'Aldersgate College - High School Department',
-    'edu-bagahabag-elementary-school': 'Bagahabag Elementary School',
-    'edu-bangaan-elementary-school': 'Bangaan Elementary School',
-    'edu-bangar-elementary-school': 'Bangar Elementary School',
-    'edu-bascaran-central-school': 'Bascaran Central School',
-    'edu-bascaran-national-high-school': 'Bascaran National High School',
     'edu-blgf-portal': 'BLGF Portal',
     'edu-business': 'Business',
-    'edu-cagayan-valley-maritime-studies': 'Cagayan Valley Maritime Studies',
-    'edu-calaoagan-elementary-school': 'Calaoagan Elementary School',
     'edu-certificates': 'Certificates',
     'edu-citizens-charter': "Citizen's Charter",
-    'edu-concepcion-elementary-school': 'Concepcion Elementary School',
     'edu-contribute-code-with-us': 'Contribute code with us',
-    'edu-curifang-elementary-school': 'Curifang Elementary School',
-    'edu-dadap-elementary-school': 'Dadap Elementary School',
-    'edu-dalton-high-school': 'Dalton High School',
     'edu-education': 'Education',
     'edu-empowering-filipino-students-and-educators-with':
       'Empowering Filipino students and educators with 1,000+ free and open-source productivity tools across 18 categories — from document processing and design to AI and development.',
-    'edu-empowering-the-people-of-solano-with-transparent':
+    'edu-empowering-the-people-of-Muntinlupa-with-transparent':
       'Empowering the people of Muntinlupa with transparent access to city services, programs, and public funds.',
     'edu-environment': 'Environment',
     'edu-free-tools-for-education': 'Free Tools for Education',
     'edu-freedom-of-information': 'Freedom of Information',
-    'edu-fuzeko-polytechnic-college': 'Fuzeko Polytechnic College',
     'edu-health': 'Health',
     'edu-higher-education': 'Higher Education',
     'edu-higher-educational-institutions': 'Higher Educational Institutions',
     'edu-home': 'Home',
     'edu-infrastructure': 'Infrastructure',
-    'edu-isaiah-christian-academy-of-solano-inc': 'Isaiah Christian Academy of Solano, Inc.',
-    'edu-kids-workshop-learning-center': 'Kids Workshop Learning Center',
-    'edu-lactawan-elementary-school': 'Lactawan Elementary School',
-    'edu-lgu-solano-facebook': 'LGU Solano Facebook',
-    'edu-nio-jesus-de-praga-learning': 'Niño Jesus de Praga Learning',
-    'edu-nueva-vizcaya-caregiver-academy': 'Nueva Vizcaya Caregiver Academy',
-    'edu-official-lgu-solano-portal': 'Official LGU Solano Portal',
+    'edu-lgu-Muntinlupa-facebook': 'LGU Muntinlupa Facebook',
+    'edu-official-lgu-Muntinlupa-portal': 'Official LGU Muntinlupa Portal',
     'edu-open-data-philippines': 'Open Data Philippines',
     'edu-ordinance-framework': 'Ordinance Framework',
-    'edu-pilar-d-galima-elementary-school': 'Pilar D. Galima Elementary School',
     'edu-primary-and-elementary-schools': 'Primary and Elementary Schools',
     'edu-primary-elementary': 'Primary & Elementary',
     'edu-privacy-policy': 'Privacy Policy',
@@ -1956,30 +1928,15 @@ const translations = {
     'edu-quick-links': 'Quick Links',
     'edu-resolution-framework': 'Resolution Framework',
     'edu-resources': 'Resources',
-    'edu-saint-louis-college-of-solano-inc': 'Saint Louis College of Solano Inc',
-    'edu-saint-louis-school-elementary-department': 'Saint Louis School - Elementary Department',
-    'edu-saint-louis-school-high-school-department': 'Saint Louis School - High School Department',
-    'edu-san-juan-elementary-school': 'San Juan Elementary School',
-    'edu-san-luis-elementary-school': 'San Luis Elementary School',
     'edu-sangguniang-bayan': 'Sangguniang Bayan',
     'edu-secondary-schools': 'Secondary Schools',
     'edu-services': 'Services',
     'edu-sitemap': 'Sitemap',
     'edu-skip-to-main-content': 'Skip to main content',
     'edu-social-services': 'Social Services',
-    'edu-solano-east-central-school': 'Solano East Central School',
-    'edu-solano-high-school': 'Solano High School',
-    'edu-solano-institute-of-technology': 'Solano Institute of Technology',
-    'edu-solano-north-elementary-school': 'Solano North Elementary School',
-    'edu-solano-south-central-school': 'Solano South Central School',
-    'edu-solano-west-elementary-school': 'Solano West Elementary School',
     'edu-tax-payments': 'Tax Payments',
     'edu-terms-of-use': 'Terms of Use',
-    'edu-tucal-elementary-school': 'Tucal Elementary School',
-    'edu-uddiawan-elementary-school': 'Uddiawan Elementary School',
-    'edu-uddiawan-national-high-school': 'Uddiawan National High School',
     'edu-volunteer-with-us': 'Volunteer with us',
-    'edu-wacal-elementary-school': 'Wacal Elementary School',
     'eng-1-year': '1 Year',
     'eng-2-sets-bill-of-materials': '2 sets - Bill of Materials',
     'eng-2-sets-boringsoil-test-report-3-storey': '2 sets - Boring/Soil Test Report (3 storey+)',
@@ -2017,7 +1974,7 @@ const translations = {
     'eng-electrical-plans': 'Electrical Plans',
     'eng-electronics-permit': 'Electronics Permit',
     'eng-electronics-plans': 'Electronics Plans',
-    'eng-empowering-the-people-of-solano-with-transparent':
+    'eng-empowering-the-people-of-Muntinlupa-with-transparent':
       'Empowering the people of Muntinlupa with transparent access to city services, programs, and public funds.',
     'eng-engineer-iii': 'Engineer III',
     'eng-engineering': 'Engineering',
@@ -2044,17 +2001,17 @@ const translations = {
       'Key personnel handling building permit applications',
     'eng-latest-real-property-tax-receipt': 'Latest Real Property Tax Receipt',
     'eng-legislative': 'Legislative',
-    'eng-lgu-solano-facebook': 'LGU Solano Facebook',
+    'eng-lgu-Muntinlupa-facebook': 'LGU Muntinlupa Facebook',
     'eng-mechanical-permit': 'Mechanical Permit',
     'eng-mun-engineering': 'Mun. Engineering',
     'eng-municipal-engineer': 'Municipal Engineer',
     'eng-municipal-engineering-office': 'Municipal Engineering Office',
-    'eng-municipal-engineering-office-municipal-hall-solano':
-      'Municipal Engineering Office, Municipal Hall, Solano',
+    'eng-municipal-engineering-office-municipal-hall-Muntinlupa':
+      'Municipal Engineering Office, Municipal Hall, Muntinlupa',
     'eng-office': 'Office',
     'eng-office-information': 'Office Information',
     'eng-office-personnel': 'Office Personnel',
-    'eng-official-lgu-solano-portal': 'Official LGU Solano Portal',
+    'eng-official-lgu-Muntinlupa-portal': 'Official LGU Muntinlupa Portal',
     'eng-open-data-philippines': 'Open Data Philippines',
     'eng-ordinance-framework': 'Ordinance Framework',
     'eng-pay-building-permit-fee-and-other-fees-at-the':
@@ -2120,7 +2077,7 @@ const translations = {
       'Developing a comprehensive system plan to mitigate flooding and protect public health.',
     'env-drainage-sewerage-management': 'Drainage & Sewerage Management',
     'env-education': 'Education',
-    'env-empowering-the-people-of-solano-with-transparent':
+    'env-empowering-the-people-of-Muntinlupa-with-transparent':
       'Empowering the people of Muntinlupa with transparent access to city services, programs, and public funds.',
     'env-environment': 'Environment',
     'env-fee': 'Fee:',
@@ -2135,8 +2092,8 @@ const translations = {
       'Implementing the 10-Year Plan including waste collection, segregation, and environmental protection.',
     'env-infrastructure': 'Infrastructure',
     'env-key-environmental-services-and-initiatives': 'Key Environmental Services and Initiatives',
-    'env-lgu-solano-facebook': 'LGU Solano Facebook',
-    'env-official-lgu-solano-portal': 'Official LGU Solano Portal',
+    'env-lgu-Muntinlupa-facebook': 'LGU Muntinlupa Facebook',
+    'env-official-lgu-Muntinlupa-portal': 'Official LGU Muntinlupa Portal',
     'env-open-data-philippines': 'Open Data Philippines',
     'env-ordinance-framework': 'Ordinance Framework',
     'env-privacy-policy': 'Privacy Policy',
@@ -2170,15 +2127,15 @@ const translations = {
     'err403-contact-us': 'Contact Us',
     'err403-contribute-code-with-us': 'Contribute code with us',
     'err403-education': 'Education',
-    'err403-empowering-the-people-of-solano-with-transparent':
+    'err403-empowering-the-people-of-Muntinlupa-with-transparent':
       'Empowering the people of Muntinlupa with transparent access to city services, programs, and public funds.',
     'err403-environment': 'Environment',
     'err403-freedom-of-information': 'Freedom of Information',
     'err403-go-to-homepage': 'Go to Homepage',
     'err403-health': 'Health',
     'err403-infrastructure': 'Infrastructure',
-    'err403-lgu-solano-facebook': 'LGU Solano Facebook',
-    'err403-official-lgu-solano-portal': 'Official LGU Solano Portal',
+    'err403-lgu-Muntinlupa-facebook': 'LGU Muntinlupa Facebook',
+    'err403-official-lgu-Muntinlupa-portal': 'Official LGU Muntinlupa Portal',
     'err403-open-data-philippines': 'Open Data Philippines',
     'err403-ordinance-framework': 'Ordinance Framework',
     'err403-privacy-policy': 'Privacy Policy',
@@ -2205,15 +2162,15 @@ const translations = {
     'err404-cmci-dti-portal': 'CMCI DTI Portal',
     'err404-contribute-code-with-us': 'Contribute code with us',
     'err404-education': 'Education',
-    'err404-empowering-the-people-of-solano-with-transparent':
+    'err404-empowering-the-people-of-Muntinlupa-with-transparent':
       'Empowering the people of Muntinlupa with transparent access to city services, programs, and public funds.',
     'err404-environment': 'Environment',
     'err404-freedom-of-information': 'Freedom of Information',
     'err404-go-to-homepage': 'Go to Homepage',
     'err404-health': 'Health',
     'err404-infrastructure': 'Infrastructure',
-    'err404-lgu-solano-facebook': 'LGU Solano Facebook',
-    'err404-official-lgu-solano-portal': 'Official LGU Solano Portal',
+    'err404-lgu-Muntinlupa-facebook': 'LGU Muntinlupa Facebook',
+    'err404-official-lgu-Muntinlupa-portal': 'Official LGU Muntinlupa Portal',
     'err404-open-data-philippines': 'Open Data Philippines',
     'err404-ordinance-framework': 'Ordinance Framework',
     'err404-page-not-found': 'Page Not Found',
@@ -2241,15 +2198,15 @@ const translations = {
     'err500-contact-us': 'Contact Us',
     'err500-contribute-code-with-us': 'Contribute code with us',
     'err500-education': 'Education',
-    'err500-empowering-the-people-of-solano-with-transparent':
+    'err500-empowering-the-people-of-Muntinlupa-with-transparent':
       'Empowering the people of Muntinlupa with transparent access to city services, programs, and public funds.',
     'err500-environment': 'Environment',
     'err500-freedom-of-information': 'Freedom of Information',
     'err500-go-to-homepage': 'Go to Homepage',
     'err500-health': 'Health',
     'err500-infrastructure': 'Infrastructure',
-    'err500-lgu-solano-facebook': 'LGU Solano Facebook',
-    'err500-official-lgu-solano-portal': 'Official LGU Solano Portal',
+    'err500-lgu-Muntinlupa-facebook': 'LGU Muntinlupa Facebook',
+    'err500-official-lgu-Muntinlupa-portal': 'Official LGU Muntinlupa Portal',
     'err500-open-data-philippines': 'Open Data Philippines',
     'err500-ordinance-framework': 'Ordinance Framework',
     'err500-privacy-policy': 'Privacy Policy',
@@ -2299,11 +2256,11 @@ const translations = {
     'faq-dti-registration-for-sole-proprietorship-or-sec':
       'DTI Registration (for sole proprietorship) or SEC Registration (for corporation)',
     'faq-education': 'Education',
-    'faq-empowering-the-people-of-solano-with-transparent':
+    'faq-empowering-the-people-of-Muntinlupa-with-transparent':
       'Empowering the people of Muntinlupa with transparent access to city services, programs, and public funds.',
     'faq-environment': 'Environment',
-    'faq-for-birth-certificates-registered-in-solano-it':
-      'For birth certificates registered in Solano, it typically takes 15-30 minutes while you wait, provided the record is readily available.',
+    'faq-for-birth-certificates-registered-in-Muntinlupa-it':
+      'For birth certificates registered in Muntinlupa, it typically takes 15-30 minutes while you wait, provided the record is readily available.',
     'faq-freedom-of-information': 'Freedom of Information',
     'faq-go-to-the-municipal-social-welfare-and':
       'Go to the Municipal Social Welfare and Development Office (MSWDO) with:',
@@ -2321,9 +2278,9 @@ const translations = {
       'I found a broken link or error on this website. How do I report it?',
     'faq-infrastructure': 'Infrastructure',
     'faq-is-this-website-mobilefriendly': 'Is this website mobile-friendly?',
-    'faq-lgu-solano-facebook': 'LGU Solano Facebook',
+    'faq-lgu-Muntinlupa-facebook': 'LGU Muntinlupa Facebook',
     'faq-location-sketchmap': 'Location Sketch/Map',
-    'faq-official-lgu-solano-portal': 'Official LGU Solano Portal',
+    'faq-official-lgu-Muntinlupa-portal': 'Official LGU Muntinlupa Portal',
     'faq-open-data-philippines': 'Open Data Philippines',
     'faq-openjs-foundation': 'OpenJS Foundation',
     'faq-ordinance-framework': 'Ordinance Framework',
@@ -2331,8 +2288,8 @@ const translations = {
     'faq-privacy-policy': 'Privacy Policy',
     'faq-public-safety': 'Public Safety',
     'faq-quick-links': 'Quick Links',
-    'faq-ramon-has-made-the-solano-project-open-source':
-      'Ramon has made the Solano Project open source under MIT | CC BY 4.0 to empower community-driven development, and contributions are warmly welcomed from everyone; whether you are a developer, data researcher, designer, content writer, translator, or a concerned citizen of Solano, your participation helps shape the project for all.',
+    'faq-ramon-has-made-the-Muntinlupa-project-open-source':
+      'Ramon has made the Muntinlupa Project open source under MIT | CC BY 4.0 to empower community-driven development, and contributions are warmly welcomed from everyone; whether you are a developer, data researcher, designer, content writer, translator, or a concerned citizen of Muntinlupa, your participation helps shape the project for all.',
     'faq-ramon-logan-jr': 'Ramon Logan Jr.',
     'faq-resolution-framework': 'Resolution Framework',
     'faq-resources': 'Resources',
@@ -2357,29 +2314,24 @@ const translations = {
     'faq-what-are-the-office-hours-of-the-municipal-hall':
       'What are the office hours of the Municipal Hall?',
     'faq-what-benefits-do-senior-citizens-receive': 'What benefits do senior citizens receive?',
-    'faq-what-do-i-need-to-start-a-new-business-in-solano':
-      'What do I need to start a new business in Solano?',
+    'faq-what-do-i-need-to-start-a-new-business-in-Muntinlupa':
+      'What do I need to start a new business in Muntinlupa?',
     'faq-what-is-the-difference-between-psa-and-local':
       'What is the difference between PSA and local civil registrar certificates?',
     'faq-what-payment-methods-are-accepted': 'What payment methods are accepted?',
     'faq-when-should-i-renew-my-business-permit': 'When should I renew my business permit?',
-    'faq-who-developed-better-solano': 'Who developed Better Muntinlupa?',
-    'faq-yes-better-solano-is-fully-responsive-and':
+    'faq-who-developed-better-Muntinlupa': 'Who developed Better Muntinlupa?',
+    'faq-yes-better-Muntinlupa-is-fully-responsive-and':
       'Yes! Better Muntinlupa is fully responsive and optimized for mobile phones, tablets, and desktop computers.',
     'faq-yes-but-they-must-bring': 'Yes, but they must bring:',
     'gov-accessibility': 'Accessibility',
-    'gov-aggub': 'Aggub',
     'gov-agricultural-loans-crop-insurance-fertilizer':
       'Agricultural loans, crop insurance, fertilizer assistance',
     'gov-agriculture': 'Agriculture',
     'gov-agriculture-aquaculture-food-security-overseas':
       'Agriculture, Aquaculture & Food Security, Overseas Filipino Workers Affairs',
-    'gov-bagahabag': 'Bagahabag',
-    'gov-bangaan': 'Bangaan',
-    'gov-bangar': 'Bangar',
     'gov-barangay-affairs-tourism': 'Barangay Affairs, Tourism',
     'gov-barangay-units': 'Barangay Units',
-    'gov-bascaran': 'Bascaran',
     'gov-birth-death-marriage-certificates-cenomar': 'Birth, death, marriage certificates, CENOMAR',
     'gov-blgf-portal': 'BLGF Portal',
     'gov-budget-preparation-appropriations-fiscal':
@@ -2393,13 +2345,9 @@ const translations = {
     'gov-certificates': 'Certificates',
     'gov-citizens-charter': "Citizen's Charter",
     'gov-cmci-dti-portal': 'CMCI DTI Portal',
-    'gov-communal': 'Communal',
-    'gov-concepcion': 'Concepcion',
     'gov-contribute-code-with-us': 'Contribute code with us',
     'gov-cooperative-development-senior-citizens-and':
       'Cooperative Development, Senior Citizens and Disability Affairs',
-    'gov-curifang': 'Curifang',
-    'gov-dadap': 'Dadap',
     'gov-development-planning-project-monitoring-zoning':
       'Development planning, project monitoring, zoning',
     'gov-disaster-preparedness-emergency-response-risk':
@@ -2407,7 +2355,7 @@ const translations = {
     'gov-education': 'Education',
     'gov-education-science-technology-transportation':
       'Education, Science & Technology, Transportation, Commerce, Trade & Industry',
-    'gov-empowering-the-people-of-solano-with-transparent':
+    'gov-empowering-the-people-of-Muntinlupa-with-transparent':
       'Empowering the people of Muntinlupa with transparent access to city services, programs, and public funds.',
     'gov-entrepreneurship-economic-development-historical':
       'Entrepreneurship & Economic Development, Historical Records & Preservation of Heritage, Culture and the Arts',
@@ -2425,51 +2373,15 @@ const translations = {
     'gov-hog-cattle-goat-carabao-slaughter-with-meat':
       'Hog, cattle, goat, carabao slaughter with meat inspection',
     'gov-home': 'Home',
-    'gov-hon-atty-jerome-g-marcos': 'Hon. Atty. Jerome G. Marcos',
-    'gov-hon-eduardo-d-tiongson': 'Hon. Eduardo D. Tiongson',
-    'gov-hon-edwin-clifford-f-tito-od': 'Hon. Edwin Clifford F. Tito, O.D.',
-    'gov-hon-ipmr-leon-g-dumani': 'Hon. IPMR Leon G. Dumani',
-    'gov-hon-isaac-r-divina': 'Hon. Isaac R. Divina',
-    'gov-hon-joseph-t-alindada': 'Hon. Joseph T. Alindada',
-    'gov-hon-luisito-l-lannu': 'Hon. Luisito L. Lannu',
-    'gov-hon-melchor-e-marzo': 'Hon. Melchor E. Marzo',
-    'gov-hon-michael-dl-tiongson-lpt': 'Hon. Michael Dl. Tiongson, LPT',
-    'gov-hon-philip-a-dacayo': 'Hon. Philip A. Dacayo',
-    'gov-hon-roland-m-carub-jd': 'Hon. Roland M. Carub, J.D.',
-    'gov-hon-thomas-dave-c-santos': 'Hon. Thomas Dave C. Santos',
-    'gov-hon-walter-d-savedra-sr': 'Hon. Walter D. Savedra, Sr.',
     'gov-human-resource-management': 'Human Resource Management',
     'gov-indigenous-people-affairs': 'Indigenous People Affairs',
     'gov-infrastructure': 'Infrastructure',
     'gov-job-placement-employment-assistance-career':
       'Job placement, employment assistance, career guidance',
-    'gov-kap-angelito-de-leon-tiongson': 'Kap. Angelito De Leon Tiongson',
-    'gov-kap-danilo-estacio-domingo': 'Kap. Danilo Estacio Domingo',
-    'gov-kap-dexter-yaranon-ruiz': 'Kap. Dexter Yaranon Ruiz',
-    'gov-kap-eduardo-abu-bangad-sr': 'Kap. Eduardo Abu Bangad Sr.',
-    'gov-kap-edwin-bungan-dacayo': 'Kap. Edwin Bungan Dacayo',
-    'gov-kap-elmer-zabala-lingayu': 'Kap. Elmer Zabala Lingayu',
-    'gov-kap-ernesto-domingo-ramones-jr': 'Kap. Ernesto Domingo Ramones Jr.',
-    'gov-kap-federico-vienes-asuncion': 'Kap. Federico Vienes Asuncion',
-    'gov-kap-felix-caramat-tolentino-sr': 'Kap. Felix Caramat Tolentino Sr.',
-    'gov-kap-isidro-baliza-prado': 'Kap. Isidro Baliza Prado',
-    'gov-kap-janette-quines-cristobal': 'Kap. Janette Quines Cristobal',
-    'gov-kap-jenny-gomez-marquez': 'Kap. Jenny Gomez Marquez',
-    'gov-kap-jessie-concepcion-delos-reyes': 'Kap. Jessie Concepcion Delos Reyes',
-    'gov-kap-luis-amangi-castillo': 'Kap. Luis Amangi Castillo',
-    'gov-kap-melchor-esmedina-marzo': 'Kap. Melchor Esmedina Marzo',
-    'gov-kap-nardo-eustaquio-ramel': 'Kap. Nardo Eustaquio Ramel',
-    'gov-kap-renaldo-ginom-nabadaw': 'Kap. Renaldo Gin-Om Nabad-Aw',
-    'gov-kap-roberto-ojastro-dizon': 'Kap. Roberto Ojastro Dizon',
-    'gov-kap-rudy-eugenio-paranis': 'Kap. Rudy Eugenio Paranis',
-    'gov-kap-sherwin-elevazo-vicente': 'Kap. Sherwin Elevazo Vicente',
-    'gov-kap-victor-tubay-adalin-jr': 'Kap. Victor Tubay Adalin Jr.',
-    'gov-kap-walter-dalupang-savedra-sr': 'Kap. Walter Dalupang Savedra Sr.',
-    'gov-lactawan': 'Lactawan',
     'gov-legal-good-governance-justice-human-rights':
       'Legal, Good Governance, Justice, Human Rights, Environmental Management',
     'gov-legislative-branch': 'Legislative Branch',
-    'gov-lgu-solano-facebook': 'LGU Solano Facebook',
+    'gov-lgu-Muntinlupa-facebook': 'LGU Muntinlupa Facebook',
     'gov-liga-ng-mga-barangay-president': 'Liga ng mga Barangay President',
     'gov-market-clearance-entrance-fees-vendor-services-ctc':
       'Market clearance, entrance fees, vendor services, CTC',
@@ -2481,18 +2393,14 @@ const translations = {
     'gov-municipal-engineering-office': 'Municipal Engineering Office',
     'gov-municipal-general-services-office': 'Municipal General Services Office',
     'gov-municipal-health-office': 'Municipal Health Office',
-    'gov-municipal-offices': 'Municipal Offices',
+    'gov-municipal-offices': 'City Services',
     'gov-municipal-planning-development': 'Municipal Planning & Development',
     'gov-municipal-treasurers-office': "Municipal Treasurer's Office",
-    'gov-official-lgu-solano-portal': 'Official LGU Solano Portal',
+    'gov-official-lgu-Muntinlupa-portal': 'Official LGU Muntinlupa Portal',
     'gov-open-data-philippines': 'Open Data Philippines',
     'gov-ordinance-framework': 'Ordinance Framework',
-    'gov-osmea': 'Osmeña',
     'gov-personnel-services-recruitment-employee-records':
       'Personnel services, recruitment, employee records',
-    'gov-pilar-d-galima': 'Pilar D. Galima',
-    'gov-poblacion-north': 'Poblacion North',
-    'gov-poblacion-south': 'Poblacion South',
     'gov-privacy-policy': 'Privacy Policy',
     'gov-property-assessment-tax-declarations-land-records':
       'Property assessment, tax declarations, land records',
@@ -2501,14 +2409,9 @@ const translations = {
     'gov-public-safety': 'Public Safety',
     'gov-public-safety-peace-order-family-women-children':
       'Public Safety, Peace & Order, Family, Women, Children & Social Services',
-    'gov-quezon': 'Quezon',
     'gov-quick-links': 'Quick Links',
-    'gov-quirino': 'Quirino',
     'gov-resolution-framework': 'Resolution Framework',
     'gov-resources': 'Resources',
-    'gov-roxas': 'Roxas',
-    'gov-san-juan': 'San Juan',
-    'gov-san-luis': 'San Luis',
     'gov-sangguniang-bayan': 'Sangguniang Bayan',
     'gov-sb-member': 'SB Member',
     'gov-seedo-public-market': 'SEEDO – Public Market',
@@ -2523,16 +2426,11 @@ const translations = {
     'gov-tax-payments-real-property-tax-revenue-collection':
       'Tax payments, real property tax, revenue collection',
     'gov-terms-of-use': 'Terms of Use',
-    'gov-the-executive-officials-leading-solanos-governance':
-      "The executive officials leading Solano's governance",
-    'gov-tucal': 'Tucal',
-    'gov-uddiawan': 'Uddiawan',
     'gov-vaccination-health-certificates-medical-assistance':
       'Vaccination, health certificates, medical assistance',
     'gov-view-job-vacancies': 'View Job Vacancies',
     'gov-view-services': 'View Services',
     'gov-volunteer-with-us': 'Volunteer with us',
-    'gov-wacal': 'Wacal',
     'gov-youth-sports-development-legislative-drafting':
       'Youth & Sports Development, Legislative Drafting',
     'gs-1-day': '1 day',
@@ -2587,7 +2485,7 @@ const translations = {
     'gs-education': 'Education',
     'gs-email': 'Email',
     'gs-emergency-medical-services': 'Emergency Medical Services',
-    'gs-empowering-the-people-of-solano-with-transparent':
+    'gs-empowering-the-people-of-Muntinlupa-with-transparent':
       'Empowering the people of Muntinlupa with transparent access to city services, programs, and public funds.',
     'gs-emtdriver': 'EMT/Driver',
     'gs-environment': 'Environment',
@@ -2615,7 +2513,7 @@ const translations = {
     'gs-industrial': 'Industrial',
     'gs-infrastructure': 'Infrastructure',
     'gs-issuance-of-purchase-order-po': 'Issuance of Purchase Order (PO)',
-    'gs-lgu-solano-facebook': 'LGU Solano Facebook',
+    'gs-lgu-Muntinlupa-facebook': 'LGU Muntinlupa Facebook',
     'gs-light-vehicle-driver': 'Light Vehicle Driver',
     'gs-location': 'Location',
     'gs-mayors-office': "Mayor's Office",
@@ -2625,8 +2523,7 @@ const translations = {
     'gs-municipal-accounting': 'Municipal Accounting',
     'gs-municipal-engineering': 'Municipal Engineering',
     'gs-municipal-general-services-office': 'Municipal General Services Office',
-    'gs-municipal-hall-ground-floor-solano-nueva-vizcaya':
-      'Municipal Hall, Ground Floor Solano, Nueva Vizcaya 3708',
+    'gs-city-office-location': 'Contact the City General Services Office to confirm its current location.',
     'gs-municipal-treasurer': 'Municipal Treasurer',
     'gs-municipal-vehicles-available-for-official-use-and':
       'Municipal vehicles available for official use and public rental',
@@ -2635,7 +2532,7 @@ const translations = {
     'gs-office-hours': 'Office Hours',
     'gs-office-personnel': 'Office Personnel',
     'gs-office-staff-and-service-personnel': 'Office staff and service personnel',
-    'gs-official-lgu-solano-portal': 'Official LGU Solano Portal',
+    'gs-official-lgu-Muntinlupa-portal': 'Official LGU Muntinlupa Portal',
     'gs-official-receipt-approved-request': 'Official Receipt, Approved Request',
     'gs-open-data-philippines': 'Open Data Philippines',
     'gs-operator': 'Operator',
@@ -2705,63 +2602,31 @@ const translations = {
     'gs-volunteer-with-us': 'Volunteer with us',
     'gs-wait-for-approval-from-the-mayors-office': "Wait for approval from the Mayor's Office",
     'gs-water-truck': 'Water Truck',
-    'health-a-tertiary-level-philhealthaccredited-private':
-      'A tertiary level, PhilHealth-accredited private hospital providing comprehensive medical services.',
     'health-accessibility': 'Accessibility',
-    'health-aggub-bhs': 'Aggub BHS',
     'health-agriculture': 'Agriculture',
-    'health-also-known-as-new-mmg-hospital-providing-quality':
-      'Also known as New MMG Hospital, providing quality healthcare services to the community.',
-    'health-bagahabag-bhs': 'Bagahabag BHS',
-    'health-bangaan-bhs': 'Bangaan BHS',
-    'health-bangar-bhs': 'Bangar BHS',
-    'health-bintawan-road-brgy-quezon': 'Bintawan Road, Brgy. Quezon',
     'health-blgf-portal': 'BLGF Portal',
-    'health-buenavista-bhs': 'Buenavista BHS',
     'health-business': 'Business',
-    'health-calaocan-bhs': 'Calaocan BHS',
     'health-certificates': 'Certificates',
     'health-citizens-charter': "Citizen's Charter",
     'health-cmci-dti-portal': 'CMCI DTI Portal',
-    'health-commando-bhs': 'Commando BHS',
-    'health-concepcion-bhs': 'Concepcion BHS',
     'health-contribute-code-with-us': 'Contribute code with us',
-    'health-curifang-bhs': 'Curifang BHS',
-    'health-dadap-bhs': 'Dadap BHS',
     'health-education': 'Education',
-    'health-empowering-the-people-of-solano-with-transparent':
+    'health-empowering-the-people-of-Muntinlupa-with-transparent':
       'Empowering the people of Muntinlupa with transparent access to city services, programs, and public funds.',
     'health-environment': 'Environment',
     'health-freedom-of-information': 'Freedom of Information',
     'health-health': 'Health',
     'health-home': 'Home',
     'health-infrastructure': 'Infrastructure',
-    'health-lactawan-bhs': 'Lactawan BHS',
-    'health-lgu-solano-facebook': 'LGU Solano Facebook',
-    'health-medical-mission-group-hospital-health-services':
-      'Medical Mission Group Hospital & Health Services Cooperative',
-    'health-nangalisan-bhs': 'Nangalisan BHS',
-    'health-national-highway-solano': 'National Highway, Solano',
-    'health-ocapon-bhs': 'Ocapon BHS',
-    'health-official-lgu-solano-portal': 'Official LGU Solano Portal',
+    'health-lgu-Muntinlupa-facebook': 'LGU Muntinlupa Facebook',
+    'health-official-lgu-Muntinlupa-portal': 'Official LGU Muntinlupa Portal',
     'health-open-data-philippines': 'Open Data Philippines',
     'health-ordinance-framework': 'Ordinance Framework',
-    'health-osmea-bhs': 'Osmeña BHS',
-    'health-paitan-bhs': 'Paitan BHS',
-    'health-pilar-bhs': 'Pilar BHS',
-    'health-pltciluis-a-tiam-medical-center': 'PLTCI-Luis A. Tiam Medical Center',
-    'health-poblacion-bhs': 'Poblacion BHS',
     'health-privacy-policy': 'Privacy Policy',
-    'health-private-medical-center-offering-various':
-      'Private medical center offering various healthcare and diagnostic services.',
     'health-public-safety': 'Public Safety',
-    'health-quezon-bhs': 'Quezon BHS',
     'health-quick-links': 'Quick Links',
-    'health-quirino-bhs': 'Quirino BHS',
     'health-resolution-framework': 'Resolution Framework',
     'health-resources': 'Resources',
-    'health-roxas-bhs': 'Roxas BHS',
-    'health-salubris-inc-salubris-medical-center': 'SALUBRIS, INC. (Salubris Medical Center)',
     'health-sangguniang-bayan': 'Sangguniang Bayan',
     'health-services': 'Services',
     'health-sitemap': 'Sitemap',
@@ -2769,8 +2634,6 @@ const translations = {
     'health-social-services': 'Social Services',
     'health-tax-payments': 'Tax Payments',
     'health-terms-of-use': 'Terms of Use',
-    'health-tucal-bhs': 'Tucal BHS',
-    'health-uddiawan-bhs': 'Uddiawan BHS',
     'health-hivcare-cta-eyebrow': 'Official DOH-Sourced Directory',
     'health-hivcare-cta-heading': 'Find HIV Treatment & Care Facilities Near You',
     'health-hivcare-cta-desc':
@@ -2780,10 +2643,11 @@ const translations = {
     'health-hivcare-cta-stat-mobile': 'Mobile-Friendly Search',
     'health-hivcare-cta-stat-verified': 'DOH-Verified Listings',
     'health-volunteer-with-us': 'Volunteer with us',
-    'home-13980-hectares': '13,980 hectares',
     'home-16270-km': '162.70 km²',
     'home-1st-class': '1st Class',
     'home-2024-census': '2024 Census',
+    'home-3975-hectares': '3,975 hectares',
+    'home-3975-km': '39.75 km²',
     'home-28': '28°',
     'home-29': '29°',
     'home-4-pm': '4 PM',
@@ -2804,69 +2668,38 @@ const translations = {
     'home-cmci-dti-portal': 'CMCI DTI Portal',
     'home-contact-us': 'Contact Us',
     'home-create-account': 'Create Account',
+    'home-city-classification': 'City Classification',
+    'home-history-unavailable': 'Muntinlupa-specific historical details are being verified.',
+    'home-district-1-south': 'District 1 (Southern half)',
+    'home-district-2-north': 'District 2 (Northern half)',
     'home-education': 'Education',
-    'home-empowering-the-people-of-solano-with-transparent':
+    'home-empowering-the-people-of-Muntinlupa-with-transparent':
       'Empowering the people of Muntinlupa with transparent access to city services, programs, and public funds.',
     'home-environment': 'Environment',
-    'home-father-alejandro-vidal': 'Father Alejandro Vidal',
-    'home-fetching-the-latest-news-from-solano': 'Fetching the latest news from Solano.',
+    'home-fetching-the-latest-news-from-Muntinlupa': 'Fetching the latest news from Muntinlupa.',
     'home-find-a-service': 'Find a Service',
     'home-freedom-of-information': 'Freedom of Information',
-    'home-governor-general-antonio-urbiztondo-declared':
-      'Governor General Antonio Urbiztondo declared Lumabang a barrio of Bayombong for insufficient inhabitants and revenue.',
     'home-health': 'Health',
-    'home-history-1601':
-      'Muntinlupa was under the religious supervision of the Augustinians.',
-    'home-history-1869':
-      'The Civil Government approved the formation of a town from the barrios of Muntinlupa.',
-    'home-history-1903':
-      'Act No. 1008 placed Muntinlupa within Laguna Province and under the municipality of Biñan.',
-    'home-history-1905': 'Act No. 1308 returned Muntinlupa to Rizal Province.',
-    'home-history-1917':
-      'Executive Order No. 108 granted Muntinlupa independent municipal status, effective January 1, 1918.',
-    'home-history-1975':
-      'Muntinlupa became one of the 17 municipalities and cities comprising Metro Manila.',
-    'home-history-1995':
-      'Republic Act No. 7926 converted Muntinlupa into a highly urbanized city.',
-    'home-independent-municipality': 'Independent Municipality',
-    'home-independent-municipality-since-1918':
-      "Muntinlupa's independent municipal status took effect on January 1, 1918.",
-    'home-hon-eduardo-d-tiongson': 'Hon. Eduardo D. Tiongson',
-    'home-hon-philip-a-dacayo': 'Hon. Philip A. Dacayo',
-    'home-history-1760':
-      'The original name of the town was Bintauan, then a Gaddang settlement that is now a barangay of Villaverde.',
-    'home-history-1767':
-      'The town was formally founded by Father Alejandro Vidal, a Dominican priest who led a Spanish mission.',
-    'home-history-1768':
-      'Named Lungabang, from the Gaddang word for cave, lungab. Later changed to Lumabang by the Spaniards.',
-    'home-history-1853':
-      'The first Ilocanos arrived, brought by Don Diego Lumicao, a former gobernadorcillo.',
-    'home-history-1889':
-      'Renamed Solano in honor of Governor General Ramon Solano y Llanderal. The town was redeveloped by Father Juan Villaverde with 14 parallel wide streets, each 20 meters wide, forming 100 square blocks.',
-    'home-history-1957':
-      "The barrios of Ibung and Bintawan were separated to form the town of Ibung, later renamed as Villaverde. Solano's land area was reduced to 13,980 hectares.",
-    'home-ilocanos-arrived': 'Ilocanos arrived',
+    'home-location-national-capital-region':
+      'Location: National Capital Region (Metro Manila), Philippines',
     'home-income-classification': 'Income Classification',
     'home-infrastructure': 'Infrastructure',
-    'home-interactive-map-showing-the-location-of-solano':
-      'Interactive map showing the location of Solano Municipal Hall in Nueva Vizcaya, Philippines. The map is centered at coordinates 16.5167°N, 121.1833°E. Use the plus and minus buttons or keyboard arrows to navigate the map.',
+    'home-interactive-map-showing-the-location-of-Muntinlupa':
+      'Interactive map showing the location of Muntinlupa City Hall in Metro Manila, Philippines. The map is centered at coordinates 14.3939°N, 121.0412°E. Use the plus and minus buttons or keyboard arrows to navigate the map.',
     'home-javascript-is-required-to-view-the-interactive-map':
       'JavaScript is required to view the interactive map.',
     'home-land-area': 'Land Area',
-    'home-lgu-solano-facebook': 'LGU Solano Facebook',
-    'home-lgusolanonvgmailcom': 'lgusolanonv@gmail.com',
+    'home-lgu-Muntinlupa-facebook': 'LGU Muntinlupa Facebook',
     'home-loading': 'Loading',
     'home-loading-updates': 'Loading updates...',
-    'home-lungab': 'lungab',
-    'home-lungabang': 'Lungabang',
     'home-municipality': 'Municipality',
-    'home-official-lgu-solano-portal': 'Official LGU Solano Portal',
-    'home-once-the-largest': 'Once the Largest',
+    'home-official-lgu-Muntinlupa-portal': 'Official LGU Muntinlupa Portal',
     'home-open-data-philippines': 'Open Data Philippines',
     'home-official-city-history': 'Read the official city history',
     'home-ordinance-framework': 'Ordinance Framework',
     'home-popular': 'Popular:',
     'home-population': 'Population',
+    'home-psa-2024-popcen': 'PSA 2024 POPCEN',
     'home-privacy-policy': 'Privacy Policy',
     'home-public-safety': 'Public Safety',
     'home-quick-access-to-frequently-requested-municipal':
@@ -2874,7 +2707,6 @@ const translations = {
     'home-quick-links': 'Quick Links',
     'home-ra-7926-city-charter':
       'Republic Act No. 7926 established Muntinlupa as a highly urbanized city.',
-    'home-ramon-solano-y-llanderal': 'Ramon Solano y Llanderal',
     'home-real-property-tax': 'Real Property Tax',
     'home-resolution-framework': 'Resolution Framework',
     'home-resources': 'Resources',
@@ -2883,25 +2715,19 @@ const translations = {
     'home-sitemap': 'Sitemap',
     'home-skip-to-main-content': 'Skip to main content',
     'home-social-services': 'Social Services',
-    'home-solano': 'Solano',
-    'home-solano-at-a-glance': 'Muntinlupa at a Glance',
-    'home-solano-municipal-hall-nueva-vizcaya-3708': 'Solano Municipal Hall, Nueva Vizcaya 3708',
-    'home-solano-nueva-vizcaya-3708': 'Solano, Nueva Vizcaya 3708',
-    'home-solano-was-the-largest-municipality-in-the':
-      'Solano was the largest municipality in the province until Caliat and Bintawan were separated to become Quezon and Villaverde respectively.',
+    'home-Muntinlupa': 'Muntinlupa',
+    'home-Muntinlupa-at-a-glance': 'Muntinlupa at a Glance',
     'home-tax-payments': 'Tax Payments',
     'home-terms-of-use': 'Terms of Use',
-    'home-the-1889-redevelopment-created-a-grid-of-100':
-      'The 1889 redevelopment created a grid of 100 square blocks, each with an aggregate area of one hectare, with streets running north-south and east-west.',
+    'home-two-legislative-districts': 'Across 2 Legislative Districts',
+    'home-highly-urbanized-city': 'Highly Urbanized City (HUC)',
     'home-total-municipal-area': 'Total Municipal Area',
     'home-urban-planning': 'Urban Planning',
     'home-view-all': 'View All',
     'home-view-all-officials': 'View All Officials',
-    'home-city-since-1995': 'A City Since 1995',
-    'home-view-solano-on-openstreetmap': 'View Solano on OpenStreetMap',
+    'home-view-Muntinlupa-on-openstreetmap': 'View Muntinlupa on OpenStreetMap',
     'home-view-statistics': 'View Statistics',
-    'home-villaverde': 'Villaverde',
-    'home-weather-and-map-of-solano': 'Weather and Map of Solano',
+    'home-weather-and-map-of-Muntinlupa': 'Weather and Map of Muntinlupa',
     'hrm-10-minutes': '10 minutes',
     'hrm-105-days-for-female-employees': '105 days for female employees',
     'hrm-12-days': '1-2 days',
@@ -2946,7 +2772,7 @@ const translations = {
     'hrm-education': 'Education',
     'hrm-employee-id': 'Employee ID',
     'hrm-employee-id-for-current-employees': 'Employee ID (for current employees)',
-    'hrm-empowering-the-people-of-solano-with-transparent':
+    'hrm-empowering-the-people-of-Muntinlupa-with-transparent':
       'Empowering the people of Muntinlupa with transparent access to city services, programs, and public funds.',
     'hrm-environment': 'Environment',
     'hrm-fee-free': 'Fee: Free',
@@ -2967,7 +2793,7 @@ const translations = {
     'hrm-hrmo-staff': 'HRMO Staff',
     'hrm-human-resource-management-section': 'Human Resource Management Section',
     'hrm-human-resource-management-section-mayors-office':
-      "Human Resource Management Section, Mayor's Office, Municipal Hall, Solano, Nueva Vizcaya",
+      "Human Resource Management Section, Mayor's Office, Municipal Hall, Muntinlupa, Metro Manila",
     'hrm-important-notes': 'Important Notes',
     'hrm-infrastructure': 'Infrastructure',
     'hrm-issuance-of-certificate-of-employment': 'Issuance of Certificate of Employment',
@@ -2982,7 +2808,7 @@ const translations = {
     'hrm-leave-processing': 'Leave Processing',
     'hrm-leave-type': 'Leave Type',
     'hrm-legislative': 'Legislative',
-    'hrm-lgu-solano-facebook': 'LGU Solano Facebook',
+    'hrm-lgu-Muntinlupa-facebook': 'LGU Muntinlupa Facebook',
     'hrm-location': 'Location',
     'hrm-maternity-leave': 'Maternity Leave',
     'hrm-mayors-office': "Mayor's Office",
@@ -2997,7 +2823,7 @@ const translations = {
     'hrm-office-personnel': 'Office Personnel',
     'hrm-official-certification-of-current-or-previous':
       'Official certification of current or previous employment status',
-    'hrm-official-lgu-solano-portal': 'Official LGU Solano Portal',
+    'hrm-official-lgu-Muntinlupa-portal': 'Official LGU Muntinlupa Portal',
     'hrm-official-record-of-employment-history-for-lgu':
       'Official record of employment history for LGU employees',
     'hrm-official-statement-of-accumulated-leave-credits':
@@ -3079,7 +2905,7 @@ const translations = {
     'infra-cmci-dti-portal': 'CMCI DTI Portal',
     'infra-contribute-code-with-us': 'Contribute code with us',
     'infra-education': 'Education',
-    'infra-empowering-the-people-of-solano-with-transparent':
+    'infra-empowering-the-people-of-Muntinlupa-with-transparent':
       'Empowering the people of Muntinlupa with transparent access to city services, programs, and public funds.',
     'infra-engineering-services': 'Engineering Services',
     'infra-environment': 'Environment',
@@ -3088,12 +2914,12 @@ const translations = {
     'infra-health': 'Health',
     'infra-home': 'Home',
     'infra-infrastructure': 'Infrastructure',
-    'infra-lgu-solano-facebook': 'LGU Solano Facebook',
+    'infra-lgu-Muntinlupa-facebook': 'LGU Muntinlupa Facebook',
     'infra-municipal-engineering-office': 'Municipal Engineering Office',
     'infra-municipal-general-services-office': 'Municipal General Services Office',
     'infra-municipal-planning-development': 'Municipal Planning & Development',
     'infra-occupancy-permit': 'Occupancy Permit',
-    'infra-official-lgu-solano-portal': 'Official LGU Solano Portal',
+    'infra-official-lgu-Muntinlupa-portal': 'Official LGU Muntinlupa Portal',
     'infra-open-data-philippines': 'Open Data Philippines',
     'infra-ordinance-framework': 'Ordinance Framework',
     'infra-privacy-policy': 'Privacy Policy',
@@ -3143,7 +2969,7 @@ const translations = {
     'leg-detailed-discussion-and-debate-on-the-proposed':
       'Detailed discussion and debate on the proposed ordinance',
     'leg-education': 'Education',
-    'leg-empowering-the-people-of-solano-with-transparent':
+    'leg-empowering-the-people-of-Muntinlupa-with-transparent':
       'Empowering the people of Muntinlupa with transparent access to city services, programs, and public funds.',
     'leg-environment': 'Environment',
     'leg-expressions-of-the-legislative-bodys-will-or':
@@ -3183,7 +3009,7 @@ const translations = {
       'Ordinance takes effect and is enforced within the municipality',
     'leg-ordinances': 'Ordinances',
     'leg-ordinances-and-resolutions-of-the-sangguniang':
-      'Ordinances and resolutions of the Sangguniang Bayan ng Solano',
+      'Ordinances and resolutions of the Sangguniang Bayan ng Muntinlupa',
     'leg-posting-publication': 'Posting / Publication',
     'leg-posting-transmittal': 'Posting / Transmittal',
     'leg-privacy-policy': 'Privacy Policy',
@@ -3265,7 +3091,7 @@ const translations = {
     'magri-certification-of-farm-location-and-area-cultivated':
       'Certification of farm location and area cultivated',
     'magri-certification-that-individual-is-a-registered':
-      'Certification that individual is a registered farmer in Solano',
+      'Certification that individual is a registered farmer in Muntinlupa',
     'magri-certifications': 'Certifications',
     'magri-certified-seeds-distribution': 'Certified Seeds Distribution',
     'magri-citizens-charter': "Citizen's Charter",
@@ -3295,13 +3121,13 @@ const translations = {
     'magri-distribution-of-tilapia-carp-and-other-fingerlings':
       'Distribution of tilapia, carp, and other fingerlings',
     'magri-education': 'Education',
-    'magri-empowering-the-people-of-solano-with-transparent':
+    'magri-empowering-the-people-of-Muntinlupa-with-transparent':
       'Empowering the people of Muntinlupa with transparent access to city services, programs, and public funds.',
     'magri-environment': 'Environment',
     'magri-farm-location-certification': 'Farm Location Certification',
     'magri-farm-machinery-services': 'Farm Machinery Services',
     'magri-farm-registration-certifications-and-agricultural':
-      'Farm registration, certifications, and agricultural programs for Solano farmers',
+      'Farm registration, certifications, and agricultural programs for Muntinlupa farmers',
     'magri-farmer-certification': 'Farmer Certification',
     'magri-farmers-field-school': 'Farmers Field School',
     'magri-farmers-organization': 'Farmers Organization',
@@ -3334,7 +3160,7 @@ const translations = {
     'magri-land-title-tax-declaration-lease-contract':
       'Land Title / Tax Declaration / Lease Contract',
     'magri-legislative': 'Legislative',
-    'magri-lgu-solano-facebook': 'LGU Solano Facebook',
+    'magri-lgu-Muntinlupa-facebook': 'LGU Muntinlupa Facebook',
     'magri-linkage-to-organic-markets-and-buyers': 'Linkage to organic markets and buyers',
     'magri-livestock': 'Livestock',
     'magri-livestock-program': 'Livestock Program',
@@ -3350,14 +3176,14 @@ const translations = {
     'magri-mun-agriculture': 'Mun. Agriculture',
     'magri-municipal-agriculture-office': 'Municipal Agriculture Office',
     'magri-municipal-agriculture-office-municipal-hall':
-      'Municipal Agriculture Office, Municipal Hall, Solano, Nueva Vizcaya',
+      'Municipal Agriculture Office, Municipal Hall, Muntinlupa, Metro Manila',
     'magri-municipal-hall': 'Municipal Hall',
     'magri-no-payment-required': 'No Payment Required',
     'magri-office': 'Office',
     'magri-office-information': 'Office Information',
     'magri-official-certifications-issued-by-the-municipal':
       'Official certifications issued by the Municipal Agriculture Office',
-    'magri-official-lgu-solano-portal': 'Official LGU Solano Portal',
+    'magri-official-lgu-Muntinlupa-portal': 'Official LGU Muntinlupa Portal',
     'magri-official-production-records-for-loan-and':
       'Official production records for loan and insurance purposes',
     'magri-old-rsbsa-form-reference-number': 'Old RSBSA Form / Reference Number',
@@ -3419,8 +3245,8 @@ const translations = {
       'Support for organic farming practices and certification',
     'magri-support-for-pgs-and-thirdparty-organic':
       'Support for PGS and third-party organic certification',
-    'magri-support-programs-for-corn-farmers-in-solano':
-      'Support programs for corn farmers in Solano',
+    'magri-support-programs-for-corn-farmers-in-Muntinlupa':
+      'Support programs for corn farmers in Muntinlupa',
     'magri-support-programs-for-rice-farmers-under-the-rice':
       'Support programs for rice farmers under the Rice Competitiveness Enhancement Fund (RCEF)',
     'magri-support-services-for-fisherfolk-and-aquaculture':
@@ -3494,7 +3320,7 @@ const translations = {
     'market-duration': 'Duration',
     'market-economic-enterprise-development-office': 'Economic Enterprise & Development Office',
     'market-education': 'Education',
-    'market-empowering-the-people-of-solano-with-transparent':
+    'market-empowering-the-people-of-Muntinlupa-with-transparent':
       'Empowering the people of Muntinlupa with transparent access to city services, programs, and public funds.',
     'market-entrance-fees': 'Entrance Fees',
     'market-entrance-fees-are-based-on-goods-being-sold':
@@ -3539,7 +3365,7 @@ const translations = {
     'market-key-personnel-handling-public-market-services':
       'Key personnel handling public market services',
     'market-legislative': 'Legislative',
-    'market-lgu-solano-facebook': 'LGU Solano Facebook',
+    'market-lgu-Muntinlupa-facebook': 'LGU Muntinlupa Facebook',
     'market-location': 'Location',
     'market-market-clearance': 'Market Clearance',
     'market-market-collector': 'Market Collector',
@@ -3551,7 +3377,7 @@ const translations = {
     'market-office-head': 'Office Head',
     'market-office-information': 'Office Information',
     'market-office-personnel': 'Office Personnel',
-    'market-official-lgu-solano-portal': 'Official LGU Solano Portal',
+    'market-official-lgu-Muntinlupa-portal': 'Official LGU Muntinlupa Portal',
     'market-open-data-philippines': 'Open Data Philippines',
     'market-ordinance-framework': 'Ordinance Framework',
     'market-other-merchandise': 'Other Merchandise',
@@ -3583,8 +3409,7 @@ const translations = {
     'market-secure-and-fill-out-public-market-complaint-form':
       'Secure and fill out Public Market complaint form and submit to the Market Supervisor',
     'market-seedo-head': 'SEEDO Head',
-    'market-seedo-office-public-market-solano-nueva-vizcaya':
-      'SEEDO Office, Public Market, Solano, Nueva Vizcaya',
+    'market-city-office-location': 'Contact the City Market Office to confirm its current location.',
     'market-seedo-public-market': 'SEEDO - Public Market',
     'market-select-a-service-to-view-the-detailed-process-and':
       'Select a service to view the detailed process and requirements',
@@ -3656,7 +3481,7 @@ const translations = {
     'mbudget-documents-required': 'Documents Required',
     'mbudget-duration': 'Duration',
     'mbudget-education': 'Education',
-    'mbudget-empowering-the-people-of-solano-with-transparent':
+    'mbudget-empowering-the-people-of-Muntinlupa-with-transparent':
       'Empowering the people of Muntinlupa with transparent access to city services, programs, and public funds.',
     'mbudget-ensure-all-documents-are-complete-before':
       'Ensure all documents are complete before submission',
@@ -3673,15 +3498,15 @@ const translations = {
     'mbudget-key-personnel-handling-budget-office-services':
       'Key personnel handling budget office services',
     'mbudget-legislative': 'Legislative',
-    'mbudget-lgu-solano-facebook': 'LGU Solano Facebook',
+    'mbudget-lgu-Muntinlupa-facebook': 'LGU Muntinlupa Facebook',
     'mbudget-local-school-board-ordinance': 'Local School Board Ordinance',
     'mbudget-location': 'Location',
     'mbudget-marcial-l-ramos-cpa': 'Marcial L. Ramos, CPA',
     'mbudget-melisa-claire-leal': 'Melisa Claire Leal',
     'mbudget-mun-budget': 'Mun. Budget',
     'mbudget-municipal-budget-office': 'Municipal Budget Office',
-    'mbudget-municipal-budget-office-municipal-hall-solano':
-      'Municipal Budget Office, Municipal Hall, Solano, Nueva Vizcaya',
+    'mbudget-municipal-budget-office-municipal-hall-Muntinlupa':
+      'Municipal Budget Office, Municipal Hall, Muntinlupa, Metro Manila',
     'mbudget-municipal-budget-officer': 'Municipal Budget Officer',
     'mbudget-municipal-hall': 'Municipal Hall',
     'mbudget-obligation-request': 'Obligation Request',
@@ -3693,7 +3518,7 @@ const translations = {
     'mbudget-office': 'Office',
     'mbudget-office-information': 'Office Information',
     'mbudget-office-personnel': 'Office Personnel',
-    'mbudget-official-lgu-solano-portal': 'Official LGU Solano Portal',
+    'mbudget-official-lgu-Muntinlupa-portal': 'Official LGU Muntinlupa Portal',
     'mbudget-official-receipt': 'Official Receipt',
     'mbudget-open-data-philippines': 'Open Data Philippines',
     'mbudget-ordinance-framework': 'Ordinance Framework',
@@ -3819,7 +3644,7 @@ const translations = {
     'mc-duration': 'Duration',
     'mc-edgar-mc': 'Edgar Mc',
     'mc-education': 'Education',
-    'mc-empowering-the-people-of-solano-with-transparent':
+    'mc-empowering-the-people-of-Muntinlupa-with-transparent':
       'Empowering the people of Muntinlupa with transparent access to city services, programs, and public funds.',
     'mc-environment': 'Environment',
     'mc-fee': 'Fee',
@@ -3828,7 +3653,7 @@ const translations = {
       'Follow these steps to register your marriage certificate',
     'mc-for-delayed-registration': 'For Delayed Registration',
     'mc-for-engaged-couples-intending-to-get-married-in':
-      'For engaged couples intending to get married in Solano',
+      'For engaged couples intending to get married in Muntinlupa',
     'mc-for-timely-registration-within-1530-days': 'For Timely Registration (Within 15/30 Days)',
     'mc-forms-for-marriage-license-application': 'Forms for marriage license application',
     'mc-free': 'Free',
@@ -3852,18 +3677,17 @@ const translations = {
     'mc-issuance-of-the-marriage-license': 'Issuance of the marriage license',
     'mc-juvy': 'Juvy',
     'mc-legislative': 'Legislative',
-    'mc-lgu-solano-facebook': 'LGU Solano Facebook',
+    'mc-lgu-Muntinlupa-facebook': 'LGU Muntinlupa Facebook',
     'mc-license-validity': 'License Validity',
     'mc-local-civil-registrar': 'Local Civil Registrar',
     'mc-marriage-certificate-local-registration': 'Marriage Certificate (Local Registration)',
     'mc-mswdo-staff': 'MSWDO Staff',
     'mc-mto-collection-officer': 'MTO Collection Officer',
-    'mc-municipal-hall-2nd-floor-solano-nueva-vizcaya':
-      'Municipal Hall, 2nd Floor Solano, Nueva Vizcaya',
+    'mc-city-office-location': 'Contact the City Civil Registrar to confirm its current location.',
     'mc-nationwide': 'Nationwide',
     'mc-need-help': 'Need Help?',
     'mc-office-information': 'Office Information',
-    'mc-official-lgu-solano-portal': 'Official LGU Solano Portal',
+    'mc-official-lgu-Muntinlupa-portal': 'Official LGU Muntinlupa Portal',
     'mc-official-receipt': 'Official Receipt',
     'mc-oliver-receiving-officer': 'Oliver - Receiving Officer',
     'mc-open-data-philippines': 'Open Data Philippines',
@@ -3997,7 +3821,7 @@ const translations = {
       'Download the marriage license application form',
     'mcr-duration': 'Duration',
     'mcr-education': 'Education',
-    'mcr-empowering-the-people-of-solano-with-transparent':
+    'mcr-empowering-the-people-of-Muntinlupa-with-transparent':
       'Empowering the people of Muntinlupa with transparent access to city services, programs, and public funds.',
     'mcr-environment': 'Environment',
     'mcr-fee': 'Fee',
@@ -4019,7 +3843,7 @@ const translations = {
     'mcr-legal-capacity-to-contract-marriage-from-embassy':
       'Legal Capacity to Contract Marriage from Embassy',
     'mcr-legislative': 'Legislative',
-    'mcr-lgu-solano-facebook': 'LGU Solano Facebook',
+    'mcr-lgu-Muntinlupa-facebook': 'LGU Muntinlupa Facebook',
     'mcr-location': 'Location',
     'mcr-marriage-certificate': 'Marriage Certificate',
     'mcr-marriage-certificate-of-parents-if-legitimate':
@@ -4039,7 +3863,7 @@ const translations = {
     'mcr-municipal-civil-registrar': 'Municipal Civil Registrar',
     'mcr-municipal-civil-registrars-office': "Municipal Civil Registrar's Office",
     'mcr-municipal-civil-registrars-office-2nd-floor':
-      "Municipal Civil Registrar's Office, 2nd Floor, Municipal Hall, Solano, Nueva Vizcaya",
+      "Contact the city office to confirm the current Civil Registrar's Office location",
     'mcr-municipal-hall-2f': 'Municipal Hall, 2F',
     'mcr-nbipolice-clearance': 'NBI/Police Clearance',
     'mcr-negative-certification-from-psa': 'Negative Certification from PSA',
@@ -4049,7 +3873,7 @@ const translations = {
     'mcr-office-head': 'Office Head',
     'mcr-office-information': 'Office Information',
     'mcr-office-personnel': 'Office Personnel',
-    'mcr-official-lgu-solano-portal': 'Official LGU Solano Portal',
+    'mcr-official-lgu-Muntinlupa-portal': 'Official LGU Muntinlupa Portal',
     'mcr-official-receipt': 'Official Receipt',
     'mcr-open-data-philippines': 'Open Data Philippines',
     'mcr-order-of-payment': 'Order of Payment',
@@ -4075,11 +3899,11 @@ const translations = {
     'mcr-ra-9048-clerical-error-correction': 'RA 9048 - Clerical Error Correction',
     'mcr-register-births-and-deaths-within-30-days-to':
       'Register births and deaths within 30 days to avoid penalties',
-    'mcr-registration-of-birth-for-children-born-in-solano':
-      'Registration of birth for children born in Solano, Nueva Vizcaya',
+    'mcr-registration-of-birth-for-children-born-in-Muntinlupa':
+      'Registration of birth for children born in Muntinlupa, Metro Manila',
     'mcr-registration-of-death': 'Registration of Death',
     'mcr-registration-of-death-for-persons-who-died-in':
-      'Registration of death for persons who died in Solano, Nueva Vizcaya',
+      'Registration of death for persons who died in Muntinlupa, Metro Manila',
     'mcr-registration-of-live-birth': 'Registration of Live Birth',
     'mcr-registration-of-marriage': 'Registration of Marriage',
     'mcr-registration-officer': 'Registration Officer',
@@ -4088,7 +3912,7 @@ const translations = {
     'mcr-representatives-must-have-authorization-letter':
       'Representatives must have authorization letter and valid IDs',
     'mcr-request-for-certified-true-copies-of-civil':
-      'Request for certified true copies of civil registry documents registered in Solano',
+      'Request for certified true copies of civil registry documents registered in Muntinlupa',
     'mcr-requirements': 'Requirements',
     'mcr-resolution-framework': 'Resolution Framework',
     'mcr-resources': 'Resources',
@@ -4160,7 +3984,7 @@ const translations = {
     'mgs-duration': 'Duration',
     'mgs-education': 'Education',
     'mgs-electricity': 'Electricity',
-    'mgs-empowering-the-people-of-solano-with-transparent':
+    'mgs-empowering-the-people-of-Muntinlupa-with-transparent':
       'Empowering the people of Muntinlupa with transparent access to city services, programs, and public funds.',
     'mgs-environment': 'Environment',
     'mgs-equipment-accountability-is-strictly-enforced':
@@ -4185,7 +4009,7 @@ const translations = {
     'mgs-key-personnel-handling-general-services-operations':
       'Key personnel handling general services operations',
     'mgs-legislative': 'Legislative',
-    'mgs-lgu-solano-facebook': 'LGU Solano Facebook',
+    'mgs-lgu-Muntinlupa-facebook': 'LGU Muntinlupa Facebook',
     'mgs-light-vehicle': 'Light Vehicle',
     'mgs-light-vehicles': 'Light Vehicles',
     'mgs-location': 'Location',
@@ -4199,13 +4023,13 @@ const translations = {
     'mgs-motorcycles': 'Motorcycles',
     'mgs-municipal-general-services-office': 'Municipal General Services Office',
     'mgs-municipal-general-services-office-municipal-hall':
-      'Municipal General Services Office, Municipal Hall, Solano, Nueva Vizcaya',
+      'Municipal General Services Office, Municipal Hall, Muntinlupa, Metro Manila',
     'mgs-municipal-hall': 'Municipal Hall',
     'mgs-none': 'None',
     'mgs-office': 'Office',
     'mgs-office-information': 'Office Information',
     'mgs-office-personnel': 'Office Personnel',
-    'mgs-official-lgu-solano-portal': 'Official LGU Solano Portal',
+    'mgs-official-lgu-Muntinlupa-portal': 'Official LGU Muntinlupa Portal',
     'mgs-open-data-philippines': 'Open Data Philippines',
     'mgs-operators-pool': 'Operators Pool',
     'mgs-ordinance-framework': 'Ordinance Framework',
@@ -4276,8 +4100,7 @@ const translations = {
     'mgs-volunteer-with-us': 'Volunteer with us',
     'mgs-water': 'Water',
     'mpdo-12-days': '1-2 Days',
-    'mpdo-2nd-floor-municipal-hall-solano-nueva-vizcaya':
-      '2nd Floor, Municipal Hall, Solano, Nueva Vizcaya',
+    'mpdo-city-office-location': 'Contact the City Planning Office to confirm its current location.',
     'mpdo-30-days': '30+ Days',
     'mpdo-510-days': '5-10 Days',
     'mpdo-8am-5pm': '8AM - 5PM',
@@ -4323,7 +4146,7 @@ const translations = {
     'mpdo-downloadable-resources': 'Downloadable Resources',
     'mpdo-duly-accomplished-application-form': 'Duly accomplished Application Form',
     'mpdo-education': 'Education',
-    'mpdo-empowering-the-people-of-solano-with-transparent':
+    'mpdo-empowering-the-people-of-Muntinlupa-with-transparent':
       'Empowering the people of Muntinlupa with transparent access to city services, programs, and public funds.',
     'mpdo-environment': 'Environment',
     'mpdo-environmental-compliance-certificate-if-required':
@@ -4346,7 +4169,7 @@ const translations = {
     'mpdo-land-use-reclassification': 'Land Use Reclassification',
     'mpdo-latest-real-property-tax-receipt': 'Latest Real Property Tax Receipt',
     'mpdo-legislative': 'Legislative',
-    'mpdo-lgu-solano-facebook': 'LGU Solano Facebook',
+    'mpdo-lgu-Muntinlupa-facebook': 'LGU Muntinlupa Facebook',
     'mpdo-location': 'Location',
     'mpdo-locational-clearance': 'Locational Clearance',
     'mpdo-locational-clearance-is-required-before-building':
@@ -4356,7 +4179,7 @@ const translations = {
     'mpdo-municipal-planning-and-development-office': 'Municipal Planning and Development Office',
     'mpdo-office': 'Office',
     'mpdo-office-information': 'Office Information',
-    'mpdo-official-lgu-solano-portal': 'Official LGU Solano Portal',
+    'mpdo-official-lgu-Muntinlupa-portal': 'Official LGU Muntinlupa Portal',
     'mpdo-ongoing': 'Ongoing',
     'mpdo-open-data-philippines': 'Open Data Philippines',
     'mpdo-ordinance-framework': 'Ordinance Framework',
@@ -4411,7 +4234,6 @@ const translations = {
     'mswdo-13-days': '1-3 Days',
     'mswdo-1530-days': '15-30 Days',
     'mswdo-2-tracks': '2 Tracks',
-    'mswdo-22-barangays': '22 Barangays',
     'mswdo-34-years': '3-4 Years',
     'mswdo-4ps-members': '4Ps Members',
     'mswdo-60-years': '60 Years+',
@@ -4479,7 +4301,7 @@ const translations = {
     'mswdo-emergency-financial-assistance-for-various-needs':
       'Emergency financial assistance for various needs',
     'mswdo-employment-facilitation-ef': 'Employment Facilitation (EF)',
-    'mswdo-empowering-the-people-of-solano-with-transparent':
+    'mswdo-empowering-the-people-of-Muntinlupa-with-transparent':
       'Empowering the people of Muntinlupa with transparent access to city services, programs, and public funds.',
     'mswdo-enrollment-requirements': 'Enrollment Requirements',
     'mswdo-environment': 'Environment',
@@ -4520,7 +4342,7 @@ const translations = {
     'mswdo-infrastructure': 'Infrastructure',
     'mswdo-interest': 'Interest',
     'mswdo-legal-assistance': 'Legal Assistance',
-    'mswdo-lgu-solano-facebook': 'LGU Solano Facebook',
+    'mswdo-lgu-Muntinlupa-facebook': 'LGU Muntinlupa Facebook',
     'mswdo-livelihood': 'Livelihood',
     'mswdo-loan-amount': 'Loan Amount',
     'mswdo-location': 'Location',
@@ -4545,7 +4367,7 @@ const translations = {
     'mswdo-nutritious-snacks-and-meals-during-day-care-hours':
       'Nutritious snacks and meals during day care hours.',
     'mswdo-office-hours': 'Office Hours',
-    'mswdo-official-lgu-solano-portal': 'Official LGU Solano Portal',
+    'mswdo-official-lgu-Muntinlupa-portal': 'Official LGU Muntinlupa Portal',
     'mswdo-open-data-philippines': 'Open Data Philippines',
     'mswdo-ordinance-framework': 'Ordinance Framework',
     'mswdo-parent-education-on-proper-nutrition-and-child':
@@ -4718,7 +4540,7 @@ const translations = {
     'mswdosvc-education': 'Education',
     'mswdosvc-educational-assistance': 'Educational assistance',
     'mswdosvc-emergency-cases-are-given-priority': 'Emergency cases are given priority',
-    'mswdosvc-empowering-the-people-of-solano-with-transparent':
+    'mswdosvc-empowering-the-people-of-Muntinlupa-with-transparent':
       'Empowering the people of Muntinlupa with transparent access to city services, programs, and public funds.',
     'mswdosvc-encoding-and-processing-of-pwd-id': 'Encoding and processing of PWD ID',
     'mswdosvc-encoding-and-processing-of-senior-citizen-id':
@@ -4761,7 +4583,7 @@ const translations = {
       'Key personnel handling social welfare services',
     'mswdosvc-legal-assistance-referral': 'Legal assistance referral',
     'mswdosvc-legislative': 'Legislative',
-    'mswdosvc-lgu-solano-facebook': 'LGU Solano Facebook',
+    'mswdosvc-lgu-Muntinlupa-facebook': 'LGU Muntinlupa Facebook',
     'mswdosvc-livelihood-assistance-programs': 'Livelihood assistance programs',
     'mswdosvc-location': 'Location',
     'mswdosvc-medical-certificate-indicating-type-of-disability':
@@ -4771,8 +4593,8 @@ const translations = {
     'mswdosvc-medical-certificatehospital-bill-for-medical':
       'Medical Certificate/Hospital Bill (for medical assistance)',
     'mswdosvc-mswdo-head': 'MSWDO Head',
-    'mswdosvc-mswdo-office-2nd-floor-municipal-hall-solano':
-      'MSWDO Office, 2nd Floor, Municipal Hall, Solano, Nueva Vizcaya',
+    'mswdosvc-mswdo-office-2nd-floor-municipal-hall-Muntinlupa':
+      'MSWDO Office, 2nd Floor, Municipal Hall, Muntinlupa, Metro Manila',
     'mswdosvc-mswdo-services': 'MSWDO Services',
     'mswdosvc-municipal-hall-2nd-floor': 'Municipal Hall, 2nd Floor',
     'mswdosvc-municipal-social-welfare-development-office':
@@ -4781,7 +4603,7 @@ const translations = {
     'mswdosvc-office-head-social-welfare-officer': 'Office Head / Social Welfare Officer',
     'mswdosvc-office-information': 'Office Information',
     'mswdosvc-office-personnel': 'Office Personnel',
-    'mswdosvc-official-lgu-solano-portal': 'Official LGU Solano Portal',
+    'mswdosvc-official-lgu-Muntinlupa-portal': 'Official LGU Muntinlupa Portal',
     'mswdosvc-open-data-philippines': 'Open Data Philippines',
     'mswdosvc-ordinance-framework': 'Ordinance Framework',
     'mswdosvc-osca-focal-person': 'OSCA Focal Person',
@@ -4796,7 +4618,7 @@ const translations = {
     'mswdosvc-processing-information': 'Processing Information',
     'mswdosvc-programs-and-services-for-womens-welfare-and':
       "Programs and services for women's welfare and protection",
-    'mswdosvc-proof-of-residence-in-solano': 'Proof of residence in Solano',
+    'mswdosvc-proof-of-residence-in-Muntinlupa': 'Proof of residence in Muntinlupa',
     'mswdosvc-provision-of-immediate-interventionassistance':
       'Provision of immediate intervention/assistance',
     'mswdosvc-public-safety': 'Public Safety',
@@ -4890,20 +4712,20 @@ const translations = {
     'news-cmci-dti-portal': 'CMCI DTI Portal',
     'news-contribute-code-with-us': 'Contribute code with us',
     'news-education': 'Education',
-    'news-empowering-the-people-of-solano-with-transparent':
+    'news-empowering-the-people-of-Muntinlupa-with-transparent':
       'Empowering the people of Muntinlupa with transparent access to city services, programs, and public funds.',
     'news-environment': 'Environment',
-    'news-fetching-news-and-updates-from-solano': 'Fetching news and updates from Solano.',
+    'news-fetching-news-and-updates-from-Muntinlupa': 'Fetching news and updates from Muntinlupa.',
     'news-freedom-of-information': 'Freedom of Information',
     'news-health': 'Health',
     'news-home': 'Home',
     'news-infrastructure': 'Infrastructure',
-    'news-lgu-solano-facebook': 'LGU Solano Facebook',
+    'news-lgu-Muntinlupa-facebook': 'LGU Muntinlupa Facebook',
     'news-loading': 'Loading',
     'news-loading-news': 'Loading news...',
     'news-news': 'News',
     'news-news-updates': 'News & Updates',
-    'news-official-lgu-solano-portal': 'Official LGU Solano Portal',
+    'news-official-lgu-Muntinlupa-portal': 'Official LGU Muntinlupa Portal',
     'news-open-data-philippines': 'Open Data Philippines',
     'news-ordinance-framework': 'Ordinance Framework',
     'news-privacy-policy': 'Privacy Policy',
@@ -4916,7 +4738,7 @@ const translations = {
     'news-skip-to-main-content': 'Skip to main content',
     'news-social-services': 'Social Services',
     'news-stay-informed-about-the-latest-happenings-in':
-      'Stay informed about the latest happenings in Solano',
+      'Stay informed about the latest happenings in Muntinlupa',
     'news-tax-payments': 'Tax Payments',
     'news-terms-of-use': 'Terms of Use',
     'news-volunteer-with-us': 'Volunteer with us',
@@ -4930,7 +4752,7 @@ const translations = {
     'officials-contribute-code-with-us': 'Contribute code with us',
     'officials-education': 'Education',
     'officials-elected-officials': 'Elected Officials',
-    'officials-empowering-the-people-of-solano-with-transparent':
+    'officials-empowering-the-people-of-Muntinlupa-with-transparent':
       'Empowering the people of Muntinlupa with transparent access to city services, programs, and public funds.',
     'officials-environment': 'Environment',
     'officials-executive-branch': 'Executive Branch',
@@ -4949,12 +4771,12 @@ const translations = {
     'officials-hon-thomas-dave-c-santos': 'Hon. Thomas Dave C. Santos',
     'officials-hon-walter-d-savedra-sr': 'Hon. Walter D. Savedra, Sr.',
     'officials-infrastructure': 'Infrastructure',
-    'officials-lgu-solano-facebook': 'LGU Solano Facebook',
+    'officials-lgu-Muntinlupa-facebook': 'LGU Muntinlupa Facebook',
     'officials-meet-the-leaders-serving-muntinlupa':
       'Meet the elected leaders serving Muntinlupa City',
     'officials-municipal-mayor': 'Municipal Mayor',
     'officials-municipal-vice-mayor': 'Municipal Vice Mayor',
-    'officials-official-lgu-solano-portal': 'Official LGU Solano Portal',
+    'officials-official-lgu-Muntinlupa-portal': 'Official LGU Muntinlupa Portal',
     'officials-open-data-philippines': 'Open Data Philippines',
     'officials-ordinance-framework': 'Ordinance Framework',
     'officials-privacy-policy': 'Privacy Policy',
@@ -4971,7 +4793,6 @@ const translations = {
     'officials-tax-payments': 'Tax Payments',
     'officials-terms-of-use': 'Terms of Use',
     'officials-volunteer-with-us': 'Volunteer with us',
-    'offline-emergency-hotlines-solano-nueva-vizcaya': 'Emergency Hotlines - Solano, Nueva Vizcaya',
     'offline-fire-bfp': 'Fire (BFP)',
     'offline-municipal-hall': 'Municipal Hall',
     'offline-police-pnp': 'Police (PNP)',
@@ -4989,7 +4810,7 @@ const translations = {
     'ord-cmci-dti-portal': 'CMCI DTI Portal',
     'ord-contribute-code-with-us': 'Contribute code with us',
     'ord-education': 'Education',
-    'ord-empowering-the-people-of-solano-with-transparent':
+    'ord-empowering-the-people-of-Muntinlupa-with-transparent':
       'Empowering the people of Muntinlupa with transparent access to city services, programs, and public funds.',
     'ord-environment': 'Environment',
     'ord-freedom-of-information': 'Freedom of Information',
@@ -4997,8 +4818,8 @@ const translations = {
     'ord-home': 'Home',
     'ord-infrastructure': 'Infrastructure',
     'ord-legislative': 'Legislative',
-    'ord-lgu-solano-facebook': 'LGU Solano Facebook',
-    'ord-official-lgu-solano-portal': 'Official LGU Solano Portal',
+    'ord-lgu-Muntinlupa-facebook': 'LGU Muntinlupa Facebook',
+    'ord-official-lgu-Muntinlupa-portal': 'Official LGU Muntinlupa Portal',
     'ord-open-data-philippines': 'Open Data Philippines',
     'ord-ordinance-framework': 'Ordinance Framework',
     'ord-privacy-policy': 'Privacy Policy',
@@ -5051,7 +4872,7 @@ const translations = {
     'privacy-education': 'Education',
     'privacy-email-address-when-you-contact-us-or-submit':
       'Email address (when you contact us or submit feedback)',
-    'privacy-empowering-the-people-of-solano-with-transparent':
+    'privacy-empowering-the-people-of-Muntinlupa-with-transparent':
       'Empowering the people of Muntinlupa with transparent access to city services, programs, and public funds.',
     'privacy-environment': 'Environment',
     'privacy-essential-cookies': 'Essential Cookies:',
@@ -5082,7 +4903,7 @@ const translations = {
     'privacy-legal-requirements': 'Legal Requirements:',
     'privacy-legislative': 'Legislative',
     'privacy-legitimate-interest': 'Legitimate Interest:',
-    'privacy-lgu-solano-facebook': 'LGU Solano Facebook',
+    'privacy-lgu-Muntinlupa-facebook': 'LGU Muntinlupa Facebook',
     'privacy-managing-cookies': 'Managing Cookies',
     'privacy-material-changes-may-be-announced-on-our-website':
       'Material changes may be announced on our website',
@@ -5091,7 +4912,7 @@ const translations = {
     'privacy-national-privacy-commission': 'National Privacy Commission',
     'privacy-not': 'not',
     'privacy-number-of-visitors-and-page-views': 'Number of visitors and page views',
-    'privacy-official-lgu-solano-portal': 'Official LGU Solano Portal',
+    'privacy-official-lgu-Muntinlupa-portal': 'Official LGU Muntinlupa Portal',
     'privacy-open-data-philippines': 'Open Data Philippines',
     'privacy-ordinance-framework': 'Ordinance Framework',
     'privacy-our-website-may-contain-links-to-external':
@@ -5228,7 +5049,7 @@ const translations = {
     'propdec-education': 'Education',
     'propdec-effectivity-of-assessment': 'Effectivity of Assessment',
     'propdec-effectivity-quarter-and-year': 'Effectivity Quarter and Year',
-    'propdec-empowering-the-people-of-solano-with-transparent':
+    'propdec-empowering-the-people-of-Muntinlupa-with-transparent':
       'Empowering the people of Muntinlupa with transparent access to city services, programs, and public funds.',
     'propdec-environment': 'Environment',
     'propdec-estimated-economic-life': 'Estimated Economic Life',
@@ -5239,7 +5060,7 @@ const translations = {
     'propdec-freedom-of-information': 'Freedom of Information',
     'propdec-full-name-of-owner': 'Full Name of Owner',
     'propdec-government': 'Government',
-    'propdec-ground-floor-municipal-hall-solano': 'Ground Floor, Municipal Hall, Solano',
+    'propdec-ground-floor-municipal-hall-Muntinlupa': 'Ground Floor, Municipal Hall, Muntinlupa',
     'propdec-handles-property-assessment-tax-declaration-and':
       'Handles property assessment, tax declaration, and real property records.',
     'propdec-health': 'Health',
@@ -5254,7 +5075,7 @@ const translations = {
     'propdec-land-declaration': 'Land Declaration',
     'propdec-land-tax-declaration': 'Land Tax Declaration',
     'propdec-legislative': 'Legislative',
-    'propdec-lgu-solano-facebook': 'LGU Solano Facebook',
+    'propdec-lgu-Muntinlupa-facebook': 'LGU Muntinlupa Facebook',
     'propdec-list-of-machineries-with-specifications': 'List of Machineries with Specifications',
     'propdec-location': 'Location',
     'propdec-machinery-declaration': 'Machinery Declaration',
@@ -5267,7 +5088,7 @@ const translations = {
     'propdec-occupancy-permit': 'Occupancy Permit',
     'propdec-octtctcloa-no': 'OCT/TCT/CLOA No.',
     'propdec-office': 'Office',
-    'propdec-official-lgu-solano-portal': 'Official LGU Solano Portal',
+    'propdec-official-lgu-Muntinlupa-portal': 'Official LGU Muntinlupa Portal',
     'propdec-open-data-philippines': 'Open Data Philippines',
     'propdec-ordinance-framework': 'Ordinance Framework',
     'propdec-owner-information': 'Owner Information',
@@ -5296,7 +5117,7 @@ const translations = {
     'propdec-tax-clearance-certificate': 'Tax Clearance Certificate',
     'propdec-tax-declaration': 'Tax Declaration',
     'propdec-tax-declaration-form-for-real-property-assessment':
-      'Tax declaration form for real property assessment in Solano, Nueva Vizcaya',
+      'Tax declaration form for real property assessment in Muntinlupa, Metro Manila',
     'propdec-tax-payments': 'Tax Payments',
     'propdec-tax-payments-2': 'Tax & Payments',
     'propdec-taxableexempt-status': 'Taxable/Exempt Status',
@@ -5317,7 +5138,7 @@ const translations = {
     'reso-cmci-dti-portal': 'CMCI DTI Portal',
     'reso-contribute-code-with-us': 'Contribute code with us',
     'reso-education': 'Education',
-    'reso-empowering-the-people-of-solano-with-transparent':
+    'reso-empowering-the-people-of-Muntinlupa-with-transparent':
       'Empowering the people of Muntinlupa with transparent access to city services, programs, and public funds.',
     'reso-environment': 'Environment',
     'reso-freedom-of-information': 'Freedom of Information',
@@ -5325,8 +5146,8 @@ const translations = {
     'reso-home': 'Home',
     'reso-infrastructure': 'Infrastructure',
     'reso-legislative': 'Legislative',
-    'reso-lgu-solano-facebook': 'LGU Solano Facebook',
-    'reso-official-lgu-solano-portal': 'Official LGU Solano Portal',
+    'reso-lgu-Muntinlupa-facebook': 'LGU Muntinlupa Facebook',
+    'reso-official-lgu-Muntinlupa-portal': 'Official LGU Muntinlupa Portal',
     'reso-open-data-philippines': 'Open Data Philippines',
     'reso-ordinance-framework': 'Ordinance Framework',
     'reso-privacy-policy': 'Privacy Policy',
@@ -5357,7 +5178,7 @@ const translations = {
     'safety-emergency-hotlines': 'Emergency Hotlines',
     'safety-emergency-response-and-disaster-preparedness':
       'Emergency response and disaster preparedness programs.',
-    'safety-empowering-the-people-of-solano-with-transparent':
+    'safety-empowering-the-people-of-Muntinlupa-with-transparent':
       'Empowering the people of Muntinlupa with transparent access to city services, programs, and public funds.',
     'safety-environment': 'Environment',
     'safety-fee': 'Fee:',
@@ -5369,11 +5190,11 @@ const translations = {
     'safety-health': 'Health',
     'safety-home': 'Home',
     'safety-infrastructure': 'Infrastructure',
-    'safety-lgu-solano-facebook': 'LGU Solano Facebook',
+    'safety-lgu-Muntinlupa-facebook': 'LGU Muntinlupa Facebook',
     'safety-medical': 'Medical',
     'safety-medical-emergency-hotlines': 'Medical Emergency Hotlines',
     'safety-office': 'Office:',
-    'safety-official-lgu-solano-portal': 'Official LGU Solano Portal',
+    'safety-official-lgu-Muntinlupa-portal': 'Official LGU Muntinlupa Portal',
     'safety-open-data-philippines': 'Open Data Philippines',
     'safety-ordinance-framework': 'Ordinance Framework',
     'safety-privacy-policy': 'Privacy Policy',
@@ -5413,7 +5234,7 @@ const translations = {
     'sitemap-contribute-code-with-us': 'Contribute code with us',
     'sitemap-education': 'Education',
     'sitemap-elected-officials': 'Elected Officials',
-    'sitemap-empowering-the-people-of-solano-with-transparent':
+    'sitemap-empowering-the-people-of-Muntinlupa-with-transparent':
       'Empowering the people of Muntinlupa with transparent access to city services, programs, and public funds.',
     'sitemap-engineering-office': 'Engineering Office',
     'sitemap-environment': 'Environment',
@@ -5431,19 +5252,19 @@ const translations = {
     'sitemap-infrastructure': 'Infrastructure',
     'sitemap-legislative': 'Legislative',
     'sitemap-legislative-documents': 'Legislative Documents',
-    'sitemap-lgu-solano-facebook': 'LGU Solano Facebook',
+    'sitemap-lgu-Muntinlupa-facebook': 'LGU Muntinlupa Facebook',
     'sitemap-local-civil-registrar': 'Local Civil Registrar',
     'sitemap-main-navigation': 'Main Navigation',
-    'sitemap-municipal-offices': 'Municipal Offices',
-    'sitemap-navigate-all-pages-and-services-of-better-solano':
+    'sitemap-municipal-offices': 'City Services',
+    'sitemap-navigate-all-pages-and-services-of-better-Muntinlupa':
       'Navigate all pages and services of Better Muntinlupa',
     'sitemap-navigation': 'Navigation',
     'sitemap-new-business-application': 'New Business Application',
     'sitemap-news': 'News',
-    'sitemap-official-lgu-solano-portal': 'Official LGU Solano Portal',
-    'sitemap-official-solano-website': 'Official Solano Website',
-    'sitemap-online-payment-order': 'Online Payment Order',
-    'sitemap-online-services': 'Online Services',
+    'sitemap-official-lgu-Muntinlupa-portal': 'Official LGU Muntinlupa Portal',
+    'sitemap-official-Muntinlupa-website': 'Official Muntinlupa Website',
+    'sitemap-online-payment-order': 'Payment Order Information',
+    'sitemap-online-services': 'City Service Information',
     'sitemap-open-data-philippines': 'Open Data Philippines',
     'sitemap-ordinance-framework': 'Ordinance Framework',
     'sitemap-planning-office': 'Planning Office',
@@ -5469,7 +5290,7 @@ const translations = {
     'sitemap-transparency': 'Transparency',
     'sitemap-treasurers-office': "Treasurer's Office",
     'sitemap-tricycle-franchising': 'Tricycle Franchising',
-    'sitemap-via-filipizen': 'via Filipizen',
+    'sitemap-via-filipizen': 'City services',
     'sitemap-volunteer-with-us': 'Volunteer with us',
     'slaughter-1-hour': '1 hour',
     'slaughter-10-minutes': '10 minutes',
@@ -5523,7 +5344,7 @@ const translations = {
     'slaughter-duration': 'Duration',
     'slaughter-economic-enterprise-development-office': 'Economic Enterprise & Development Office',
     'slaughter-education': 'Education',
-    'slaughter-empowering-the-people-of-solano-with-transparent':
+    'slaughter-empowering-the-people-of-Muntinlupa-with-transparent':
       'Empowering the people of Muntinlupa with transparent access to city services, programs, and public funds.',
     'slaughter-environment': 'Environment',
     'slaughter-facility-maintenance': 'Facility Maintenance',
@@ -5547,7 +5368,7 @@ const translations = {
     'slaughter-large': 'Large',
     'slaughter-large-cattle-registration-certificate': 'Large Cattle Registration Certificate',
     'slaughter-legislative': 'Legislative',
-    'slaughter-lgu-solano-facebook': 'LGU Solano Facebook',
+    'slaughter-lgu-Muntinlupa-facebook': 'LGU Muntinlupa Facebook',
     'slaughter-location': 'Location',
     'slaughter-meat-inspection-certificate-is-required-for-meat':
       'Meat Inspection Certificate is required for meat transport',
@@ -5558,7 +5379,7 @@ const translations = {
     'slaughter-office-head': 'Office Head',
     'slaughter-office-information': 'Office Information',
     'slaughter-office-personnel': 'Office Personnel',
-    'slaughter-official-lgu-solano-portal': 'Official LGU Solano Portal',
+    'slaughter-official-lgu-Muntinlupa-portal': 'Official LGU Muntinlupa Portal',
     'slaughter-open-data-philippines': 'Open Data Philippines',
     'slaughter-operations-management': 'Operations Management',
     'slaughter-ordinance-framework': 'Ordinance Framework',
@@ -5585,8 +5406,7 @@ const translations = {
     'slaughter-see-fee-schedule': 'See fee schedule',
     'slaughter-seedo-head': 'SEEDO Head',
     'slaughter-seedo-slaughterhouse': 'SEEDO - Slaughterhouse',
-    'slaughter-seedo-slaughterhouse-solano-nueva-vizcaya':
-      'SEEDO Slaughterhouse, Solano, Nueva Vizcaya',
+    'slaughter-city-office-location': "Contact the City Office to confirm the facility's current location.",
     'slaughter-select-a-service-to-view-the-detailed-process':
       'Select a service to view the detailed process, requirements, and fees',
     'slaughter-services': 'Services',
@@ -5634,7 +5454,7 @@ const translations = {
     'social-cmci-dti-portal': 'CMCI DTI Portal',
     'social-contribute-code-with-us': 'Contribute code with us',
     'social-education': 'Education',
-    'social-empowering-the-people-of-solano-with-transparent':
+    'social-empowering-the-people-of-Muntinlupa-with-transparent':
       'Empowering the people of Muntinlupa with transparent access to city services, programs, and public funds.',
     'social-environment': 'Environment',
     'social-fee': 'Fee:',
@@ -5642,9 +5462,9 @@ const translations = {
     'social-health': 'Health',
     'social-home': 'Home',
     'social-infrastructure': 'Infrastructure',
-    'social-lgu-solano-facebook': 'LGU Solano Facebook',
+    'social-lgu-Muntinlupa-facebook': 'LGU Muntinlupa Facebook',
     'social-mswdo-services': 'MSWDO Services',
-    'social-official-lgu-solano-portal': 'Official LGU Solano Portal',
+    'social-official-lgu-Muntinlupa-portal': 'Official LGU Muntinlupa Portal',
     'social-open-data-philippines': 'Open Data Philippines',
     'social-ordinance-framework': 'Ordinance Framework',
     'social-privacy-policy': 'Privacy Policy',
@@ -5670,13 +5490,8 @@ const translations = {
     'stats-90-ci-47-81': '90% CI: 4.7% - 8.1%',
     'stats-90-ci-47-92': '90% CI: 4.7% - 9.2%',
     'stats-accessibility': 'Accessibility',
-    'stats-aggub': 'Aggub',
     'stats-agriculture': 'Agriculture',
     'stats-annual-income': 'Annual Income',
-    'stats-bagahabag': 'Bagahabag',
-    'stats-bangaan': 'Bangaan',
-    'stats-bangar': 'Bangar',
-    'stats-bascaran': 'Bascaran',
     'stats-blgf-portal': 'BLGF Portal',
     'stats-bureau-of-local-government-finance-blgf': 'Bureau of Local Government Finance (BLGF)',
     'stats-business': 'Business',
@@ -5685,13 +5500,8 @@ const translations = {
       'Cities and Municipalities Competitiveness Index (CMCI) Performance 2016-2024',
     'stats-citizens-charter': "Citizen's Charter",
     'stats-cmci-dti-portal': 'CMCI DTI Portal',
-    'stats-communal': 'Communal',
-    'stats-comparative-view-of-all-22-barangays': 'Comparative view of all 22 barangays',
     'stats-competitiveness': 'Competitiveness',
-    'stats-concepcion': 'Concepcion',
     'stats-contribute-code-with-us': 'Contribute code with us',
-    'stats-curifang': 'Curifang',
-    'stats-dadap': 'Dadap',
     'stats-distribution': 'Distribution',
     'stats-dti-cities-and-municipalities-competitiveness':
       'DTI Cities and Municipalities Competitiveness Index (CMCI)',
@@ -5701,7 +5511,7 @@ const translations = {
     'stats-economic-sectors': 'Economic Sectors',
     'stats-economy': 'Economy',
     'stats-education': 'Education',
-    'stats-empowering-the-people-of-solano-with-transparent':
+    'stats-empowering-the-people-of-Muntinlupa-with-transparent':
       'Empowering the people of Muntinlupa with transparent access to city services, programs, and public funds.',
     'stats-environment': 'Environment',
     'stats-finance': 'Finance',
@@ -5725,19 +5535,14 @@ const translations = {
     'stats-ira-share': 'IRA Share',
     'stats-key-economic-data-and-business-statistics': 'Key economic data and business statistics',
     'stats-key-indicators-trend-20162024': 'Key Indicators Trend (2016-2024)',
-    'stats-lactawan': 'Lactawan',
-    'stats-lgu-solano-facebook': 'LGU Solano Facebook',
+    'stats-lgu-Muntinlupa-facebook': 'LGU Muntinlupa Facebook',
     'stats-local-4055': 'Local 40.55%',
     'stats-municipal-data': 'Municipal Data',
     'stats-municipal-income': 'Municipal Income',
-    'stats-official-lgu-solano-portal': 'Official LGU Solano Portal',
+    'stats-official-lgu-Muntinlupa-portal': 'Official LGU Muntinlupa Portal',
     'stats-ordinance-framework': 'Ordinance Framework',
-    'stats-osmea': 'Osmeña',
     'stats-overview': 'Overview',
     'stats-philippine-statistics-authority-psa': 'Philippine Statistics Authority (PSA)',
-    'stats-pilar-d-galima': 'Pilar D. Galima',
-    'stats-poblacion-north': 'Poblacion North',
-    'stats-poblacion-south': 'Poblacion South',
     'stats-population-bar-chart': 'Population Bar Chart',
     'stats-population-by-barangay': 'Population by Barangay',
     'stats-population-trends': 'Population Trends',
@@ -5745,31 +5550,22 @@ const translations = {
     'stats-poverty-statistics': 'Poverty Statistics',
     'stats-privacy-policy': 'Privacy Policy',
     'stats-public-safety': 'Public Safety',
-    'stats-quezon': 'Quezon',
     'stats-quick-links': 'Quick Links',
-    'stats-quirino': 'Quirino',
     'stats-resiliency': 'Resiliency',
     'stats-resiliency-trend': 'Resiliency Trend',
     'stats-resolution-framework': 'Resolution Framework',
     'stats-resources': 'Resources',
-    'stats-roxas': 'Roxas',
-    'stats-san-juan': 'San Juan',
-    'stats-san-luis': 'San Luis',
     'stats-sangguniang-bayan': 'Sangguniang Bayan',
     'stats-services': 'Services',
     'stats-sitemap': 'Sitemap',
     'stats-skip-to-main-content': 'Skip to main content',
     'stats-social-services': 'Social Services',
-    'stats-solano-competitive-index': 'Solano Competitive Index',
+    'stats-Muntinlupa-competitive-index': 'Muntinlupa Competitive Index',
     'stats-tax-payments': 'Tax Payments',
     'stats-terms-of-use': 'Terms of Use',
     'stats-trade-amp-commerce': 'Trade &amp; Commerce',
-    'stats-tucal': 'Tucal',
-    'stats-uddiawan': 'Uddiawan',
-    'stats-view-all-22-barangays': 'View all 22 barangays',
     'stats-visual': 'Visual',
     'stats-volunteer-with-us': 'Volunteer with us',
-    'stats-wacal': 'Wacal',
     'svc-accessibility': 'Accessibility',
     'svc-agriculture': 'Agriculture',
     'svc-blgf-portal': 'BLGF Portal',
@@ -5780,7 +5576,7 @@ const translations = {
     'svc-cmci-dti-portal': 'CMCI DTI Portal',
     'svc-contribute-code-with-us': 'Contribute code with us',
     'svc-education': 'Education',
-    'svc-empowering-the-people-of-solano-with-transparent':
+    'svc-empowering-the-people-of-Muntinlupa-with-transparent':
       'Empowering the people of Muntinlupa with transparent access to city services, programs, and public funds.',
     'svc-environment': 'Environment',
     'svc-freedom-of-information': 'Freedom of Information',
@@ -5790,9 +5586,9 @@ const translations = {
     'svc-health': 'Health',
     'svc-home': 'Home',
     'svc-infrastructure': 'Infrastructure',
-    'svc-lgu-solano-facebook': 'LGU Solano Facebook',
+    'svc-lgu-Muntinlupa-facebook': 'LGU Muntinlupa Facebook',
     'svc-need-financial-help': 'Need Financial Help',
-    'svc-official-lgu-solano-portal': 'Official LGU Solano Portal',
+    'svc-official-lgu-Muntinlupa-portal': 'Official LGU Muntinlupa Portal',
     'svc-open-data-philippines': 'Open Data Philippines',
     'svc-ordinance-framework': 'Ordinance Framework',
     'svc-person-with-disability': 'Person with Disability',
@@ -5820,34 +5616,34 @@ const translations = {
     'tax-cmci-dti-portal': 'CMCI DTI Portal',
     'tax-contribute-code-with-us': 'Contribute code with us',
     'tax-education': 'Education',
-    'tax-empowering-the-people-of-solano-with-transparent':
+    'tax-empowering-the-people-of-Muntinlupa-with-transparent':
       'Empowering the people of Muntinlupa with transparent access to city services, programs, and public funds.',
     'tax-environment': 'Environment',
     'tax-freedom-of-information': 'Freedom of Information',
     'tax-health': 'Health',
     'tax-home': 'Home',
     'tax-infrastructure': 'Infrastructure',
-    'tax-lgu-solano-facebook': 'LGU Solano Facebook',
+    'tax-lgu-Muntinlupa-facebook': 'LGU Muntinlupa Facebook',
     'tax-municipal-accounting-office': 'Municipal Accounting Office',
     'tax-municipal-assessors-office': "Municipal Assessor's Office",
     'tax-municipal-budget-office': 'Municipal Budget Office',
     'tax-municipal-treasurers-office': "Municipal Treasurer's Office",
     'tax-obligation-requests-barangay-budget-review-and':
       'Obligation requests, barangay budget review, and SEF budget preparation',
-    'tax-official-lgu-solano-portal': 'Official LGU Solano Portal',
-    'tax-online-payment-order': 'Online Payment Order',
+    'tax-official-lgu-Muntinlupa-portal': 'Official LGU Muntinlupa Portal',
+    'tax-online-payment-order': 'Payment Order Information',
     'tax-open-data-philippines': 'Open Data Philippines',
     'tax-ordinance-framework': 'Ordinance Framework',
     'tax-preaudit-of-disbursements-payroll-check-issuance':
       'Pre-audit of disbursements, payroll, check issuance, and financial reporting',
     'tax-privacy-policy': 'Privacy Policy',
     'tax-process-payment-orders-for-various-municipal-fees':
-      'Process payment orders for various municipal fees',
+      'Find information about payment orders for city fees.',
     'tax-property-declaration-tax-assessment-and-land':
       'Property declaration, tax assessment, and land records',
     'tax-public-safety': 'Public Safety',
     'tax-quick-links': 'Quick Links',
-    'tax-real-property-tax-billing-payment': 'Real Property Tax Billing & Payment',
+    'tax-real-property-tax-billing-payment': 'Real Property Tax Billing & Payment Information',
     'tax-resolution-framework': 'Resolution Framework',
     'tax-resources': 'Resources',
     'tax-sangguniang-bayan': 'Sangguniang Bayan',
@@ -5860,7 +5656,7 @@ const translations = {
     'tax-tax-payments': 'Tax Payments',
     'tax-terms-of-use': 'Terms of Use',
     'tax-view-and-pay-your-real-property-tax-amilyar-online':
-      'View and pay your real property tax (amilyar) online',
+      'Find information about real property tax and payment.',
     'tax-volunteer-with-us': 'Volunteer with us',
     'terms-a-clear-description-of-your-concern': 'A clear description of your concern',
     'terms-acceptance-of-terms': 'Acceptance of Terms',
@@ -5930,7 +5726,7 @@ const translations = {
     'terms-editorial-decisions-about-content-rest-with-the':
       'Editorial decisions about content rest with the website team, guided by public interest and civic responsibility.',
     'terms-education': 'Education',
-    'terms-empowering-the-people-of-solano-with-transparent':
+    'terms-empowering-the-people-of-Muntinlupa-with-transparent':
       'Empowering the people of Muntinlupa with transparent access to city services, programs, and public funds.',
     'terms-environment': 'Environment',
     'terms-errorfree-or-uninterrupted': 'Error-free or uninterrupted',
@@ -5971,13 +5767,13 @@ const translations = {
     'terms-legislative': 'Legislative',
     'terms-legitimate-concerns-will-be-reviewed-in-good':
       'Legitimate concerns will be reviewed in good faith by volunteers.',
-    'terms-lgu-solano-facebook': 'LGU Solano Facebook',
+    'terms-lgu-Muntinlupa-facebook': 'LGU Muntinlupa Facebook',
     'terms-limitation-of-liability': 'Limitation of Liability',
     'terms-modifications': 'Modifications',
     'terms-no-professional-advice': 'No Professional Advice',
     'terms-noninfringement-of-intellectual-property-rights':
       'Non-infringement of intellectual property rights',
-    'terms-official-lgu-solano-portal': 'Official LGU Solano Portal',
+    'terms-official-lgu-Muntinlupa-portal': 'Official LGU Muntinlupa Portal',
     'terms-open-data-philippines': 'Open Data Philippines',
     'terms-ordinance-framework': 'Ordinance Framework',
     'terms-our-response-process': 'Our Response Process',
@@ -6104,7 +5900,7 @@ const translations = {
     'treas-discount': 'Discount:',
     'treas-discountpenalty': 'Discount/Penalty',
     'treas-education': 'Education',
-    'treas-empowering-the-people-of-solano-with-transparent':
+    'treas-empowering-the-people-of-Muntinlupa-with-transparent':
       'Empowering the people of Muntinlupa with transparent access to city services, programs, and public funds.',
     'treas-environment': 'Environment',
     'treas-fee': 'Fee:',
@@ -6114,8 +5910,7 @@ const translations = {
     'treas-free': 'Free',
     'treas-freedom-of-information': 'Freedom of Information',
     'treas-government': 'Government',
-    'treas-ground-floor-municipal-hall-solano-nueva-vizcaya':
-      'Ground Floor, Municipal Hall, Solano, Nueva Vizcaya',
+    'treas-city-office-location': 'Contact the City Treasurer to confirm its current location.',
     'treas-health': 'Health',
     'treas-home': 'Home',
     'treas-hours': 'Hours',
@@ -6135,7 +5930,7 @@ const translations = {
     'treas-keep-all-official-receipts-for-records': 'Keep all official receipts for records',
     'treas-late-payment': 'Late Payment',
     'treas-legislative': 'Legislative',
-    'treas-lgu-solano-facebook': 'LGU Solano Facebook',
+    'treas-lgu-Muntinlupa-facebook': 'LGU Muntinlupa Facebook',
     'treas-location': 'Location',
     'treas-march-31': 'March 31',
     'treas-maximum-72-36-months': 'Maximum 72% (36 months)',
@@ -6146,7 +5941,7 @@ const translations = {
     'treas-no-discountpenalty': 'No discount/penalty',
     'treas-office': 'Office',
     'treas-office-information': 'Office Information',
-    'treas-official-lgu-solano-portal': 'Official LGU Solano Portal',
+    'treas-official-lgu-Muntinlupa-portal': 'Official LGU Muntinlupa Portal',
     'treas-official-receipt': 'Official Receipt',
     'treas-open-data-philippines': 'Open Data Philippines',
     'treas-ordinance-framework': 'Ordinance Framework',
@@ -6185,7 +5980,7 @@ const translations = {
     'treas-tax-assessment-inquiry': 'Tax Assessment Inquiry',
     'treas-tax-clearance': 'Tax Clearance',
     'treas-tax-collection-fee-payments-and-financial':
-      'Tax collection, fee payments, and financial services for Solano residents',
+      'Tax collection, fee payments, and financial services for Muntinlupa residents',
     'treas-tax-declaration-assessment': 'Tax Declaration / Assessment',
     'treas-tax-payments': 'Tax Payments',
     'treas-tax-payments-2': 'Tax & Payments',
@@ -6228,7 +6023,7 @@ const translations = {
     'tricycle-contact': 'Contact',
     'tricycle-contribute-code-with-us': 'Contribute code with us',
     'tricycle-education': 'Education',
-    'tricycle-empowering-the-people-of-solano-with-transparent':
+    'tricycle-empowering-the-people-of-Muntinlupa-with-transparent':
       'Empowering the people of Muntinlupa with transparent access to city services, programs, and public funds.',
     'tricycle-encoding-of-application': 'Encoding of Application',
     'tricycle-environment': 'Environment',
@@ -6249,7 +6044,7 @@ const translations = {
     'tricycle-inspection-of-tricycle-unit': 'Inspection of Tricycle Unit',
     'tricycle-legislative': 'Legislative',
     'tricycle-mayors-approval': "Mayor's Approval",
-    'tricycle-municipal-hall-solano-nueva-vizcaya': 'Municipal Hall, Solano, Nueva Vizcaya',
+    'tricycle-city-office-location': 'Contact the City Office to confirm its current location.',
     'tricycle-municipal-mayor-approves-the-application-form':
       'Municipal Mayor approves the application form',
     'tricycle-municipal-treasurers-office-collects-the-fees':
@@ -6334,65 +6129,64 @@ const translations = {
     'safety-preparedness-desc': 'Training and resources for disaster readiness',
     'safety-relief': 'Disaster Assistance',
     'safety-relief-desc': 'Relief goods and evacuation support',
-    'tax-online-badge': 'Online Services via Filipizen',
+    'tax-online-badge': 'City Tax Services',
     'tax-property': 'Real Property Tax',
     'tax-property-desc': 'Annual tax on land and improvements',
 
-    // Solano Quiz
-    'accessibility-solano-quiz': 'Solano Quiz',
-    'acct-solano-quiz': 'Solano Quiz',
-    'agri-solano-quiz': 'Solano Quiz',
-    'assessor-solano-quiz': 'Solano Quiz',
-    'birth-solano-quiz': 'Solano Quiz',
-    'biz-solano-quiz': 'Solano Quiz',
-    'bpls-solano-quiz': 'Solano Quiz',
-    'budget-solano-quiz': 'Solano Quiz',
-    'cert-solano-quiz': 'Solano Quiz',
-    'civil-solano-quiz': 'Solano Quiz',
-    'contact-solano-quiz': 'Solano Quiz',
-    'death-solano-quiz': 'Solano Quiz',
-    'edu-solano-quiz': 'Solano Quiz',
-    'eng-solano-quiz': 'Solano Quiz',
-    'env-solano-quiz': 'Solano Quiz',
-    'err403-solano-quiz': 'Solano Quiz',
-    'err404-solano-quiz': 'Solano Quiz',
-    'err500-solano-quiz': 'Solano Quiz',
-    'faq-solano-quiz': 'Solano Quiz',
-    'gensvc-solano-quiz': 'Solano Quiz',
-    'gov-solano-quiz': 'Solano Quiz',
-    'health-solano-quiz': 'Solano Quiz',
-    'home-solano-quiz': 'Solano Quiz',
-    'hr-solano-quiz': 'Solano Quiz',
-    'infra-solano-quiz': 'Solano Quiz',
-    'legis-solano-quiz': 'Solano Quiz',
-    'magri-solano-quiz': 'Solano Quiz',
-    'market-solano-quiz': 'Solano Quiz',
-    'marriage-solano-quiz': 'Solano Quiz',
-    'mbudget-solano-quiz': 'Solano Quiz',
-    'mcivil-solano-quiz': 'Solano Quiz',
-    'mgensvc-solano-quiz': 'Solano Quiz',
-    'mswdo-solano-quiz': 'Solano Quiz',
-    'mswdo-svc-solano-quiz': 'Solano Quiz',
-    'news-solano-quiz': 'Solano Quiz',
-    'officials-solano-quiz': 'Solano Quiz',
-    'ord-solano-quiz': 'Solano Quiz',
-    'plan-solano-quiz': 'Solano Quiz',
-    'privacy-solano-quiz': 'Solano Quiz',
-    'propdec-solano-quiz': 'Solano Quiz',
-    'reso-solano-quiz': 'Solano Quiz',
-    'safety-solano-quiz': 'Solano Quiz',
-    'sitemap-solano-quiz': 'Solano Quiz',
-    'slaughter-solano-quiz': 'Solano Quiz',
-    'social-solano-quiz': 'Solano Quiz',
-    'stats-solano-quiz': 'Solano Quiz',
-    'svc-solano-quiz': 'Solano Quiz',
-    'tax-solano-quiz': 'Solano Quiz',
-    'terms-solano-quiz': 'Solano Quiz',
-    'treas-solano-quiz': 'Solano Quiz',
-    'tricycle-solano-quiz': 'Solano Quiz',
-    'home-how-well-do-you-know-solano-nueva-vizcaya': 'How well do you know Solano, Nueva Vizcaya?',
+    // Muntinlupa Quiz
+    'accessibility-Muntinlupa-quiz': 'Muntinlupa Quiz',
+    'acct-Muntinlupa-quiz': 'Muntinlupa Quiz',
+    'agri-Muntinlupa-quiz': 'Muntinlupa Quiz',
+    'assessor-Muntinlupa-quiz': 'Muntinlupa Quiz',
+    'birth-Muntinlupa-quiz': 'Muntinlupa Quiz',
+    'biz-Muntinlupa-quiz': 'Muntinlupa Quiz',
+    'bpls-Muntinlupa-quiz': 'Muntinlupa Quiz',
+    'budget-Muntinlupa-quiz': 'Muntinlupa Quiz',
+    'cert-Muntinlupa-quiz': 'Muntinlupa Quiz',
+    'civil-Muntinlupa-quiz': 'Muntinlupa Quiz',
+    'contact-Muntinlupa-quiz': 'Muntinlupa Quiz',
+    'death-Muntinlupa-quiz': 'Muntinlupa Quiz',
+    'edu-Muntinlupa-quiz': 'Muntinlupa Quiz',
+    'eng-Muntinlupa-quiz': 'Muntinlupa Quiz',
+    'env-Muntinlupa-quiz': 'Muntinlupa Quiz',
+    'err403-Muntinlupa-quiz': 'Muntinlupa Quiz',
+    'err404-Muntinlupa-quiz': 'Muntinlupa Quiz',
+    'err500-Muntinlupa-quiz': 'Muntinlupa Quiz',
+    'faq-Muntinlupa-quiz': 'Muntinlupa Quiz',
+    'gensvc-Muntinlupa-quiz': 'Muntinlupa Quiz',
+    'gov-Muntinlupa-quiz': 'Muntinlupa Quiz',
+    'health-Muntinlupa-quiz': 'Muntinlupa Quiz',
+    'home-Muntinlupa-quiz': 'Muntinlupa Quiz',
+    'hr-Muntinlupa-quiz': 'Muntinlupa Quiz',
+    'infra-Muntinlupa-quiz': 'Muntinlupa Quiz',
+    'legis-Muntinlupa-quiz': 'Muntinlupa Quiz',
+    'magri-Muntinlupa-quiz': 'Muntinlupa Quiz',
+    'market-Muntinlupa-quiz': 'Muntinlupa Quiz',
+    'marriage-Muntinlupa-quiz': 'Muntinlupa Quiz',
+    'mbudget-Muntinlupa-quiz': 'Muntinlupa Quiz',
+    'mcivil-Muntinlupa-quiz': 'Muntinlupa Quiz',
+    'mgensvc-Muntinlupa-quiz': 'Muntinlupa Quiz',
+    'mswdo-Muntinlupa-quiz': 'Muntinlupa Quiz',
+    'mswdo-svc-Muntinlupa-quiz': 'Muntinlupa Quiz',
+    'news-Muntinlupa-quiz': 'Muntinlupa Quiz',
+    'officials-Muntinlupa-quiz': 'Muntinlupa Quiz',
+    'ord-Muntinlupa-quiz': 'Muntinlupa Quiz',
+    'plan-Muntinlupa-quiz': 'Muntinlupa Quiz',
+    'privacy-Muntinlupa-quiz': 'Muntinlupa Quiz',
+    'propdec-Muntinlupa-quiz': 'Muntinlupa Quiz',
+    'reso-Muntinlupa-quiz': 'Muntinlupa Quiz',
+    'safety-Muntinlupa-quiz': 'Muntinlupa Quiz',
+    'sitemap-Muntinlupa-quiz': 'Muntinlupa Quiz',
+    'slaughter-Muntinlupa-quiz': 'Muntinlupa Quiz',
+    'social-Muntinlupa-quiz': 'Muntinlupa Quiz',
+    'stats-Muntinlupa-quiz': 'Muntinlupa Quiz',
+    'svc-Muntinlupa-quiz': 'Muntinlupa Quiz',
+    'tax-Muntinlupa-quiz': 'Muntinlupa Quiz',
+    'terms-Muntinlupa-quiz': 'Muntinlupa Quiz',
+    'treas-Muntinlupa-quiz': 'Muntinlupa Quiz',
+    'tricycle-Muntinlupa-quiz': 'Muntinlupa Quiz',
     'home-evaluate-your-familiarity-with-the-municipalitys':
-      "Evaluate your familiarity with the municipality\'s heritage, cultural identity, and geographic significance through an interactive knowledge assessment designed to showcase one of Nueva Vizcaya\'s most prominent localities.",
+      "Evaluate your familiarity with the municipality\'s heritage, cultural identity, and geographic significance through an interactive knowledge assessment designed to showcase one of Metro Manila\'s most prominent localities.",
     'home-take-the-quiz': 'Take the Quiz',
   },
 
@@ -6403,6 +6197,8 @@ const translations = {
     'nav-statistics': 'Estadistika',
     'nav-legislative': 'Lehislatura',
     'nav-transparency': 'Transparensiya',
+    'nav-community': 'Mga Lokal na Komunidad',
+    'nav-doing-business': 'Pagnenegosyo',
     'nav-contact': 'Makipag-ugnayan',
     'nav-budget': 'Badyet',
     'nav-news': 'Balita',
@@ -6411,8 +6207,11 @@ const translations = {
     'nav-privacy': 'Pagkapribado',
     'nav-terms': 'Mga Tuntunin',
     'nav-accessibility': 'Aksesibilidad',
-    'stats-title': 'Estadistika ng Munisipalidad',
-    'stats-subtitle': 'Datos at estadistika tungkol sa Solano, Nueva Vizcaya',
+    'stats-title': 'Estadistika ng Lungsod',
+    'stats-subtitle': 'Mahahalagang datos at profile ng Lungsod ng Muntinlupa, Metro Manila',
+    'stats-city-profile': 'Profile ng Lungsod',
+    'stats-data-note':
+      'Hindi muna ipinapakita ang historikal, populasyon kada barangay, pananalapi, at iba pang detalyadong estadistika habang hindi pa nabeberipika ang mga sangguniang partikular sa Muntinlupa.',
     'stats-demographics': 'Pangkalahatang-ideya ng Demograpiya',
     'stats-economic': 'Mga Tagapagpahiwatig ng Ekonomiya',
     'stats-barangay': 'Populasyon Ayon sa Barangay',
@@ -6442,7 +6241,7 @@ const translations = {
     'hero-search-placeholder': 'Maghanap ng serbisyo...',
     'hero-find-service': 'Maghanap ng Serbisyo',
     'appointment-cta-heading':
-      'Pagpapahusay ng Serbisyo sa Appointment ng Opisina ng Alkalde ng LGU Solano',
+      'Pagpapahusay ng Serbisyo sa Appointment ng Opisina ng Alkalde ng LGU Muntinlupa',
     'appointment-cta-subtitle': 'Walang pila. Walang pabalik-balik. Mahusay na appointment lang.',
     'appointment-schedule-btn': 'Mag-iskedyul ng Appointment',
     'appointment-create-btn': 'Gumawa ng Account',
@@ -6467,7 +6266,7 @@ const translations = {
     'section-updates': 'Pinakabagong mga Update',
     'btn-view-all': 'Tingnan Lahat',
     'btn-read-more': 'Magbasa Pa',
-    'section-leadership': 'Pamunuan ng Munisipalidad',
+    'section-leadership': 'Pamunuan ng Lungsod',
     'title-mayor': 'Punong Lungsod',
     'title-vice-mayor': 'Pangalawang Punong Lungsod',
     'title-city-representative': 'Kinatawan ng Lungsod',
@@ -6495,7 +6294,7 @@ const translations = {
     'footer-contact': 'Makipag-ugnayan',
     'footer-copyright': 'Better Muntinlupa. Nakalaan ang lahat ng karapatan.',
     'site-community-disclaimer':
-      'Ang Better Muntinlupa ay isang independiyenteng inisyatiba ng komunidad, hindi opisyal na website ng pamahalaan.',
+      'Ang Better Muntinlupa ay isang independiyenteng civic-tech na inisyatiba ng komunidad, hindi opisyal na website ng pamahalaan.',
     'site-footer-disclaimer':
       'Hindi kaanib o ineendorso ng Pamahalaang Lungsod ng Muntinlupa ang independiyenteng community site na ito. Tiyakin ang mga detalye sa mga opisyal na sanggunian ng pamahalaan.',
     'accessibility-statement': 'Pahayag ng Aksesibilidad',
@@ -6505,7 +6304,7 @@ const translations = {
     'footer-volunteer': 'Mag-volunteer sa amin',
     'footer-contribute': 'Mag-ambag ng code sa amin',
     'services-title': 'Direktoryo ng Serbisyong Munisipal',
-    'services-subtitle': 'Tingnan ang lahat ng serbisyong inaalok ng Munisipalidad ng Solano',
+    'services-subtitle': 'Tingnan ang mga serbisyo at impormasyon para sa Muntinlupa',
     'search-placeholder': 'Maghanap ng serbisyo...',
     'search-no-results': 'Walang nahanap na serbisyo',
     'search-try-different': 'Subukan ang ibang mga keyword o tingnan ang mga kategorya sa ibaba',
@@ -6555,7 +6354,7 @@ const translations = {
       'Mga permit sa kapaligiran, pamamahala ng basura, at mga programa sa konserbasyon.',
     'cat-online': 'Mga Online na Serbisyo',
     'cat-online-desc':
-      'Mga digital na serbisyo na makukuha sa Filipizen at iba pang online platform.',
+      'Tingnan ang impormasyon tungkol sa mga serbisyo ng lungsod at mga opsyon online.',
     'cat-government': 'Mga Serbisyo ng Pamahalaan',
     'cat-government-desc':
       'Pangkalahatang serbisyo ng munisipalidad at mga administratibong tungkulin.',
@@ -6584,7 +6383,7 @@ const translations = {
     'cert-page-badge': 'Mga Sertipiko',
     'cert-birth': 'Sertipiko ng Kapanganakan',
     'cert-birth-desc':
-      'Kumuha ng certified copy ng sertipiko ng kapanganakan na nakarehistro sa Solano',
+      'Kumuha ng certified copy ng sertipiko ng kapanganakan na nakarehistro sa Muntinlupa',
     'cert-marriage': 'Sertipiko ng Kasal',
     'cert-marriage-desc': 'Magrehistro o humiling ng certified true copy ng sertipiko ng kasal',
     'cert-death': 'Sertipiko ng Kamatayan',
@@ -6631,15 +6430,16 @@ const translations = {
     'health-stat-facilities': 'Kabuuang Pasilidad sa Kalusugan',
     'health-stat-hospitals': 'Mga Pangunahing Ospital',
     'health-stat-bhs': 'Mga Barangay Health Station',
-    'health-stat-mho': 'Opisina ng Kalusugan ng Munisipalidad',
-    'health-section-hospitals': 'Mga Ospital sa Solano',
-    'health-section-mho': 'Opisina ng Kalusugan ng Munisipalidad',
+    'health-stat-mho': 'Tanggapan ng Kalusugan ng Lungsod',
+    'health-section-hospitals': 'Mga Ospital sa Muntinlupa',
+    'health-section-mho': 'Tanggapan ng Kalusugan ng Lungsod',
     'health-section-bhs': 'Mga Barangay Health Station',
     'health-bhs-subtitle':
-      '22 Barangay Health Stations/Centers na naglilingkod sa lahat ng barangay ng Solano',
-    'health-mho-title': 'Opisina ng Kalusugan ng Munisipalidad ng Solano',
+      'Mga serbisyong pangkalusugan ng barangay sa mga komunidad sa Muntinlupa',
+    'health-data-unavailable': 'Bineberipika pa ang bilang at talaan ng mga pasilidad pangkalusugan sa Muntinlupa.',
+    'health-mho-title': 'Tanggapan ng Kalusugan ng Lungsod ng Muntinlupa',
     'health-mho-desc':
-      'Ang Municipal Health Office ay nagbibigay ng pangunahing serbisyo sa kalusugan kabilang ang lying-in facility at laboratory services. Ito ang pangunahing public health center ng munisipalidad.',
+      'Makipag-ugnayan sa opisyal na Tanggapan ng Kalusugan ng Lungsod ng Muntinlupa para sa kasalukuyang programa, pasilidad, at iskedyul ng serbisyo.',
     'health-service-lying-in': 'Lying-in Facility',
     'health-service-laboratory': 'Serbisyo sa Laboratoryo',
     'health-service-immunization': 'Immunisasyon',
@@ -6659,7 +6459,7 @@ const translations = {
     'agri-office-mao-desc':
       'Pagpaparehistro sa RSBSA, mga sertipikasyon, programa sa palay/mais, livestock, serbisyo sa pangisdaan',
     'ord-page-title': 'Balangkas ng Ordinansa',
-    'ord-page-desc': 'Mga ordinansang ipinasa ng Sangguniang Bayan ng Solano',
+    'ord-page-desc': 'Mga ordinansang ipinasa ng Sangguniang Bayan ng Muntinlupa',
     'ord-page-badge': 'Lehislatura',
     'ord-what-is': 'Ano ang Ordinansa?',
     'ord-what-is-p1':
@@ -6675,13 +6475,13 @@ const translations = {
     'ord-cat-zoning': 'Zoning at Paggamit ng Lupa',
     'ord-2025-title': 'Mga Ordinansa ng 2025',
     'ord-2025-subtitle':
-      'Mga opisyal na ordinansang ipinasa ng Sangguniang Bayan ng Solano sa 2025',
+      'Mga opisyal na ordinansang ipinasa ng Sangguniang Bayan ng Muntinlupa sa 2025',
     'ord-table-number': 'Numero ng Ordinansa',
     'ord-table-title': 'Pamagat',
     'ord-table-date': 'Petsa ng Sesyon',
     'ord-view-all': 'Tingnan Lahat ng Ordinansa sa SB Website',
     'reso-page-title': 'Balangkas ng Resolusyon',
-    'reso-page-desc': 'Mga resolusyong ipinasa ng Sangguniang Bayan ng Solano',
+    'reso-page-desc': 'Mga resolusyong ipinasa ng Sangguniang Bayan ng Muntinlupa',
     'reso-page-badge': 'Lehislatura',
     'reso-what-is': 'Ano ang Resolusyon?',
     'reso-what-is-p1':
@@ -6697,16 +6497,16 @@ const translations = {
     'reso-type-appropriation': 'Apropriyasyon',
     'reso-2026-title': 'Mga Resolusyon ng 2026',
     'reso-2026-subtitle':
-      'Mga opisyal na resolusyong ipinasa ng Sangguniang Bayan ng Solano sa 2026',
+      'Mga opisyal na resolusyong ipinasa ng Sangguniang Bayan ng Muntinlupa sa 2026',
     'reso-2025-title': 'Mga Resolusyon ng 2025',
     'reso-2025-subtitle':
-      'Mga opisyal na resolusyong ipinasa ng Sangguniang Bayan ng Solano sa 2025',
+      'Mga opisyal na resolusyong ipinasa ng Sangguniang Bayan ng Muntinlupa sa 2025',
     'reso-table-number': 'Numero ng Resolusyon',
     'reso-table-title': 'Pamagat',
     'reso-table-date': 'Petsa ng Sesyon',
     'reso-view-all': 'Tingnan Lahat ng Resolusyon sa SB Website',
     'biz-page-title': 'Serbisyo sa Negosyo',
-    'biz-page-desc': 'Mga permit, lisensya, at suporta para sa mga negosyo sa Solano',
+    'biz-page-desc': 'Mga permit, lisensya, at suporta para sa mga negosyo sa Muntinlupa',
     'biz-page-badge': 'Negosyo',
     'biz-permit-new': 'Permit sa Negosyo (Bago)',
     'biz-permit-new-desc': "Mag-apply ng bagong mayor's permit para sa negosyo",
@@ -6716,16 +6516,16 @@ const translations = {
     'biz-closure-desc': 'Mag-file para sa pagsasara ng negosyo',
     'biz-cedula': 'Sertipiko ng Buwis sa Komunidad',
     'biz-cedula-desc': 'Kumuha ng cedula para sa mga indibidwal at negosyo',
-    'biz-online-title': 'Online na Transaksiyon sa Negosyo',
+    'biz-online-title': 'Mga Mapagkukunan para sa Negosyo at Permit',
     'biz-online-subtitle':
-      'Kumpletuhin ang mga transaksiyon sa negosyo online sa pamamagitan ng opisyal na Filipizen portal',
-    'biz-online-badge': 'Mga Online na Serbisyo sa Filipizen',
-    'biz-billing': 'Online Billing at Pagbabayad para sa Negosyo',
-    'biz-billing-desc': 'Tingnan at bayaran ang mga bill sa buwis ng negosyo online',
+      'Tingnan ang impormasyon tungkol sa mga permit at lisensya sa negosyo sa Muntinlupa.',
+    'biz-online-badge': 'Mga Serbisyo sa Negosyo ng Muntinlupa',
+    'biz-billing': 'Impormasyon sa Pagsingil at Pagbabayad ng Negosyo',
+    'biz-billing-desc': 'Tingnan ang impormasyon tungkol sa pagsingil at pagbabayad ng buwis sa negosyo.',
     'biz-new-app': 'Bagong Aplikasyon sa Negosyo',
-    'biz-new-app-desc': 'Mag-apply ng bagong permit sa negosyo online',
+    'biz-new-app-desc': 'Tingnan ang gabay para sa bagong permit sa negosyo.',
     'biz-renewal': 'Pag-renew ng Permit sa Negosyo',
-    'biz-renewal-desc': 'I-renew ang umiiral na permit sa negosyo online',
+    'biz-renewal-desc': 'Tingnan ang gabay sa pag-renew ng permit sa negosyo.',
     'label-3-5-days': '3-5 araw',
     'label-1-2-days': '1-2 araw',
     'tax-page-title': 'Buwis at Pagbabayad',
@@ -6735,14 +6535,14 @@ const translations = {
     'tax-real-property-desc': 'Taunang bayad sa buwis para sa lupa at gusali',
     'tax-business': 'Buwis sa Negosyo',
     'tax-business-desc': 'Mga bayad sa buwis na may kaugnayan sa negosyo',
-    'tax-online-title': 'Online na Transaksiyon sa Buwis',
+    'tax-online-title': 'Mga Mapagkukunan sa Pagbabayad ng Buwis',
     'tax-online-subtitle':
-      'Magbayad ng buwis at bayarin online sa pamamagitan ng opisyal na Filipizen portal',
+      'Tingnan ang impormasyon tungkol sa mga buwis at bayarin ng lungsod.',
     'tax-rpt-billing': 'Buwis sa Tunay na Ari-arian Billing & Payment',
-    'tax-rpt-billing-desc': 'View sa pay iyong buwis sa tunay na ari-arian (amilyar) online',
-    'tax-payment-order': 'Online na Payment Order',
+    'tax-rpt-billing-desc': 'Tingnan ang impormasyon tungkol sa buwis sa ari-arian at pagbabayad.',
+    'tax-payment-order': 'Impormasyon sa Order ng Pagbabayad',
     'tax-payment-order-desc':
-      "Iproseso ang mga payment order para sa iba't ibang bayad sa munisipalidad",
+      'Tingnan ang impormasyon tungkol sa mga order ng pagbabayad para sa mga bayarin ng lungsod.',
     'label-based-on-value': 'Batay sa natatasa na halaga',
     'social-page-title': 'Serbisyong Panlipunan',
     'social-page-desc': 'Mga programa sa kapakanan, tulong, at suporta sa komunidad',
@@ -6758,6 +6558,9 @@ const translations = {
     'social-assistance': 'Tulong Pinansyal',
     'social-assistance-desc': 'Pang-emergency na tulong at programa sa pagpapalibing',
     'edu-page-title': 'Serbisyo sa Edukasyon',
+    'education-directory-unavailable': 'Bineberipika pa ang direktoryo ng mga paaralan sa Muntinlupa.',
+    'education-directory-unavailable-detail':
+      'Hindi nakalista ang bilang at mga pangalan ng paaralan hangga’t hindi nabeberipika sa mga sangguniang pang-edukasyon ng Muntinlupa.',
     'edu-page-desc': 'Mga iskolarship, programa sa pagsasanay, at suportang pang-edukasyon',
     'edu-page-badge': 'Edukasyon',
     'edu-scholarship': 'Mga Programa sa Iskolarship',
@@ -6806,13 +6609,16 @@ const translations = {
     'gov-council-term': 'Mga konsehal para sa termino 2025–2028',
     'gov-ex-officio-liga-president': 'Pangulo ng Liga ng mga Barangay / Ex-Officio',
     'official-city-officials-directory': 'Opisyal na direktoryo ng mga opisyal ng lungsod',
-    'gov-departments': 'Mga Pinuno ng Departamento at Pangunahing Opisina',
-    'gov-dept-subtitle': 'Mga opisina ng munisipalidad na nagbibigay ng serbisyo sa mga mamamayan',
-    'gov-barangays': 'Mga Barangay ng Solano',
-    'gov-barangays-count': '22 Barangay na naglilingkod sa ating komunidad',
+    'gov-departments': 'Mga Kagawaran ng Lungsod',
+    'gov-dept-subtitle': 'Mga tanggapan ng lungsod na nagbibigay-serbisyo sa mga residente',
+    'gov-barangays': 'Mga Barangay ng Lungsod ng Muntinlupa',
+    'gov-barangays-count': '9 Barangay na naglilingkod sa ating komunidad',
     'gov-organizational-chart': 'Tsart ng Organisasyon',
     'gov-term': 'Termino',
     'budget-title': 'Badyet at Transparensiya sa Pananalapi',
+    'budget-data-unavailable': 'Bineberipika pa ang datos ng badyet para sa Muntinlupa.',
+    'budget-data-unavailable-detail':
+      'Hindi inililista ang mga halaga ng badyet at proyekto hangga’t hindi nabeberipika sa mga opisyal na sanggunian ng Lungsod ng Muntinlupa.',
     'budget-subtitle': 'Pagsubaybay sa pananalapi at proyekto ng munisipalidad para sa pananagutan',
     'budget-overview': 'Pangkalahatang-ideya ng Badyet ng Munisipalidad 2025',
     'budget-total': 'Kabuuang Badyet',
@@ -6899,7 +6705,7 @@ const translations = {
     'legislative-approved': 'Naaprubahan',
     'legislative-enacted': 'Naisabatas',
     'news-title': 'Balita at Anunsyo',
-    'news-subtitle': 'Pinakabagong balita mula sa Munisipalidad ng Solano',
+    'news-subtitle': 'Pinakabagong balita mula sa Munisipalidad ng Muntinlupa',
     'news-latest': 'Pinakabagong Balita',
     'news-announcements': 'Mga Anunsyo',
     'news-events': 'Mga Kaganapan',
@@ -6998,9 +6804,9 @@ const translations = {
     'a11y-all-functionality-available-using-only-a-keyboard':
       'Lahat ng functionality ay magagamit gamit lamang ang keyboard.',
     'a11y-all-images-have-descriptive-alt-text': 'Lahat ng larawan ay may deskriptibong alt text.',
-    'a11y-better-solano-is-committed-to-ensuring-digital':
+    'a11y-better-Muntinlupa-is-committed-to-ensuring-digital':
       'Ang Better Muntinlupa ay nakatuon sa pagtiyak ng digital na accessibility para sa mga taong maaari kapansanan. Patuloy naming pinapabuti ang karanasan ng gumagamit para sa lahat sa inilalapat ang mga kaugnay na pamantayan ng accessibility.',
-    'a11y-better-solano-is-committed-to-ensuring-that-our':
+    'a11y-better-Muntinlupa-is-committed-to-ensuring-that-our':
       'Ang Better Muntinlupa ay nakatuon sa pagtiyak na ang aming mga digital na serbisyo ay naa-access ng lahat ng mamamayan, anuman ang kakayahan. Kami view accessibility hindi as isang feature, ngunit as isang fundamental right.',
     'a11y-blgf-portal': 'BLGF Portal',
     'a11y-business': 'Negosyo',
@@ -7012,7 +6818,7 @@ const translations = {
     'a11y-conformant': 'Sumusunod',
     'a11y-css3': 'CSS3',
     'a11y-education': 'Edukasyon',
-    'a11y-empowering-the-people-of-solano-with-transparent':
+    'a11y-empowering-the-people-of-Muntinlupa-with-transparent':
       'Pagbibigay-kapangyarihan sa mga mamamayan ng Muntinlupa na may transparent na access sa mga serbisyo, programa, at pampublikong pondo ng lungsod.',
     'a11y-environment': 'Kapaligiran',
     'a11y-freedom-of-information': 'Kalayaan sa Impormasyon',
@@ -7025,13 +6831,13 @@ const translations = {
     'a11y-javascript': 'JavaScript',
     'a11y-keyboard-navigation': 'Nabigasyon sa Keyboard',
     'a11y-last-updated-november-29-2025': 'Huling na-update: November 29, 2025',
-    'a11y-lgu-solano-facebook': 'LGU Solano Facebook',
+    'a11y-lgu-Muntinlupa-facebook': 'LGU Muntinlupa Facebook',
     'a11y-meets-wcag-aa-contrast-requirements':
       'Natutugunan ang mga kinakailangan sa contrast ng WCAG AA.',
     'a11y-no-time-limits': 'Walang Limitasyon sa Oras',
     'a11y-no-time-limits-on-reading-or-interacting':
       'Walang limitasyon sa oras sa pagbabasa o pakikipag-ugnayan.',
-    'a11y-official-lgu-solano-portal': 'Opisyal na Portal ng LGU Solano',
+    'a11y-official-lgu-Muntinlupa-portal': 'Opisyal na Portal ng LGU Muntinlupa',
     'a11y-open-data-philippines': 'Open Data Philippines',
     'a11y-ordinance-framework': 'Balangkas ng Ordinansa',
     'a11y-privacy-policy': 'Patakaran sa Pagkapribado',
@@ -7112,7 +6918,7 @@ const translations = {
     'acct-dtr-leave-forms-ot-authorization': 'DTR, mga form ng Leave, awtorisasyon ng OT',
     'acct-duration': 'Tagal',
     'acct-education': 'Edukasyon',
-    'acct-empowering-the-people-of-solano-with-transparent':
+    'acct-empowering-the-people-of-Muntinlupa-with-transparent':
       'Pagbibigay-kapangyarihan sa mga mamamayan ng Muntinlupa na may transparent na access sa mga serbisyo, programa, at pampublikong pondo ng lungsod.',
     'acct-environment': 'Kapaligiran',
     'acct-evangeline-b-ramos': 'Evangeline B. Ramos',
@@ -7138,20 +6944,20 @@ const translations = {
     'acct-key-personnel-handling-accounting-services':
       'Key mga tauhan humahawak ng mga serbisyo ng accounting',
     'acct-legislative': 'Lehislatura',
-    'acct-lgu-solano-facebook': 'LGU Solano Facebook',
+    'acct-lgu-Muntinlupa-facebook': 'LGU Muntinlupa Facebook',
     'acct-location': 'Lokasyon',
     'acct-mary-jane-c-salvador': 'Mary Jane C. Salvador',
     'acct-mun-accounting': 'Mun. Accounting',
     'acct-municipal-accountant': 'Accountant ng Munisipalidad',
     'acct-municipal-accounting-office': 'Opisina ng Accounting ng Munisipalidad',
-    'acct-municipal-accounting-office-municipal-hall-solano':
-      'Pangmunisipyo Opisina ng Accounting, Munisipyo, Solano, Nueva Vizcaya',
+    'acct-municipal-accounting-office-municipal-hall-Muntinlupa':
+      'Pangmunisipyo Opisina ng Accounting, Munisipyo, Muntinlupa, Metro Manila',
     'acct-municipal-hall': 'Munisipyo',
     'acct-obligation-request-obr': 'Kahilingan ng Obligasyon (ObR)',
     'acct-office': 'Opisina',
     'acct-office-information': 'Impormasyon ng Opisina',
     'acct-office-personnel': 'Mga Tauhan ng Opisina',
-    'acct-official-lgu-solano-portal': 'Opisyal na Portal ng LGU Solano',
+    'acct-official-lgu-Muntinlupa-portal': 'Opisyal na Portal ng LGU Muntinlupa',
     'acct-ongoing': 'Kasalukuyan',
     'acct-open-data-philippines': 'Open Data Philippines',
     'acct-ordinance-framework': 'Balangkas ng Ordinansa',
@@ -7247,15 +7053,15 @@ const translations = {
     'agri-cmci-dti-portal': 'CMCI DTI Portal',
     'agri-contribute-code-with-us': 'Mag-ambag ng code sa amin',
     'agri-education': 'Edukasyon',
-    'agri-empowering-the-people-of-solano-with-transparent':
+    'agri-empowering-the-people-of-Muntinlupa-with-transparent':
       'Pagbibigay-kapangyarihan sa mga mamamayan ng Muntinlupa na may transparent na access sa mga serbisyo, programa, at pampublikong pondo ng lungsod.',
     'agri-environment': 'Kapaligiran',
     'agri-freedom-of-information': 'Kalayaan sa Impormasyon',
     'agri-health': 'Kalusugan',
     'agri-home': 'Tahanan',
     'agri-infrastructure': 'Imprastraktura',
-    'agri-lgu-solano-facebook': 'LGU Solano Facebook',
-    'agri-official-lgu-solano-portal': 'Opisyal na Portal ng LGU Solano',
+    'agri-lgu-Muntinlupa-facebook': 'LGU Muntinlupa Facebook',
+    'agri-official-lgu-Muntinlupa-portal': 'Opisyal na Portal ng LGU Muntinlupa',
     'agri-open-data-philippines': 'Open Data Philippines',
     'agri-ordinance-framework': 'Balangkas ng Ordinansa',
     'agri-privacy-policy': 'Patakaran sa Pagkapribado',
@@ -7303,7 +7109,7 @@ const translations = {
     'assessor-certification-of-the-total-land-area-based-on-tax':
       'Certification of the kabuuang lupa lugar based on buwis mga rekord.',
     'assessor-certification-that-a-person-has-no-declared':
-      'Sertipikasyon na ang isang tao ay walang idineklaang ari-arian sa Solano.',
+      'Sertipikasyon na ang isang tao ay walang idineklaang ari-arian sa Muntinlupa.',
     'assessor-certifications': 'Mga Sertipikasyon',
     'assessor-certified-true-copy-of-tax-declaration':
       'Sertipikadong Tunay na Kopya of Deklarasyon ng Buwis',
@@ -7317,7 +7123,7 @@ const translations = {
     'assessor-duplicate-copy': 'Duplikadong Kopya',
     'assessor-education': 'Edukasyon',
     'assessor-email': 'Email',
-    'assessor-empowering-the-people-of-solano-with-transparent':
+    'assessor-empowering-the-people-of-Muntinlupa-with-transparent':
       'Pagbibigay-kapangyarihan sa mga mamamayan ng Muntinlupa na may transparent na access sa mga serbisyo, programa, at pampublikong pondo ng lungsod.',
     'assessor-environment': 'Kapaligiran',
     'assessor-fee': 'Bayad',
@@ -7345,15 +7151,14 @@ const translations = {
     'assessor-land-reclassification': 'Reklasipikasyon ng Lupa',
     'assessor-land-reclassification-changes-the-category-of':
       'Land reclassification mga pagbabago ang category ng lupa para sa pagtatasa mga layunin, na affects ang naaangkop pagtatasa level sa tax rate.',
-    'assessor-lgu-solano-facebook': 'LGU Solano Facebook',
+    'assessor-lgu-Muntinlupa-facebook': 'LGU Muntinlupa Facebook',
     'assessor-lis-pendens': 'Lis Pendens',
     'assessor-list-of-all-properties-declared-under-a-persons':
       'Listahan ng lahat ng ari-ariang idineklara sa pangalan ng isang tao.',
     'assessor-location': 'Lokasyon',
     'assessor-mortgage-annotation': 'Anotasyon ng Mortgage',
     'assessor-municipal-assessors-office': 'Opisina ng Tagapagtasa ng Munisipalidad',
-    'assessor-municipal-hall-ground-floor-solano-nueva-vizcaya':
-      'Munisipyo, Unang Palapag, Solano, Nueva Vizcaya 3708',
+    'assessor-city-office-location': 'Makipag-ugnayan sa City Assessor para kumpirmahin ang kasalukuyang lokasyon nito.',
     'assessor-new-owner': 'Bagong May-ari',
     'assessor-new-tax-declaration': 'Bago Deklarasyon ng Buwis',
     'assessor-new-tax-declaration-is-issued-reflecting-the':
@@ -7365,7 +7170,7 @@ const translations = {
     'assessor-office-hours': 'Oras ng Opisina',
     'assessor-official-copy-of-tax-declaration-for-legal-and':
       'Opisyal na kopya ng tax declaration para sa legal at layuning pangbangko.',
-    'assessor-official-lgu-solano-portal': 'Opisyal na Portal ng LGU Solano',
+    'assessor-official-lgu-Muntinlupa-portal': 'Opisyal na Portal ng LGU Muntinlupa',
     'assessor-open-data-philippines': 'Open Data Philippines',
     'assessor-ordinance-framework': 'Balangkas ng Ordinansa',
     'assessor-ownercreditor': 'May-ari/Pinagkakautangan',
@@ -7467,7 +7272,7 @@ const translations = {
     'bc-documents-needed-for-your-application':
       'Mga dokumentong kailangan para sa iyong aplikasyon',
     'bc-education': 'Edukasyon',
-    'bc-empowering-the-people-of-solano-with-transparent':
+    'bc-empowering-the-people-of-Muntinlupa-with-transparent':
       'Pagbibigay-kapangyarihan sa mga mamamayan ng Muntinlupa na may transparent na access sa mga serbisyo, programa, at pampublikong pondo ng lungsod.',
     'bc-environment': 'Kapaligiran',
     'bc-fee': 'Bayad',
@@ -7487,13 +7292,12 @@ const translations = {
     'bc-legislative': 'Lehislatura',
     'bc-local-civil-registrar': 'Lokal na Tagapagrehistro Sibil',
     'bc-marriage-certificate': 'Sertipiko ng Kasal',
-    'bc-municipal-hall-2nd-floor-solano-nueva-vizcaya':
-      'Munisipyo, Ikalawang Palapag Solano, Nueva Vizcaya',
+    'bc-city-office-location': 'Makipag-ugnayan sa City Civil Registrar para kumpirmahin ang kasalukuyang lokasyon nito.',
     'bc-need-help': 'Kailangan Tulong?',
     'bc-office-information': 'Impormasyon ng Opisina',
     'bc-official-certified-copy-of-birth-certificate':
-      'Opisyal na sertipikadong kopya ng sertipiko ng kapanganakan na nakarehistro sa Solano',
-    'bc-official-lgu-solano-portal': 'Opisyal na Portal ng LGU Solano',
+      'Opisyal na sertipikadong kopya ng sertipiko ng kapanganakan na nakarehistro sa Muntinlupa',
+    'bc-official-lgu-Muntinlupa-portal': 'Opisyal na Portal ng LGU Muntinlupa',
     'bc-open-data-philippines': 'Open Data Philippines',
     'bc-ordinance-framework': 'Balangkas ng Ordinansa',
     'bc-ownerrepresentative': 'May-ari/Kinatawan',
@@ -7539,21 +7343,21 @@ const translations = {
     'biz-accessibility': 'Aksesibilidad',
     'biz-agriculture': 'Agrikultura',
     'biz-apply-for-a-new-business-permit-online':
-      'Mag-apply para sa isang bagong permiso sa negosyo online',
+      'Tingnan ang gabay para sa bagong permit sa negosyo.',
     'biz-apply-for-tricycle-franchise-mtof-and-request':
       'Mag-apply para sa prangkisa ng traysikel (MTOF) at humiling ng mga rekord',
     'biz-blgf-portal': 'BLGF Portal',
     'biz-bpls-office': 'Opisina ng BPLS',
     'biz-business': 'Negosyo',
-    'biz-business-online-billing-payment': 'Online na Pagsingil at Pagbabayad ng Negosyo',
-    'biz-business-permit-renewal': 'Permiso sa Negosyo Renewal',
+    'biz-business-online-billing-payment': 'Impormasyon sa Pagsingil at Pagbabayad ng Negosyo',
+    'biz-business-permit-renewal': 'Impormasyon sa Pag-renew ng Permit sa Negosyo',
     'biz-business-permits-licensing': 'Mga Permit at Lisensya sa Negosyo',
     'biz-certificates': 'Mga Sertipiko',
     'biz-citizens-charter': "Citizen's Charter",
     'biz-cmci-dti-portal': 'CMCI DTI Portal',
     'biz-contribute-code-with-us': 'Mag-ambag ng code sa amin',
     'biz-education': 'Edukasyon',
-    'biz-empowering-the-people-of-solano-with-transparent':
+    'biz-empowering-the-people-of-Muntinlupa-with-transparent':
       'Pagbibigay-kapangyarihan sa mga mamamayan ng Muntinlupa na may transparent na access sa mga serbisyo, programa, at pampublikong pondo ng lungsod.',
     'biz-environment': 'Kapaligiran',
     'biz-freedom-of-information': 'Kalayaan sa Impormasyon',
@@ -7562,20 +7366,20 @@ const translations = {
       'Pagkatay ng baboy, baka, kambing, at kalabaw na may mga serbisyo ng inspeksyon ng karne',
     'biz-home': 'Tahanan',
     'biz-infrastructure': 'Imprastraktura',
-    'biz-lgu-solano-facebook': 'LGU Solano Facebook',
+    'biz-lgu-Muntinlupa-facebook': 'LGU Muntinlupa Facebook',
     'biz-market-clearance-entrance-fees-vendor-services':
       'Market clearance, mga bayad sa pagpasok, mga serbisyo sa vendor, at pagbibigay ng CTC',
-    'biz-new-business-application': 'Bago Business Aplikasyon',
+    'biz-new-business-application': 'Bagong Aplikasyon para sa Permit sa Negosyo',
     'biz-new-permits-renewals-mayors-clearance-and-other':
       "Bagong mga permiso, mga pag-renew, Mayor's clearance, sa iba pang permiso sa negosyos",
-    'biz-official-lgu-solano-portal': 'Opisyal na Portal ng LGU Solano',
+    'biz-official-lgu-Muntinlupa-portal': 'Opisyal na Portal ng LGU Muntinlupa',
     'biz-open-data-philippines': 'Open Data Philippines',
     'biz-ordinance-framework': 'Balangkas ng Ordinansa',
     'biz-privacy-policy': 'Patakaran sa Pagkapribado',
     'biz-public-safety': 'Kaligtasang Pampubliko',
     'biz-quick-links': 'Mga Mabilisang Link',
     'biz-renew-your-existing-business-permit-online':
-      'I-renew ang iyong umiiral na permiso sa negosyo online',
+      'Tingnan ang gabay sa pag-renew ng permit sa negosyo.',
     'biz-resolution-framework': 'Balangkas ng Resolusyon',
     'biz-resources': 'Mga Mapagkukunan',
     'biz-sangguniang-bayan': 'Sangguniang Bayan',
@@ -7589,7 +7393,7 @@ const translations = {
     'biz-terms-of-use': 'Mga Tuntunin ng Paggamit',
     'biz-tricycle-franchising-records': 'Prangkisa ng Traysikel at mga Rekord',
     'biz-view-and-pay-your-business-tax-bills-online':
-      'Tingnan at bayaran ang iyong mga bill ng buwis sa negosyo online',
+      'Tingnan ang impormasyon tungkol sa pagsingil at pagbabayad ng buwis sa negosyo.',
     'biz-volunteer-with-us': 'Mag-volunteer sa amin',
     'bpl-10-minutes': '10 minuto',
     'bpl-12-days': '1-2 araw',
@@ -7610,7 +7414,7 @@ const translations = {
     'bpl-annual-renewal-of-existing-business-permit':
       'Taunang pag-renew ng umiiral na permiso sa negosyo (Enero 1-20 nang walang karagdagang singil)',
     'bpl-application-for-new-business-permit-for':
-      'Aplikasyon para sa bagong permiso sa negosyo para sa mga negosyong nag-ooperate sa Solano',
+      'Aplikasyon para sa bagong permiso sa negosyo para sa mga negosyong nag-ooperate sa Muntinlupa',
     'bpl-application-form-all-requirements': 'Aplikasyon form, all mga kinakailangan',
     'bpl-assessment-sheet': 'Pagtatasa sheet',
     'bpl-barangay-business-clearance': 'Business Clearance ng Barangay',
@@ -7631,7 +7435,7 @@ const translations = {
     'bpl-business-permit-services': 'Permiso sa Negosyo Mga serbisyo',
     'bpl-business-permits-licensing-section': 'Business Mga permiso & Licensing Seksyon',
     'bpl-business-permits-licensing-section-municipal-hall':
-      'Business Mga permiso & Licensing Seksyon, Munisipyo, Solano, Nueva Vizcaya',
+      'Makipag-ugnayan sa city office upang kumpirmahin ang kasalukuyang lokasyon ng Business Permits & Licensing Section',
     'bpl-cda-registration-for-cooperatives': 'CDA Registration (para sa mga kooperatiba)',
     'bpl-certificates': 'Mga Sertipiko',
     'bpl-citizens-charter': "Citizen's Charter",
@@ -7652,7 +7456,7 @@ const translations = {
     'bpl-duly-accomplished-application-form': 'Wastong napunang Application Form',
     'bpl-duration': 'Tagal',
     'bpl-education': 'Edukasyon',
-    'bpl-empowering-the-people-of-solano-with-transparent':
+    'bpl-empowering-the-people-of-Muntinlupa-with-transparent':
       'Pagbibigay-kapangyarihan sa mga mamamayan ng Muntinlupa na may transparent na access sa mga serbisyo, programa, at pampublikong pondo ng lungsod.',
     'bpl-environment': 'Kapaligiran',
     'bpl-fee': 'Bayad',
@@ -7687,7 +7491,7 @@ const translations = {
       'Late renewal incurs 25% karagdagang singil + 2% buwanang interes',
     'bpl-legislative': 'Lehislatura',
     'bpl-letter-of-intent': 'Sulat of Intent',
-    'bpl-lgu-solano-facebook': 'LGU Solano Facebook',
+    'bpl-lgu-Muntinlupa-facebook': 'LGU Muntinlupa Facebook',
     'bpl-licensing-officer': 'Opisyal ng Lisensya',
     'bpl-list-of-activitiesprogram': 'Listahan ng mga aktibidad/programa',
     'bpl-location': 'Lokasyon',
@@ -7709,7 +7513,7 @@ const translations = {
     'bpl-office': 'Opisina',
     'bpl-office-information': 'Impormasyon ng Opisina',
     'bpl-office-personnel': 'Mga Tauhan ng Opisina',
-    'bpl-official-lgu-solano-portal': 'Opisyal na Portal ng LGU Solano',
+    'bpl-official-lgu-Muntinlupa-portal': 'Opisyal na Portal ng LGU Muntinlupa',
     'bpl-official-receipt': 'Opisyal na Resibo',
     'bpl-open-data-philippines': 'Open Data Philippines',
     'bpl-order-of-payment': 'Order of Pagbabayad',
@@ -7803,19 +7607,16 @@ const translations = {
     'budget-contractor': 'Kontratista',
     'budget-contribute-code-with-us': 'Mag-ambag ng code sa amin',
     'budget-debt-service': 'Serbisyo sa Utang',
-    'budget-dpwh-infrastructure-projects-in-solano':
-      'Mga Proyekto ng Imprastraktura ng DPWH sa Solano',
+    'budget-dpwh-infrastructure-projects-in-Muntinlupa':
+      'Mga Proyekto ng Imprastraktura ng DPWH sa Muntinlupa',
     'budget-dpwh-transparency-portal': 'DPWH Transparency Portal',
     'budget-economic-services': 'Mga Serbisyong Pang-ekonomiya',
     'budget-education': 'Edukasyon',
-    'budget-egb-construction-corporation': 'EGB Construction Corporation',
-    'budget-empowering-the-people-of-solano-with-transparent':
+    'budget-empowering-the-people-of-Muntinlupa-with-transparent':
       'Pagbibigay-kapangyarihan sa mga mamamayan ng Muntinlupa na may transparent na access sa mga serbisyo, programa, at pampublikong pondo ng lungsod.',
     'budget-environment': 'Kapaligiran',
     'budget-expenditure-allocation': 'Alokasyon ng Gastusin',
     'budget-external-sources': 'Mga Panlabas na Pinagmumulan',
-    'budget-fcds-package-5-magat-river-flood-control':
-      'FCDS Package 5 - Flood Control ng Ilog Magat',
     'budget-financial-report': 'Ulat Pinansyal',
     'budget-financial-transparency': 'Transparency sa Pananalapi',
     'budget-flood-control': 'Flood Control',
@@ -7826,8 +7627,6 @@ const translations = {
     'budget-health': 'Kalusugan',
     'budget-health-education-welfare': 'Kalusugan, Edukasyon, Kagalingan',
     'budget-home': 'Tahanan',
-    'budget-implementing-agency-nueva-vizcaya-district':
-      'Implementing Agency: Nueva Vizcaya Distrito Opisina ng Inhinyero',
     'budget-income-sources': 'Mga Pinagmumulan ng Kita',
     'budget-infrastructure': 'Imprastraktura',
     'budget-infrastructure-development': 'Imprastraktura at Pagpapaunlad',
@@ -7835,14 +7634,8 @@ const translations = {
     'budget-interest-charges': 'Interes & Mga singil',
     'budget-jan-mar': 'Ene - Mar',
     'budget-legislative': 'Lehislatura',
-    'budget-lgu-solano-facebook': 'LGU Solano Facebook',
+    'budget-lgu-Muntinlupa-facebook': 'LGU Muntinlupa Facebook',
     'budget-local-sources': 'Mga Lokal na Pinagmumulan',
-    'budget-magat-river-bagahabag-section-solano-nueva-vizcaya':
-      'Ilog Magat, Seksyon ng Bagahabag, Solano, Nueva Vizcaya',
-    'budget-magat-river-bangar-section-1-brgy-bangar-solano':
-      'Magat River, Bangar Seksyon 1, Brgy. Bangar, Solano, Nueva Vizcaya',
-    'budget-magat-river-bangar-section-2-brgy-bangar-solano':
-      'Magat River, Bangar Seksyon 2, Brgy. Bangar, Solano, Nueva Vizcaya',
     'budget-major-development-projects-serving-the-community':
       'Mga pangunahing proyekto ng pagpapaunlad na nagsisilbi sa komunidad',
     'budget-national-government-projects': 'Pambansa Pamahalaan Projects',
@@ -7890,15 +7683,15 @@ const translations = {
     'cert-cmci-dti-portal': 'CMCI DTI Portal',
     'cert-contribute-code-with-us': 'Mag-ambag ng code sa amin',
     'cert-education': 'Edukasyon',
-    'cert-empowering-the-people-of-solano-with-transparent':
+    'cert-empowering-the-people-of-Muntinlupa-with-transparent':
       'Pagbibigay-kapangyarihan sa mga mamamayan ng Muntinlupa na may transparent na access sa mga serbisyo, programa, at pampublikong pondo ng lungsod.',
     'cert-environment': 'Kapaligiran',
     'cert-freedom-of-information': 'Kalayaan sa Impormasyon',
     'cert-health': 'Kalusugan',
     'cert-home': 'Tahanan',
     'cert-infrastructure': 'Imprastraktura',
-    'cert-lgu-solano-facebook': 'LGU Solano Facebook',
-    'cert-official-lgu-solano-portal': 'Opisyal na Portal ng LGU Solano',
+    'cert-lgu-Muntinlupa-facebook': 'LGU Muntinlupa Facebook',
+    'cert-official-lgu-Muntinlupa-portal': 'Opisyal na Portal ng LGU Muntinlupa',
     'cert-open-data-philippines': 'Open Data Philippines',
     'cert-ordinance-framework': 'Balangkas ng Ordinansa',
     'cert-privacy-policy': 'Patakaran sa Pagkapribado',
@@ -7924,7 +7717,7 @@ const translations = {
     'contact-cmci-dti-portal': 'CMCI DTI Portal',
     'contact-contact': 'Makipag-ugnayan',
     'contact-education': 'Edukasyon',
-    'contact-empowering-the-people-of-solano-with-transparent':
+    'contact-empowering-the-people-of-Muntinlupa-with-transparent':
       'Pagbibigay-kapangyarihan sa mga mamamayan ng Muntinlupa na may transparent na access sa mga serbisyo, programa, at pampublikong pondo ng lungsod.',
     'contact-environment': 'Kapaligiran',
     'contact-for-medical-emergencies-and-hospital-inquiries':
@@ -7933,13 +7726,12 @@ const translations = {
     'contact-health': 'Kalusugan',
     'contact-home': 'Tahanan',
     'contact-infrastructure': 'Imprastraktura',
-    'contact-lgu-solano-facebook': 'LGU Solano Facebook',
-    'contact-lgusolanonvgmailcom': 'lgusolanonv@gmail.com',
+    'contact-lgu-Muntinlupa-facebook': 'LGU Muntinlupa Facebook',
     'contact-lunch-break': 'Tanghalian',
     'contact-medical-emergency-hotlines': 'Mga Medikal na Emergency Hotline',
     'contact-mobile': 'Mobile',
     'contact-national-local-holidays': 'Pambansa & Lokal Holidays',
-    'contact-official-lgu-solano-portal': 'Opisyal na Portal ng LGU Solano',
+    'contact-official-lgu-Muntinlupa-portal': 'Opisyal na Portal ng LGU Muntinlupa',
     'contact-open': 'Buksan',
     'contact-open-data-philippines': 'Open Data Philippines',
     'contact-ordinance-framework': 'Balangkas ng Ordinansa',
@@ -8016,7 +7808,7 @@ const translations = {
     'cr-document-owner': 'May-ari ng Dokumento',
     'cr-education': 'Edukasyon',
     'cr-email': 'Email',
-    'cr-empowering-the-people-of-solano-with-transparent':
+    'cr-empowering-the-people-of-Muntinlupa-with-transparent':
       'Pagbibigay-kapangyarihan sa mga mamamayan ng Muntinlupa na may transparent na access sa mga serbisyo, programa, at pampublikong pondo ng lungsod.',
     'cr-environment': 'Kapaligiran',
     'cr-fee': 'Bayad',
@@ -8043,7 +7835,7 @@ const translations = {
     'cr-legitimation-annotation': 'Anotasyon ng Lehitimasyon',
     'cr-legitimation-is-the-legal-process-by-which':
       "Legitimation is the legal iproseso by which mga bata born out of wedlock are legitimized by the subsequent kasal of their mga magulang. This is annotated on the child's kapanganakan sertipiko.",
-    'cr-lgu-solano-facebook': 'LGU Solano Facebook',
+    'cr-lgu-Muntinlupa-facebook': 'LGU Muntinlupa Facebook',
     'cr-license-waiting': 'Paghihintay ng Lisensya',
     'cr-local-civil-registrar': 'Lokal na Tagapagrehistro Sibil',
     'cr-location': 'Lokasyon',
@@ -8053,10 +7845,9 @@ const translations = {
     'cr-marriage-license-requirements': 'Lisensya sa Kasal Mga kinakailangan',
     'cr-municipal-civil-registrar': 'Tagapagrehistro Sibil ng Munisipalidad',
     'cr-municipal-civil-registrars-office': 'Pangmunisipyo Opisina ng Tagapagrehistro Sibil',
-    'cr-municipal-hall-ground-floor-solano-nueva-vizcaya':
-      'Munisipyo, Unang Palapag, Solano, Nueva Vizcaya 3708',
+    'cr-city-office-location': 'Makipag-ugnayan sa City Civil Registrar para kumpirmahin ang kasalukuyang lokasyon nito.',
     'cr-office-hours': 'Oras ng Opisina',
-    'cr-official-lgu-solano-portal': 'Opisyal na Portal ng LGU Solano',
+    'cr-official-lgu-Muntinlupa-portal': 'Opisyal na Portal ng LGU Muntinlupa',
     'cr-open-data-philippines': 'Open Data Philippines',
     'cr-ordinance-framework': 'Balangkas ng Ordinansa',
     'cr-ownerrelative': 'May-ari/Kamag-anak',
@@ -8088,9 +7879,9 @@ const translations = {
     'cr-the-certificate-of-no-marriage-record-cenomar-is':
       'Ang Certificate ng No Marriage Record (CENOMAR) ay isang sertipikasyon issued sa pamamagitan ng PSA stating na isang person ay maaari walang record ng marriage. Itong ay commonly kinakailangan para sa lisensya sa kasal mga aplikasyon, visa mga aplikasyon, sa iba pang legal mga layunin.',
     'cr-the-local-civil-registrar-handles-the':
-      'Ang Local Civil Registrar handles ang pagpaparehistro ng deaths sa pagbibigay ng mga sertipikadong tunay na kopya ng sertipiko ng pagkamatays para sa deaths na occurred sa Solano.',
+      'Ang Local Civil Registrar handles ang pagpaparehistro ng deaths sa pagbibigay ng mga sertipikadong tunay na kopya ng sertipiko ng pagkamatays para sa deaths na occurred sa Muntinlupa.',
     'cr-the-local-civil-registrar-issues-certified-true':
-      'Ang Local Civil Registrar mga isyu mga sertipikadong tunay na kopya ng sertipiko ng kapanganakans para sa mga indibidwal whose births ay registered sa Solano, Nueva Vizcaya.',
+      'Ang Local Civil Registrar mga isyu mga sertipikadong tunay na kopya ng sertipiko ng kapanganakans para sa mga indibidwal whose births ay registered sa Muntinlupa, Metro Manila.',
     'cr-the-local-civil-registrar-processes-petitions-for':
       'The Lokal Tagapagrehistro Sibil processes petitions for correction of clerical or typographical errors and baguhin of unang name in civil registry mga dokumento under RA 9048 and RA 10172.',
     'cr-the-local-civil-registrar-provides':
@@ -8156,7 +7947,7 @@ const translations = {
     'dc-education': 'Edukasyon',
     'dc-embalmer': 'Embalmer',
     'dc-embalmers-certification': 'Sertipikasyon ng Embalmer',
-    'dc-empowering-the-people-of-solano-with-transparent':
+    'dc-empowering-the-people-of-Muntinlupa-with-transparent':
       'Pagbibigay-kapangyarihan sa mga mamamayan ng Muntinlupa na may transparent na access sa mga serbisyo, programa, at pampublikong pondo ng lungsod.',
     'dc-environment': 'Kapaligiran',
     'dc-fee': 'Bayad',
@@ -8186,17 +7977,16 @@ const translations = {
       'Is there a bayad for kamatayan sertipiko registration?',
     'dc-juvy': 'Juvy',
     'dc-legislative': 'Lehislatura',
-    'dc-lgu-solano-facebook': 'LGU Solano Facebook',
+    'dc-lgu-Muntinlupa-facebook': 'LGU Muntinlupa Facebook',
     'dc-local-civil-registrar': 'Lokal na Tagapagrehistro Sibil',
     'dc-marriage-certificate': 'Sertipiko ng Kasal',
     'dc-mho-certification-of-cause-of-death': 'Sertipikasyon ng MHO ng Sanhi ng Pagkamatay',
     'dc-mto-collection-officer': 'MTO Collection Opisyal',
-    'dc-municipal-hall-2nd-floor-solano-nueva-vizcaya':
-      'Munisipyo, Ikalawang Palapag Solano, Nueva Vizcaya',
+    'dc-city-office-location': 'Makipag-ugnayan sa City Civil Registrar para kumpirmahin ang kasalukuyang lokasyon nito.',
     'dc-municipal-health-officer': 'Opisyal ng Kalusugan ng Munisipalidad',
     'dc-need-help': 'Kailangan Tulong?',
     'dc-office-information': 'Impormasyon ng Opisina',
-    'dc-official-lgu-solano-portal': 'Opisyal na Portal ng LGU Solano',
+    'dc-official-lgu-Muntinlupa-portal': 'Opisyal na Portal ng LGU Muntinlupa',
     'dc-oliver': 'Oliver',
     'dc-oliver-receiving-officer': 'Oliver - Receiving Opisyal',
     'dc-open-data-philippines': 'Open Data Philippines',
@@ -8246,55 +8036,30 @@ const translations = {
     'dc-who-can-apply': 'Sino ang Maaaring Mag-apply',
     'dc-who-can-be-the-informant-for-death-registration':
       'Who maaaring be ang informant para sa death pagpaparehistro?',
-    'edu-22-schools': '22 paaralan',
-    'edu-6-schools': '6 na paaralan',
-    'edu-7-institutions': '7 institusyon',
     'edu-accessibility': 'Aksesibilidad',
-    'edu-aggub-elementary-school': 'Aggub Elementary School',
     'edu-agriculture': 'Agrikultura',
-    'edu-aldersgate-college': 'Aldersgate College',
-    'edu-aldersgate-college-elementary-department': 'Aldersgate College - Elementary Kagawaran',
-    'edu-aldersgate-college-high-school-department': 'Aldersgate College - Mataas School Kagawaran',
-    'edu-bagahabag-elementary-school': 'Bagahabag Elementary School',
-    'edu-bangaan-elementary-school': 'Bangaan Elementary School',
-    'edu-bangar-elementary-school': 'Bangar Elementary School',
-    'edu-bascaran-central-school': 'Bascaran Central School',
-    'edu-bascaran-national-high-school': 'Bascaran Pambansa Mataas School',
     'edu-blgf-portal': 'BLGF Portal',
     'edu-business': 'Negosyo',
-    'edu-cagayan-valley-maritime-studies': 'Cagayan Valley Maritime Studies',
-    'edu-calaoagan-elementary-school': 'Calaoagan Elementary School',
     'edu-certificates': 'Mga Sertipiko',
     'edu-citizens-charter': "Citizen's Charter",
-    'edu-concepcion-elementary-school': 'Concepcion Elementary School',
     'edu-contribute-code-with-us': 'Mag-ambag ng code sa amin',
-    'edu-curifang-elementary-school': 'Curifang Elementary School',
-    'edu-dadap-elementary-school': 'Dadap Elementary School',
-    'edu-dalton-high-school': 'Dalton Mataas School',
     'edu-education': 'Edukasyon',
     'edu-empowering-filipino-students-and-educators-with':
       'Empowering Filipino students and educators with 1,000+ libre and open-source productivity tools across 18 categories — from dokumento processing and design to AI and development.',
-    'edu-empowering-the-people-of-solano-with-transparent':
+    'edu-empowering-the-people-of-Muntinlupa-with-transparent':
       'Pagbibigay-kapangyarihan sa mga mamamayan ng Muntinlupa na may transparent na access sa mga serbisyo, programa, at pampublikong pondo ng lungsod.',
     'edu-environment': 'Kapaligiran',
     'edu-free-tools-for-education': 'Libreng Tools para sa Education',
     'edu-freedom-of-information': 'Kalayaan sa Impormasyon',
-    'edu-fuzeko-polytechnic-college': 'Fuzeko Polytechnic College',
     'edu-health': 'Kalusugan',
     'edu-higher-education': 'Mas Mataas na Edukasyon',
     'edu-higher-educational-institutions': 'Mga Institusyon ng Mas Mataas na Edukasyon',
     'edu-home': 'Tahanan',
     'edu-infrastructure': 'Imprastraktura',
-    'edu-isaiah-christian-academy-of-solano-inc': 'Isaiah Christian Academy of Solano, Inc.',
-    'edu-kids-workshop-learning-center': 'Kids Workshop Learning Center',
-    'edu-lactawan-elementary-school': 'Lactawan Elementary School',
-    'edu-lgu-solano-facebook': 'LGU Solano Facebook',
-    'edu-nio-jesus-de-praga-learning': 'Niño Jesus de Praga Learning',
-    'edu-nueva-vizcaya-caregiver-academy': 'Nueva Vizcaya Caregiver Academy',
-    'edu-official-lgu-solano-portal': 'Opisyal na Portal ng LGU Solano',
+    'edu-lgu-Muntinlupa-facebook': 'LGU Muntinlupa Facebook',
+    'edu-official-lgu-Muntinlupa-portal': 'Opisyal na Portal ng LGU Muntinlupa',
     'edu-open-data-philippines': 'Open Data Philippines',
     'edu-ordinance-framework': 'Balangkas ng Ordinansa',
-    'edu-pilar-d-galima-elementary-school': 'Pilar D. Galima Elementary School',
     'edu-primary-and-elementary-schools': 'Mga Primarya at Elementaryang Paaralan',
     'edu-primary-elementary': 'Primarya at Elementarya',
     'edu-privacy-policy': 'Patakaran sa Pagkapribado',
@@ -8302,30 +8067,15 @@ const translations = {
     'edu-quick-links': 'Mga Mabilisang Link',
     'edu-resolution-framework': 'Balangkas ng Resolusyon',
     'edu-resources': 'Mga Mapagkukunan',
-    'edu-saint-louis-college-of-solano-inc': 'Saint Louis College of Solano Inc',
-    'edu-saint-louis-school-elementary-department': 'Saint Louis School - Elementary Kagawaran',
-    'edu-saint-louis-school-high-school-department': 'Saint Louis School - Mataas School Kagawaran',
-    'edu-san-juan-elementary-school': 'San Juan Elementary School',
-    'edu-san-luis-elementary-school': 'San Luis Elementary School',
     'edu-sangguniang-bayan': 'Sangguniang Bayan',
     'edu-secondary-schools': 'Mga Sekundaryang Paaralan',
     'edu-services': 'Mga Serbisyo',
     'edu-sitemap': 'Mapa ng Site',
     'edu-skip-to-main-content': 'Lumaktaw sa pangunahing nilalaman',
     'edu-social-services': 'Serbisyong Panlipunan',
-    'edu-solano-east-central-school': 'Solano East Central School',
-    'edu-solano-high-school': 'Solano Mataas School',
-    'edu-solano-institute-of-technology': 'Solano Institute of Technology',
-    'edu-solano-north-elementary-school': 'Solano North Elementary School',
-    'edu-solano-south-central-school': 'Solano South Central School',
-    'edu-solano-west-elementary-school': 'Solano West Elementary School',
     'edu-tax-payments': 'Pagbabayad ng Buwis',
     'edu-terms-of-use': 'Mga Tuntunin ng Paggamit',
-    'edu-tucal-elementary-school': 'Tucal Elementary School',
-    'edu-uddiawan-elementary-school': 'Uddiawan Elementary School',
-    'edu-uddiawan-national-high-school': 'Uddiawan Pambansa Mataas School',
     'edu-volunteer-with-us': 'Mag-volunteer sa amin',
-    'edu-wacal-elementary-school': 'Wacal Elementary School',
     'eng-1-year': '1 Taon',
     'eng-2-sets-bill-of-materials': '2 set - Bill of Materials',
     'eng-2-sets-boringsoil-test-report-3-storey': '2 sets - Boring/Soil Test Ulat (3 storey+)',
@@ -8363,7 +8113,7 @@ const translations = {
     'eng-electrical-plans': 'Mga Plano ng Elektrikal',
     'eng-electronics-permit': 'Permiso sa Elektroniks',
     'eng-electronics-plans': 'Mga Plano ng Elektroniks',
-    'eng-empowering-the-people-of-solano-with-transparent':
+    'eng-empowering-the-people-of-Muntinlupa-with-transparent':
       'Pagbibigay-kapangyarihan sa mga mamamayan ng Muntinlupa na may transparent na access sa mga serbisyo, programa, at pampublikong pondo ng lungsod.',
     'eng-engineer-iii': 'Inhinyero III',
     'eng-engineering': 'Inhinyeriya',
@@ -8390,17 +8140,17 @@ const translations = {
       'Key tauhan handling gusali permiso mga aplikasyon',
     'eng-latest-real-property-tax-receipt': 'Latest Buwis sa Ari-arian Resibo',
     'eng-legislative': 'Lehislatura',
-    'eng-lgu-solano-facebook': 'LGU Solano Facebook',
+    'eng-lgu-Muntinlupa-facebook': 'LGU Muntinlupa Facebook',
     'eng-mechanical-permit': 'Permit sa Mekanikal',
     'eng-mun-engineering': 'Mun. Inhinyeriya',
     'eng-municipal-engineer': 'Inhinyero ng Munisipalidad',
     'eng-municipal-engineering-office': 'Opisina ng Inhinyero ng Munisipalidad',
-    'eng-municipal-engineering-office-municipal-hall-solano':
-      'Pangmunisipyo Opisina ng Inhinyero, Munisipyo, Solano',
+    'eng-municipal-engineering-office-municipal-hall-Muntinlupa':
+      'Pangmunisipyo Opisina ng Inhinyero, Munisipyo, Muntinlupa',
     'eng-office': 'Opisina',
     'eng-office-information': 'Impormasyon ng Opisina',
     'eng-office-personnel': 'Mga Tauhan ng Opisina',
-    'eng-official-lgu-solano-portal': 'Opisyal na Portal ng LGU Solano',
+    'eng-official-lgu-Muntinlupa-portal': 'Opisyal na Portal ng LGU Muntinlupa',
     'eng-open-data-philippines': 'Open Data Philippines',
     'eng-ordinance-framework': 'Balangkas ng Ordinansa',
     'eng-pay-building-permit-fee-and-other-fees-at-the':
@@ -8466,7 +8216,7 @@ const translations = {
       'Pagbuo ng komprehensibong plano ng sistema upang mapagaan ang pagbaha at protektahan ang kalusugan ng publiko.',
     'env-drainage-sewerage-management': 'Pamamahala ng Drainage at Alkantarilya',
     'env-education': 'Edukasyon',
-    'env-empowering-the-people-of-solano-with-transparent':
+    'env-empowering-the-people-of-Muntinlupa-with-transparent':
       'Pagbibigay-kapangyarihan sa mga mamamayan ng Muntinlupa na may transparent na access sa mga serbisyo, programa, at pampublikong pondo ng lungsod.',
     'env-environment': 'Kapaligiran',
     'env-fee': 'Bayad:',
@@ -8482,8 +8232,8 @@ const translations = {
     'env-infrastructure': 'Imprastraktura',
     'env-key-environmental-services-and-initiatives':
       'Mga Pangunahing Serbisyo at Inisyatiba sa Kapaligiran',
-    'env-lgu-solano-facebook': 'LGU Solano Facebook',
-    'env-official-lgu-solano-portal': 'Opisyal na Portal ng LGU Solano',
+    'env-lgu-Muntinlupa-facebook': 'LGU Muntinlupa Facebook',
+    'env-official-lgu-Muntinlupa-portal': 'Opisyal na Portal ng LGU Muntinlupa',
     'env-open-data-philippines': 'Open Data Philippines',
     'env-ordinance-framework': 'Balangkas ng Ordinansa',
     'env-privacy-policy': 'Patakaran sa Pagkapribado',
@@ -8517,15 +8267,15 @@ const translations = {
     'err403-contact-us': 'Makipag-ugnayan sa Amin',
     'err403-contribute-code-with-us': 'Mag-ambag ng code sa amin',
     'err403-education': 'Edukasyon',
-    'err403-empowering-the-people-of-solano-with-transparent':
+    'err403-empowering-the-people-of-Muntinlupa-with-transparent':
       'Pagbibigay-kapangyarihan sa mga mamamayan ng Muntinlupa na may transparent na access sa mga serbisyo, programa, at pampublikong pondo ng lungsod.',
     'err403-environment': 'Kapaligiran',
     'err403-freedom-of-information': 'Kalayaan sa Impormasyon',
     'err403-go-to-homepage': 'Pumunta sa Homepage',
     'err403-health': 'Kalusugan',
     'err403-infrastructure': 'Imprastraktura',
-    'err403-lgu-solano-facebook': 'LGU Solano Facebook',
-    'err403-official-lgu-solano-portal': 'Opisyal na Portal ng LGU Solano',
+    'err403-lgu-Muntinlupa-facebook': 'LGU Muntinlupa Facebook',
+    'err403-official-lgu-Muntinlupa-portal': 'Opisyal na Portal ng LGU Muntinlupa',
     'err403-open-data-philippines': 'Open Data Philippines',
     'err403-ordinance-framework': 'Balangkas ng Ordinansa',
     'err403-privacy-policy': 'Patakaran sa Pagkapribado',
@@ -8552,15 +8302,15 @@ const translations = {
     'err404-cmci-dti-portal': 'CMCI DTI Portal',
     'err404-contribute-code-with-us': 'Mag-ambag ng code sa amin',
     'err404-education': 'Edukasyon',
-    'err404-empowering-the-people-of-solano-with-transparent':
+    'err404-empowering-the-people-of-Muntinlupa-with-transparent':
       'Pagbibigay-kapangyarihan sa mga mamamayan ng Muntinlupa na may transparent na access sa mga serbisyo, programa, at pampublikong pondo ng lungsod.',
     'err404-environment': 'Kapaligiran',
     'err404-freedom-of-information': 'Kalayaan sa Impormasyon',
     'err404-go-to-homepage': 'Pumunta sa Homepage',
     'err404-health': 'Kalusugan',
     'err404-infrastructure': 'Imprastraktura',
-    'err404-lgu-solano-facebook': 'LGU Solano Facebook',
-    'err404-official-lgu-solano-portal': 'Opisyal na Portal ng LGU Solano',
+    'err404-lgu-Muntinlupa-facebook': 'LGU Muntinlupa Facebook',
+    'err404-official-lgu-Muntinlupa-portal': 'Opisyal na Portal ng LGU Muntinlupa',
     'err404-open-data-philippines': 'Open Data Philippines',
     'err404-ordinance-framework': 'Balangkas ng Ordinansa',
     'err404-page-not-found': 'Hindi Nahanap ang Pahina',
@@ -8588,15 +8338,15 @@ const translations = {
     'err500-contact-us': 'Makipag-ugnayan sa Amin',
     'err500-contribute-code-with-us': 'Mag-ambag ng code sa amin',
     'err500-education': 'Edukasyon',
-    'err500-empowering-the-people-of-solano-with-transparent':
+    'err500-empowering-the-people-of-Muntinlupa-with-transparent':
       'Pagbibigay-kapangyarihan sa mga mamamayan ng Muntinlupa na may transparent na access sa mga serbisyo, programa, at pampublikong pondo ng lungsod.',
     'err500-environment': 'Kapaligiran',
     'err500-freedom-of-information': 'Kalayaan sa Impormasyon',
     'err500-go-to-homepage': 'Pumunta sa Homepage',
     'err500-health': 'Kalusugan',
     'err500-infrastructure': 'Imprastraktura',
-    'err500-lgu-solano-facebook': 'LGU Solano Facebook',
-    'err500-official-lgu-solano-portal': 'Opisyal na Portal ng LGU Solano',
+    'err500-lgu-Muntinlupa-facebook': 'LGU Muntinlupa Facebook',
+    'err500-official-lgu-Muntinlupa-portal': 'Opisyal na Portal ng LGU Muntinlupa',
     'err500-open-data-philippines': 'Open Data Philippines',
     'err500-ordinance-framework': 'Balangkas ng Ordinansa',
     'err500-privacy-policy': 'Patakaran sa Pagkapribado',
@@ -8646,11 +8396,11 @@ const translations = {
     'faq-dti-registration-for-sole-proprietorship-or-sec':
       'DTI Registration (para sa sole proprietorship) o SEC Registration (para sa korporasyon)',
     'faq-education': 'Edukasyon',
-    'faq-empowering-the-people-of-solano-with-transparent':
+    'faq-empowering-the-people-of-Muntinlupa-with-transparent':
       'Pagbibigay-kapangyarihan sa mga mamamayan ng Muntinlupa na may transparent na access sa mga serbisyo, programa, at pampublikong pondo ng lungsod.',
     'faq-environment': 'Kapaligiran',
-    'faq-for-birth-certificates-registered-in-solano-it':
-      'For kapanganakan mga sertipiko registered in Solano, it typically takes 15-30 minutes while you maghintay, provided the rekord is readily magagamit.',
+    'faq-for-birth-certificates-registered-in-Muntinlupa-it':
+      'For kapanganakan mga sertipiko registered in Muntinlupa, it typically takes 15-30 minutes while you maghintay, provided the rekord is readily magagamit.',
     'faq-freedom-of-information': 'Kalayaan sa Impormasyon',
     'faq-go-to-the-municipal-social-welfare-and':
       'Pumunta sa Opisina ng Kagalingang Panlipunan at Pagpapaunlad ng Munisipyo (MSWDO) na may dalang:',
@@ -8668,9 +8418,9 @@ const translations = {
       'I found a broken link or error on this website. How do I ulat it?',
     'faq-infrastructure': 'Imprastraktura',
     'faq-is-this-website-mobilefriendly': 'Ang website ba na ito ay mobile-friendly?',
-    'faq-lgu-solano-facebook': 'LGU Solano Facebook',
+    'faq-lgu-Muntinlupa-facebook': 'LGU Muntinlupa Facebook',
     'faq-location-sketchmap': 'Sketch/Mapa ng Lokasyon',
-    'faq-official-lgu-solano-portal': 'Opisyal na Portal ng LGU Solano',
+    'faq-official-lgu-Muntinlupa-portal': 'Opisyal na Portal ng LGU Muntinlupa',
     'faq-open-data-philippines': 'Open Data Philippines',
     'faq-openjs-foundation': 'OpenJS Foundation',
     'faq-ordinance-framework': 'Balangkas ng Ordinansa',
@@ -8678,8 +8428,8 @@ const translations = {
     'faq-privacy-policy': 'Patakaran sa Pagkapribado',
     'faq-public-safety': 'Kaligtasang Pampubliko',
     'faq-quick-links': 'Mga Mabilisang Link',
-    'faq-ramon-has-made-the-solano-project-open-source':
-      'Ramon has made the Solano Project bukas source under MIT | CC BY 4.0 to empower community-driven development, and contributions are warmly welcomed from everyone; whether you are a developer, datos researcher, designer, content writer, translator, or a concerned mamamayan of Solano, your participation helps shape the project for all.',
+    'faq-ramon-has-made-the-Muntinlupa-project-open-source':
+      'Ramon has made the Muntinlupa Project bukas source under MIT | CC BY 4.0 to empower community-driven development, and contributions are warmly welcomed from everyone; whether you are a developer, datos researcher, designer, content writer, translator, or a concerned mamamayan of Muntinlupa, your participation helps shape the project for all.',
     'faq-ramon-logan-jr': 'Ramon Logan Jr.',
     'faq-resolution-framework': 'Balangkas ng Resolusyon',
     'faq-resources': 'Mga Mapagkukunan',
@@ -8704,30 +8454,25 @@ const translations = {
       'What ay ang office hours ng ang Munisipyo?',
     'faq-what-benefits-do-senior-citizens-receive':
       'What benefits do nakatatanda mga mamamayan tanggapin?',
-    'faq-what-do-i-need-to-start-a-new-business-in-solano':
-      'What do I kailangan to simulan a bago business in Solano?',
+    'faq-what-do-i-need-to-start-a-new-business-in-Muntinlupa':
+      'What do I kailangan to simulan a bago business in Muntinlupa?',
     'faq-what-is-the-difference-between-psa-and-local':
       'What ay ang difference sa pagitan ng PSA sa lokal na civil registrar mga sertipiko?',
     'faq-what-payment-methods-are-accepted': 'What pagbabayad mga pamamaraan ay accepted?',
     'faq-when-should-i-renew-my-business-permit':
       'Kailan ko dapat i-renew ang aking permiso sa negosyo?',
-    'faq-who-developed-better-solano': 'Sino ang gumawa ng Better Muntinlupa?',
-    'faq-yes-better-solano-is-fully-responsive-and':
+    'faq-who-developed-better-Muntinlupa': 'Sino ang gumawa ng Better Muntinlupa?',
+    'faq-yes-better-Muntinlupa-is-fully-responsive-and':
       'Yes! Better Muntinlupa is fully tumutugon and optimized for mobile phones, tablets, and desktop computers.',
     'faq-yes-but-they-must-bring': 'Yes, ngunit sila dapat bring:',
     'gov-accessibility': 'Aksesibilidad',
-    'gov-aggub': 'Aggub',
     'gov-agricultural-loans-crop-insurance-fertilizer':
       'Mga pautang sa agrikultura, seguro sa pananim, tulong sa pataba',
     'gov-agriculture': 'Agrikultura',
     'gov-agriculture-aquaculture-food-security-overseas':
       'Agrikultura, Akwakultura at Seguridad sa Pagkain, Mga Usapin ng mga Overseas Filipino Worker',
-    'gov-bagahabag': 'Bagahabag',
-    'gov-bangaan': 'Bangaan',
-    'gov-bangar': 'Bangar',
     'gov-barangay-affairs-tourism': 'Mga Usapin ng Barangay, Turismo',
     'gov-barangay-units': 'Mga Yunit ng Barangay',
-    'gov-bascaran': 'Bascaran',
     'gov-birth-death-marriage-certificates-cenomar':
       'Kapanganakan, kamatayan, kasal mga sertipiko, CENOMAR',
     'gov-blgf-portal': 'BLGF Portal',
@@ -8742,13 +8487,9 @@ const translations = {
     'gov-certificates': 'Mga Sertipiko',
     'gov-citizens-charter': "Citizen's Charter",
     'gov-cmci-dti-portal': 'CMCI DTI Portal',
-    'gov-communal': 'Communal',
-    'gov-concepcion': 'Concepcion',
     'gov-contribute-code-with-us': 'Mag-ambag ng code sa amin',
     'gov-cooperative-development-senior-citizens-and':
       'Cooperative Development, Nakatatanda Mga mamamayan and Disability Affairs',
-    'gov-curifang': 'Curifang',
-    'gov-dadap': 'Dadap',
     'gov-development-planning-project-monitoring-zoning':
       'Pagpaplano ng pagpapaunlad, pagsubaybay sa proyekto, zoning',
     'gov-disaster-preparedness-emergency-response-risk':
@@ -8756,7 +8497,7 @@ const translations = {
     'gov-education': 'Edukasyon',
     'gov-education-science-technology-transportation':
       'Edukasyon, Agham at Teknolohiya, Transportasyon, Komersyo, Kalakalan at Industriya',
-    'gov-empowering-the-people-of-solano-with-transparent':
+    'gov-empowering-the-people-of-Muntinlupa-with-transparent':
       'Pagbibigay-kapangyarihan sa mga mamamayan ng Muntinlupa na may transparent na access sa mga serbisyo, programa, at pampublikong pondo ng lungsod.',
     'gov-entrepreneurship-economic-development-historical':
       'Entrepreneurship & Economic Development, Historical Mga rekord & Preservation of Heritage, Culture and the Arts',
@@ -8774,51 +8515,15 @@ const translations = {
     'gov-hog-cattle-goat-carabao-slaughter-with-meat':
       'Hog, cattle, goat, carabao slaughter with meat inspeksyon',
     'gov-home': 'Tahanan',
-    'gov-hon-atty-jerome-g-marcos': 'Hon. Atty. Jerome G. Marcos',
-    'gov-hon-eduardo-d-tiongson': 'Hon. Eduardo D. Tiongson',
-    'gov-hon-edwin-clifford-f-tito-od': 'Hon. Edwin Clifford F. Tito, O.D.',
-    'gov-hon-ipmr-leon-g-dumani': 'Hon. IPMR Leon G. Dumani',
-    'gov-hon-isaac-r-divina': 'Hon. Isaac R. Divina',
-    'gov-hon-joseph-t-alindada': 'Hon. Joseph T. Alindada',
-    'gov-hon-luisito-l-lannu': 'Hon. Luisito L. Lannu',
-    'gov-hon-melchor-e-marzo': 'Hon. Melchor E. Marzo',
-    'gov-hon-michael-dl-tiongson-lpt': 'Hon. Michael Dl. Tiongson, LPT',
-    'gov-hon-philip-a-dacayo': 'Hon. Philip A. Dacayo',
-    'gov-hon-roland-m-carub-jd': 'Hon. Roland M. Carub, J.D.',
-    'gov-hon-thomas-dave-c-santos': 'Hon. Thomas Dave C. Santos',
-    'gov-hon-walter-d-savedra-sr': 'Hon. Walter D. Savedra, Sr.',
     'gov-human-resource-management': 'Pamamahala ng Yamang Tao',
     'gov-indigenous-people-affairs': 'Indigenous Mga tao Affairs',
     'gov-infrastructure': 'Imprastraktura',
     'gov-job-placement-employment-assistance-career':
       'Paglalagay sa trabaho, tulong sa trabaho, gabay sa karera',
-    'gov-kap-angelito-de-leon-tiongson': 'Kap. Angelito De Leon Tiongson',
-    'gov-kap-danilo-estacio-domingo': 'Kap. Danilo Estacio Domingo',
-    'gov-kap-dexter-yaranon-ruiz': 'Kap. Dexter Yaranon Ruiz',
-    'gov-kap-eduardo-abu-bangad-sr': 'Kap. Eduardo Abu Bangad Sr.',
-    'gov-kap-edwin-bungan-dacayo': 'Kap. Edwin Bungan Dacayo',
-    'gov-kap-elmer-zabala-lingayu': 'Kap. Elmer Zabala Lingayu',
-    'gov-kap-ernesto-domingo-ramones-jr': 'Kap. Ernesto Domingo Ramones Jr.',
-    'gov-kap-federico-vienes-asuncion': 'Kap. Federico Vienes Asuncion',
-    'gov-kap-felix-caramat-tolentino-sr': 'Kap. Felix Caramat Tolentino Sr.',
-    'gov-kap-isidro-baliza-prado': 'Kap. Isidro Baliza Prado',
-    'gov-kap-janette-quines-cristobal': 'Kap. Janette Quines Cristobal',
-    'gov-kap-jenny-gomez-marquez': 'Kap. Jenny Gomez Marquez',
-    'gov-kap-jessie-concepcion-delos-reyes': 'Kap. Jessie Concepcion Delos Reyes',
-    'gov-kap-luis-amangi-castillo': 'Kap. Luis Amangi Castillo',
-    'gov-kap-melchor-esmedina-marzo': 'Kap. Melchor Esmedina Marzo',
-    'gov-kap-nardo-eustaquio-ramel': 'Kap. Nardo Eustaquio Ramel',
-    'gov-kap-renaldo-ginom-nabadaw': 'Kap. Renaldo Gin-Om Nabad-Aw',
-    'gov-kap-roberto-ojastro-dizon': 'Kap. Roberto Ojastro Dizon',
-    'gov-kap-rudy-eugenio-paranis': 'Kap. Rudy Eugenio Paranis',
-    'gov-kap-sherwin-elevazo-vicente': 'Kap. Sherwin Elevazo Vicente',
-    'gov-kap-victor-tubay-adalin-jr': 'Kap. Victor Tubay Adalin Jr.',
-    'gov-kap-walter-dalupang-savedra-sr': 'Kap. Walter Dalupang Savedra Sr.',
-    'gov-lactawan': 'Lactawan',
     'gov-legal-good-governance-justice-human-rights':
       'Legal, Mabuting Pamamahala, Hustisya, Karapatang Pantao, Pamamahala ng Kapaligiran',
     'gov-legislative-branch': 'Sangay ng Lehislatura',
-    'gov-lgu-solano-facebook': 'LGU Solano Facebook',
+    'gov-lgu-Muntinlupa-facebook': 'LGU Muntinlupa Facebook',
     'gov-liga-ng-mga-barangay-president': 'Liga ng mga Barangay President',
     'gov-market-clearance-entrance-fees-vendor-services-ctc':
       'Market clearance, mga bayad sa pagpasok, mga serbisyo sa vendor, CTC',
@@ -8830,18 +8535,14 @@ const translations = {
     'gov-municipal-engineering-office': 'Opisina ng Inhinyero ng Munisipalidad',
     'gov-municipal-general-services-office': 'Opisina ng Pangkalahatang Serbisyo ng Munisipalidad',
     'gov-municipal-health-office': 'Pangmunisipyo Opisina ng Kalusugan',
-    'gov-municipal-offices': 'Mga Opisina ng Munisipyo',
+    'gov-municipal-offices': 'Mga Serbisyo ng Lungsod',
     'gov-municipal-planning-development': 'Pangmunisipyo Planning & Development',
     'gov-municipal-treasurers-office': 'Opisina ng Ingat-yaman ng Munisipalidad',
-    'gov-official-lgu-solano-portal': 'Opisyal na Portal ng LGU Solano',
+    'gov-official-lgu-Muntinlupa-portal': 'Opisyal na Portal ng LGU Muntinlupa',
     'gov-open-data-philippines': 'Open Data Philippines',
     'gov-ordinance-framework': 'Balangkas ng Ordinansa',
-    'gov-osmea': 'Osmeña',
     'gov-personnel-services-recruitment-employee-records':
       'Tauhan mga serbisyo, recruitment, empleyado mga rekord',
-    'gov-pilar-d-galima': 'Pilar D. Galima',
-    'gov-poblacion-north': 'Poblacion North',
-    'gov-poblacion-south': 'Poblacion South',
     'gov-privacy-policy': 'Patakaran sa Pagkapribado',
     'gov-property-assessment-tax-declarations-land-records':
       'Ari-arian pagtatasa, buwis declarations, lupa mga rekord',
@@ -8850,14 +8551,9 @@ const translations = {
     'gov-public-safety': 'Kaligtasang Pampubliko',
     'gov-public-safety-peace-order-family-women-children':
       'Public Safety, Peace & Order, Pamilya, Mga kababaihan, Mga bata & Social Mga serbisyo',
-    'gov-quezon': 'Quezon',
     'gov-quick-links': 'Mga Mabilisang Link',
-    'gov-quirino': 'Quirino',
     'gov-resolution-framework': 'Balangkas ng Resolusyon',
     'gov-resources': 'Mga Mapagkukunan',
-    'gov-roxas': 'Roxas',
-    'gov-san-juan': 'San Juan',
-    'gov-san-luis': 'San Luis',
     'gov-sangguniang-bayan': 'Sangguniang Bayan',
     'gov-sb-member': 'Miyembro ng SB',
     'gov-seedo-public-market': 'SEEDO – Pamilihang Bayan',
@@ -8872,16 +8568,11 @@ const translations = {
     'gov-tax-payments-real-property-tax-revenue-collection':
       'Tax mga pagbabayad, buwis sa tunay na ari-arian, revenue koleksyon',
     'gov-terms-of-use': 'Mga Tuntunin ng Paggamit',
-    'gov-the-executive-officials-leading-solanos-governance':
-      "The executive mga opisyal leading Solano's governance",
-    'gov-tucal': 'Tucal',
-    'gov-uddiawan': 'Uddiawan',
     'gov-vaccination-health-certificates-medical-assistance':
       'Vaccination, health mga sertipiko, tulong medikal',
     'gov-view-job-vacancies': 'Tingnan Job Vacancies',
     'gov-view-services': 'Tingnan ang mga Serbisyo',
     'gov-volunteer-with-us': 'Mag-volunteer sa amin',
-    'gov-wacal': 'Wacal',
     'gov-youth-sports-development-legislative-drafting':
       'Kabataan & Sports Development, Legislative Drafting',
     'gs-1-day': '1 araw',
@@ -8936,7 +8627,7 @@ const translations = {
     'gs-education': 'Edukasyon',
     'gs-email': 'Email',
     'gs-emergency-medical-services': 'Emergency Medical Mga serbisyo',
-    'gs-empowering-the-people-of-solano-with-transparent':
+    'gs-empowering-the-people-of-Muntinlupa-with-transparent':
       'Pagbibigay-kapangyarihan sa mga mamamayan ng Muntinlupa na may transparent na access sa mga serbisyo, programa, at pampublikong pondo ng lungsod.',
     'gs-emtdriver': 'EMT/Driver',
     'gs-environment': 'Kapaligiran',
@@ -8964,7 +8655,7 @@ const translations = {
     'gs-industrial': 'Industriyal',
     'gs-infrastructure': 'Imprastraktura',
     'gs-issuance-of-purchase-order-po': 'Pagbibigay ng Purchase Order (PO)',
-    'gs-lgu-solano-facebook': 'LGU Solano Facebook',
+    'gs-lgu-Muntinlupa-facebook': 'LGU Muntinlupa Facebook',
     'gs-light-vehicle-driver': 'Driver ng Magaan na Sasakyan',
     'gs-location': 'Lokasyon',
     'gs-mayors-office': 'Opisina ng Punong Bayan',
@@ -8974,8 +8665,7 @@ const translations = {
     'gs-municipal-accounting': 'Accounting ng Munisipyo',
     'gs-municipal-engineering': 'Inhinyeriya ng Munisipyo',
     'gs-municipal-general-services-office': 'Opisina ng Pangkalahatang Serbisyo ng Munisipalidad',
-    'gs-municipal-hall-ground-floor-solano-nueva-vizcaya':
-      'Munisipyo, Unang Palapag, Solano, Nueva Vizcaya 3708',
+    'gs-city-office-location': 'Makipag-ugnayan sa City General Services Office para kumpirmahin ang kasalukuyang lokasyon nito.',
     'gs-municipal-treasurer': 'Ingat-yaman ng Munisipalidad',
     'gs-municipal-vehicles-available-for-official-use-and':
       'Pangmunisipyo vehicles magagamit for opisyal gamitin and pampubliko rental',
@@ -8984,7 +8674,7 @@ const translations = {
     'gs-office-hours': 'Oras ng Opisina',
     'gs-office-personnel': 'Mga Tauhan ng Opisina',
     'gs-office-staff-and-service-personnel': 'Opisina kawani and serbisyo tauhan',
-    'gs-official-lgu-solano-portal': 'Opisyal na Portal ng LGU Solano',
+    'gs-official-lgu-Muntinlupa-portal': 'Opisyal na Portal ng LGU Muntinlupa',
     'gs-official-receipt-approved-request': 'Opisyal Resibo, Naaprubahan Humiling',
     'gs-open-data-philippines': 'Open Data Philippines',
     'gs-operator': 'Operator',
@@ -9055,63 +8745,31 @@ const translations = {
     'gs-wait-for-approval-from-the-mayors-office':
       'Maghintay ng pag-apruba mula sa Opisina ng Alkalde',
     'gs-water-truck': 'Water Truck',
-    'health-a-tertiary-level-philhealthaccredited-private':
-      'A tertiary level, PhilHealth-accredited pribadong hospital nagbibigay ng komprehensibong mga serbisyong medikal.',
     'health-accessibility': 'Aksesibilidad',
-    'health-aggub-bhs': 'Aggub BHS',
     'health-agriculture': 'Agrikultura',
-    'health-also-known-as-new-mmg-hospital-providing-quality':
-      'Also known as Bagong MMG Hospital, nagbibigay ng quality mga serbisyo sa kalusugan sa ang community.',
-    'health-bagahabag-bhs': 'Bagahabag BHS',
-    'health-bangaan-bhs': 'Bangaan BHS',
-    'health-bangar-bhs': 'Bangar BHS',
-    'health-bintawan-road-brgy-quezon': 'Bintawan Road, Brgy. Quezon',
     'health-blgf-portal': 'BLGF Portal',
-    'health-buenavista-bhs': 'Buenavista BHS',
     'health-business': 'Negosyo',
-    'health-calaocan-bhs': 'Calaocan BHS',
     'health-certificates': 'Mga Sertipiko',
     'health-citizens-charter': "Citizen's Charter",
     'health-cmci-dti-portal': 'CMCI DTI Portal',
-    'health-commando-bhs': 'Commando BHS',
-    'health-concepcion-bhs': 'Concepcion BHS',
     'health-contribute-code-with-us': 'Mag-ambag ng code sa amin',
-    'health-curifang-bhs': 'Curifang BHS',
-    'health-dadap-bhs': 'Dadap BHS',
     'health-education': 'Edukasyon',
-    'health-empowering-the-people-of-solano-with-transparent':
+    'health-empowering-the-people-of-Muntinlupa-with-transparent':
       'Pagbibigay-kapangyarihan sa mga mamamayan ng Muntinlupa na may transparent na access sa mga serbisyo, programa, at pampublikong pondo ng lungsod.',
     'health-environment': 'Kapaligiran',
     'health-freedom-of-information': 'Kalayaan sa Impormasyon',
     'health-health': 'Kalusugan',
     'health-home': 'Tahanan',
     'health-infrastructure': 'Imprastraktura',
-    'health-lactawan-bhs': 'Lactawan BHS',
-    'health-lgu-solano-facebook': 'LGU Solano Facebook',
-    'health-medical-mission-group-hospital-health-services':
-      'Medical Mission Group Hospital & Health Mga serbisyo Cooperative',
-    'health-nangalisan-bhs': 'Nangalisan BHS',
-    'health-national-highway-solano': 'Pambansa Highway, Solano',
-    'health-ocapon-bhs': 'Ocapon BHS',
-    'health-official-lgu-solano-portal': 'Opisyal na Portal ng LGU Solano',
+    'health-lgu-Muntinlupa-facebook': 'LGU Muntinlupa Facebook',
+    'health-official-lgu-Muntinlupa-portal': 'Opisyal na Portal ng LGU Muntinlupa',
     'health-open-data-philippines': 'Open Data Philippines',
     'health-ordinance-framework': 'Balangkas ng Ordinansa',
-    'health-osmea-bhs': 'Osmeña BHS',
-    'health-paitan-bhs': 'Paitan BHS',
-    'health-pilar-bhs': 'Pilar BHS',
-    'health-pltciluis-a-tiam-medical-center': 'PLTCI-Luis A. Tiam Medical Center',
-    'health-poblacion-bhs': 'Poblacion BHS',
     'health-privacy-policy': 'Patakaran sa Pagkapribado',
-    'health-private-medical-center-offering-various':
-      'Pribado medical center offering various healthcare and diagnostic mga serbisyo.',
     'health-public-safety': 'Kaligtasang Pampubliko',
-    'health-quezon-bhs': 'Quezon BHS',
     'health-quick-links': 'Mga Mabilisang Link',
-    'health-quirino-bhs': 'Quirino BHS',
     'health-resolution-framework': 'Balangkas ng Resolusyon',
     'health-resources': 'Mga Mapagkukunan',
-    'health-roxas-bhs': 'Roxas BHS',
-    'health-salubris-inc-salubris-medical-center': 'SALUBRIS, INC. (Salubris Medical Center)',
     'health-sangguniang-bayan': 'Sangguniang Bayan',
     'health-services': 'Mga Serbisyo',
     'health-sitemap': 'Mapa ng Site',
@@ -9119,8 +8777,6 @@ const translations = {
     'health-social-services': 'Serbisyong Panlipunan',
     'health-tax-payments': 'Pagbabayad ng Buwis',
     'health-terms-of-use': 'Mga Tuntunin ng Paggamit',
-    'health-tucal-bhs': 'Tucal BHS',
-    'health-uddiawan-bhs': 'Uddiawan BHS',
     'health-hivcare-cta-eyebrow': 'Opisyal na Direktoryo mula sa DOH',
     'health-hivcare-cta-heading': 'Hanapin ang Pasilidad para sa Paggamot at Pangangalaga sa HIV',
     'health-hivcare-cta-desc':
@@ -9130,10 +8786,11 @@ const translations = {
     'health-hivcare-cta-stat-mobile': 'Mobile-Friendly na Paghahanap',
     'health-hivcare-cta-stat-verified': 'Beripikado ng DOH',
     'health-volunteer-with-us': 'Mag-volunteer sa amin',
-    'home-13980-hectares': '13,980 hectares',
     'home-16270-km': '162.70 km²',
     'home-1st-class': 'Unang Klase',
     'home-2024-census': '2024 Senso',
+    'home-3975-hectares': '3,975 ektarya',
+    'home-3975-km': '39.75 km²',
     'home-28': '28°',
     'home-29': '29°',
     'home-4-pm': '4 PM',
@@ -9154,69 +8811,39 @@ const translations = {
     'home-cmci-dti-portal': 'CMCI DTI Portal',
     'home-contact-us': 'Makipag-ugnayan sa Amin',
     'home-create-account': 'Gumawa ng Account',
+    'home-city-classification': 'Klasipikasyon ng Lungsod',
+    'home-history-unavailable': 'Bineberipika pa ang mga detalyeng pangkasaysayan ng Muntinlupa.',
+    'home-district-1-south': 'Distrito 1 (Timog na bahagi)',
+    'home-district-2-north': 'Distrito 2 (Hilagang bahagi)',
     'home-education': 'Edukasyon',
-    'home-empowering-the-people-of-solano-with-transparent':
+    'home-empowering-the-people-of-Muntinlupa-with-transparent':
       'Pagbibigay-kapangyarihan sa mga mamamayan ng Muntinlupa na may transparent na access sa mga serbisyo, programa, at pampublikong pondo ng lungsod.',
     'home-environment': 'Kapaligiran',
     'home-father-alejandro-vidal': 'Padre Alejandro Vidal',
-    'home-fetching-the-latest-news-from-solano': 'Kinukuha ang pinakabagong balita mula sa Solano.',
+    'home-fetching-the-latest-news-from-Muntinlupa': 'Kinukuha ang pinakabagong balita mula sa Muntinlupa.',
     'home-find-a-service': 'Find a Serbisyo',
     'home-freedom-of-information': 'Kalayaan sa Impormasyon',
-    'home-governor-general-antonio-urbiztondo-declared':
-      'Idineklara ni Gobernador Heneral Antonio Urbiztondo ang Lumabang bilang baryo ng Bayombong dahil sa kakulangan ng mga naninirahan at kita.',
     'home-health': 'Kalusugan',
-    'home-history-1601':
-      'Nasa ilalim ng pangangasiwang panrelihiyon ng mga Augustinian ang Muntinlupa.',
-    'home-history-1869':
-      'Inaprubahan ng Pamahalaang Sibil ang pagbuo ng bayan mula sa mga baryo ng Muntinlupa.',
-    'home-history-1903':
-      'Isinama ng Batas Blg. 1008 ang Muntinlupa sa Laguna at inilagay ito sa ilalim ng Biñan.',
-    'home-history-1905': 'Ibinalik ng Batas Blg. 1308 ang Muntinlupa sa Lalawigan ng Rizal.',
-    'home-history-1917':
-      'Ipinagkaloob ng Kautusang Tagapagpaganap Blg. 108 ang nagsasariling katayuang bayan sa Muntinlupa, na nagkabisa noong Enero 1, 1918.',
-    'home-history-1975':
-      'Naging isa ang Muntinlupa sa 17 bayan at lungsod na bumubuo sa Metro Manila.',
-    'home-history-1995':
-      'Ginawang highly urbanized city ang Muntinlupa sa bisa ng Republic Act No. 7926.',
-    'home-independent-municipality': 'Nagsasariling Bayan',
-    'home-independent-municipality-since-1918':
-      'Nagkabisa noong Enero 1, 1918 ang nagsasariling katayuang bayan ng Muntinlupa.',
-    'home-hon-eduardo-d-tiongson': 'Hon. Eduardo D. Tiongson',
-    'home-hon-philip-a-dacayo': 'Hon. Philip A. Dacayo',
-    'home-history-1760':
-      'Ang orihinal na pangalan ng bayan ay Bintauan, isang pamayanan ng mga Gaddang na ngayon ay barangay ng Villaverde.',
-    'home-history-1767':
-      'Ang bayan ay pormal na itinatag ni Padre Alejandro Vidal, isang paring Dominikano na namuno sa isang misyong Espanyol.',
-    'home-history-1768':
-      'Pinangalanang Lungabang, mula sa salitang Gaddang na lungab na nangangahulugang kuweba. Kalaunan ay binago ng mga Espanyol sa Lumabang.',
-    'home-history-1853':
-      'Dumating ang mga unang Ilocano, dinala ni Don Diego Lumicao, isang dating gobernadorcillo.',
-    'home-history-1889':
-      'Pinalitan ang pangalan sa Solano bilang parangal kay Gobernador Heneral Ramon Solano y Llanderal. Ang bayan ay muling binuo ni Padre Juan Villaverde na may 14 na magkakahanay na malapad na kalye, bawat isa ay 20 metro ang lapad, na bumubuo ng 100 parisukat na bloke.',
-    'home-history-1957':
-      'Ang mga baryo ng Ibung at Bintawan ay pinaghiwalay upang bumuo ng bayan ng Ibung, na kalaunan ay pinalitan ng pangalang Villaverde. Ang lawak ng lupa ng Solano ay nabawasan sa 13,980 ektarya.',
-    'home-ilocanos-arrived': 'Dumating ang mga Ilocano',
+    'home-location-national-capital-region':
+      'Lokasyon: National Capital Region (Metro Manila), Pilipinas',
     'home-income-classification': 'Klasipikasyon ng Kita',
     'home-infrastructure': 'Imprastraktura',
-    'home-interactive-map-showing-the-location-of-solano':
-      'Interactive mapa showing the location of Solano Munisipyo in Nueva Vizcaya, Philippines. The mapa is centered at coordinates 16.5167°N, 121.1833 °E. Gamitin the plus and minus buttons or keyboard arrows to navigate the mapa.',
+    'home-interactive-map-showing-the-location-of-Muntinlupa':
+      'Interactive mapa showing the location of Muntinlupa Munisipyo in Metro Manila, Philippines. The mapa is centered at coordinates 14.3939°N, 121.0412 °E. Gamitin the plus and minus buttons or keyboard arrows to navigate the mapa.',
     'home-javascript-is-required-to-view-the-interactive-map':
       'JavaScript is kinakailangan to tingnan the interactive mapa.',
     'home-land-area': 'Lawak ng Lupa',
-    'home-lgu-solano-facebook': 'LGU Solano Facebook',
-    'home-lgusolanonvgmailcom': 'lgusolanonv@gmail.com',
+    'home-lgu-Muntinlupa-facebook': 'LGU Muntinlupa Facebook',
     'home-loading': 'Naglo-load',
     'home-loading-updates': 'Naglo-load ng mga update...',
-    'home-lungab': 'lungab',
-    'home-lungabang': 'Lungabang',
     'home-municipality': 'Munisipalidad',
-    'home-official-lgu-solano-portal': 'Opisyal na Portal ng LGU Solano',
-    'home-once-the-largest': 'Dating Pinakamalaki',
+    'home-official-lgu-Muntinlupa-portal': 'Opisyal na Portal ng LGU Muntinlupa',
     'home-open-data-philippines': 'Open Data Philippines',
     'home-official-city-history': 'Basahin ang opisyal na kasaysayan ng lungsod',
     'home-ordinance-framework': 'Balangkas ng Ordinansa',
     'home-popular': 'Sikat:',
     'home-population': 'Populasyon',
+    'home-psa-2024-popcen': 'PSA 2024 POPCEN',
     'home-privacy-policy': 'Patakaran sa Pagkapribado',
     'home-public-safety': 'Kaligtasang Pampubliko',
     'home-quick-access-to-frequently-requested-municipal':
@@ -9224,7 +8851,6 @@ const translations = {
     'home-quick-links': 'Mga Mabilisang Link',
     'home-ra-7926-city-charter':
       'Itinatag ng Republic Act No. 7926 ang Muntinlupa bilang highly urbanized city.',
-    'home-ramon-solano-y-llanderal': 'Ramon Solano y Llanderal',
     'home-real-property-tax': 'Buwis sa Tunay na Ari-arian',
     'home-resolution-framework': 'Balangkas ng Resolusyon',
     'home-resources': 'Mga Mapagkukunan',
@@ -9233,26 +8859,19 @@ const translations = {
     'home-sitemap': 'Mapa ng Site',
     'home-skip-to-main-content': 'Lumaktaw sa pangunahing nilalaman',
     'home-social-services': 'Serbisyong Panlipunan',
-    'home-solano': 'Solano',
-    'home-solano-at-a-glance': 'Muntinlupa sa Isang Tingin',
-    'home-solano-municipal-hall-nueva-vizcaya-3708':
-      'Solano Pangmunisipyo Hall, Nueva Vizcaya 3708',
-    'home-solano-nueva-vizcaya-3708': 'Solano, Nueva Vizcaya 3708',
-    'home-solano-was-the-largest-municipality-in-the':
-      'Ang Solano ang pinakamalaking munisipalidad sa probinsya hanggang sa pinaghiwalay ang Caliat at Bintawan upang maging Quezon at Villaverde.',
+    'home-Muntinlupa': 'Muntinlupa',
+    'home-Muntinlupa-at-a-glance': 'Muntinlupa sa Isang Tingin',
     'home-tax-payments': 'Pagbabayad ng Buwis',
     'home-terms-of-use': 'Mga Tuntunin ng Paggamit',
-    'home-the-1889-redevelopment-created-a-grid-of-100':
-      'Ang muling pagbuo noong 1889 ay lumikha ng grid na may 100 parisukat na bloke, bawat isa ay may kabuuang lawak na isang ektarya, na may mga kalye na patungo sa hilaga-timog at silangan-kanluran.',
+    'home-two-legislative-districts': 'Saklaw ng 2 distritong lehislatibo',
+    'home-highly-urbanized-city': 'Highly Urbanized City (HUC)',
     'home-total-municipal-area': 'Kabuuang Lawak ng Munisipalidad',
     'home-urban-planning': 'Pagpaplano ng Lungsod',
     'home-view-all': 'Tingnan Lahat',
     'home-view-all-officials': 'Tingnan All Mga opisyal',
-    'home-city-since-1995': 'Lungsod Mula 1995',
-    'home-view-solano-on-openstreetmap': 'Tingnan Solano on OpenStreetMap',
+    'home-view-Muntinlupa-on-openstreetmap': 'Tingnan Muntinlupa on OpenStreetMap',
     'home-view-statistics': 'Tingnan ang mga Estadistika',
-    'home-villaverde': 'Villaverde',
-    'home-weather-and-map-of-solano': 'Weather and Mapa of Solano',
+    'home-weather-and-map-of-Muntinlupa': 'Weather and Mapa of Muntinlupa',
     'hrm-10-minutes': '10 minuto',
     'hrm-105-days-for-female-employees': '105 araw para sa mga babaeng empleyado',
     'hrm-12-days': '1-2 araw',
@@ -9297,7 +8916,7 @@ const translations = {
     'hrm-education': 'Edukasyon',
     'hrm-employee-id': 'Empleyado ID',
     'hrm-employee-id-for-current-employees': 'Empleyado ID (for kasalukuyang mga empleyado)',
-    'hrm-empowering-the-people-of-solano-with-transparent':
+    'hrm-empowering-the-people-of-Muntinlupa-with-transparent':
       'Pagbibigay-kapangyarihan sa mga mamamayan ng Muntinlupa na may transparent na access sa mga serbisyo, programa, at pampublikong pondo ng lungsod.',
     'hrm-environment': 'Kapaligiran',
     'hrm-fee-free': 'Bayad: Libre',
@@ -9319,7 +8938,7 @@ const translations = {
     'hrm-hrmo-staff': 'HRMO Kawani',
     'hrm-human-resource-management-section': 'Pamamahala ng Yamang Tao Seksyon',
     'hrm-human-resource-management-section-mayors-office':
-      'Pamamahala ng Yamang Tao Seksyon, Opisina ng Punong Bayan, Munisipyo, Solano, Nueva Vizcaya',
+      'Pamamahala ng Yamang Tao Seksyon, Opisina ng Punong Bayan, Munisipyo, Muntinlupa, Metro Manila',
     'hrm-important-notes': 'Mahahalagang Paalala',
     'hrm-infrastructure': 'Imprastraktura',
     'hrm-issuance-of-certificate-of-employment': 'Pagbibigay ng Sertipiko ng Trabaho',
@@ -9335,7 +8954,7 @@ const translations = {
     'hrm-leave-processing': 'Pagproseso ng Leave',
     'hrm-leave-type': 'Uri ng Leave',
     'hrm-legislative': 'Lehislatura',
-    'hrm-lgu-solano-facebook': 'LGU Solano Facebook',
+    'hrm-lgu-Muntinlupa-facebook': 'LGU Muntinlupa Facebook',
     'hrm-location': 'Lokasyon',
     'hrm-maternity-leave': 'Maternity Leave',
     'hrm-mayors-office': 'Opisina ng Punong Bayan',
@@ -9350,7 +8969,7 @@ const translations = {
     'hrm-office-personnel': 'Mga Tauhan ng Opisina',
     'hrm-official-certification-of-current-or-previous':
       'Opisyal certification of kasalukuyang or nakaraang employment status',
-    'hrm-official-lgu-solano-portal': 'Opisyal na Portal ng LGU Solano',
+    'hrm-official-lgu-Muntinlupa-portal': 'Opisyal na Portal ng LGU Muntinlupa',
     'hrm-official-record-of-employment-history-for-lgu':
       'Opisyal na rekord ng kasaysayan ng trabaho para sa mga empleyado ng LGU',
     'hrm-official-statement-of-accumulated-leave-credits':
@@ -9432,7 +9051,7 @@ const translations = {
     'infra-cmci-dti-portal': 'CMCI DTI Portal',
     'infra-contribute-code-with-us': 'Mag-ambag ng code sa amin',
     'infra-education': 'Edukasyon',
-    'infra-empowering-the-people-of-solano-with-transparent':
+    'infra-empowering-the-people-of-Muntinlupa-with-transparent':
       'Pagbibigay-kapangyarihan sa mga mamamayan ng Muntinlupa na may transparent na access sa mga serbisyo, programa, at pampublikong pondo ng lungsod.',
     'infra-engineering-services': 'Mga Serbisyo sa Inhinyeriya',
     'infra-environment': 'Kapaligiran',
@@ -9441,13 +9060,13 @@ const translations = {
     'infra-health': 'Kalusugan',
     'infra-home': 'Tahanan',
     'infra-infrastructure': 'Imprastraktura',
-    'infra-lgu-solano-facebook': 'LGU Solano Facebook',
+    'infra-lgu-Muntinlupa-facebook': 'LGU Muntinlupa Facebook',
     'infra-municipal-engineering-office': 'Opisina ng Inhinyero ng Munisipalidad',
     'infra-municipal-general-services-office':
       'Opisina ng Pangkalahatang Serbisyo ng Munisipalidad',
     'infra-municipal-planning-development': 'Pangmunisipyo Planning & Development',
     'infra-occupancy-permit': 'Permit sa Paninirahan',
-    'infra-official-lgu-solano-portal': 'Opisyal na Portal ng LGU Solano',
+    'infra-official-lgu-Muntinlupa-portal': 'Opisyal na Portal ng LGU Muntinlupa',
     'infra-open-data-philippines': 'Open Data Philippines',
     'infra-ordinance-framework': 'Balangkas ng Ordinansa',
     'infra-privacy-policy': 'Patakaran sa Pagkapribado',
@@ -9497,7 +9116,7 @@ const translations = {
     'leg-detailed-discussion-and-debate-on-the-proposed':
       'Detalyadong talakayan at debate sa iminumungkahing ordinansa',
     'leg-education': 'Edukasyon',
-    'leg-empowering-the-people-of-solano-with-transparent':
+    'leg-empowering-the-people-of-Muntinlupa-with-transparent':
       'Pagbibigay-kapangyarihan sa mga mamamayan ng Muntinlupa na may transparent na access sa mga serbisyo, programa, at pampublikong pondo ng lungsod.',
     'leg-environment': 'Kapaligiran',
     'leg-expressions-of-the-legislative-bodys-will-or':
@@ -9537,7 +9156,7 @@ const translations = {
       'Ang ordinansa ay nagkakabisa at ipinapatupad sa loob ng munisipyo',
     'leg-ordinances': 'Mga Ordinansa',
     'leg-ordinances-and-resolutions-of-the-sangguniang':
-      'Mga ordinansa at resolusyon ng Sangguniang Bayan ng Solano',
+      'Mga ordinansa at resolusyon ng Sangguniang Bayan ng Muntinlupa',
     'leg-posting-publication': 'Pag-post / Publikasyon',
     'leg-posting-transmittal': 'Pag-post / Transmittal',
     'leg-privacy-policy': 'Patakaran sa Pagkapribado',
@@ -9619,7 +9238,7 @@ const translations = {
     'magri-certification-of-farm-location-and-area-cultivated':
       'Sertipikasyon ng lokasyon ng bukid at lugar na sinasaka',
     'magri-certification-that-individual-is-a-registered':
-      'Sertipikasyon na ang indibidwal ay isang rehistradong magsasaka sa Solano',
+      'Sertipikasyon na ang indibidwal ay isang rehistradong magsasaka sa Muntinlupa',
     'magri-certifications': 'Mga Sertipikasyon',
     'magri-certified-seeds-distribution': 'Sertipikado Seeds Distribution',
     'magri-citizens-charter': "Citizen's Charter",
@@ -9648,13 +9267,13 @@ const translations = {
     'magri-distribution-of-tilapia-carp-and-other-fingerlings':
       'Pamamahagi ng mga tilapia, karpa, at iba pang fingerling',
     'magri-education': 'Edukasyon',
-    'magri-empowering-the-people-of-solano-with-transparent':
+    'magri-empowering-the-people-of-Muntinlupa-with-transparent':
       'Pagbibigay-kapangyarihan sa mga mamamayan ng Muntinlupa na may transparent na access sa mga serbisyo, programa, at pampublikong pondo ng lungsod.',
     'magri-environment': 'Kapaligiran',
     'magri-farm-location-certification': 'Sertipikasyon ng Lokasyon ng Bukid',
     'magri-farm-machinery-services': 'Farm Machinery Mga serbisyo',
     'magri-farm-registration-certifications-and-agricultural':
-      'Pagpaparehistro ng bukid, mga sertipikasyon, at mga programang agrikultural para sa mga magsasaka ng Solano',
+      'Pagpaparehistro ng bukid, mga sertipikasyon, at mga programang agrikultural para sa mga magsasaka ng Muntinlupa',
     'magri-farmer-certification': 'Sertipikasyon ng Magsasaka',
     'magri-farmers-field-school': 'Paaralan sa Bukid ng mga Magsasaka',
     'magri-farmers-organization': 'Organisasyon ng mga Magsasaka',
@@ -9689,7 +9308,7 @@ const translations = {
     'magri-land-title-tax-declaration-lease-contract':
       'Land Title / Tax Declaration / Kontrata ng Pag-upa',
     'magri-legislative': 'Lehislatura',
-    'magri-lgu-solano-facebook': 'LGU Solano Facebook',
+    'magri-lgu-Muntinlupa-facebook': 'LGU Muntinlupa Facebook',
     'magri-linkage-to-organic-markets-and-buyers':
       'Koneksyon sa mga organikong pamilihan at mamimili',
     'magri-livestock': 'Mga Hayop',
@@ -9706,14 +9325,14 @@ const translations = {
     'magri-mun-agriculture': 'Mun. Agrikultura',
     'magri-municipal-agriculture-office': 'Opisina ng Agrikultura ng Munisipalidad',
     'magri-municipal-agriculture-office-municipal-hall':
-      'Kagawaran ng Agrikultura ng Munisipyo Opisina, Munisipyo, Solano, Nueva Vizcaya',
+      'Kagawaran ng Agrikultura ng Munisipyo Opisina, Munisipyo, Muntinlupa, Metro Manila',
     'magri-municipal-hall': 'Munisipyo',
     'magri-no-payment-required': 'No Pagbabayad Kinakailangan',
     'magri-office': 'Opisina',
     'magri-office-information': 'Impormasyon ng Opisina',
     'magri-official-certifications-issued-by-the-municipal':
       'Mga opisyal na sertipikasyon na ibinibigay ng Opisina ng Agrikultura ng Munisipyo',
-    'magri-official-lgu-solano-portal': 'Opisyal na Portal ng LGU Solano',
+    'magri-official-lgu-Muntinlupa-portal': 'Opisyal na Portal ng LGU Muntinlupa',
     'magri-official-production-records-for-loan-and':
       'Mga opisyal na rekord ng produksyon para sa layunin ng pautang at seguro',
     'magri-old-rsbsa-form-reference-number': 'Luma RSBSA Form / Reference Number',
@@ -9780,8 +9399,8 @@ const translations = {
       'Suporta para sa mga kasanayan sa organikong pagsasaka at sertipikasyon',
     'magri-support-for-pgs-and-thirdparty-organic':
       'Suporta para sa PGS at third-party na organikong sertipikasyon',
-    'magri-support-programs-for-corn-farmers-in-solano':
-      'Mga programa ng suporta para sa mga magsasaka ng mais sa Solano',
+    'magri-support-programs-for-corn-farmers-in-Muntinlupa':
+      'Mga programa ng suporta para sa mga magsasaka ng mais sa Muntinlupa',
     'magri-support-programs-for-rice-farmers-under-the-rice':
       'Mga programa ng suporta para sa mga magsasaka ng bigas sa ilalim ng Rice Competitiveness Enhancement Fund (RCEF)',
     'magri-support-services-for-fisherfolk-and-aquaculture':
@@ -9858,7 +9477,7 @@ const translations = {
     'market-duration': 'Tagal',
     'market-economic-enterprise-development-office': 'Economic Enterprise & Development Opisina',
     'market-education': 'Edukasyon',
-    'market-empowering-the-people-of-solano-with-transparent':
+    'market-empowering-the-people-of-Muntinlupa-with-transparent':
       'Pagbibigay-kapangyarihan sa mga mamamayan ng Muntinlupa na may transparent na access sa mga serbisyo, programa, at pampublikong pondo ng lungsod.',
     'market-entrance-fees': 'Mga Bayad sa Pagpasok',
     'market-entrance-fees-are-based-on-goods-being-sold':
@@ -9903,7 +9522,7 @@ const translations = {
     'market-key-personnel-handling-public-market-services':
       'Key tauhan handling pampubliko market mga serbisyo',
     'market-legislative': 'Lehislatura',
-    'market-lgu-solano-facebook': 'LGU Solano Facebook',
+    'market-lgu-Muntinlupa-facebook': 'LGU Muntinlupa Facebook',
     'market-location': 'Lokasyon',
     'market-market-clearance': 'Clearance ng Pamilihan',
     'market-market-collector': 'Kolektor ng Pamilihan',
@@ -9915,7 +9534,7 @@ const translations = {
     'market-office-head': 'Pinuno ng Opisina',
     'market-office-information': 'Impormasyon ng Opisina',
     'market-office-personnel': 'Mga Tauhan ng Opisina',
-    'market-official-lgu-solano-portal': 'Opisyal na Portal ng LGU Solano',
+    'market-official-lgu-Muntinlupa-portal': 'Opisyal na Portal ng LGU Muntinlupa',
     'market-open-data-philippines': 'Open Data Philippines',
     'market-ordinance-framework': 'Balangkas ng Ordinansa',
     'market-other-merchandise': 'Iba pang Paninda',
@@ -9947,8 +9566,7 @@ const translations = {
     'market-secure-and-fill-out-public-market-complaint-form':
       'Ligtas and punan out Pamilihang Bayan reklamo form and isumite to the Market Supervisor',
     'market-seedo-head': 'SEEDO Pinuno',
-    'market-seedo-office-public-market-solano-nueva-vizcaya':
-      'SEEDO Opisina, Pamilihang Bayan, Solano, Nueva Vizcaya',
+    'market-city-office-location': 'Makipag-ugnayan sa City Market Office para kumpirmahin ang kasalukuyang lokasyon nito.',
     'market-seedo-public-market': 'SEEDO - Pamilihang Bayan',
     'market-select-a-service-to-view-the-detailed-process-and':
       'Pumili ng serbisyo upang makita ang detalyadong proseso at mga kinakailangan',
@@ -10022,7 +9640,7 @@ const translations = {
     'mbudget-documents-required': 'Mga Dokumentong Kinakailangan',
     'mbudget-duration': 'Tagal',
     'mbudget-education': 'Edukasyon',
-    'mbudget-empowering-the-people-of-solano-with-transparent':
+    'mbudget-empowering-the-people-of-Muntinlupa-with-transparent':
       'Pagbibigay-kapangyarihan sa mga mamamayan ng Muntinlupa na may transparent na access sa mga serbisyo, programa, at pampublikong pondo ng lungsod.',
     'mbudget-ensure-all-documents-are-complete-before':
       'Ensure lahat ng mga dokumento ay kumpletong bago pagsusumite',
@@ -10039,15 +9657,15 @@ const translations = {
     'mbudget-key-personnel-handling-budget-office-services':
       'Key tauhan handling budget opisina mga serbisyo',
     'mbudget-legislative': 'Lehislatura',
-    'mbudget-lgu-solano-facebook': 'LGU Solano Facebook',
+    'mbudget-lgu-Muntinlupa-facebook': 'LGU Muntinlupa Facebook',
     'mbudget-local-school-board-ordinance': 'Lokal School Lupon Ordinansa',
     'mbudget-location': 'Lokasyon',
     'mbudget-marcial-l-ramos-cpa': 'Marcial L. Ramos, CPA',
     'mbudget-melisa-claire-leal': 'Melisa Claire Leal',
     'mbudget-mun-budget': 'Mun. Badyet',
     'mbudget-municipal-budget-office': 'Opisina ng Badyet ng Munisipalidad',
-    'mbudget-municipal-budget-office-municipal-hall-solano':
-      'Pangmunisipyo Opisina ng Badyet, Munisipyo, Solano, Nueva Vizcaya',
+    'mbudget-municipal-budget-office-municipal-hall-Muntinlupa':
+      'Pangmunisipyo Opisina ng Badyet, Munisipyo, Muntinlupa, Metro Manila',
     'mbudget-municipal-budget-officer': 'Opisyal ng Badyet ng Munisipalidad',
     'mbudget-municipal-hall': 'Munisipyo',
     'mbudget-obligation-request': 'Kahilingan ng Obligasyon',
@@ -10059,7 +9677,7 @@ const translations = {
     'mbudget-office': 'Opisina',
     'mbudget-office-information': 'Impormasyon ng Opisina',
     'mbudget-office-personnel': 'Mga Tauhan ng Opisina',
-    'mbudget-official-lgu-solano-portal': 'Opisyal na Portal ng LGU Solano',
+    'mbudget-official-lgu-Muntinlupa-portal': 'Opisyal na Portal ng LGU Muntinlupa',
     'mbudget-official-receipt': 'Opisyal na Resibo',
     'mbudget-open-data-philippines': 'Open Data Philippines',
     'mbudget-ordinance-framework': 'Balangkas ng Ordinansa',
@@ -10188,7 +9806,7 @@ const translations = {
     'mc-duration': 'Tagal',
     'mc-edgar-mc': 'Edgar Mc',
     'mc-education': 'Edukasyon',
-    'mc-empowering-the-people-of-solano-with-transparent':
+    'mc-empowering-the-people-of-Muntinlupa-with-transparent':
       'Pagbibigay-kapangyarihan sa mga mamamayan ng Muntinlupa na may transparent na access sa mga serbisyo, programa, at pampublikong pondo ng lungsod.',
     'mc-environment': 'Kapaligiran',
     'mc-fee': 'Bayad',
@@ -10197,7 +9815,7 @@ const translations = {
       'Sundin these steps to magparehistro your kasal sertipiko',
     'mc-for-delayed-registration': 'For Naantalang Pagpaparehistro',
     'mc-for-engaged-couples-intending-to-get-married-in':
-      'Para sa mga magkasintahang nagbabalak magpakasal sa Solano',
+      'Para sa mga magkasintahang nagbabalak magpakasal sa Muntinlupa',
     'mc-for-timely-registration-within-1530-days':
       'Para sa Napapanahong Pagpaparehistro (Sa Loob ng 15/30 Araw)',
     'mc-forms-for-marriage-license-application': 'Mga form for kasal lisensya aplikasyon',
@@ -10222,18 +9840,17 @@ const translations = {
     'mc-issuance-of-the-marriage-license': 'Issuance of the kasal lisensya',
     'mc-juvy': 'Juvy',
     'mc-legislative': 'Lehislatura',
-    'mc-lgu-solano-facebook': 'LGU Solano Facebook',
+    'mc-lgu-Muntinlupa-facebook': 'LGU Muntinlupa Facebook',
     'mc-license-validity': 'Bisa ng Lisensya',
     'mc-local-civil-registrar': 'Lokal na Tagapagrehistro Sibil',
     'mc-marriage-certificate-local-registration': 'Sertipiko ng Kasal (Local Registration)',
     'mc-mswdo-staff': 'MSWDO Kawani',
     'mc-mto-collection-officer': 'MTO Collection Opisyal',
-    'mc-municipal-hall-2nd-floor-solano-nueva-vizcaya':
-      'Munisipyo, Ikalawang Palapag Solano, Nueva Vizcaya',
+    'mc-city-office-location': 'Makipag-ugnayan sa City Civil Registrar para kumpirmahin ang kasalukuyang lokasyon nito.',
     'mc-nationwide': 'Buong Bansa',
     'mc-need-help': 'Kailangan Tulong?',
     'mc-office-information': 'Impormasyon ng Opisina',
-    'mc-official-lgu-solano-portal': 'Opisyal na Portal ng LGU Solano',
+    'mc-official-lgu-Muntinlupa-portal': 'Opisyal na Portal ng LGU Muntinlupa',
     'mc-official-receipt': 'Opisyal na Resibo',
     'mc-oliver-receiving-officer': 'Oliver - Receiving Opisyal',
     'mc-open-data-philippines': 'Open Data Philippines',
@@ -10369,7 +9986,7 @@ const translations = {
       'I-download the kasal lisensya aplikasyon form',
     'mcr-duration': 'Tagal',
     'mcr-education': 'Edukasyon',
-    'mcr-empowering-the-people-of-solano-with-transparent':
+    'mcr-empowering-the-people-of-Muntinlupa-with-transparent':
       'Pagbibigay-kapangyarihan sa mga mamamayan ng Muntinlupa na may transparent na access sa mga serbisyo, programa, at pampublikong pondo ng lungsod.',
     'mcr-environment': 'Kapaligiran',
     'mcr-fee': 'Bayad',
@@ -10391,7 +10008,7 @@ const translations = {
     'mcr-legal-capacity-to-contract-marriage-from-embassy':
       'Legal na Kakayahang Mag-asawa mula sa Embahada',
     'mcr-legislative': 'Lehislatura',
-    'mcr-lgu-solano-facebook': 'LGU Solano Facebook',
+    'mcr-lgu-Muntinlupa-facebook': 'LGU Muntinlupa Facebook',
     'mcr-location': 'Lokasyon',
     'mcr-marriage-certificate': 'Sertipiko ng Kasal',
     'mcr-marriage-certificate-of-parents-if-legitimate':
@@ -10412,7 +10029,7 @@ const translations = {
     'mcr-municipal-civil-registrar': 'Tagapagrehistro Sibil ng Munisipalidad',
     'mcr-municipal-civil-registrars-office': 'Pangmunisipyo Opisina ng Tagapagrehistro Sibil',
     'mcr-municipal-civil-registrars-office-2nd-floor':
-      'Pangmunisipyo Opisina ng Tagapagrehistro Sibil, Ikalawang Palapag, Munisipyo, Solano, Nueva Vizcaya',
+      'Makipag-ugnayan sa city office upang kumpirmahin ang kasalukuyang lokasyon ng Civil Registrar’s Office',
     'mcr-municipal-hall-2f': 'Pangmunisipyo Hall, 2F',
     'mcr-nbipolice-clearance': 'NBI/Police Clearance',
     'mcr-negative-certification-from-psa': 'Negatibong Sertipikasyon mula sa PSA',
@@ -10423,7 +10040,7 @@ const translations = {
     'mcr-office-head': 'Pinuno ng Opisina',
     'mcr-office-information': 'Impormasyon ng Opisina',
     'mcr-office-personnel': 'Mga Tauhan ng Opisina',
-    'mcr-official-lgu-solano-portal': 'Opisyal na Portal ng LGU Solano',
+    'mcr-official-lgu-Muntinlupa-portal': 'Opisyal na Portal ng LGU Muntinlupa',
     'mcr-official-receipt': 'Opisyal na Resibo',
     'mcr-open-data-philippines': 'Open Data Philippines',
     'mcr-order-of-payment': 'Order of Pagbabayad',
@@ -10450,11 +10067,11 @@ const translations = {
     'mcr-ra-9048-clerical-error-correction': 'RA 9048 - Pagwawasto ng Klerikal na Error',
     'mcr-register-births-and-deaths-within-30-days-to':
       'Irehistro ang mga kapanganakan at pagkamatay sa loob ng 30 araw upang maiwasan ang mga multa',
-    'mcr-registration-of-birth-for-children-born-in-solano':
-      'Pagpaparehistro ng kapanganakan para sa mga batang ipinanganak sa Solano, Nueva Vizcaya',
+    'mcr-registration-of-birth-for-children-born-in-Muntinlupa':
+      'Pagpaparehistro ng kapanganakan para sa mga batang ipinanganak sa Muntinlupa, Metro Manila',
     'mcr-registration-of-death': 'Registration of Kamatayan',
     'mcr-registration-of-death-for-persons-who-died-in':
-      'Pagpaparehistro ng pagkamatay para sa mga taong namatay sa Solano, Nueva Vizcaya',
+      'Pagpaparehistro ng pagkamatay para sa mga taong namatay sa Muntinlupa, Metro Manila',
     'mcr-registration-of-live-birth': 'Pagpaparehistro ng Kapanganakan',
     'mcr-registration-of-marriage': 'Registration of Kasal',
     'mcr-registration-officer': 'Opisyal ng Pagpaparehistro',
@@ -10463,7 +10080,7 @@ const translations = {
     'mcr-representatives-must-have-authorization-letter':
       'Ang mga kinatawan ay dapat may sulat ng awtorisasyon at mga balidong ID',
     'mcr-request-for-certified-true-copies-of-civil':
-      'Humiling for sertipikado totoo mga kopya of civil registry mga dokumento registered in Solano',
+      'Humiling for sertipikado totoo mga kopya of civil registry mga dokumento registered in Muntinlupa',
     'mcr-requirements': 'Mga Kinakailangan',
     'mcr-resolution-framework': 'Balangkas ng Resolusyon',
     'mcr-resources': 'Mga Mapagkukunan',
@@ -10535,7 +10152,7 @@ const translations = {
     'mgs-duration': 'Tagal',
     'mgs-education': 'Edukasyon',
     'mgs-electricity': 'Kuryente',
-    'mgs-empowering-the-people-of-solano-with-transparent':
+    'mgs-empowering-the-people-of-Muntinlupa-with-transparent':
       'Pagbibigay-kapangyarihan sa mga mamamayan ng Muntinlupa na may transparent na access sa mga serbisyo, programa, at pampublikong pondo ng lungsod.',
     'mgs-environment': 'Kapaligiran',
     'mgs-equipment-accountability-is-strictly-enforced':
@@ -10560,7 +10177,7 @@ const translations = {
     'mgs-key-personnel-handling-general-services-operations':
       'Key tauhan handling pangkalahatan mga serbisyo operations',
     'mgs-legislative': 'Lehislatura',
-    'mgs-lgu-solano-facebook': 'LGU Solano Facebook',
+    'mgs-lgu-Muntinlupa-facebook': 'LGU Muntinlupa Facebook',
     'mgs-light-vehicle': 'Magaan na Sasakyan',
     'mgs-light-vehicles': 'Mga Magaan na Sasakyan',
     'mgs-location': 'Lokasyon',
@@ -10574,13 +10191,13 @@ const translations = {
     'mgs-motorcycles': 'Mga Motorsiklo',
     'mgs-municipal-general-services-office': 'Opisina ng Pangkalahatang Serbisyo ng Munisipalidad',
     'mgs-municipal-general-services-office-municipal-hall':
-      'Pangmunisipyo Opisina ng Pangkalahatang Serbisyo, Munisipyo, Solano, Nueva Vizcaya',
+      'Pangmunisipyo Opisina ng Pangkalahatang Serbisyo, Munisipyo, Muntinlupa, Metro Manila',
     'mgs-municipal-hall': 'Munisipyo',
     'mgs-none': 'Wala',
     'mgs-office': 'Opisina',
     'mgs-office-information': 'Impormasyon ng Opisina',
     'mgs-office-personnel': 'Mga Tauhan ng Opisina',
-    'mgs-official-lgu-solano-portal': 'Opisyal na Portal ng LGU Solano',
+    'mgs-official-lgu-Muntinlupa-portal': 'Opisyal na Portal ng LGU Muntinlupa',
     'mgs-open-data-philippines': 'Open Data Philippines',
     'mgs-operators-pool': 'Pool ng mga Operator',
     'mgs-ordinance-framework': 'Balangkas ng Ordinansa',
@@ -10657,8 +10274,7 @@ const translations = {
     'mgs-volunteer-with-us': 'Mag-volunteer sa amin',
     'mgs-water': 'Tubig',
     'mpdo-12-days': '1-2 Araw',
-    'mpdo-2nd-floor-municipal-hall-solano-nueva-vizcaya':
-      'Ikalawang Palapag, Munisipyo, Solano, Nueva Vizcaya',
+    'mpdo-city-office-location': 'Makipag-ugnayan sa City Planning Office para kumpirmahin ang kasalukuyang lokasyon nito.',
     'mpdo-30-days': '30+ Araw',
     'mpdo-510-days': '5-10 Araw',
     'mpdo-8am-5pm': '8AM - 5PM',
@@ -10706,7 +10322,7 @@ const translations = {
     'mpdo-downloadable-resources': 'Mga Nada-download na Mapagkukunan',
     'mpdo-duly-accomplished-application-form': 'Wastong napunang Application Form',
     'mpdo-education': 'Edukasyon',
-    'mpdo-empowering-the-people-of-solano-with-transparent':
+    'mpdo-empowering-the-people-of-Muntinlupa-with-transparent':
       'Pagbibigay-kapangyarihan sa mga mamamayan ng Muntinlupa na may transparent na access sa mga serbisyo, programa, at pampublikong pondo ng lungsod.',
     'mpdo-environment': 'Kapaligiran',
     'mpdo-environmental-compliance-certificate-if-required':
@@ -10730,7 +10346,7 @@ const translations = {
     'mpdo-land-use-reclassification': 'Lupa Gamitin Reclassification',
     'mpdo-latest-real-property-tax-receipt': 'Latest Buwis sa Ari-arian Resibo',
     'mpdo-legislative': 'Lehislatura',
-    'mpdo-lgu-solano-facebook': 'LGU Solano Facebook',
+    'mpdo-lgu-Muntinlupa-facebook': 'LGU Muntinlupa Facebook',
     'mpdo-location': 'Lokasyon',
     'mpdo-locational-clearance': 'Locational Clearance',
     'mpdo-locational-clearance-is-required-before-building':
@@ -10741,7 +10357,7 @@ const translations = {
       'Opisina ng Pagpaplano at Pagpapaunlad ng Munisipalidad',
     'mpdo-office': 'Opisina',
     'mpdo-office-information': 'Impormasyon ng Opisina',
-    'mpdo-official-lgu-solano-portal': 'Opisyal na Portal ng LGU Solano',
+    'mpdo-official-lgu-Muntinlupa-portal': 'Opisyal na Portal ng LGU Muntinlupa',
     'mpdo-ongoing': 'Kasalukuyan',
     'mpdo-open-data-philippines': 'Open Data Philippines',
     'mpdo-ordinance-framework': 'Balangkas ng Ordinansa',
@@ -10796,7 +10412,6 @@ const translations = {
     'mswdo-13-days': '1-3 Araw',
     'mswdo-1530-days': '15-30 Araw',
     'mswdo-2-tracks': '2 Track',
-    'mswdo-22-barangays': '22 Barangay',
     'mswdo-34-years': '3-4 Taon',
     'mswdo-4ps-members': 'Mga Miyembro ng 4Ps',
     'mswdo-60-years': '60 Taon+',
@@ -10864,7 +10479,7 @@ const translations = {
     'mswdo-emergency-financial-assistance-for-various-needs':
       "Emergency na tulong pinansyal para sa iba't ibang pangangailangan",
     'mswdo-employment-facilitation-ef': 'Pagpapadali ng Trabaho (EF)',
-    'mswdo-empowering-the-people-of-solano-with-transparent':
+    'mswdo-empowering-the-people-of-Muntinlupa-with-transparent':
       'Pagbibigay-kapangyarihan sa mga mamamayan ng Muntinlupa na may transparent na access sa mga serbisyo, programa, at pampublikong pondo ng lungsod.',
     'mswdo-enrollment-requirements': 'Mga Kinakailangan sa Pagpapatala',
     'mswdo-environment': 'Kapaligiran',
@@ -10905,7 +10520,7 @@ const translations = {
     'mswdo-infrastructure': 'Imprastraktura',
     'mswdo-interest': 'Interes',
     'mswdo-legal-assistance': 'Tulong Legal',
-    'mswdo-lgu-solano-facebook': 'LGU Solano Facebook',
+    'mswdo-lgu-Muntinlupa-facebook': 'LGU Muntinlupa Facebook',
     'mswdo-livelihood': 'Kabuhayan',
     'mswdo-loan-amount': 'Halaga ng Pautang',
     'mswdo-location': 'Lokasyon',
@@ -10930,7 +10545,7 @@ const translations = {
     'mswdo-nutritious-snacks-and-meals-during-day-care-hours':
       'Masustansyang meryenda at pagkain sa oras ng day care.',
     'mswdo-office-hours': 'Oras ng Opisina',
-    'mswdo-official-lgu-solano-portal': 'Opisyal na Portal ng LGU Solano',
+    'mswdo-official-lgu-Muntinlupa-portal': 'Opisyal na Portal ng LGU Muntinlupa',
     'mswdo-open-data-philippines': 'Open Data Philippines',
     'mswdo-ordinance-framework': 'Balangkas ng Ordinansa',
     'mswdo-parent-education-on-proper-nutrition-and-child':
@@ -11107,7 +10722,7 @@ const translations = {
     'mswdosvc-educational-assistance': 'Tulong Pang-edukasyon',
     'mswdosvc-emergency-cases-are-given-priority':
       'Ang mga kaso ng emergency ay binibigyan ng prayoridad',
-    'mswdosvc-empowering-the-people-of-solano-with-transparent':
+    'mswdosvc-empowering-the-people-of-Muntinlupa-with-transparent':
       'Pagbibigay-kapangyarihan sa mga mamamayan ng Muntinlupa na may transparent na access sa mga serbisyo, programa, at pampublikong pondo ng lungsod.',
     'mswdosvc-encoding-and-processing-of-pwd-id': 'Pag-encode at pagproseso ng PWD ID',
     'mswdosvc-encoding-and-processing-of-senior-citizen-id':
@@ -11151,7 +10766,7 @@ const translations = {
       'Mga pangunahing tauhan na humahawak ng mga serbisyo ng kagalingang panlipunan',
     'mswdosvc-legal-assistance-referral': 'Legal tulong referral',
     'mswdosvc-legislative': 'Lehislatura',
-    'mswdosvc-lgu-solano-facebook': 'LGU Solano Facebook',
+    'mswdosvc-lgu-Muntinlupa-facebook': 'LGU Muntinlupa Facebook',
     'mswdosvc-livelihood-assistance-programs': 'Livelihood tulong programs',
     'mswdosvc-location': 'Lokasyon',
     'mswdosvc-medical-certificate-indicating-type-of-disability':
@@ -11161,8 +10776,8 @@ const translations = {
     'mswdosvc-medical-certificatehospital-bill-for-medical':
       'Medical Certificate/Hospital Bill (for medical tulong)',
     'mswdosvc-mswdo-head': 'MSWDO Pinuno',
-    'mswdosvc-mswdo-office-2nd-floor-municipal-hall-solano':
-      'MSWDO Opisina, Ikalawang Palapag, Munisipyo, Solano, Nueva Vizcaya',
+    'mswdosvc-mswdo-office-2nd-floor-municipal-hall-Muntinlupa':
+      'MSWDO Opisina, Ikalawang Palapag, Munisipyo, Muntinlupa, Metro Manila',
     'mswdosvc-mswdo-services': 'Mga Serbisyo ng MSWDO',
     'mswdosvc-municipal-hall-2nd-floor': 'Pangmunisipyo Hall, Ikalawang Palapag',
     'mswdosvc-municipal-social-welfare-development-office':
@@ -11171,7 +10786,7 @@ const translations = {
     'mswdosvc-office-head-social-welfare-officer': 'Pinuno ng Opisina / Social Welfare Officer',
     'mswdosvc-office-information': 'Impormasyon ng Opisina',
     'mswdosvc-office-personnel': 'Mga Tauhan ng Opisina',
-    'mswdosvc-official-lgu-solano-portal': 'Opisyal na Portal ng LGU Solano',
+    'mswdosvc-official-lgu-Muntinlupa-portal': 'Opisyal na Portal ng LGU Muntinlupa',
     'mswdosvc-open-data-philippines': 'Open Data Philippines',
     'mswdosvc-ordinance-framework': 'Balangkas ng Ordinansa',
     'mswdosvc-osca-focal-person': 'OSCA Focal Tao',
@@ -11186,7 +10801,7 @@ const translations = {
     'mswdosvc-processing-information': 'Impormasyon sa Pagproseso',
     'mswdosvc-programs-and-services-for-womens-welfare-and':
       'Mga programa at serbisyo para sa kagalingan at proteksyon ng mga kababaihan',
-    'mswdosvc-proof-of-residence-in-solano': 'Patunay ng paninirahan sa Solano',
+    'mswdosvc-proof-of-residence-in-Muntinlupa': 'Patunay ng paninirahan sa Muntinlupa',
     'mswdosvc-provision-of-immediate-interventionassistance':
       'Pagbibigay ng agarang interbensyon/tulong',
     'mswdosvc-public-safety': 'Kaligtasang Pampubliko',
@@ -11282,21 +10897,21 @@ const translations = {
     'news-cmci-dti-portal': 'CMCI DTI Portal',
     'news-contribute-code-with-us': 'Mag-ambag ng code sa amin',
     'news-education': 'Edukasyon',
-    'news-empowering-the-people-of-solano-with-transparent':
+    'news-empowering-the-people-of-Muntinlupa-with-transparent':
       'Pagbibigay-kapangyarihan sa mga mamamayan ng Muntinlupa na may transparent na access sa mga serbisyo, programa, at pampublikong pondo ng lungsod.',
     'news-environment': 'Kapaligiran',
-    'news-fetching-news-and-updates-from-solano':
-      'Kinukuha ang mga balita at update mula sa Solano.',
+    'news-fetching-news-and-updates-from-Muntinlupa':
+      'Kinukuha ang mga balita at update mula sa Muntinlupa.',
     'news-freedom-of-information': 'Kalayaan sa Impormasyon',
     'news-health': 'Kalusugan',
     'news-home': 'Tahanan',
     'news-infrastructure': 'Imprastraktura',
-    'news-lgu-solano-facebook': 'LGU Solano Facebook',
+    'news-lgu-Muntinlupa-facebook': 'LGU Muntinlupa Facebook',
     'news-loading': 'Naglo-load',
     'news-loading-news': 'Naglo-load ng balita...',
     'news-news': 'Balita',
     'news-news-updates': 'Balita at mga Update',
-    'news-official-lgu-solano-portal': 'Opisyal na Portal ng LGU Solano',
+    'news-official-lgu-Muntinlupa-portal': 'Opisyal na Portal ng LGU Muntinlupa',
     'news-open-data-philippines': 'Open Data Philippines',
     'news-ordinance-framework': 'Balangkas ng Ordinansa',
     'news-privacy-policy': 'Patakaran sa Pagkapribado',
@@ -11309,7 +10924,7 @@ const translations = {
     'news-skip-to-main-content': 'Lumaktaw sa pangunahing nilalaman',
     'news-social-services': 'Serbisyong Panlipunan',
     'news-stay-informed-about-the-latest-happenings-in':
-      'Manatiling may kaalaman tungkol sa mga pinakabagong pangyayari sa Solano',
+      'Manatiling may kaalaman tungkol sa mga pinakabagong pangyayari sa Muntinlupa',
     'news-tax-payments': 'Pagbabayad ng Buwis',
     'news-terms-of-use': 'Mga Tuntunin ng Paggamit',
     'news-volunteer-with-us': 'Mag-volunteer sa amin',
@@ -11323,7 +10938,7 @@ const translations = {
     'officials-contribute-code-with-us': 'Mag-ambag ng code sa amin',
     'officials-education': 'Edukasyon',
     'officials-elected-officials': 'Mga Halal na Opisyal',
-    'officials-empowering-the-people-of-solano-with-transparent':
+    'officials-empowering-the-people-of-Muntinlupa-with-transparent':
       'Pagbibigay-kapangyarihan sa mga mamamayan ng Muntinlupa na may transparent na access sa mga serbisyo, programa, at pampublikong pondo ng lungsod.',
     'officials-environment': 'Kapaligiran',
     'officials-executive-branch': 'Ehekutibong Sangay',
@@ -11342,12 +10957,12 @@ const translations = {
     'officials-hon-thomas-dave-c-santos': 'Hon. Thomas Dave C. Santos',
     'officials-hon-walter-d-savedra-sr': 'Hon. Walter D. Savedra, Sr.',
     'officials-infrastructure': 'Imprastraktura',
-    'officials-lgu-solano-facebook': 'LGU Solano Facebook',
+    'officials-lgu-Muntinlupa-facebook': 'LGU Muntinlupa Facebook',
     'officials-meet-the-leaders-serving-muntinlupa':
       'Kilalanin ang mga halal na pinunong naglilingkod sa Lungsod ng Muntinlupa',
     'officials-municipal-mayor': 'Punong Bayan',
     'officials-municipal-vice-mayor': 'Bise Punong Bayan',
-    'officials-official-lgu-solano-portal': 'Opisyal na Portal ng LGU Solano',
+    'officials-official-lgu-Muntinlupa-portal': 'Opisyal na Portal ng LGU Muntinlupa',
     'officials-open-data-philippines': 'Open Data Philippines',
     'officials-ordinance-framework': 'Balangkas ng Ordinansa',
     'officials-privacy-policy': 'Patakaran sa Pagkapribado',
@@ -11364,8 +10979,6 @@ const translations = {
     'officials-tax-payments': 'Pagbabayad ng Buwis',
     'officials-terms-of-use': 'Mga Tuntunin ng Paggamit',
     'officials-volunteer-with-us': 'Mag-volunteer sa amin',
-    'offline-emergency-hotlines-solano-nueva-vizcaya':
-      'Mga Emergency Hotline - Solano, Nueva Vizcaya',
     'offline-fire-bfp': 'Sunog (BFP)',
     'offline-municipal-hall': 'Munisipyo',
     'offline-police-pnp': 'Pulis (PNP)',
@@ -11383,7 +10996,7 @@ const translations = {
     'ord-cmci-dti-portal': 'CMCI DTI Portal',
     'ord-contribute-code-with-us': 'Mag-ambag ng code sa amin',
     'ord-education': 'Edukasyon',
-    'ord-empowering-the-people-of-solano-with-transparent':
+    'ord-empowering-the-people-of-Muntinlupa-with-transparent':
       'Pagbibigay-kapangyarihan sa mga mamamayan ng Muntinlupa na may transparent na access sa mga serbisyo, programa, at pampublikong pondo ng lungsod.',
     'ord-environment': 'Kapaligiran',
     'ord-freedom-of-information': 'Kalayaan sa Impormasyon',
@@ -11391,8 +11004,8 @@ const translations = {
     'ord-home': 'Tahanan',
     'ord-infrastructure': 'Imprastraktura',
     'ord-legislative': 'Lehislatura',
-    'ord-lgu-solano-facebook': 'LGU Solano Facebook',
-    'ord-official-lgu-solano-portal': 'Opisyal na Portal ng LGU Solano',
+    'ord-lgu-Muntinlupa-facebook': 'LGU Muntinlupa Facebook',
+    'ord-official-lgu-Muntinlupa-portal': 'Opisyal na Portal ng LGU Muntinlupa',
     'ord-open-data-philippines': 'Open Data Philippines',
     'ord-ordinance-framework': 'Balangkas ng Ordinansa',
     'ord-privacy-policy': 'Patakaran sa Pagkapribado',
@@ -11445,7 +11058,7 @@ const translations = {
     'privacy-education': 'Edukasyon',
     'privacy-email-address-when-you-contact-us-or-submit':
       'Mag-email address (when you makipag-ugnayan us or isumite feedback)',
-    'privacy-empowering-the-people-of-solano-with-transparent':
+    'privacy-empowering-the-people-of-Muntinlupa-with-transparent':
       'Pagbibigay-kapangyarihan sa mga mamamayan ng Muntinlupa na may transparent na access sa mga serbisyo, programa, at pampublikong pondo ng lungsod.',
     'privacy-environment': 'Kapaligiran',
     'privacy-essential-cookies': 'Mga Mahahalagang Cookie:',
@@ -11477,7 +11090,7 @@ const translations = {
     'privacy-legal-requirements': 'Legal Mga kinakailangan:',
     'privacy-legislative': 'Lehislatura',
     'privacy-legitimate-interest': 'Legitimate Interes:',
-    'privacy-lgu-solano-facebook': 'LGU Solano Facebook',
+    'privacy-lgu-Muntinlupa-facebook': 'LGU Muntinlupa Facebook',
     'privacy-managing-cookies': 'Pamamahala ng mga Cookie',
     'privacy-material-changes-may-be-announced-on-our-website':
       'Ang mga mahahalagang pagbabago ay maaaring ianunsyo sa aming website',
@@ -11486,7 +11099,7 @@ const translations = {
     'privacy-national-privacy-commission': 'Pambansa Privacy Komisyon',
     'privacy-not': 'hindi',
     'privacy-number-of-visitors-and-page-views': 'Bilang ng mga bisita at page view',
-    'privacy-official-lgu-solano-portal': 'Opisyal na Portal ng LGU Solano',
+    'privacy-official-lgu-Muntinlupa-portal': 'Opisyal na Portal ng LGU Muntinlupa',
     'privacy-open-data-philippines': 'Open Data Philippines',
     'privacy-ordinance-framework': 'Balangkas ng Ordinansa',
     'privacy-our-website-may-contain-links-to-external':
@@ -11626,7 +11239,7 @@ const translations = {
     'propdec-education': 'Edukasyon',
     'propdec-effectivity-of-assessment': 'Effectivity of Pagtatasa',
     'propdec-effectivity-quarter-and-year': 'Quarter at Taon ng Bisa',
-    'propdec-empowering-the-people-of-solano-with-transparent':
+    'propdec-empowering-the-people-of-Muntinlupa-with-transparent':
       'Pagbibigay-kapangyarihan sa mga mamamayan ng Muntinlupa na may transparent na access sa mga serbisyo, programa, at pampublikong pondo ng lungsod.',
     'propdec-environment': 'Kapaligiran',
     'propdec-estimated-economic-life': 'Tinatayang Buhay Pang-ekonomiya',
@@ -11637,7 +11250,7 @@ const translations = {
     'propdec-freedom-of-information': 'Kalayaan sa Impormasyon',
     'propdec-full-name-of-owner': 'Buong Name of May-ari',
     'propdec-government': 'Pamahalaan',
-    'propdec-ground-floor-municipal-hall-solano': 'Unang Palapag, Munisipyo, Solano',
+    'propdec-ground-floor-municipal-hall-Muntinlupa': 'Unang Palapag, Munisipyo, Muntinlupa',
     'propdec-handles-property-assessment-tax-declaration-and':
       'Handles ari-arian pagtatasa, buwis declaration, and real ari-arian mga rekord.',
     'propdec-health': 'Kalusugan',
@@ -11653,7 +11266,7 @@ const translations = {
     'propdec-land-declaration': 'Deklarasyon ng Lupa',
     'propdec-land-tax-declaration': 'Lupa Deklarasyon ng Buwis',
     'propdec-legislative': 'Lehislatura',
-    'propdec-lgu-solano-facebook': 'LGU Solano Facebook',
+    'propdec-lgu-Muntinlupa-facebook': 'LGU Muntinlupa Facebook',
     'propdec-list-of-machineries-with-specifications': 'Listahan ng mga Makinarya na may Detalye',
     'propdec-location': 'Lokasyon',
     'propdec-machinery-declaration': 'Deklarasyon ng Makinarya',
@@ -11666,7 +11279,7 @@ const translations = {
     'propdec-occupancy-permit': 'Permit sa Paninirahan',
     'propdec-octtctcloa-no': 'OCT/TCT/CLOA No.',
     'propdec-office': 'Opisina',
-    'propdec-official-lgu-solano-portal': 'Opisyal na Portal ng LGU Solano',
+    'propdec-official-lgu-Muntinlupa-portal': 'Opisyal na Portal ng LGU Muntinlupa',
     'propdec-open-data-philippines': 'Open Data Philippines',
     'propdec-ordinance-framework': 'Balangkas ng Ordinansa',
     'propdec-owner-information': 'Impormasyon ng May-ari',
@@ -11695,7 +11308,7 @@ const translations = {
     'propdec-tax-clearance-certificate': 'Tax Clearance Sertipiko',
     'propdec-tax-declaration': 'Deklarasyon ng Buwis',
     'propdec-tax-declaration-form-for-real-property-assessment':
-      'Form ng tax declaration para sa pagtatasa ng tunay na ari-arian sa Solano, Nueva Vizcaya',
+      'Form ng tax declaration para sa pagtatasa ng tunay na ari-arian sa Muntinlupa, Metro Manila',
     'propdec-tax-payments': 'Pagbabayad ng Buwis',
     'propdec-tax-payments-2': 'Buwis at Pagbabayad',
     'propdec-taxableexempt-status': 'Katayuang Buwisable/Exempt',
@@ -11716,7 +11329,7 @@ const translations = {
     'reso-cmci-dti-portal': 'CMCI DTI Portal',
     'reso-contribute-code-with-us': 'Mag-ambag ng code sa amin',
     'reso-education': 'Edukasyon',
-    'reso-empowering-the-people-of-solano-with-transparent':
+    'reso-empowering-the-people-of-Muntinlupa-with-transparent':
       'Pagbibigay-kapangyarihan sa mga mamamayan ng Muntinlupa na may transparent na access sa mga serbisyo, programa, at pampublikong pondo ng lungsod.',
     'reso-environment': 'Kapaligiran',
     'reso-freedom-of-information': 'Kalayaan sa Impormasyon',
@@ -11724,8 +11337,8 @@ const translations = {
     'reso-home': 'Tahanan',
     'reso-infrastructure': 'Imprastraktura',
     'reso-legislative': 'Lehislatura',
-    'reso-lgu-solano-facebook': 'LGU Solano Facebook',
-    'reso-official-lgu-solano-portal': 'Opisyal na Portal ng LGU Solano',
+    'reso-lgu-Muntinlupa-facebook': 'LGU Muntinlupa Facebook',
+    'reso-official-lgu-Muntinlupa-portal': 'Opisyal na Portal ng LGU Muntinlupa',
     'reso-open-data-philippines': 'Open Data Philippines',
     'reso-ordinance-framework': 'Balangkas ng Ordinansa',
     'reso-privacy-policy': 'Patakaran sa Pagkapribado',
@@ -11756,7 +11369,7 @@ const translations = {
     'safety-emergency-hotlines': 'Mga Emergency Hotline',
     'safety-emergency-response-and-disaster-preparedness':
       'Mga programa ng pagtugon sa emergency at paghahanda sa sakuna.',
-    'safety-empowering-the-people-of-solano-with-transparent':
+    'safety-empowering-the-people-of-Muntinlupa-with-transparent':
       'Pagbibigay-kapangyarihan sa mga mamamayan ng Muntinlupa na may transparent na access sa mga serbisyo, programa, at pampublikong pondo ng lungsod.',
     'safety-environment': 'Kapaligiran',
     'safety-fee': 'Bayad:',
@@ -11768,11 +11381,11 @@ const translations = {
     'safety-health': 'Kalusugan',
     'safety-home': 'Tahanan',
     'safety-infrastructure': 'Imprastraktura',
-    'safety-lgu-solano-facebook': 'LGU Solano Facebook',
+    'safety-lgu-Muntinlupa-facebook': 'LGU Muntinlupa Facebook',
     'safety-medical': 'Medikal',
     'safety-medical-emergency-hotlines': 'Mga Medikal na Emergency Hotline',
     'safety-office': 'Opisina:',
-    'safety-official-lgu-solano-portal': 'Opisyal na Portal ng LGU Solano',
+    'safety-official-lgu-Muntinlupa-portal': 'Opisyal na Portal ng LGU Muntinlupa',
     'safety-open-data-philippines': 'Open Data Philippines',
     'safety-ordinance-framework': 'Balangkas ng Ordinansa',
     'safety-privacy-policy': 'Patakaran sa Pagkapribado',
@@ -11812,7 +11425,7 @@ const translations = {
     'sitemap-contribute-code-with-us': 'Mag-ambag ng code sa amin',
     'sitemap-education': 'Edukasyon',
     'sitemap-elected-officials': 'Mga Halal na Opisyal',
-    'sitemap-empowering-the-people-of-solano-with-transparent':
+    'sitemap-empowering-the-people-of-Muntinlupa-with-transparent':
       'Pagbibigay-kapangyarihan sa mga mamamayan ng Muntinlupa na may transparent na access sa mga serbisyo, programa, at pampublikong pondo ng lungsod.',
     'sitemap-engineering-office': 'Opisina ng Inhinyero',
     'sitemap-environment': 'Kapaligiran',
@@ -11830,19 +11443,19 @@ const translations = {
     'sitemap-infrastructure': 'Imprastraktura',
     'sitemap-legislative': 'Lehislatura',
     'sitemap-legislative-documents': 'Mga Dokumentong Lehislatibo',
-    'sitemap-lgu-solano-facebook': 'LGU Solano Facebook',
+    'sitemap-lgu-Muntinlupa-facebook': 'LGU Muntinlupa Facebook',
     'sitemap-local-civil-registrar': 'Lokal na Tagapagrehistro Sibil',
     'sitemap-main-navigation': 'Pangunahing Nabigasyon',
-    'sitemap-municipal-offices': 'Mga Opisina ng Munisipyo',
-    'sitemap-navigate-all-pages-and-services-of-better-solano':
+    'sitemap-municipal-offices': 'Mga Serbisyo ng Lungsod',
+    'sitemap-navigate-all-pages-and-services-of-better-Muntinlupa':
       'Navigate all pages and mga serbisyo of Better Muntinlupa',
     'sitemap-navigation': 'Nabigasyon',
     'sitemap-new-business-application': 'Bago Business Aplikasyon',
     'sitemap-news': 'Balita',
-    'sitemap-official-lgu-solano-portal': 'Opisyal na Portal ng LGU Solano',
-    'sitemap-official-solano-website': 'Opisyal Solano Website',
-    'sitemap-online-payment-order': 'Online Pagbabayad Order',
-    'sitemap-online-services': 'Mga Online na Serbisyo',
+    'sitemap-official-lgu-Muntinlupa-portal': 'Opisyal na Portal ng LGU Muntinlupa',
+    'sitemap-official-Muntinlupa-website': 'Opisyal Muntinlupa Website',
+    'sitemap-online-payment-order': 'Impormasyon sa Order ng Pagbabayad',
+    'sitemap-online-services': 'Impormasyon sa mga Serbisyo ng Lungsod',
     'sitemap-open-data-philippines': 'Open Data Philippines',
     'sitemap-ordinance-framework': 'Balangkas ng Ordinansa',
     'sitemap-planning-office': 'Opisina ng Pagpaplano',
@@ -11868,7 +11481,7 @@ const translations = {
     'sitemap-transparency': 'Transparensiya',
     'sitemap-treasurers-office': 'Opisina ng Ingat-yaman',
     'sitemap-tricycle-franchising': 'Prangkisa ng Traysikel',
-    'sitemap-via-filipizen': 'sa pamamagitan ng Filipizen',
+    'sitemap-via-filipizen': 'Mga serbisyo ng lungsod',
     'sitemap-volunteer-with-us': 'Mag-volunteer sa amin',
     'slaughter-1-hour': '1 oras',
     'slaughter-10-minutes': '10 minuto',
@@ -11922,7 +11535,7 @@ const translations = {
     'slaughter-duration': 'Tagal',
     'slaughter-economic-enterprise-development-office': 'Economic Enterprise & Development Opisina',
     'slaughter-education': 'Edukasyon',
-    'slaughter-empowering-the-people-of-solano-with-transparent':
+    'slaughter-empowering-the-people-of-Muntinlupa-with-transparent':
       'Pagbibigay-kapangyarihan sa mga mamamayan ng Muntinlupa na may transparent na access sa mga serbisyo, programa, at pampublikong pondo ng lungsod.',
     'slaughter-environment': 'Kapaligiran',
     'slaughter-facility-maintenance': 'Pagpapanatili ng Pasilidad',
@@ -11946,7 +11559,7 @@ const translations = {
     'slaughter-large': 'Malaki',
     'slaughter-large-cattle-registration-certificate': 'Malaki Cattle Registration Sertipiko',
     'slaughter-legislative': 'Lehislatura',
-    'slaughter-lgu-solano-facebook': 'LGU Solano Facebook',
+    'slaughter-lgu-Muntinlupa-facebook': 'LGU Muntinlupa Facebook',
     'slaughter-location': 'Lokasyon',
     'slaughter-meat-inspection-certificate-is-required-for-meat':
       'Meat Inspeksyon Sertipiko is kinakailangan for meat transport',
@@ -11957,7 +11570,7 @@ const translations = {
     'slaughter-office-head': 'Pinuno ng Opisina',
     'slaughter-office-information': 'Impormasyon ng Opisina',
     'slaughter-office-personnel': 'Mga Tauhan ng Opisina',
-    'slaughter-official-lgu-solano-portal': 'Opisyal na Portal ng LGU Solano',
+    'slaughter-official-lgu-Muntinlupa-portal': 'Opisyal na Portal ng LGU Muntinlupa',
     'slaughter-open-data-philippines': 'Open Data Philippines',
     'slaughter-operations-management': 'Pamamahala ng Operasyon',
     'slaughter-ordinance-framework': 'Balangkas ng Ordinansa',
@@ -11984,7 +11597,7 @@ const translations = {
     'slaughter-see-fee-schedule': 'See bayad schedule',
     'slaughter-seedo-head': 'SEEDO Pinuno',
     'slaughter-seedo-slaughterhouse': 'SEEDO - Katayan',
-    'slaughter-seedo-slaughterhouse-solano-nueva-vizcaya': 'SEEDO Katayan, Solano, Nueva Vizcaya',
+    'slaughter-city-office-location': 'Makipag-ugnayan sa City Office para kumpirmahin ang kasalukuyang lokasyon ng pasilidad.',
     'slaughter-select-a-service-to-view-the-detailed-process':
       'Select a serbisyo to tingnan the detailed iproseso, mga kinakailangan, and mga bayad',
     'slaughter-services': 'Mga Serbisyo',
@@ -12034,7 +11647,7 @@ const translations = {
     'social-cmci-dti-portal': 'CMCI DTI Portal',
     'social-contribute-code-with-us': 'Mag-ambag ng code sa amin',
     'social-education': 'Edukasyon',
-    'social-empowering-the-people-of-solano-with-transparent':
+    'social-empowering-the-people-of-Muntinlupa-with-transparent':
       'Pagbibigay-kapangyarihan sa mga mamamayan ng Muntinlupa na may transparent na access sa mga serbisyo, programa, at pampublikong pondo ng lungsod.',
     'social-environment': 'Kapaligiran',
     'social-fee': 'Bayad:',
@@ -12042,9 +11655,9 @@ const translations = {
     'social-health': 'Kalusugan',
     'social-home': 'Tahanan',
     'social-infrastructure': 'Imprastraktura',
-    'social-lgu-solano-facebook': 'LGU Solano Facebook',
+    'social-lgu-Muntinlupa-facebook': 'LGU Muntinlupa Facebook',
     'social-mswdo-services': 'Mga Serbisyo ng MSWDO',
-    'social-official-lgu-solano-portal': 'Opisyal na Portal ng LGU Solano',
+    'social-official-lgu-Muntinlupa-portal': 'Opisyal na Portal ng LGU Muntinlupa',
     'social-open-data-philippines': 'Open Data Philippines',
     'social-ordinance-framework': 'Balangkas ng Ordinansa',
     'social-privacy-policy': 'Patakaran sa Pagkapribado',
@@ -12070,13 +11683,8 @@ const translations = {
     'stats-90-ci-47-81': '90% CI: 4.7% - 8.1%',
     'stats-90-ci-47-92': '90% CI: 4.7% - 9.2%',
     'stats-accessibility': 'Aksesibilidad',
-    'stats-aggub': 'Aggub',
     'stats-agriculture': 'Agrikultura',
     'stats-annual-income': 'Taunang Kita',
-    'stats-bagahabag': 'Bagahabag',
-    'stats-bangaan': 'Bangaan',
-    'stats-bangar': 'Bangar',
-    'stats-bascaran': 'Bascaran',
     'stats-blgf-portal': 'BLGF Portal',
     'stats-bureau-of-local-government-finance-blgf': 'Bureau of Lokal Pamahalaan Finance (BLGF)',
     'stats-business': 'Negosyo',
@@ -12085,13 +11693,8 @@ const translations = {
       'Pagganap ng Cities and Municipalities Competitiveness Index (CMCI) 2016-2024',
     'stats-citizens-charter': "Citizen's Charter",
     'stats-cmci-dti-portal': 'CMCI DTI Portal',
-    'stats-communal': 'Communal',
-    'stats-comparative-view-of-all-22-barangays': 'Comparative tingnan of all 22 barangays',
     'stats-competitiveness': 'Kompetitibidad',
-    'stats-concepcion': 'Concepcion',
     'stats-contribute-code-with-us': 'Mag-ambag ng code sa amin',
-    'stats-curifang': 'Curifang',
-    'stats-dadap': 'Dadap',
     'stats-distribution': 'Pamamahagi',
     'stats-dti-cities-and-municipalities-competitiveness':
       'DTI Cities and Municipalities Competitiveness Index (CMCI)',
@@ -12101,7 +11704,7 @@ const translations = {
     'stats-economic-sectors': 'Mga Sektor ng Ekonomiya',
     'stats-economy': 'Ekonomiya',
     'stats-education': 'Edukasyon',
-    'stats-empowering-the-people-of-solano-with-transparent':
+    'stats-empowering-the-people-of-Muntinlupa-with-transparent':
       'Pagbibigay-kapangyarihan sa mga mamamayan ng Muntinlupa na may transparent na access sa mga serbisyo, programa, at pampublikong pondo ng lungsod.',
     'stats-environment': 'Kapaligiran',
     'stats-finance': 'Pananalapi',
@@ -12126,19 +11729,14 @@ const translations = {
     'stats-ira-share': 'IRA Ibahagi',
     'stats-key-economic-data-and-business-statistics': 'Key economic datos and business statistics',
     'stats-key-indicators-trend-20162024': 'Trend ng mga Pangunahing Tagapagpahiwatig (2016-2024)',
-    'stats-lactawan': 'Lactawan',
-    'stats-lgu-solano-facebook': 'LGU Solano Facebook',
+    'stats-lgu-Muntinlupa-facebook': 'LGU Muntinlupa Facebook',
     'stats-local-4055': 'Lokal 40.55%',
     'stats-municipal-data': 'Datos ng Munisipyo',
     'stats-municipal-income': 'Kita ng Munisipalidad',
-    'stats-official-lgu-solano-portal': 'Opisyal na Portal ng LGU Solano',
+    'stats-official-lgu-Muntinlupa-portal': 'Opisyal na Portal ng LGU Muntinlupa',
     'stats-ordinance-framework': 'Balangkas ng Ordinansa',
-    'stats-osmea': 'Osmeña',
     'stats-overview': 'Pangkalahatang-ideya',
     'stats-philippine-statistics-authority-psa': 'Awtoridad ng Estadistika ng Pilipinas (PSA)',
-    'stats-pilar-d-galima': 'Pilar D. Galima',
-    'stats-poblacion-north': 'Poblacion North',
-    'stats-poblacion-south': 'Poblacion South',
     'stats-population-bar-chart': 'Bar Chart ng Populasyon',
     'stats-population-by-barangay': 'Populasyon Ayon sa Barangay',
     'stats-population-trends': 'Mga Trend ng Populasyon',
@@ -12146,31 +11744,22 @@ const translations = {
     'stats-poverty-statistics': 'Estadistika ng Kahirapan',
     'stats-privacy-policy': 'Patakaran sa Pagkapribado',
     'stats-public-safety': 'Kaligtasang Pampubliko',
-    'stats-quezon': 'Quezon',
     'stats-quick-links': 'Mga Mabilisang Link',
-    'stats-quirino': 'Quirino',
     'stats-resiliency': 'Katatagan',
     'stats-resiliency-trend': 'Trend ng Katatagan',
     'stats-resolution-framework': 'Balangkas ng Resolusyon',
     'stats-resources': 'Mga Mapagkukunan',
-    'stats-roxas': 'Roxas',
-    'stats-san-juan': 'San Juan',
-    'stats-san-luis': 'San Luis',
     'stats-sangguniang-bayan': 'Sangguniang Bayan',
     'stats-services': 'Mga Serbisyo',
     'stats-sitemap': 'Mapa ng Site',
     'stats-skip-to-main-content': 'Lumaktaw sa pangunahing nilalaman',
     'stats-social-services': 'Serbisyong Panlipunan',
-    'stats-solano-competitive-index': 'Competitive Index ng Solano',
+    'stats-Muntinlupa-competitive-index': 'Competitive Index ng Muntinlupa',
     'stats-tax-payments': 'Pagbabayad ng Buwis',
     'stats-terms-of-use': 'Mga Tuntunin ng Paggamit',
     'stats-trade-amp-commerce': 'Kalakalan at Komersyo',
-    'stats-tucal': 'Tucal',
-    'stats-uddiawan': 'Uddiawan',
-    'stats-view-all-22-barangays': 'Tingnan all 22 barangays',
     'stats-visual': 'Biswal',
     'stats-volunteer-with-us': 'Mag-volunteer sa amin',
-    'stats-wacal': 'Wacal',
     'svc-accessibility': 'Aksesibilidad',
     'svc-agriculture': 'Agrikultura',
     'svc-blgf-portal': 'BLGF Portal',
@@ -12181,7 +11770,7 @@ const translations = {
     'svc-cmci-dti-portal': 'CMCI DTI Portal',
     'svc-contribute-code-with-us': 'Mag-ambag ng code sa amin',
     'svc-education': 'Edukasyon',
-    'svc-empowering-the-people-of-solano-with-transparent':
+    'svc-empowering-the-people-of-Muntinlupa-with-transparent':
       'Pagbibigay-kapangyarihan sa mga mamamayan ng Muntinlupa na may transparent na access sa mga serbisyo, programa, at pampublikong pondo ng lungsod.',
     'svc-environment': 'Kapaligiran',
     'svc-freedom-of-information': 'Kalayaan sa Impormasyon',
@@ -12191,9 +11780,9 @@ const translations = {
     'svc-health': 'Kalusugan',
     'svc-home': 'Tahanan',
     'svc-infrastructure': 'Imprastraktura',
-    'svc-lgu-solano-facebook': 'LGU Solano Facebook',
+    'svc-lgu-Muntinlupa-facebook': 'LGU Muntinlupa Facebook',
     'svc-need-financial-help': 'Kailangan Financial Tulong',
-    'svc-official-lgu-solano-portal': 'Opisyal na Portal ng LGU Solano',
+    'svc-official-lgu-Muntinlupa-portal': 'Opisyal na Portal ng LGU Muntinlupa',
     'svc-open-data-philippines': 'Open Data Philippines',
     'svc-ordinance-framework': 'Balangkas ng Ordinansa',
     'svc-person-with-disability': 'Taong may Kapansanan',
@@ -12221,34 +11810,34 @@ const translations = {
     'tax-cmci-dti-portal': 'CMCI DTI Portal',
     'tax-contribute-code-with-us': 'Mag-ambag ng code sa amin',
     'tax-education': 'Edukasyon',
-    'tax-empowering-the-people-of-solano-with-transparent':
+    'tax-empowering-the-people-of-Muntinlupa-with-transparent':
       'Pagbibigay-kapangyarihan sa mga mamamayan ng Muntinlupa na may transparent na access sa mga serbisyo, programa, at pampublikong pondo ng lungsod.',
     'tax-environment': 'Kapaligiran',
     'tax-freedom-of-information': 'Kalayaan sa Impormasyon',
     'tax-health': 'Kalusugan',
     'tax-home': 'Tahanan',
     'tax-infrastructure': 'Imprastraktura',
-    'tax-lgu-solano-facebook': 'LGU Solano Facebook',
+    'tax-lgu-Muntinlupa-facebook': 'LGU Muntinlupa Facebook',
     'tax-municipal-accounting-office': 'Opisina ng Accounting ng Munisipalidad',
     'tax-municipal-assessors-office': 'Opisina ng Tagapagtasa ng Munisipalidad',
     'tax-municipal-budget-office': 'Opisina ng Badyet ng Munisipalidad',
     'tax-municipal-treasurers-office': 'Opisina ng Ingat-yaman ng Munisipalidad',
     'tax-obligation-requests-barangay-budget-review-and':
       'Obligation mga kahilingan, barangay budget suriin, and SEF budget preparation',
-    'tax-official-lgu-solano-portal': 'Opisyal na Portal ng LGU Solano',
-    'tax-online-payment-order': 'Online Pagbabayad Order',
+    'tax-official-lgu-Muntinlupa-portal': 'Opisyal na Portal ng LGU Muntinlupa',
+    'tax-online-payment-order': 'Impormasyon sa Order ng Pagbabayad',
     'tax-open-data-philippines': 'Open Data Philippines',
     'tax-ordinance-framework': 'Balangkas ng Ordinansa',
     'tax-preaudit-of-disbursements-payroll-check-issuance':
       'Pre-audit ng mga disbursement, payroll, pagbibigay ng tseke, at pag-uulat pinansyal',
     'tax-privacy-policy': 'Patakaran sa Pagkapribado',
     'tax-process-payment-orders-for-various-municipal-fees':
-      'Iproseso pagbabayad orders for various pangmunisipyo mga bayad',
+      'Tingnan ang impormasyon tungkol sa mga order ng pagbabayad para sa mga bayarin ng lungsod.',
     'tax-property-declaration-tax-assessment-and-land':
       'Ari-arian declaration, buwis pagtatasa, and lupa mga rekord',
     'tax-public-safety': 'Kaligtasang Pampubliko',
     'tax-quick-links': 'Mga Mabilisang Link',
-    'tax-real-property-tax-billing-payment': 'Buwis sa Ari-arian Billing & Pagbabayad',
+    'tax-real-property-tax-billing-payment': 'Impormasyon sa Buwis at Pagbabayad ng Ari-arian',
     'tax-resolution-framework': 'Balangkas ng Resolusyon',
     'tax-resources': 'Mga Mapagkukunan',
     'tax-sangguniang-bayan': 'Sangguniang Bayan',
@@ -12261,7 +11850,7 @@ const translations = {
     'tax-tax-payments': 'Pagbabayad ng Buwis',
     'tax-terms-of-use': 'Mga Tuntunin ng Paggamit',
     'tax-view-and-pay-your-real-property-tax-amilyar-online':
-      'View sa pay iyong buwis sa tunay na ari-arian (amilyar) online',
+      'Tingnan ang impormasyon tungkol sa buwis sa ari-arian at pagbabayad.',
     'tax-volunteer-with-us': 'Mag-volunteer sa amin',
     'terms-a-clear-description-of-your-concern':
       'Isang malinaw na paglalarawan ng iyong alalahanin',
@@ -12333,7 +11922,7 @@ const translations = {
     'terms-editorial-decisions-about-content-rest-with-the':
       'Editorial decisions about content rest with the website team, guided by pampubliko interes and civic responsibility.',
     'terms-education': 'Edukasyon',
-    'terms-empowering-the-people-of-solano-with-transparent':
+    'terms-empowering-the-people-of-Muntinlupa-with-transparent':
       'Pagbibigay-kapangyarihan sa mga mamamayan ng Muntinlupa na may transparent na access sa mga serbisyo, programa, at pampublikong pondo ng lungsod.',
     'terms-environment': 'Kapaligiran',
     'terms-errorfree-or-uninterrupted': 'Walang error o walang pagkaantala',
@@ -12374,13 +11963,13 @@ const translations = {
     'terms-legislative': 'Lehislatura',
     'terms-legitimate-concerns-will-be-reviewed-in-good':
       'Legitimate concerns will be reviewed in mabuti faith by volunteers.',
-    'terms-lgu-solano-facebook': 'LGU Solano Facebook',
+    'terms-lgu-Muntinlupa-facebook': 'LGU Muntinlupa Facebook',
     'terms-limitation-of-liability': 'Limitasyon ng Pananagutan',
     'terms-modifications': 'Mga Pagbabago',
     'terms-no-professional-advice': 'Walang Propesyonal na Payo',
     'terms-noninfringement-of-intellectual-property-rights':
       'Non-infringement of intellectual ari-arian rights',
-    'terms-official-lgu-solano-portal': 'Opisyal na Portal ng LGU Solano',
+    'terms-official-lgu-Muntinlupa-portal': 'Opisyal na Portal ng LGU Muntinlupa',
     'terms-open-data-philippines': 'Open Data Philippines',
     'terms-ordinance-framework': 'Balangkas ng Ordinansa',
     'terms-our-response-process': 'Our Response Iproseso',
@@ -12508,7 +12097,7 @@ const translations = {
     'treas-discount': 'Diskwento:',
     'treas-discountpenalty': 'Diskwento/Multa',
     'treas-education': 'Edukasyon',
-    'treas-empowering-the-people-of-solano-with-transparent':
+    'treas-empowering-the-people-of-Muntinlupa-with-transparent':
       'Pagbibigay-kapangyarihan sa mga mamamayan ng Muntinlupa na may transparent na access sa mga serbisyo, programa, at pampublikong pondo ng lungsod.',
     'treas-environment': 'Kapaligiran',
     'treas-fee': 'Bayad:',
@@ -12518,8 +12107,7 @@ const translations = {
     'treas-free': 'Libre',
     'treas-freedom-of-information': 'Kalayaan sa Impormasyon',
     'treas-government': 'Pamahalaan',
-    'treas-ground-floor-municipal-hall-solano-nueva-vizcaya':
-      'Unang Palapag, Munisipyo, Solano, Nueva Vizcaya',
+    'treas-city-office-location': 'Makipag-ugnayan sa City Treasurer para kumpirmahin ang kasalukuyang lokasyon nito.',
     'treas-health': 'Kalusugan',
     'treas-home': 'Tahanan',
     'treas-hours': 'Oras',
@@ -12539,7 +12127,7 @@ const translations = {
     'treas-keep-all-official-receipts-for-records': 'Itago all opisyal mga resibo for mga rekord',
     'treas-late-payment': 'Huling Pagbabayad',
     'treas-legislative': 'Lehislatura',
-    'treas-lgu-solano-facebook': 'LGU Solano Facebook',
+    'treas-lgu-Muntinlupa-facebook': 'LGU Muntinlupa Facebook',
     'treas-location': 'Lokasyon',
     'treas-march-31': 'Marso 31',
     'treas-maximum-72-36-months': 'Pinakamataas na 72% (36 buwan)',
@@ -12550,7 +12138,7 @@ const translations = {
     'treas-no-discountpenalty': 'Walang diskwento/multa',
     'treas-office': 'Opisina',
     'treas-office-information': 'Impormasyon ng Opisina',
-    'treas-official-lgu-solano-portal': 'Opisyal na Portal ng LGU Solano',
+    'treas-official-lgu-Muntinlupa-portal': 'Opisyal na Portal ng LGU Muntinlupa',
     'treas-official-receipt': 'Opisyal na Resibo',
     'treas-open-data-philippines': 'Open Data Philippines',
     'treas-ordinance-framework': 'Balangkas ng Ordinansa',
@@ -12590,7 +12178,7 @@ const translations = {
     'treas-tax-assessment-inquiry': 'Buwis Pagtatasa Pagtatanong',
     'treas-tax-clearance': 'Tax Clearance',
     'treas-tax-collection-fee-payments-and-financial':
-      'Tax koleksyon, fee mga pagbabayad, sa financial mga serbisyo para sa Solano mga residente',
+      'Tax koleksyon, fee mga pagbabayad, sa financial mga serbisyo para sa Muntinlupa mga residente',
     'treas-tax-declaration-assessment': 'Deklarasyon ng Buwis / Pagtatasa',
     'treas-tax-payments': 'Pagbabayad ng Buwis',
     'treas-tax-payments-2': 'Buwis at Pagbabayad',
@@ -12633,7 +12221,7 @@ const translations = {
     'tricycle-contact': 'Makipag-ugnayan',
     'tricycle-contribute-code-with-us': 'Mag-ambag ng code sa amin',
     'tricycle-education': 'Edukasyon',
-    'tricycle-empowering-the-people-of-solano-with-transparent':
+    'tricycle-empowering-the-people-of-Muntinlupa-with-transparent':
       'Pagbibigay-kapangyarihan sa mga mamamayan ng Muntinlupa na may transparent na access sa mga serbisyo, programa, at pampublikong pondo ng lungsod.',
     'tricycle-encoding-of-application': 'Encoding of Aplikasyon',
     'tricycle-environment': 'Kapaligiran',
@@ -12654,7 +12242,7 @@ const translations = {
     'tricycle-inspection-of-tricycle-unit': 'Inspeksyon of Tricycle Yunit',
     'tricycle-legislative': 'Lehislatura',
     'tricycle-mayors-approval': "Mayor's Pag-apruba",
-    'tricycle-municipal-hall-solano-nueva-vizcaya': 'Munisipyo, Solano, Nueva Vizcaya',
+    'tricycle-city-office-location': 'Makipag-ugnayan sa City Office para kumpirmahin ang kasalukuyang lokasyon nito.',
     'tricycle-municipal-mayor-approves-the-application-form':
       'Punong Bayan approves the aplikasyon form',
     'tricycle-municipal-treasurers-office-collects-the-fees':
@@ -12738,66 +12326,64 @@ const translations = {
     'safety-preparedness-desc': 'Pagsasanay at mga resources para sa disaster readiness',
     'safety-relief': 'Tulong sa Kalamidad',
     'safety-relief-desc': 'Relief goods at suporta sa paglikas',
-    'tax-online-badge': 'Online Services sa pamamagitan ng Filipizen',
+    'tax-online-badge': 'Mga Serbisyo sa Buwis ng Lungsod',
     'tax-property': 'Buwis sa Ari-arian',
     'tax-property-desc': 'Taunang buwis sa lupa at mga pagpapabuti',
 
-    // Solano Quiz
-    'accessibility-solano-quiz': 'Solano Quiz',
-    'acct-solano-quiz': 'Solano Quiz',
-    'agri-solano-quiz': 'Solano Quiz',
-    'assessor-solano-quiz': 'Solano Quiz',
-    'birth-solano-quiz': 'Solano Quiz',
-    'biz-solano-quiz': 'Solano Quiz',
-    'bpls-solano-quiz': 'Solano Quiz',
-    'budget-solano-quiz': 'Solano Quiz',
-    'cert-solano-quiz': 'Solano Quiz',
-    'civil-solano-quiz': 'Solano Quiz',
-    'contact-solano-quiz': 'Solano Quiz',
-    'death-solano-quiz': 'Solano Quiz',
-    'edu-solano-quiz': 'Solano Quiz',
-    'eng-solano-quiz': 'Solano Quiz',
-    'env-solano-quiz': 'Solano Quiz',
-    'err403-solano-quiz': 'Solano Quiz',
-    'err404-solano-quiz': 'Solano Quiz',
-    'err500-solano-quiz': 'Solano Quiz',
-    'faq-solano-quiz': 'Solano Quiz',
-    'gensvc-solano-quiz': 'Solano Quiz',
-    'gov-solano-quiz': 'Solano Quiz',
-    'health-solano-quiz': 'Solano Quiz',
-    'home-solano-quiz': 'Solano Quiz',
-    'hr-solano-quiz': 'Solano Quiz',
-    'infra-solano-quiz': 'Solano Quiz',
-    'legis-solano-quiz': 'Solano Quiz',
-    'magri-solano-quiz': 'Solano Quiz',
-    'market-solano-quiz': 'Solano Quiz',
-    'marriage-solano-quiz': 'Solano Quiz',
-    'mbudget-solano-quiz': 'Solano Quiz',
-    'mcivil-solano-quiz': 'Solano Quiz',
-    'mgensvc-solano-quiz': 'Solano Quiz',
-    'mswdo-solano-quiz': 'Solano Quiz',
-    'mswdo-svc-solano-quiz': 'Solano Quiz',
-    'news-solano-quiz': 'Solano Quiz',
-    'officials-solano-quiz': 'Solano Quiz',
-    'ord-solano-quiz': 'Solano Quiz',
-    'plan-solano-quiz': 'Solano Quiz',
-    'privacy-solano-quiz': 'Solano Quiz',
-    'propdec-solano-quiz': 'Solano Quiz',
-    'reso-solano-quiz': 'Solano Quiz',
-    'safety-solano-quiz': 'Solano Quiz',
-    'sitemap-solano-quiz': 'Solano Quiz',
-    'slaughter-solano-quiz': 'Solano Quiz',
-    'social-solano-quiz': 'Solano Quiz',
-    'stats-solano-quiz': 'Solano Quiz',
-    'svc-solano-quiz': 'Solano Quiz',
-    'tax-solano-quiz': 'Solano Quiz',
-    'terms-solano-quiz': 'Solano Quiz',
-    'treas-solano-quiz': 'Solano Quiz',
-    'tricycle-solano-quiz': 'Solano Quiz',
-    'home-how-well-do-you-know-solano-nueva-vizcaya':
-      'Gaano mo kakilala ang Solano, Nueva Vizcaya?',
+    // Muntinlupa Quiz
+    'accessibility-Muntinlupa-quiz': 'Muntinlupa Quiz',
+    'acct-Muntinlupa-quiz': 'Muntinlupa Quiz',
+    'agri-Muntinlupa-quiz': 'Muntinlupa Quiz',
+    'assessor-Muntinlupa-quiz': 'Muntinlupa Quiz',
+    'birth-Muntinlupa-quiz': 'Muntinlupa Quiz',
+    'biz-Muntinlupa-quiz': 'Muntinlupa Quiz',
+    'bpls-Muntinlupa-quiz': 'Muntinlupa Quiz',
+    'budget-Muntinlupa-quiz': 'Muntinlupa Quiz',
+    'cert-Muntinlupa-quiz': 'Muntinlupa Quiz',
+    'civil-Muntinlupa-quiz': 'Muntinlupa Quiz',
+    'contact-Muntinlupa-quiz': 'Muntinlupa Quiz',
+    'death-Muntinlupa-quiz': 'Muntinlupa Quiz',
+    'edu-Muntinlupa-quiz': 'Muntinlupa Quiz',
+    'eng-Muntinlupa-quiz': 'Muntinlupa Quiz',
+    'env-Muntinlupa-quiz': 'Muntinlupa Quiz',
+    'err403-Muntinlupa-quiz': 'Muntinlupa Quiz',
+    'err404-Muntinlupa-quiz': 'Muntinlupa Quiz',
+    'err500-Muntinlupa-quiz': 'Muntinlupa Quiz',
+    'faq-Muntinlupa-quiz': 'Muntinlupa Quiz',
+    'gensvc-Muntinlupa-quiz': 'Muntinlupa Quiz',
+    'gov-Muntinlupa-quiz': 'Muntinlupa Quiz',
+    'health-Muntinlupa-quiz': 'Muntinlupa Quiz',
+    'home-Muntinlupa-quiz': 'Muntinlupa Quiz',
+    'hr-Muntinlupa-quiz': 'Muntinlupa Quiz',
+    'infra-Muntinlupa-quiz': 'Muntinlupa Quiz',
+    'legis-Muntinlupa-quiz': 'Muntinlupa Quiz',
+    'magri-Muntinlupa-quiz': 'Muntinlupa Quiz',
+    'market-Muntinlupa-quiz': 'Muntinlupa Quiz',
+    'marriage-Muntinlupa-quiz': 'Muntinlupa Quiz',
+    'mbudget-Muntinlupa-quiz': 'Muntinlupa Quiz',
+    'mcivil-Muntinlupa-quiz': 'Muntinlupa Quiz',
+    'mgensvc-Muntinlupa-quiz': 'Muntinlupa Quiz',
+    'mswdo-Muntinlupa-quiz': 'Muntinlupa Quiz',
+    'mswdo-svc-Muntinlupa-quiz': 'Muntinlupa Quiz',
+    'news-Muntinlupa-quiz': 'Muntinlupa Quiz',
+    'officials-Muntinlupa-quiz': 'Muntinlupa Quiz',
+    'ord-Muntinlupa-quiz': 'Muntinlupa Quiz',
+    'plan-Muntinlupa-quiz': 'Muntinlupa Quiz',
+    'privacy-Muntinlupa-quiz': 'Muntinlupa Quiz',
+    'propdec-Muntinlupa-quiz': 'Muntinlupa Quiz',
+    'reso-Muntinlupa-quiz': 'Muntinlupa Quiz',
+    'safety-Muntinlupa-quiz': 'Muntinlupa Quiz',
+    'sitemap-Muntinlupa-quiz': 'Muntinlupa Quiz',
+    'slaughter-Muntinlupa-quiz': 'Muntinlupa Quiz',
+    'social-Muntinlupa-quiz': 'Muntinlupa Quiz',
+    'stats-Muntinlupa-quiz': 'Muntinlupa Quiz',
+    'svc-Muntinlupa-quiz': 'Muntinlupa Quiz',
+    'tax-Muntinlupa-quiz': 'Muntinlupa Quiz',
+    'terms-Muntinlupa-quiz': 'Muntinlupa Quiz',
+    'treas-Muntinlupa-quiz': 'Muntinlupa Quiz',
+    'tricycle-Muntinlupa-quiz': 'Muntinlupa Quiz',
     'home-evaluate-your-familiarity-with-the-municipalitys':
-      'Suriin ang iyong kaalaman sa pamana, pagkakakilanlan sa kultura, at kahalagahang heograpiko ng munisipalidad sa pamamagitan ng isang interactive na pagtatasa ng kaalaman na idinisenyo upang ipakita ang isa sa mga pinakatanyag na lokalidad ng Nueva Vizcaya.',
+      'Suriin ang iyong kaalaman sa pamana, pagkakakilanlan sa kultura, at kahalagahang heograpiko ng munisipalidad sa pamamagitan ng isang interactive na pagtatasa ng kaalaman na idinisenyo upang ipakita ang isa sa mga pinakatanyag na lokalidad ng Metro Manila.',
     'home-take-the-quiz': 'Subukin ang Quiz',
   },
 
@@ -12808,6 +12394,8 @@ const translations = {
     'nav-statistics': 'Estadistika',
     'nav-legislative': 'Lehislatura',
     'nav-transparency': 'Kinasiluag',
+    'nav-community': 'Dagiti Lokal a Komunidad',
+    'nav-doing-business': 'Agnegosyo',
     'nav-contact': 'Kontaken',
     'nav-budget': 'Badyet',
     'nav-news': 'Damag',
@@ -12816,8 +12404,11 @@ const translations = {
     'nav-privacy': 'Pagkapribado',
     'nav-terms': 'Dagiti Kondision',
     'nav-accessibility': 'Aksesibilidad',
-    'stats-title': 'Estadistika ti Munisipalidad',
-    'stats-subtitle': 'Datos ken estadistika maipapan iti Solano, Nueva Vizcaya',
+    'stats-title': 'Estadistika ti Siudad',
+    'stats-subtitle': 'Dagiti kangrunaan a datos ken profile ti Siudad ti Muntinlupa, Metro Manila',
+    'stats-city-profile': 'Profile ti Siudad',
+    'stats-data-note':
+      'Dagiti historikal, populasion iti tunggal barangay, pampinansial, ken dadduma pay a detalyado nga estadistika ket saan pay a maipakita agingga a maiberipika dagiti paggapuan a naisangsangayan iti Muntinlupa.',
     'stats-demographics': 'Pakabuklan ti Demograpiya',
     'stats-economic': 'Dagiti Pagilasinan ti Ekonomiya',
     'stats-barangay': 'Populasion Sigun iti Barangay',
@@ -12847,7 +12438,7 @@ const translations = {
     'hero-search-placeholder': 'Agsapul ti serbisio...',
     'hero-find-service': 'Agsapul ti Serbisio',
     'appointment-cta-heading':
-      'Panagpasayaat ti Serbisio ti Appointment ti Opisina ti Alkalde ti LGU Solano',
+      'Panagpasayaat ti Serbisio ti Appointment ti Opisina ti Alkalde ti LGU Muntinlupa',
     'appointment-cta-subtitle': 'Awan pila. Awan agpapasubli. Nasayaat nga appointment laeng.',
     'appointment-schedule-btn': 'Ag-iskedyul ti Appointment',
     'appointment-create-btn': 'Agaramid ti Account',
@@ -12872,7 +12463,7 @@ const translations = {
     'section-updates': 'Kabarbaro nga Update',
     'btn-view-all': 'Kitaen Amin',
     'btn-read-more': 'Agbasa Pay',
-    'section-leadership': 'Panangidaulo ti Munisipalidad',
+    'section-leadership': 'Panangidaulo ti Siudad',
     'title-mayor': 'Mayor ti Siudad',
     'title-vice-mayor': 'Bise Mayor ti Siudad',
     'title-city-representative': 'Representante ti Siudad',
@@ -12900,7 +12491,7 @@ const translations = {
     'footer-contact': 'Kontak',
     'footer-copyright': 'Better Muntinlupa. Amin a karbengan ket naireserbado.',
     'site-community-disclaimer':
-      'Ti Better Muntinlupa ket independent a community initiative, saan nga opisial a website ti gobierno.',
+      'Ti Better Muntinlupa ket independent a civic-tech a community initiative, saan nga opisial a website ti gobierno.',
     'site-footer-disclaimer':
       'Saan nga affiliated wenno endorsed ti independienteng community site a daytoy ti City Government of Muntinlupa. Pasingkedan dagiti detalye kadagiti opisial a government sources.',
     'accessibility-statement': 'Pahayag ti Aksesibilidad',
@@ -12910,7 +12501,7 @@ const translations = {
     'footer-volunteer': 'Ag-volunteer kadakami',
     'footer-contribute': 'Ag-ambag ti code kadakami',
     'services-title': 'Direktorio ti Serbisio ti Munisipalidad',
-    'services-subtitle': 'Kitaen amin a serbisio nga i-alok ti Munisipalidad ti Solano',
+    'services-subtitle': 'Kitaen dagiti serbisyo ken impormasion para iti Muntinlupa',
     'search-placeholder': 'Agsapul ti serbisio...',
     'search-no-results': 'Awan ti nasarakan a serbisio',
     'search-try-different': 'Padasem ti sabali a keyword wenno kitaem dagiti kategorya iti baba',
@@ -12960,7 +12551,7 @@ const translations = {
       'Dagiti permit ti aglawlaw, panagtaripato ti basura, ken dagiti programa ti konserbasion.',
     'cat-online': 'Dagiti Online a Serbisio',
     'cat-online-desc':
-      'Dagiti digital a serbisio a magun-od iti Filipizen ken dadduma pay nga online platform.',
+      'Kitaen ti impormasion maipapan kadagiti serbisyo ti siudad ken dagiti opsion online.',
     'cat-government': 'Dagiti Serbisio ti Gobierno',
     'cat-government-desc':
       'Sapasap a serbisio ti munisipalidad ken dagiti administratibo a tungkulin.',
@@ -12989,7 +12580,7 @@ const translations = {
     'cert-page-badge': 'Dagiti Sertipiko',
     'cert-birth': 'Sertipiko ti Pannakayanak',
     'cert-birth-desc':
-      'Mangala ti certified copy ti sertipiko ti pannakayanak a nakarehistro idiay Solano',
+      'Mangala ti certified copy ti sertipiko ti pannakayanak a nakarehistro idiay Muntinlupa',
     'cert-marriage': 'Sertipiko ti Kasar',
     'cert-marriage-desc': 'Agrehistro wenno agkiddaw ti certified true copy ti sertipiko ti kasar',
     'cert-death': 'Sertipiko ti Ipapatay',
@@ -13036,15 +12627,15 @@ const translations = {
     'health-stat-facilities': 'Dagup a Pasilidad ti Salun-at',
     'health-stat-hospitals': 'Dagiti Kangrunaan nga Ospital',
     'health-stat-bhs': 'Dagiti Barangay Health Station',
-    'health-stat-mho': 'Opisina ti Salun-at ti Munisipalidad',
-    'health-section-hospitals': 'Dagiti Ospital idiay Solano',
-    'health-section-mho': 'Opisina ti Salun-at ti Munisipalidad',
+    'health-stat-mho': 'Opisina ti Salun-at ti Siudad',
+    'health-section-hospitals': 'Dagiti Ospital idiay Muntinlupa',
+    'health-section-mho': 'Opisina ti Salun-at ti Siudad',
     'health-section-bhs': 'Dagiti Barangay Health Station',
-    'health-bhs-subtitle':
-      '22 a Barangay Health Stations/Centers a mangserserbisio iti amin a barangay ti Solano',
-    'health-mho-title': 'Opisina ti Salun-at ti Munisipalidad ti Solano',
+    'health-bhs-subtitle': 'Dagiti serbisio ti salun-at ti barangay iti Muntinlupa',
+    'health-data-unavailable': 'Agberipikasion pay ti bilang ken listaan dagiti pasilidad ti salun-at ti Muntinlupa.',
+    'health-mho-title': 'Opisina ti Salun-at ti Siudad ti Muntinlupa',
     'health-mho-desc':
-      'Ti Municipal Health Office ket mangted ti kangrunaan a serbisio ti salun-at a mairaman ti lying-in facility ken serbisio ti laboratorio. Daytoy ti kangrunaan a public health center ti munisipalidad.',
+      'Kontaken ti opisial nga Opisina ti Salun-at ti Siudad ti Muntinlupa para kadagiti agdama a programa, pasilidad, ken iskedyul ti serbisio.',
     'health-service-lying-in': 'Lying-in Facility',
     'health-service-laboratory': 'Serbisio ti Laboratorio',
     'health-service-immunization': 'Immunisasion',
@@ -13064,7 +12655,7 @@ const translations = {
     'agri-office-mao-desc':
       'Panagrehistro iti RSBSA, sertipikasion, programa ti irik/mais, livestock, serbisio ti panagkalap',
     'ord-page-title': 'Balangkas ti Ordinansa',
-    'ord-page-desc': 'Dagiti ordinansa a naipasa ti Sangguniang Bayan ng Solano',
+    'ord-page-desc': 'Dagiti ordinansa a naipasa ti Sangguniang Bayan ng Muntinlupa',
     'ord-page-badge': 'Lehislatura',
     'ord-what-is': 'Ania ti Ordinansa?',
     'ord-what-is-p1':
@@ -13080,13 +12671,13 @@ const translations = {
     'ord-cat-zoning': 'Zoning ken Panagusar ti Daga',
     'ord-2025-title': 'Dagiti Ordinansa ti 2025',
     'ord-2025-subtitle':
-      'Dagiti opisial nga ordinansa a naipasa ti Sangguniang Bayan ng Solano iti 2025',
+      'Dagiti opisial nga ordinansa a naipasa ti Sangguniang Bayan ng Muntinlupa iti 2025',
     'ord-table-number': 'Numero ti Ordinansa',
     'ord-table-title': 'Titulo',
     'ord-table-date': 'Petsa ti Sesion',
     'ord-view-all': 'Kitaen Amin nga Ordinansa iti SB Website',
     'reso-page-title': 'Balangkas ti Resolusion',
-    'reso-page-desc': 'Dagiti resolusion a naipasa ti Sangguniang Bayan ng Solano',
+    'reso-page-desc': 'Dagiti resolusion a naipasa ti Sangguniang Bayan ng Muntinlupa',
     'reso-page-badge': 'Lehislatura',
     'reso-what-is': 'Ania ti Resolusion?',
     'reso-what-is-p1':
@@ -13102,16 +12693,16 @@ const translations = {
     'reso-type-appropriation': 'Apropriyasion',
     'reso-2026-title': 'Dagiti Resolusion ti 2026',
     'reso-2026-subtitle':
-      'Dagiti opisial a resolusion a naipasa ti Sangguniang Bayan ng Solano iti 2026',
+      'Dagiti opisial a resolusion a naipasa ti Sangguniang Bayan ng Muntinlupa iti 2026',
     'reso-2025-title': 'Dagiti Resolusion ti 2025',
     'reso-2025-subtitle':
-      'Dagiti opisial a resolusion a naipasa ti Sangguniang Bayan ng Solano iti 2025',
+      'Dagiti opisial a resolusion a naipasa ti Sangguniang Bayan ng Muntinlupa iti 2025',
     'reso-table-number': 'Numero ti Resolusion',
     'reso-table-title': 'Titulo',
     'reso-table-date': 'Petsa ti Sesion',
     'reso-view-all': 'Kitaen Amin a Resolusion iti SB Website',
     'biz-page-title': 'Serbisio ti Negosio',
-    'biz-page-desc': 'Dagiti permit, lisensya, ken suporta para kadagiti negosio idiay Solano',
+    'biz-page-desc': 'Dagiti permit, lisensya, ken suporta para kadagiti negosio iti Muntinlupa',
     'biz-page-badge': 'Negosio',
     'biz-permit-new': 'Permit ti Negosio (Baro)',
     'biz-permit-new-desc': "Agaplikar ti baro a mayor's permit para iti negosio",
@@ -13121,10 +12712,10 @@ const translations = {
     'biz-closure-desc': 'Agpaila para iti panagrikep ti negosio',
     'biz-cedula': 'Sertipiko ti Buwis ti Komunidad',
     'biz-cedula-desc': 'Umala ti cedula para kadagiti indibidual ken negosio',
-    'biz-online-title': 'Online a Transaksiyon ti Negosio',
+    'biz-online-title': 'Dagiti Rekurso ti Negosio ken Permit',
     'biz-online-subtitle':
-      'Kompleto dagiti transaksiyon iti negosio online babaen ti opisial a Filipizen portal',
-    'biz-online-badge': 'Dagiti Online a Serbisio iti Filipizen',
+      'Kitaen ti impormasion maipapan kadagiti permit ken lisensia ti negosyo iti Muntinlupa.',
+    'biz-online-badge': 'Dagiti Serbisyo ti Negosyo ti Muntinlupa',
     'biz-billing': 'Online Billing ken Panagbayad para iti Negosio',
     'biz-billing-desc': 'Kitaen ken bayadan dagiti bill ti buwis ti negosio online',
     'biz-new-app': 'Baro nga Aplikasion iti Negosio',
@@ -13140,8 +12731,8 @@ const translations = {
     'tax-real-property-desc': 'Tawenantawen a bayad ti buwis para iti daga ken pasdek',
     'tax-business': 'Buwis ti Negosio',
     'tax-business-desc': 'Dagiti bayad ti buwis a mainaig iti negosio',
-    'tax-online-title': 'Online a Transaksiyon ti Buwis',
-    'tax-online-subtitle': 'Agbayad ti buwis ken bayad online babaen ti opisial a Filipizen portal',
+    'tax-online-title': 'Dagiti Rekurso ti Panagbayad ti Buwis',
+    'tax-online-subtitle': 'Kitaen ti impormasion maipapan kadagiti buwis ken bayad ti siudad.',
     'tax-rpt-billing': 'Buwis iti Tunay na Kukua Billing & Payment',
     'tax-rpt-billing-desc': 'View iti pay iyong buwis iti tunay na kukua (amilyar) online',
     'tax-payment-order': 'Online a Payment Order',
@@ -13210,13 +12801,16 @@ const translations = {
     'gov-council-term': 'Dagiti konsehal para iti termino 2025–2028',
     'gov-ex-officio-liga-president': 'Presidente ti Liga ng mga Barangay / Ex-Officio',
     'official-city-officials-directory': 'Opisial a direktorio dagiti opisial ti siudad',
-    'gov-departments': 'Dagiti Ulo ti Departamento ken Kangrunaan nga Opisina',
-    'gov-dept-subtitle': 'Dagiti opisina ti munisipalidad a mangted ti serbisio kadagiti umili',
-    'gov-barangays': 'Dagiti Barangay ti Solano',
-    'gov-barangays-count': '22 a Barangay a mangserserbisio iti komunidad tayo',
+    'gov-departments': 'Dagiti Departamento ti Siudad',
+    'gov-dept-subtitle': 'Dagiti opisina ti siudad a mangipaay kadagiti serbisio kadagiti agnanaed',
+    'gov-barangays': 'Dagiti Barangay ti Siudad ti Muntinlupa',
+    'gov-barangays-count': '9 a Barangay a mangserserbisio iti komunidad tayo',
     'gov-organizational-chart': 'Tsart ti Organisasion',
     'gov-term': 'Termino',
     'budget-title': 'Badyet ken Kinasiluag ti Pinansia',
+    'budget-data-unavailable': 'Maberipikasion pay dagiti datos ti badyet ti Muntinlupa.',
+    'budget-data-unavailable-detail':
+      'Saan nga ipakita dagiti bilang ti badyet ken listaan dagiti proyekto agingga a maiberipika kadagiti opisial a paggapuan ti Siudad ti Muntinlupa.',
     'budget-subtitle':
       'Panagsubaybay ti pinansia ken proyekto ti munisipalidad para iti panagresponsable',
     'budget-overview': 'Pakabuklan ti Badyet ti Munisipalidad 2025',
@@ -13303,7 +12897,7 @@ const translations = {
     'legislative-approved': 'Naaprubaran',
     'legislative-enacted': 'Naisabatas',
     'news-title': 'Damag ken Anunsiasion',
-    'news-subtitle': 'Kabarbaro a damag manipud iti Munisipalidad ti Solano',
+    'news-subtitle': 'Kabarbaro a damag manipud iti Munisipalidad ti Muntinlupa',
     'news-latest': 'Kabarbaro a Damag',
     'news-announcements': 'Dagiti Anunsiasion',
     'news-events': 'Dagiti Pasamak',
@@ -13402,9 +12996,9 @@ const translations = {
       'Amin a functionality ket magun-od babaen laeng ti keyboard.',
     'a11y-all-images-have-descriptive-alt-text':
       'Amin a ladawan ket addaan ti deskripsion nga alt text.',
-    'a11y-better-solano-is-committed-to-ensuring-digital':
+    'a11y-better-Muntinlupa-is-committed-to-ensuring-digital':
       'Ti Better Muntinlupa ay nakatuon iti pagtiyak ti digital na accessibility para iti dagiti taong maaari kapansanan. Patuloy naming pinapabuti ti karanasan ti gumagamit para iti lahat iti inilalapat ti dagiti kaugnay na pamantayan ti accessibility.',
-    'a11y-better-solano-is-committed-to-ensuring-that-our':
+    'a11y-better-Muntinlupa-is-committed-to-ensuring-that-our':
       'Ti Better Muntinlupa ay nakatuon iti pagtiyak na ti aming dagiti digital na serbisio ay naa-access ti lahat ti umili, anuman ti kakayahan. Kami view accessibility saan as isang feature, ngunit as isang fundamental right.',
     'a11y-blgf-portal': 'BLGF Portal',
     'a11y-business': 'Negosio',
@@ -13416,7 +13010,7 @@ const translations = {
     'a11y-conformant': 'Sumurot',
     'a11y-css3': 'CSS3',
     'a11y-education': 'Edukasion',
-    'a11y-empowering-the-people-of-solano-with-transparent':
+    'a11y-empowering-the-people-of-Muntinlupa-with-transparent':
       'Panangted ti bileg kadagiti umili ti Muntinlupa nga addaan ti transparente a panag-akses kadagiti serbisio, programa, ken pampubliko a pondo ti siudad.',
     'a11y-environment': 'Aglawlaw',
     'a11y-freedom-of-information': 'Wayawaya ti Impormasion',
@@ -13429,13 +13023,13 @@ const translations = {
     'a11y-javascript': 'JavaScript',
     'a11y-keyboard-navigation': 'Nabigasion ti Keyboard',
     'a11y-last-updated-november-29-2025': 'Naudi na-update: November 29, 2025',
-    'a11y-lgu-solano-facebook': 'LGU Solano Facebook',
+    'a11y-lgu-Muntinlupa-facebook': 'LGU Muntinlupa Facebook',
     'a11y-meets-wcag-aa-contrast-requirements':
       'Matungpal dagiti kasapulan ti kontraste ti WCAG AA.',
     'a11y-no-time-limits': 'Awan Limitasion ti Tiempo',
     'a11y-no-time-limits-on-reading-or-interacting':
       'Awan limitasion ti tiempo iti panagbasa wenno panakipaset.',
-    'a11y-official-lgu-solano-portal': 'Opisial a Portal ti LGU Solano',
+    'a11y-official-lgu-Muntinlupa-portal': 'Opisial a Portal ti LGU Muntinlupa',
     'a11y-open-data-philippines': 'Open Data Philippines',
     'a11y-ordinance-framework': 'Balangkas ti Ordinansa',
     'a11y-privacy-policy': 'Pagannurotan ti Pagkapribado',
@@ -13517,7 +13111,7 @@ const translations = {
     'acct-dtr-leave-forms-ot-authorization': 'DTR, dagiti form ti Leave, awtorisasyon ti OT',
     'acct-duration': 'Kaatiddog',
     'acct-education': 'Edukasion',
-    'acct-empowering-the-people-of-solano-with-transparent':
+    'acct-empowering-the-people-of-Muntinlupa-with-transparent':
       'Panangted ti bileg kadagiti umili ti Muntinlupa nga addaan ti transparente a panag-akses kadagiti serbisio, programa, ken pampubliko a pondo ti siudad.',
     'acct-environment': 'Aglawlaw',
     'acct-evangeline-b-ramos': 'Evangeline B. Ramos',
@@ -13544,20 +13138,20 @@ const translations = {
     'acct-key-personnel-handling-accounting-services':
       'Key dagiti tauhan humahawak ti dagiti serbisio ti accounting',
     'acct-legislative': 'Lehislatura',
-    'acct-lgu-solano-facebook': 'LGU Solano Facebook',
+    'acct-lgu-Muntinlupa-facebook': 'LGU Muntinlupa Facebook',
     'acct-location': 'Lokasion',
     'acct-mary-jane-c-salvador': 'Mary Jane C. Salvador',
     'acct-mun-accounting': 'Mun. Accounting',
     'acct-municipal-accountant': 'Accountant ti Munisipalidad',
     'acct-municipal-accounting-office': 'Opisina ti Accounting ti Munisipalidad',
-    'acct-municipal-accounting-office-municipal-hall-solano':
-      'Munisipal Opisina ti Accounting, Munisipalidad, Solano, Nueva Vizcaya',
+    'acct-municipal-accounting-office-municipal-hall-Muntinlupa':
+      'Munisipal Opisina ti Accounting, Munisipalidad, Muntinlupa, Metro Manila',
     'acct-municipal-hall': 'Munisipio',
     'acct-obligation-request-obr': 'Kiddaw ti Obligasyon (ObR)',
     'acct-office': 'Opisina',
     'acct-office-information': 'Impormasion ti Opisina',
     'acct-office-personnel': 'Dagiti Tauhan ti Opisina',
-    'acct-official-lgu-solano-portal': 'Opisial a Portal ti LGU Solano',
+    'acct-official-lgu-Muntinlupa-portal': 'Opisial a Portal ti LGU Muntinlupa',
     'acct-ongoing': 'Agtultuloy',
     'acct-open-data-philippines': 'Open Data Philippines',
     'acct-ordinance-framework': 'Balangkas ti Ordinansa',
@@ -13653,15 +13247,15 @@ const translations = {
     'agri-cmci-dti-portal': 'CMCI DTI Portal',
     'agri-contribute-code-with-us': 'Ag-ambag ti code kadakami',
     'agri-education': 'Edukasion',
-    'agri-empowering-the-people-of-solano-with-transparent':
+    'agri-empowering-the-people-of-Muntinlupa-with-transparent':
       'Panangted ti bileg kadagiti umili ti Muntinlupa nga addaan ti transparente a panag-akses kadagiti serbisio, programa, ken pampubliko a pondo ti siudad.',
     'agri-environment': 'Aglawlaw',
     'agri-freedom-of-information': 'Wayawaya ti Impormasion',
     'agri-health': 'Salun-at',
     'agri-home': 'Pagtaengan',
     'agri-infrastructure': 'Imprastraktura',
-    'agri-lgu-solano-facebook': 'LGU Solano Facebook',
-    'agri-official-lgu-solano-portal': 'Opisial a Portal ti LGU Solano',
+    'agri-lgu-Muntinlupa-facebook': 'LGU Muntinlupa Facebook',
+    'agri-official-lgu-Muntinlupa-portal': 'Opisial a Portal ti LGU Muntinlupa',
     'agri-open-data-philippines': 'Open Data Philippines',
     'agri-ordinance-framework': 'Balangkas ti Ordinansa',
     'agri-privacy-policy': 'Pagannurotan ti Pagkapribado',
@@ -13709,7 +13303,7 @@ const translations = {
     'assessor-certification-of-the-total-land-area-based-on-tax':
       'Certification of the dagup daga lugar based on buwis dagiti rekord.',
     'assessor-certification-that-a-person-has-no-declared':
-      'Sertipikasion na ti isang tao ay walang idineklaang kukua iti Solano.',
+      'Sertipikasion na ti isang tao ay walang idineklaang kukua iti Muntinlupa.',
     'assessor-certifications': 'Dagiti Sertipikasion',
     'assessor-certified-true-copy-of-tax-declaration':
       'Nasertipikaran a Pudno a Kopia of Deklarasion ti Buwis',
@@ -13723,7 +13317,7 @@ const translations = {
     'assessor-duplicate-copy': 'Duplikadong Kopya',
     'assessor-education': 'Edukasion',
     'assessor-email': 'Email',
-    'assessor-empowering-the-people-of-solano-with-transparent':
+    'assessor-empowering-the-people-of-Muntinlupa-with-transparent':
       'Panangted ti bileg kadagiti umili ti Muntinlupa nga addaan ti transparente a panag-akses kadagiti serbisio, programa, ken pampubliko a pondo ti siudad.',
     'assessor-environment': 'Aglawlaw',
     'assessor-fee': 'Bayad',
@@ -13751,15 +13345,15 @@ const translations = {
     'assessor-land-reclassification': 'Reklasipikasyon ti Daga',
     'assessor-land-reclassification-changes-the-category-of':
       'Land reclassification dagiti pagbabago ti category ti daga para iti panagpatasa dagiti layunin, na affects ti naaangkop panagpatasa level iti tax rate.',
-    'assessor-lgu-solano-facebook': 'LGU Solano Facebook',
+    'assessor-lgu-Muntinlupa-facebook': 'LGU Muntinlupa Facebook',
     'assessor-lis-pendens': 'Lis Pendens',
     'assessor-list-of-all-properties-declared-under-a-persons':
       'Listahan ti lahat ti ari-ariang idineklara iti pangalan ti isang tao.',
     'assessor-location': 'Lokasion',
     'assessor-mortgage-annotation': 'Anotasyon ti Mortgage',
     'assessor-municipal-assessors-office': 'Opisina ti Assessor ti Munisipalidad',
-    'assessor-municipal-hall-ground-floor-solano-nueva-vizcaya':
-      'Munisipalidad, Umuna a Kadsaaran, Solano, Nueva Vizcaya 3708',
+    'assessor-city-office-location':
+      'Kontaken ti City Assessor tapno mapasingkedan ti agdama a lokasionna.',
     'assessor-new-owner': 'Baro a Akinkukua',
     'assessor-new-tax-declaration': 'Baro Deklarasion ti Buwis',
     'assessor-new-tax-declaration-is-issued-reflecting-the':
@@ -13771,7 +13365,7 @@ const translations = {
     'assessor-office-hours': 'Oras ti Opisina',
     'assessor-official-copy-of-tax-declaration-for-legal-and':
       'Opisyal na kopya ti tax declaration para iti legal ken layuning pangbangko.',
-    'assessor-official-lgu-solano-portal': 'Opisial a Portal ti LGU Solano',
+    'assessor-official-lgu-Muntinlupa-portal': 'Opisial a Portal ti LGU Muntinlupa',
     'assessor-open-data-philippines': 'Open Data Philippines',
     'assessor-ordinance-framework': 'Balangkas ti Ordinansa',
     'assessor-ownercreditor': 'Akinkukua/Pinagkakautangan',
@@ -13873,7 +13467,7 @@ const translations = {
     'bc-documents-needed-for-your-application':
       'Dagiti dokumento a kasapulan para iti aplikasionmo',
     'bc-education': 'Edukasion',
-    'bc-empowering-the-people-of-solano-with-transparent':
+    'bc-empowering-the-people-of-Muntinlupa-with-transparent':
       'Panangted ti bileg kadagiti umili ti Muntinlupa nga addaan ti transparente a panag-akses kadagiti serbisio, programa, ken pampubliko a pondo ti siudad.',
     'bc-environment': 'Aglawlaw',
     'bc-fee': 'Bayad',
@@ -13893,13 +13487,12 @@ const translations = {
     'bc-legislative': 'Lehislatura',
     'bc-local-civil-registrar': 'Lokal a Civil Registrar',
     'bc-marriage-certificate': 'Sertipiko ti Kasar',
-    'bc-municipal-hall-2nd-floor-solano-nueva-vizcaya':
-      'Munisipalidad, Maikadua a Kadsaaran Solano, Nueva Vizcaya',
+    'bc-city-office-location': 'Kontaken ti City Civil Registrar tapno mapasingkedan ti agdama a lokasionna.',
     'bc-need-help': 'Kasapulan Tulong?',
     'bc-office-information': 'Impormasion ti Opisina',
     'bc-official-certified-copy-of-birth-certificate':
-      'Opisial a sertipikado a kopia ti sertipiko ti pannakayanak a nakarehistro idiay Solano',
-    'bc-official-lgu-solano-portal': 'Opisial a Portal ti LGU Solano',
+      'Opisial a sertipikado a kopia ti sertipiko ti pannakayanak a nakarehistro idiay Muntinlupa',
+    'bc-official-lgu-Muntinlupa-portal': 'Opisial a Portal ti LGU Muntinlupa',
     'bc-open-data-philippines': 'Open Data Philippines',
     'bc-ordinance-framework': 'Balangkas ti Ordinansa',
     'bc-ownerrepresentative': 'Akinkukua/Pannakabagi',
@@ -13945,21 +13538,21 @@ const translations = {
     'biz-accessibility': 'Aksesibilidad',
     'biz-agriculture': 'Agrikultura',
     'biz-apply-for-a-new-business-permit-online':
-      'Mag-apply para iti isang baro a permiso iti negosio online',
+      'Kitaen ti gabay para iti baro a permit ti negosyo.',
     'biz-apply-for-tricycle-franchise-mtof-and-request':
       'Mag-apply para iti prangkisa ti traysikel (MTOF) ken humiling ti dagiti rekord',
     'biz-blgf-portal': 'BLGF Portal',
     'biz-bpls-office': 'Opisina ti BPLS',
     'biz-business': 'Negosio',
-    'biz-business-online-billing-payment': 'Online na Pagsingil ken Panagbayad ti Negosio',
-    'biz-business-permit-renewal': 'Permiso ti Negosio Renewal',
+    'biz-business-online-billing-payment': 'Impormasion ti Panag-bill ken Panagbayad ti Negosio',
+    'biz-business-permit-renewal': 'Impormasion ti Panag-renew ti Permit ti Negosio',
     'biz-business-permits-licensing': 'Dagiti Permit ken Lisensya ti Negosio',
     'biz-certificates': 'Dagiti Sertipiko',
     'biz-citizens-charter': "Citizen's Charter",
     'biz-cmci-dti-portal': 'CMCI DTI Portal',
     'biz-contribute-code-with-us': 'Ag-ambag ti code kadakami',
     'biz-education': 'Edukasion',
-    'biz-empowering-the-people-of-solano-with-transparent':
+    'biz-empowering-the-people-of-Muntinlupa-with-transparent':
       'Panangted ti bileg kadagiti umili ti Muntinlupa nga addaan ti transparente a panag-akses kadagiti serbisio, programa, ken pampubliko a pondo ti siudad.',
     'biz-environment': 'Aglawlaw',
     'biz-freedom-of-information': 'Wayawaya ti Impormasion',
@@ -13968,20 +13561,20 @@ const translations = {
       'Panagparti ti baboy, baka, kambing, ken kalabaw na may dagiti serbisio ti inspeksyon ti karne',
     'biz-home': 'Pagtaengan',
     'biz-infrastructure': 'Imprastraktura',
-    'biz-lgu-solano-facebook': 'LGU Solano Facebook',
+    'biz-lgu-Muntinlupa-facebook': 'LGU Muntinlupa Facebook',
     'biz-market-clearance-entrance-fees-vendor-services':
       'Market clearance, dagiti bayad iti pagpasok, dagiti serbisio iti vendor, ken panagipaay ti CTC',
-    'biz-new-business-application': 'Baro Business Aplikasion',
+    'biz-new-business-application': 'Baro nga Aplikasion para iti Permit ti Negosio',
     'biz-new-permits-renewals-mayors-clearance-and-other':
       "Baro a dagiti permiso, dagiti pag-renew, Mayor's clearance, iti iba pang permiso iti negosyos",
-    'biz-official-lgu-solano-portal': 'Opisial a Portal ti LGU Solano',
+    'biz-official-lgu-Muntinlupa-portal': 'Opisial a Portal ti LGU Muntinlupa',
     'biz-open-data-philippines': 'Open Data Philippines',
     'biz-ordinance-framework': 'Balangkas ti Ordinansa',
     'biz-privacy-policy': 'Pagannurotan ti Pagkapribado',
     'biz-public-safety': 'Kaligtasan Pampubliko',
     'biz-quick-links': 'Dagiti Napartak a Silpo',
     'biz-renew-your-existing-business-permit-online':
-      'I-renew ti iyong umiiral na permiso iti negosio online',
+      'Kitaen ti gabay para iti panag-renew ti permit ti negosyo.',
     'biz-resolution-framework': 'Balangkas ti Resolusion',
     'biz-resources': 'Dagiti Rekurso',
     'biz-sangguniang-bayan': 'Sangguniang Bayan',
@@ -13995,7 +13588,7 @@ const translations = {
     'biz-terms-of-use': 'Dagiti Kondision ti Panagusar',
     'biz-tricycle-franchising-records': 'Prangkisa ti Traysikel ken dagiti Rekord',
     'biz-view-and-pay-your-business-tax-bills-online':
-      'Kitaen ken bayaran ti iyong dagiti bill ti buwis iti negosio online',
+      'Kitaen ti impormasion maipapan iti panag-bill ken panagbayad ti buwis ti negosyo.',
     'biz-volunteer-with-us': 'Ag-volunteer kadakami',
     'bpl-10-minutes': '10 minuto',
     'bpl-12-days': '1-2 aldaw',
@@ -14017,7 +13610,7 @@ const translations = {
     'bpl-annual-renewal-of-existing-business-permit':
       'Taunang panagpabaro ti umiiral na permiso iti negosio (Enero 1-20 nang walang karagdagang singil)',
     'bpl-application-for-new-business-permit-for':
-      'Aplikasyon para iti baro a permiso iti negosio para iti dagiti negosyong nag-ooperate iti Solano',
+      'Aplikasyon para iti baro a permiso iti negosio para iti dagiti negosyong nag-ooperate iti Muntinlupa',
     'bpl-application-form-all-requirements': 'Aplikasion form, all dagiti kasapulan',
     'bpl-assessment-sheet': 'Panagpatasa sheet',
     'bpl-barangay-business-clearance': 'Business Clearance ti Barangay',
@@ -14038,7 +13631,7 @@ const translations = {
     'bpl-business-permit-services': 'Permiso ti Negosio Dagiti serbisio',
     'bpl-business-permits-licensing-section': 'Business Dagiti permiso & Licensing Seksion',
     'bpl-business-permits-licensing-section-municipal-hall':
-      'Business Dagiti permiso & Licensing Seksion, Munisipalidad, Solano, Nueva Vizcaya',
+      'Kontaken ti city office tapno mapasingkedan ti agdama a lokasion ti Business Permits & Licensing Section',
     'bpl-cda-registration-for-cooperatives': 'CDA Registration (para iti dagiti kooperatiba)',
     'bpl-certificates': 'Dagiti Sertipiko',
     'bpl-citizens-charter': "Citizen's Charter",
@@ -14059,7 +13652,7 @@ const translations = {
     'bpl-duly-accomplished-application-form': 'Wastong napunang Application Form',
     'bpl-duration': 'Kaatiddog',
     'bpl-education': 'Edukasion',
-    'bpl-empowering-the-people-of-solano-with-transparent':
+    'bpl-empowering-the-people-of-Muntinlupa-with-transparent':
       'Panangted ti bileg kadagiti umili ti Muntinlupa nga addaan ti transparente a panag-akses kadagiti serbisio, programa, ken pampubliko a pondo ti siudad.',
     'bpl-environment': 'Aglawlaw',
     'bpl-fee': 'Bayad',
@@ -14095,7 +13688,7 @@ const translations = {
       'Late renewal incurs 25% karagdagan a singir + 2% binulan interes',
     'bpl-legislative': 'Lehislatura',
     'bpl-letter-of-intent': 'Surat of Intent',
-    'bpl-lgu-solano-facebook': 'LGU Solano Facebook',
+    'bpl-lgu-Muntinlupa-facebook': 'LGU Muntinlupa Facebook',
     'bpl-licensing-officer': 'Opisyal ti Lisensia',
     'bpl-list-of-activitiesprogram': 'Listahan ti dagiti aktibidad/programa',
     'bpl-location': 'Lokasion',
@@ -14117,7 +13710,7 @@ const translations = {
     'bpl-office': 'Opisina',
     'bpl-office-information': 'Impormasion ti Opisina',
     'bpl-office-personnel': 'Dagiti Tauhan ti Opisina',
-    'bpl-official-lgu-solano-portal': 'Opisial a Portal ti LGU Solano',
+    'bpl-official-lgu-Muntinlupa-portal': 'Opisial a Portal ti LGU Muntinlupa',
     'bpl-official-receipt': 'Opisial a Resibo',
     'bpl-open-data-philippines': 'Open Data Philippines',
     'bpl-order-of-payment': 'Order of Panagbayad',
@@ -14213,19 +13806,16 @@ const translations = {
     'budget-contractor': 'Kontratista',
     'budget-contribute-code-with-us': 'Ag-ambag ti code kadakami',
     'budget-debt-service': 'Serbisio iti Utang',
-    'budget-dpwh-infrastructure-projects-in-solano':
-      'Dagiti Proyekto ti Imprastraktura ti DPWH iti Solano',
+    'budget-dpwh-infrastructure-projects-in-Muntinlupa':
+      'Dagiti Proyekto ti Imprastraktura ti DPWH iti Muntinlupa',
     'budget-dpwh-transparency-portal': 'DPWH Transparency Portal',
     'budget-economic-services': 'Dagiti Serbisio a Pang-ekonomiya',
     'budget-education': 'Edukasion',
-    'budget-egb-construction-corporation': 'EGB Construction Corporation',
-    'budget-empowering-the-people-of-solano-with-transparent':
+    'budget-empowering-the-people-of-Muntinlupa-with-transparent':
       'Panangted ti bileg kadagiti umili ti Muntinlupa nga addaan ti transparente a panag-akses kadagiti serbisio, programa, ken pampubliko a pondo ti siudad.',
     'budget-environment': 'Aglawlaw',
     'budget-expenditure-allocation': 'Alokasion ti Gastos',
     'budget-external-sources': 'Dagiti Akinruar a Pagtaudan',
-    'budget-fcds-package-5-magat-river-flood-control':
-      'FCDS Package 5 - Flood Control ti Ilog Magat',
     'budget-financial-report': 'Report Pinansyal',
     'budget-financial-transparency': 'Transparency iti Pananalapi',
     'budget-flood-control': 'Flood Control',
@@ -14236,8 +13826,6 @@ const translations = {
     'budget-health': 'Salun-at',
     'budget-health-education-welfare': 'Salun-ken, Edukasyon, Kagalingan',
     'budget-home': 'Pagtaengan',
-    'budget-implementing-agency-nueva-vizcaya-district':
-      'Implementing Agency: Nueva Vizcaya Distrito Opisina ti Inhinyero',
     'budget-income-sources': 'Dagiti Pagtaudan ti Kita',
     'budget-infrastructure': 'Imprastraktura',
     'budget-infrastructure-development': 'Imprastraktura ken Panagrang-ay',
@@ -14245,14 +13833,8 @@ const translations = {
     'budget-interest-charges': 'Interes & Dagiti singir',
     'budget-jan-mar': 'Ene - Mar',
     'budget-legislative': 'Lehislatura',
-    'budget-lgu-solano-facebook': 'LGU Solano Facebook',
+    'budget-lgu-Muntinlupa-facebook': 'LGU Muntinlupa Facebook',
     'budget-local-sources': 'Dagiti Lokal a Pagtaudan',
-    'budget-magat-river-bagahabag-section-solano-nueva-vizcaya':
-      'Ilog Magat, Seksyon ti Bagahabag, Solano, Nueva Vizcaya',
-    'budget-magat-river-bangar-section-1-brgy-bangar-solano':
-      'Magat River, Bangar Seksion 1, Brgy. Bangar, Solano, Nueva Vizcaya',
-    'budget-magat-river-bangar-section-2-brgy-bangar-solano':
-      'Magat River, Bangar Seksion 2, Brgy. Bangar, Solano, Nueva Vizcaya',
     'budget-major-development-projects-serving-the-community':
       'Dagiti kangrunaan a proyekto ti panagrang-ay na nagsisilbi iti komunidad',
     'budget-national-government-projects': 'Nailian Gobierno Projects',
@@ -14300,15 +13882,15 @@ const translations = {
     'cert-cmci-dti-portal': 'CMCI DTI Portal',
     'cert-contribute-code-with-us': 'Ag-ambag ti code kadakami',
     'cert-education': 'Edukasion',
-    'cert-empowering-the-people-of-solano-with-transparent':
+    'cert-empowering-the-people-of-Muntinlupa-with-transparent':
       'Panangted ti bileg kadagiti umili ti Muntinlupa nga addaan ti transparente a panag-akses kadagiti serbisio, programa, ken pampubliko a pondo ti siudad.',
     'cert-environment': 'Aglawlaw',
     'cert-freedom-of-information': 'Wayawaya ti Impormasion',
     'cert-health': 'Salun-at',
     'cert-home': 'Pagtaengan',
     'cert-infrastructure': 'Imprastraktura',
-    'cert-lgu-solano-facebook': 'LGU Solano Facebook',
-    'cert-official-lgu-solano-portal': 'Opisial a Portal ti LGU Solano',
+    'cert-lgu-Muntinlupa-facebook': 'LGU Muntinlupa Facebook',
+    'cert-official-lgu-Muntinlupa-portal': 'Opisial a Portal ti LGU Muntinlupa',
     'cert-open-data-philippines': 'Open Data Philippines',
     'cert-ordinance-framework': 'Balangkas ti Ordinansa',
     'cert-privacy-policy': 'Pagannurotan ti Pagkapribado',
@@ -14334,7 +13916,7 @@ const translations = {
     'contact-cmci-dti-portal': 'CMCI DTI Portal',
     'contact-contact': 'Kontaken',
     'contact-education': 'Edukasion',
-    'contact-empowering-the-people-of-solano-with-transparent':
+    'contact-empowering-the-people-of-Muntinlupa-with-transparent':
       'Panangted ti bileg kadagiti umili ti Muntinlupa nga addaan ti transparente a panag-akses kadagiti serbisio, programa, ken pampubliko a pondo ti siudad.',
     'contact-environment': 'Aglawlaw',
     'contact-for-medical-emergencies-and-hospital-inquiries':
@@ -14343,13 +13925,12 @@ const translations = {
     'contact-health': 'Salun-at',
     'contact-home': 'Pagtaengan',
     'contact-infrastructure': 'Imprastraktura',
-    'contact-lgu-solano-facebook': 'LGU Solano Facebook',
-    'contact-lgusolanonvgmailcom': 'lgusolanonv@gmail.com',
+    'contact-lgu-Muntinlupa-facebook': 'LGU Muntinlupa Facebook',
     'contact-lunch-break': 'Tanghalian',
     'contact-medical-emergency-hotlines': 'Dagiti Medikal na Emergency Hotline',
     'contact-mobile': 'Mobile',
     'contact-national-local-holidays': 'Nailian & Lokal Holidays',
-    'contact-official-lgu-solano-portal': 'Opisial a Portal ti LGU Solano',
+    'contact-official-lgu-Muntinlupa-portal': 'Opisial a Portal ti LGU Muntinlupa',
     'contact-open': 'Ilukatan',
     'contact-open-data-philippines': 'Open Data Philippines',
     'contact-ordinance-framework': 'Balangkas ti Ordinansa',
@@ -14426,7 +14007,7 @@ const translations = {
     'cr-document-owner': 'Akinkukua ti Dokumento',
     'cr-education': 'Edukasion',
     'cr-email': 'Email',
-    'cr-empowering-the-people-of-solano-with-transparent':
+    'cr-empowering-the-people-of-Muntinlupa-with-transparent':
       'Panangted ti bileg kadagiti umili ti Muntinlupa nga addaan ti transparente a panag-akses kadagiti serbisio, programa, ken pampubliko a pondo ti siudad.',
     'cr-environment': 'Aglawlaw',
     'cr-fee': 'Bayad',
@@ -14453,7 +14034,7 @@ const translations = {
     'cr-legitimation-annotation': 'Anotasyon ti Lehitimasyon',
     'cr-legitimation-is-the-legal-process-by-which':
       "Legitimation is the legal iproseso by which dagiti ubbing born out of wedlock are legitimized by the subsequent kasar of their dagiti nagannak. This is annotated on the child's pannakayanak sertipiko.",
-    'cr-lgu-solano-facebook': 'LGU Solano Facebook',
+    'cr-lgu-Muntinlupa-facebook': 'LGU Muntinlupa Facebook',
     'cr-license-waiting': 'Paghihintay ti Lisensia',
     'cr-local-civil-registrar': 'Lokal a Civil Registrar',
     'cr-location': 'Lokasion',
@@ -14463,10 +14044,10 @@ const translations = {
     'cr-marriage-license-requirements': 'Lisensia ti Panagkasar Dagiti kasapulan',
     'cr-municipal-civil-registrar': 'Civil Registrar ti Munisipalidad',
     'cr-municipal-civil-registrars-office': 'Munisipal Opisina ti Sibil a Rehistrador',
-    'cr-municipal-hall-ground-floor-solano-nueva-vizcaya':
-      'Munisipalidad, Umuna a Kadsaaran, Solano, Nueva Vizcaya 3708',
+    'cr-city-office-location':
+      'Kontaken ti City Civil Registrar tapno mapasingkedan ti agdama a lokasionna.',
     'cr-office-hours': 'Oras ti Opisina',
-    'cr-official-lgu-solano-portal': 'Opisial a Portal ti LGU Solano',
+    'cr-official-lgu-Muntinlupa-portal': 'Opisial a Portal ti LGU Muntinlupa',
     'cr-open-data-philippines': 'Open Data Philippines',
     'cr-ordinance-framework': 'Balangkas ti Ordinansa',
     'cr-ownerrelative': 'Akinkukua/Kabagian',
@@ -14498,9 +14079,9 @@ const translations = {
     'cr-the-certificate-of-no-marriage-record-cenomar-is':
       'Ti Certificate ti No Marriage Record (CENOMAR) ay isang sertipikasion issued iti pamamagitan ti PSA stating na isang person ay maaari walang record ti marriage. Itong ay commonly kasapulan para iti lisensia iti kasal dagiti aplikasyon, visa dagiti aplikasyon, iti iba pang legal dagiti layunin.',
     'cr-the-local-civil-registrar-handles-the':
-      'Ti Local Civil Registrar handles ti panagparehistro ti deaths iti panagipaay ti dagiti sertipikadong tunay na kopya ti sertipiko ti pagkamatays para iti deaths na occurred iti Solano.',
+      'Ti Local Civil Registrar handles ti panagparehistro ti deaths iti panagipaay ti dagiti sertipikadong tunay na kopya ti sertipiko ti pagkamatays para iti deaths na occurred iti Muntinlupa.',
     'cr-the-local-civil-registrar-issues-certified-true':
-      'Ti Local Civil Registrar dagiti isyu dagiti sertipikadong tunay na kopya ti sertipiko ti kapanganakans para iti dagiti indibidwal whose births ay registered iti Solano, Nueva Vizcaya.',
+      'Ti Local Civil Registrar dagiti isyu dagiti sertipikadong tunay na kopya ti sertipiko ti kapanganakans para iti dagiti indibidwal whose births ay registered iti Muntinlupa, Metro Manila.',
     'cr-the-local-civil-registrar-processes-petitions-for':
       'The Lokal Sibil a Rehistrador processes petitions for correction of clerical or typographical errors and baliwan of umuna name in civil registry dagiti dokumento under RA 9048 and RA 10172.',
     'cr-the-local-civil-registrar-provides':
@@ -14566,7 +14147,7 @@ const translations = {
     'dc-education': 'Edukasion',
     'dc-embalmer': 'Embalmer',
     'dc-embalmers-certification': 'Sertipikasion ti Embalmer',
-    'dc-empowering-the-people-of-solano-with-transparent':
+    'dc-empowering-the-people-of-Muntinlupa-with-transparent':
       'Panangted ti bileg kadagiti umili ti Muntinlupa nga addaan ti transparente a panag-akses kadagiti serbisio, programa, ken pampubliko a pondo ti siudad.',
     'dc-environment': 'Aglawlaw',
     'dc-fee': 'Bayad',
@@ -14596,17 +14177,16 @@ const translations = {
       'Is there a bayad for ipapatay sertipiko registration?',
     'dc-juvy': 'Juvy',
     'dc-legislative': 'Lehislatura',
-    'dc-lgu-solano-facebook': 'LGU Solano Facebook',
+    'dc-lgu-Muntinlupa-facebook': 'LGU Muntinlupa Facebook',
     'dc-local-civil-registrar': 'Lokal a Civil Registrar',
     'dc-marriage-certificate': 'Sertipiko ti Kasar',
     'dc-mho-certification-of-cause-of-death': 'Sertipikasion ti MHO ti Sanhi ti Pagkamatay',
     'dc-mto-collection-officer': 'MTO Collection Opisyal',
-    'dc-municipal-hall-2nd-floor-solano-nueva-vizcaya':
-      'Munisipalidad, Maikadua a Kadsaaran Solano, Nueva Vizcaya',
+    'dc-city-office-location': 'Kontaken ti City Civil Registrar tapno mapasingkedan ti agdama a lokasionna.',
     'dc-municipal-health-officer': 'Opisial ti Salun-at ti Munisipalidad',
     'dc-need-help': 'Kasapulan Tulong?',
     'dc-office-information': 'Impormasion ti Opisina',
-    'dc-official-lgu-solano-portal': 'Opisial a Portal ti LGU Solano',
+    'dc-official-lgu-Muntinlupa-portal': 'Opisial a Portal ti LGU Muntinlupa',
     'dc-oliver': 'Oliver',
     'dc-oliver-receiving-officer': 'Oliver - Receiving Opisyal',
     'dc-open-data-philippines': 'Open Data Philippines',
@@ -14656,56 +14236,30 @@ const translations = {
     'dc-who-can-apply': 'Sino ti Mabalin nga Ag-apply',
     'dc-who-can-be-the-informant-for-death-registration':
       'Who maaaring be ti informant para iti death panagparehistro?',
-    'edu-22-schools': '22 nga eskuelaan',
-    'edu-6-schools': '6 nga eskuelaan',
-    'edu-7-institutions': '7 nga institusion',
     'edu-accessibility': 'Aksesibilidad',
-    'edu-aggub-elementary-school': 'Aggub Elementary School',
     'edu-agriculture': 'Agrikultura',
-    'edu-aldersgate-college': 'Aldersgate College',
-    'edu-aldersgate-college-elementary-department': 'Aldersgate College - Elementary Departamento',
-    'edu-aldersgate-college-high-school-department':
-      'Aldersgate College - Nangato School Departamento',
-    'edu-bagahabag-elementary-school': 'Bagahabag Elementary School',
-    'edu-bangaan-elementary-school': 'Bangaan Elementary School',
-    'edu-bangar-elementary-school': 'Bangar Elementary School',
-    'edu-bascaran-central-school': 'Bascaran Central School',
-    'edu-bascaran-national-high-school': 'Bascaran Nailian Nangato School',
     'edu-blgf-portal': 'BLGF Portal',
     'edu-business': 'Negosio',
-    'edu-cagayan-valley-maritime-studies': 'Cagayan Valley Maritime Studies',
-    'edu-calaoagan-elementary-school': 'Calaoagan Elementary School',
     'edu-certificates': 'Dagiti Sertipiko',
     'edu-citizens-charter': "Citizen's Charter",
-    'edu-concepcion-elementary-school': 'Concepcion Elementary School',
     'edu-contribute-code-with-us': 'Ag-ambag ti code kadakami',
-    'edu-curifang-elementary-school': 'Curifang Elementary School',
-    'edu-dadap-elementary-school': 'Dadap Elementary School',
-    'edu-dalton-high-school': 'Dalton Nangato School',
     'edu-education': 'Edukasion',
     'edu-empowering-filipino-students-and-educators-with':
       'Empowering Filipino students and educators with 1,000+ libre and open-source productivity tools across 18 categories — from dokumento processing and design to AI and development.',
-    'edu-empowering-the-people-of-solano-with-transparent':
+    'edu-empowering-the-people-of-Muntinlupa-with-transparent':
       'Panangted ti bileg kadagiti umili ti Muntinlupa nga addaan ti transparente a panag-akses kadagiti serbisio, programa, ken pampubliko a pondo ti siudad.',
     'edu-environment': 'Aglawlaw',
     'edu-free-tools-for-education': 'Libreng Tools para iti Education',
     'edu-freedom-of-information': 'Wayawaya ti Impormasion',
-    'edu-fuzeko-polytechnic-college': 'Fuzeko Polytechnic College',
     'edu-health': 'Salun-at',
     'edu-higher-education': 'Mas Mataas na Edukasyon',
     'edu-higher-educational-institutions': 'Dagiti Institusyon ti Mas Mataas na Edukasyon',
     'edu-home': 'Pagtaengan',
     'edu-infrastructure': 'Imprastraktura',
-    'edu-isaiah-christian-academy-of-solano-inc': 'Isaiah Christian Academy of Solano, Inc.',
-    'edu-kids-workshop-learning-center': 'Kids Workshop Learning Center',
-    'edu-lactawan-elementary-school': 'Lactawan Elementary School',
-    'edu-lgu-solano-facebook': 'LGU Solano Facebook',
-    'edu-nio-jesus-de-praga-learning': 'Niño Jesus de Praga Learning',
-    'edu-nueva-vizcaya-caregiver-academy': 'Nueva Vizcaya Caregiver Academy',
-    'edu-official-lgu-solano-portal': 'Opisial a Portal ti LGU Solano',
+    'edu-lgu-Muntinlupa-facebook': 'LGU Muntinlupa Facebook',
+    'edu-official-lgu-Muntinlupa-portal': 'Opisial a Portal ti LGU Muntinlupa',
     'edu-open-data-philippines': 'Open Data Philippines',
     'edu-ordinance-framework': 'Balangkas ti Ordinansa',
-    'edu-pilar-d-galima-elementary-school': 'Pilar D. Galima Elementary School',
     'edu-primary-and-elementary-schools': 'Dagiti Primarya ken Elementaryang Eskuelaan',
     'edu-primary-elementary': 'Primarya ken Elementarya',
     'edu-privacy-policy': 'Pagannurotan ti Pagkapribado',
@@ -14713,31 +14267,15 @@ const translations = {
     'edu-quick-links': 'Dagiti Napartak a Silpo',
     'edu-resolution-framework': 'Balangkas ti Resolusion',
     'edu-resources': 'Dagiti Rekurso',
-    'edu-saint-louis-college-of-solano-inc': 'Saint Louis College of Solano Inc',
-    'edu-saint-louis-school-elementary-department': 'Saint Louis School - Elementary Departamento',
-    'edu-saint-louis-school-high-school-department':
-      'Saint Louis School - Nangato School Departamento',
-    'edu-san-juan-elementary-school': 'San Juan Elementary School',
-    'edu-san-luis-elementary-school': 'San Luis Elementary School',
     'edu-sangguniang-bayan': 'Sangguniang Bayan',
     'edu-secondary-schools': 'Dagiti Sekundaryang Eskuelaan',
     'edu-services': 'Dagiti Serbisio',
     'edu-sitemap': 'Mapa ti Site',
     'edu-skip-to-main-content': 'Lumaktaw iti kangrunaan a linaon',
     'edu-social-services': 'Serbisio Sosyal',
-    'edu-solano-east-central-school': 'Solano East Central School',
-    'edu-solano-high-school': 'Solano Nangato School',
-    'edu-solano-institute-of-technology': 'Solano Institute of Technology',
-    'edu-solano-north-elementary-school': 'Solano North Elementary School',
-    'edu-solano-south-central-school': 'Solano South Central School',
-    'edu-solano-west-elementary-school': 'Solano West Elementary School',
     'edu-tax-payments': 'Panagbayad ti Buwis',
     'edu-terms-of-use': 'Dagiti Kondision ti Panagusar',
-    'edu-tucal-elementary-school': 'Tucal Elementary School',
-    'edu-uddiawan-elementary-school': 'Uddiawan Elementary School',
-    'edu-uddiawan-national-high-school': 'Uddiawan Nailian Nangato School',
     'edu-volunteer-with-us': 'Ag-volunteer kadakami',
-    'edu-wacal-elementary-school': 'Wacal Elementary School',
     'eng-1-year': '1 Tawen',
     'eng-2-sets-bill-of-materials': '2 set - Bill of Materials',
     'eng-2-sets-boringsoil-test-report-3-storey': '2 sets - Boring/Soil Test Report (3 storey+)',
@@ -14776,7 +14314,7 @@ const translations = {
     'eng-electrical-plans': 'Dagiti Plano ti Elektrikal',
     'eng-electronics-permit': 'Permiso iti Elektroniks',
     'eng-electronics-plans': 'Dagiti Plano ti Elektroniks',
-    'eng-empowering-the-people-of-solano-with-transparent':
+    'eng-empowering-the-people-of-Muntinlupa-with-transparent':
       'Panangted ti bileg kadagiti umili ti Muntinlupa nga addaan ti transparente a panag-akses kadagiti serbisio, programa, ken pampubliko a pondo ti siudad.',
     'eng-engineer-iii': 'Inhinyero III',
     'eng-engineering': 'Inhinyeria',
@@ -14803,17 +14341,17 @@ const translations = {
       'Key tauhan handling pasdek permiso dagiti aplikasion',
     'eng-latest-real-property-tax-receipt': 'Latest Buwis ti Kukua Resibo',
     'eng-legislative': 'Lehislatura',
-    'eng-lgu-solano-facebook': 'LGU Solano Facebook',
+    'eng-lgu-Muntinlupa-facebook': 'LGU Muntinlupa Facebook',
     'eng-mechanical-permit': 'Permit ti Mekanikal',
     'eng-mun-engineering': 'Mun. Inhinyeria',
     'eng-municipal-engineer': 'Inhinyero ti Munisipalidad',
     'eng-municipal-engineering-office': 'Opisina ti Inhinyero ti Munisipalidad',
-    'eng-municipal-engineering-office-municipal-hall-solano':
-      'Munisipal Opisina ti Inhinyero, Munisipalidad, Solano',
+    'eng-municipal-engineering-office-municipal-hall-Muntinlupa':
+      'Munisipal Opisina ti Inhinyero, Munisipalidad, Muntinlupa',
     'eng-office': 'Opisina',
     'eng-office-information': 'Impormasion ti Opisina',
     'eng-office-personnel': 'Dagiti Tauhan ti Opisina',
-    'eng-official-lgu-solano-portal': 'Opisial a Portal ti LGU Solano',
+    'eng-official-lgu-Muntinlupa-portal': 'Opisial a Portal ti LGU Muntinlupa',
     'eng-open-data-philippines': 'Open Data Philippines',
     'eng-ordinance-framework': 'Balangkas ti Ordinansa',
     'eng-pay-building-permit-fee-and-other-fees-at-the':
@@ -14879,7 +14417,7 @@ const translations = {
       'Pagbuo ti komprehensibong plano ti sistema upang mapagaan ti pagbaha ken protektahan ti kalusugan ti publiko.',
     'env-drainage-sewerage-management': 'Panagtaripato ti Drainage ken Alkantarilya',
     'env-education': 'Edukasion',
-    'env-empowering-the-people-of-solano-with-transparent':
+    'env-empowering-the-people-of-Muntinlupa-with-transparent':
       'Panangted ti bileg kadagiti umili ti Muntinlupa nga addaan ti transparente a panag-akses kadagiti serbisio, programa, ken pampubliko a pondo ti siudad.',
     'env-environment': 'Aglawlaw',
     'env-fee': 'Bayad:',
@@ -14895,8 +14433,8 @@ const translations = {
     'env-infrastructure': 'Imprastraktura',
     'env-key-environmental-services-and-initiatives':
       'Dagiti Kangrunaan a Serbisio ken Inisyatiba iti Aglawlaw',
-    'env-lgu-solano-facebook': 'LGU Solano Facebook',
-    'env-official-lgu-solano-portal': 'Opisial a Portal ti LGU Solano',
+    'env-lgu-Muntinlupa-facebook': 'LGU Muntinlupa Facebook',
+    'env-official-lgu-Muntinlupa-portal': 'Opisial a Portal ti LGU Muntinlupa',
     'env-open-data-philippines': 'Open Data Philippines',
     'env-ordinance-framework': 'Balangkas ti Ordinansa',
     'env-privacy-policy': 'Pagannurotan ti Pagkapribado',
@@ -14931,15 +14469,15 @@ const translations = {
     'err403-contact-us': 'Kontaken Dakami',
     'err403-contribute-code-with-us': 'Ag-ambag ti code kadakami',
     'err403-education': 'Edukasion',
-    'err403-empowering-the-people-of-solano-with-transparent':
+    'err403-empowering-the-people-of-Muntinlupa-with-transparent':
       'Panangted ti bileg kadagiti umili ti Muntinlupa nga addaan ti transparente a panag-akses kadagiti serbisio, programa, ken pampubliko a pondo ti siudad.',
     'err403-environment': 'Aglawlaw',
     'err403-freedom-of-information': 'Wayawaya ti Impormasion',
     'err403-go-to-homepage': 'Mapan iti Homepage',
     'err403-health': 'Salun-at',
     'err403-infrastructure': 'Imprastraktura',
-    'err403-lgu-solano-facebook': 'LGU Solano Facebook',
-    'err403-official-lgu-solano-portal': 'Opisial a Portal ti LGU Solano',
+    'err403-lgu-Muntinlupa-facebook': 'LGU Muntinlupa Facebook',
+    'err403-official-lgu-Muntinlupa-portal': 'Opisial a Portal ti LGU Muntinlupa',
     'err403-open-data-philippines': 'Open Data Philippines',
     'err403-ordinance-framework': 'Balangkas ti Ordinansa',
     'err403-privacy-policy': 'Pagannurotan ti Pagkapribado',
@@ -14966,15 +14504,15 @@ const translations = {
     'err404-cmci-dti-portal': 'CMCI DTI Portal',
     'err404-contribute-code-with-us': 'Ag-ambag ti code kadakami',
     'err404-education': 'Edukasion',
-    'err404-empowering-the-people-of-solano-with-transparent':
+    'err404-empowering-the-people-of-Muntinlupa-with-transparent':
       'Panangted ti bileg kadagiti umili ti Muntinlupa nga addaan ti transparente a panag-akses kadagiti serbisio, programa, ken pampubliko a pondo ti siudad.',
     'err404-environment': 'Aglawlaw',
     'err404-freedom-of-information': 'Wayawaya ti Impormasion',
     'err404-go-to-homepage': 'Mapan iti Homepage',
     'err404-health': 'Salun-at',
     'err404-infrastructure': 'Imprastraktura',
-    'err404-lgu-solano-facebook': 'LGU Solano Facebook',
-    'err404-official-lgu-solano-portal': 'Opisial a Portal ti LGU Solano',
+    'err404-lgu-Muntinlupa-facebook': 'LGU Muntinlupa Facebook',
+    'err404-official-lgu-Muntinlupa-portal': 'Opisial a Portal ti LGU Muntinlupa',
     'err404-open-data-philippines': 'Open Data Philippines',
     'err404-ordinance-framework': 'Balangkas ti Ordinansa',
     'err404-page-not-found': 'Saan a Nasarakan ti Panid',
@@ -15002,15 +14540,15 @@ const translations = {
     'err500-contact-us': 'Kontaken Dakami',
     'err500-contribute-code-with-us': 'Ag-ambag ti code kadakami',
     'err500-education': 'Edukasion',
-    'err500-empowering-the-people-of-solano-with-transparent':
+    'err500-empowering-the-people-of-Muntinlupa-with-transparent':
       'Panangted ti bileg kadagiti umili ti Muntinlupa nga addaan ti transparente a panag-akses kadagiti serbisio, programa, ken pampubliko a pondo ti siudad.',
     'err500-environment': 'Aglawlaw',
     'err500-freedom-of-information': 'Wayawaya ti Impormasion',
     'err500-go-to-homepage': 'Mapan iti Homepage',
     'err500-health': 'Salun-at',
     'err500-infrastructure': 'Imprastraktura',
-    'err500-lgu-solano-facebook': 'LGU Solano Facebook',
-    'err500-official-lgu-solano-portal': 'Opisial a Portal ti LGU Solano',
+    'err500-lgu-Muntinlupa-facebook': 'LGU Muntinlupa Facebook',
+    'err500-official-lgu-Muntinlupa-portal': 'Opisial a Portal ti LGU Muntinlupa',
     'err500-open-data-philippines': 'Open Data Philippines',
     'err500-ordinance-framework': 'Balangkas ti Ordinansa',
     'err500-privacy-policy': 'Pagannurotan ti Pagkapribado',
@@ -15060,11 +14598,11 @@ const translations = {
     'faq-dti-registration-for-sole-proprietorship-or-sec':
       'DTI Registration (para iti sole proprietorship) wenno SEC Registration (para iti korporasyon)',
     'faq-education': 'Edukasion',
-    'faq-empowering-the-people-of-solano-with-transparent':
+    'faq-empowering-the-people-of-Muntinlupa-with-transparent':
       'Panangted ti bileg kadagiti umili ti Muntinlupa nga addaan ti transparente a panag-akses kadagiti serbisio, programa, ken pampubliko a pondo ti siudad.',
     'faq-environment': 'Aglawlaw',
-    'faq-for-birth-certificates-registered-in-solano-it':
-      'For pannakayanak dagiti sertipiko registered in Solano, it typically takes 15-30 minutes while you aguray, provided the rekord is readily magun-od.',
+    'faq-for-birth-certificates-registered-in-Muntinlupa-it':
+      'For pannakayanak dagiti sertipiko registered in Muntinlupa, it typically takes 15-30 minutes while you aguray, provided the rekord is readily magun-od.',
     'faq-freedom-of-information': 'Wayawaya ti Impormasion',
     'faq-go-to-the-municipal-social-welfare-and':
       'Mapan iti Opisina ti Kagalingang Panlipunan ken Pagpapaunlad ti Munisipalidad (MSWDO) na may dalang:',
@@ -15082,9 +14620,9 @@ const translations = {
       'I found a broken link or error on this website. How do I report it?',
     'faq-infrastructure': 'Imprastraktura',
     'faq-is-this-website-mobilefriendly': 'Ti website ba na ito ay mobile-friendly?',
-    'faq-lgu-solano-facebook': 'LGU Solano Facebook',
+    'faq-lgu-Muntinlupa-facebook': 'LGU Muntinlupa Facebook',
     'faq-location-sketchmap': 'Sketch/Mapa ti Lokasion',
-    'faq-official-lgu-solano-portal': 'Opisial a Portal ti LGU Solano',
+    'faq-official-lgu-Muntinlupa-portal': 'Opisial a Portal ti LGU Muntinlupa',
     'faq-open-data-philippines': 'Open Data Philippines',
     'faq-openjs-foundation': 'OpenJS Foundation',
     'faq-ordinance-framework': 'Balangkas ti Ordinansa',
@@ -15092,8 +14630,8 @@ const translations = {
     'faq-privacy-policy': 'Pagannurotan ti Pagkapribado',
     'faq-public-safety': 'Kaligtasan Pampubliko',
     'faq-quick-links': 'Dagiti Napartak a Silpo',
-    'faq-ramon-has-made-the-solano-project-open-source':
-      'Ramon has made the Solano Project nakalukat source under MIT | CC BY 4.0 to empower community-driven development, and contributions are warmly welcomed from everyone; whether you are a developer, datos researcher, designer, content writer, translator, or a concerned umili of Solano, your participation helps shape the project for all.',
+    'faq-ramon-has-made-the-Muntinlupa-project-open-source':
+      'Ramon has made the Muntinlupa Project nakalukat source under MIT | CC BY 4.0 to empower community-driven development, and contributions are warmly welcomed from everyone; whether you are a developer, datos researcher, designer, content writer, translator, or a concerned umili of Muntinlupa, your participation helps shape the project for all.',
     'faq-ramon-logan-jr': 'Ramon Logan Jr.',
     'faq-resolution-framework': 'Balangkas ti Resolusion',
     'faq-resources': 'Dagiti Rekurso',
@@ -15118,30 +14656,25 @@ const translations = {
       'What ay ti office hours ti ti Munisipalidad?',
     'faq-what-benefits-do-senior-citizens-receive':
       'What benefits do nataengan dagiti umili awaten?',
-    'faq-what-do-i-need-to-start-a-new-business-in-solano':
-      'What do I kasapulan to rugian a baro business in Solano?',
+    'faq-what-do-i-need-to-start-a-new-business-in-Muntinlupa':
+      'What do I kasapulan to rugian a baro business in Muntinlupa?',
     'faq-what-is-the-difference-between-psa-and-local':
       'What ay ti difference iti pagitan ti PSA iti lokal na civil registrar dagiti sertipiko?',
     'faq-what-payment-methods-are-accepted': 'What panagbayad dagiti pamamaraan ay accepted?',
     'faq-when-should-i-renew-my-business-permit':
       'Kailan ko dapat i-renew ti aking permiso iti negosio?',
-    'faq-who-developed-better-solano': 'Sino ti gumawa ti Better Muntinlupa?',
-    'faq-yes-better-solano-is-fully-responsive-and':
+    'faq-who-developed-better-Muntinlupa': 'Sino ti gumawa ti Better Muntinlupa?',
+    'faq-yes-better-Muntinlupa-is-fully-responsive-and':
       'Yes! Better Muntinlupa is fully responsibo and optimized for mobile phones, tablets, and desktop computers.',
     'faq-yes-but-they-must-bring': 'Yes, ngunit sila dapat bring:',
     'gov-accessibility': 'Aksesibilidad',
-    'gov-aggub': 'Aggub',
     'gov-agricultural-loans-crop-insurance-fertilizer':
       'Dagiti pautang iti agrikultura, seguro iti pananim, tulong iti pataba',
     'gov-agriculture': 'Agrikultura',
     'gov-agriculture-aquaculture-food-security-overseas':
       'Agrikultura, Akwakultura ken Seguridad iti Makan, Dagiti Usapin ti dagiti Overseas Filipino Worker',
-    'gov-bagahabag': 'Bagahabag',
-    'gov-bangaan': 'Bangaan',
-    'gov-bangar': 'Bangar',
     'gov-barangay-affairs-tourism': 'Dagiti Usapin ti Barangay, Turismo',
     'gov-barangay-units': 'Dagiti Yunit ti Barangay',
-    'gov-bascaran': 'Bascaran',
     'gov-birth-death-marriage-certificates-cenomar':
       'Pannakayanak, ipapatay, kasar dagiti sertipiko, CENOMAR',
     'gov-blgf-portal': 'BLGF Portal',
@@ -15156,13 +14689,9 @@ const translations = {
     'gov-certificates': 'Dagiti Sertipiko',
     'gov-citizens-charter': "Citizen's Charter",
     'gov-cmci-dti-portal': 'CMCI DTI Portal',
-    'gov-communal': 'Communal',
-    'gov-concepcion': 'Concepcion',
     'gov-contribute-code-with-us': 'Ag-ambag ti code kadakami',
     'gov-cooperative-development-senior-citizens-and':
       'Cooperative Development, Nataengan Dagiti umili and Disability Affairs',
-    'gov-curifang': 'Curifang',
-    'gov-dadap': 'Dadap',
     'gov-development-planning-project-monitoring-zoning':
       'Panagplano ti panagrang-ay, panagmonitor iti proyekto, zoning',
     'gov-disaster-preparedness-emergency-response-risk':
@@ -15170,7 +14699,7 @@ const translations = {
     'gov-education': 'Edukasion',
     'gov-education-science-technology-transportation':
       'Edukasyon, Agham ken Teknolohiya, Transportasyon, Komersyo, Kalakalan ken Industriya',
-    'gov-empowering-the-people-of-solano-with-transparent':
+    'gov-empowering-the-people-of-Muntinlupa-with-transparent':
       'Panangted ti bileg kadagiti umili ti Muntinlupa nga addaan ti transparente a panag-akses kadagiti serbisio, programa, ken pampubliko a pondo ti siudad.',
     'gov-entrepreneurship-economic-development-historical':
       'Entrepreneurship & Economic Development, Historical Dagiti rekord & Preservation of Heritage, Culture and the Arts',
@@ -15188,51 +14717,15 @@ const translations = {
     'gov-hog-cattle-goat-carabao-slaughter-with-meat':
       'Hog, cattle, goat, carabao slaughter with meat inspeksion',
     'gov-home': 'Pagtaengan',
-    'gov-hon-atty-jerome-g-marcos': 'Hon. Atty. Jerome G. Marcos',
-    'gov-hon-eduardo-d-tiongson': 'Hon. Eduardo D. Tiongson',
-    'gov-hon-edwin-clifford-f-tito-od': 'Hon. Edwin Clifford F. Tito, O.D.',
-    'gov-hon-ipmr-leon-g-dumani': 'Hon. IPMR Leon G. Dumani',
-    'gov-hon-isaac-r-divina': 'Hon. Isaac R. Divina',
-    'gov-hon-joseph-t-alindada': 'Hon. Joseph T. Alindada',
-    'gov-hon-luisito-l-lannu': 'Hon. Luisito L. Lannu',
-    'gov-hon-melchor-e-marzo': 'Hon. Melchor E. Marzo',
-    'gov-hon-michael-dl-tiongson-lpt': 'Hon. Michael Dl. Tiongson, LPT',
-    'gov-hon-philip-a-dacayo': 'Hon. Philip A. Dacayo',
-    'gov-hon-roland-m-carub-jd': 'Hon. Roland M. Carub, J.D.',
-    'gov-hon-thomas-dave-c-santos': 'Hon. Thomas Dave C. Santos',
-    'gov-hon-walter-d-savedra-sr': 'Hon. Walter D. Savedra, Sr.',
     'gov-human-resource-management': 'Panagtaripato ti Tao a Rekurso',
     'gov-indigenous-people-affairs': 'Indigenous Dagiti tao Affairs',
     'gov-infrastructure': 'Imprastraktura',
     'gov-job-placement-employment-assistance-career':
       'Paglalagay iti trabaho, tulong iti trabaho, gabay iti karera',
-    'gov-kap-angelito-de-leon-tiongson': 'Kap. Angelito De Leon Tiongson',
-    'gov-kap-danilo-estacio-domingo': 'Kap. Danilo Estacio Domingo',
-    'gov-kap-dexter-yaranon-ruiz': 'Kap. Dexter Yaranon Ruiz',
-    'gov-kap-eduardo-abu-bangad-sr': 'Kap. Eduardo Abu Bangad Sr.',
-    'gov-kap-edwin-bungan-dacayo': 'Kap. Edwin Bungan Dacayo',
-    'gov-kap-elmer-zabala-lingayu': 'Kap. Elmer Zabala Lingayu',
-    'gov-kap-ernesto-domingo-ramones-jr': 'Kap. Ernesto Domingo Ramones Jr.',
-    'gov-kap-federico-vienes-asuncion': 'Kap. Federico Vienes Asuncion',
-    'gov-kap-felix-caramat-tolentino-sr': 'Kap. Felix Caramat Tolentino Sr.',
-    'gov-kap-isidro-baliza-prado': 'Kap. Isidro Baliza Prado',
-    'gov-kap-janette-quines-cristobal': 'Kap. Janette Quines Cristobal',
-    'gov-kap-jenny-gomez-marquez': 'Kap. Jenny Gomez Marquez',
-    'gov-kap-jessie-concepcion-delos-reyes': 'Kap. Jessie Concepcion Delos Reyes',
-    'gov-kap-luis-amangi-castillo': 'Kap. Luis Amangi Castillo',
-    'gov-kap-melchor-esmedina-marzo': 'Kap. Melchor Esmedina Marzo',
-    'gov-kap-nardo-eustaquio-ramel': 'Kap. Nardo Eustaquio Ramel',
-    'gov-kap-renaldo-ginom-nabadaw': 'Kap. Renaldo Gin-Om Nabad-Aw',
-    'gov-kap-roberto-ojastro-dizon': 'Kap. Roberto Ojastro Dizon',
-    'gov-kap-rudy-eugenio-paranis': 'Kap. Rudy Eugenio Paranis',
-    'gov-kap-sherwin-elevazo-vicente': 'Kap. Sherwin Elevazo Vicente',
-    'gov-kap-victor-tubay-adalin-jr': 'Kap. Victor Tubay Adalin Jr.',
-    'gov-kap-walter-dalupang-savedra-sr': 'Kap. Walter Dalupang Savedra Sr.',
-    'gov-lactawan': 'Lactawan',
     'gov-legal-good-governance-justice-human-rights':
       'Legal, Mabuting Panagtaripato, Hustisya, Karapatang Pantao, Panagtaripato ti Aglawlaw',
     'gov-legislative-branch': 'Sanga ti Lehislatura',
-    'gov-lgu-solano-facebook': 'LGU Solano Facebook',
+    'gov-lgu-Muntinlupa-facebook': 'LGU Muntinlupa Facebook',
     'gov-liga-ng-mga-barangay-president': 'Liga ti dagiti Barangay President',
     'gov-market-clearance-entrance-fees-vendor-services-ctc':
       'Market clearance, dagiti bayad iti pagpasok, dagiti serbisio iti vendor, CTC',
@@ -15244,18 +14737,14 @@ const translations = {
     'gov-municipal-engineering-office': 'Opisina ti Inhinyero ti Munisipalidad',
     'gov-municipal-general-services-office': 'Opisina ti Sapasap a Serbisio ti Munisipalidad',
     'gov-municipal-health-office': 'Munisipal Opisina ti Salun-at',
-    'gov-municipal-offices': 'Dagiti Opisina ti Munisipalidad',
+    'gov-municipal-offices': 'Dagiti Serbisio ti Siudad',
     'gov-municipal-planning-development': 'Munisipal Planning & Development',
     'gov-municipal-treasurers-office': 'Opisina ti Tesorero ti Munisipalidad',
-    'gov-official-lgu-solano-portal': 'Opisial a Portal ti LGU Solano',
+    'gov-official-lgu-Muntinlupa-portal': 'Opisial a Portal ti LGU Muntinlupa',
     'gov-open-data-philippines': 'Open Data Philippines',
     'gov-ordinance-framework': 'Balangkas ti Ordinansa',
-    'gov-osmea': 'Osmeña',
     'gov-personnel-services-recruitment-employee-records':
       'Tauhan dagiti serbisio, recruitment, empleado dagiti rekord',
-    'gov-pilar-d-galima': 'Pilar D. Galima',
-    'gov-poblacion-north': 'Poblacion North',
-    'gov-poblacion-south': 'Poblacion South',
     'gov-privacy-policy': 'Pagannurotan ti Pagkapribado',
     'gov-property-assessment-tax-declarations-land-records':
       'Kukua panagpatasa, buwis declarations, daga dagiti rekord',
@@ -15264,14 +14753,9 @@ const translations = {
     'gov-public-safety': 'Kaligtasan Pampubliko',
     'gov-public-safety-peace-order-family-women-children':
       'Public Safety, Peace & Order, Pamilia, Dagiti babbai, Dagiti ubbing & Social Dagiti serbisio',
-    'gov-quezon': 'Quezon',
     'gov-quick-links': 'Dagiti Napartak a Silpo',
-    'gov-quirino': 'Quirino',
     'gov-resolution-framework': 'Balangkas ti Resolusion',
     'gov-resources': 'Dagiti Rekurso',
-    'gov-roxas': 'Roxas',
-    'gov-san-juan': 'San Juan',
-    'gov-san-luis': 'San Luis',
     'gov-sangguniang-bayan': 'Sangguniang Bayan',
     'gov-sb-member': 'Miyembro ti SB',
     'gov-seedo-public-market': 'SEEDO – Publiko a Tiendaan',
@@ -15286,16 +14770,11 @@ const translations = {
     'gov-tax-payments-real-property-tax-revenue-collection':
       'Tax dagiti panagbayad, buwis iti tunay na kukua, revenue koleksyon',
     'gov-terms-of-use': 'Dagiti Kondision ti Panagusar',
-    'gov-the-executive-officials-leading-solanos-governance':
-      "The executive dagiti opisyal leading Solano's governance",
-    'gov-tucal': 'Tucal',
-    'gov-uddiawan': 'Uddiawan',
     'gov-vaccination-health-certificates-medical-assistance':
       'Vaccination, health dagiti sertipiko, tulong medikal',
     'gov-view-job-vacancies': 'Kitaen Job Vacancies',
     'gov-view-services': 'Kitaen ti dagiti Serbisio',
     'gov-volunteer-with-us': 'Ag-volunteer kadakami',
-    'gov-wacal': 'Wacal',
     'gov-youth-sports-development-legislative-drafting':
       'Agtutubo & Sports Development, Legislative Drafting',
     'gs-1-day': '1 aldaw',
@@ -15350,7 +14829,7 @@ const translations = {
     'gs-education': 'Edukasion',
     'gs-email': 'Email',
     'gs-emergency-medical-services': 'Emergency Medical Dagiti serbisio',
-    'gs-empowering-the-people-of-solano-with-transparent':
+    'gs-empowering-the-people-of-Muntinlupa-with-transparent':
       'Panangted ti bileg kadagiti umili ti Muntinlupa nga addaan ti transparente a panag-akses kadagiti serbisio, programa, ken pampubliko a pondo ti siudad.',
     'gs-emtdriver': 'EMT/Driver',
     'gs-environment': 'Aglawlaw',
@@ -15378,7 +14857,7 @@ const translations = {
     'gs-industrial': 'Industriyal',
     'gs-infrastructure': 'Imprastraktura',
     'gs-issuance-of-purchase-order-po': 'Panagipaay ti Purchase Order (PO)',
-    'gs-lgu-solano-facebook': 'LGU Solano Facebook',
+    'gs-lgu-Muntinlupa-facebook': 'LGU Muntinlupa Facebook',
     'gs-light-vehicle-driver': 'Driver ti Magaan na Lugan',
     'gs-location': 'Lokasion',
     'gs-mayors-office': 'Opisina ti Mayor',
@@ -15388,8 +14867,8 @@ const translations = {
     'gs-municipal-accounting': 'Accounting ti Munisipalidad',
     'gs-municipal-engineering': 'Inhinyeria ti Munisipalidad',
     'gs-municipal-general-services-office': 'Opisina ti Sapasap a Serbisio ti Munisipalidad',
-    'gs-municipal-hall-ground-floor-solano-nueva-vizcaya':
-      'Munisipalidad, Umuna a Kadsaaran, Solano, Nueva Vizcaya 3708',
+    'gs-city-office-location':
+      'Kontaken ti City General Services Office tapno mapasingkedan ti agdama a lokasionna.',
     'gs-municipal-treasurer': 'Tesorero ti Munisipalidad',
     'gs-municipal-vehicles-available-for-official-use-and':
       'Munisipal vehicles magun-od for opisial usaren and publiko rental',
@@ -15398,7 +14877,7 @@ const translations = {
     'gs-office-hours': 'Oras ti Opisina',
     'gs-office-personnel': 'Dagiti Tauhan ti Opisina',
     'gs-office-staff-and-service-personnel': 'Opisina kawani and serbisio tauhan',
-    'gs-official-lgu-solano-portal': 'Opisial a Portal ti LGU Solano',
+    'gs-official-lgu-Muntinlupa-portal': 'Opisial a Portal ti LGU Muntinlupa',
     'gs-official-receipt-approved-request': 'Opisial Resibo, Naaprubaran Agkiddaw',
     'gs-open-data-philippines': 'Open Data Philippines',
     'gs-operator': 'Operator',
@@ -15469,63 +14948,31 @@ const translations = {
     'gs-wait-for-approval-from-the-mayors-office':
       'Aguray ti panag-apruba manipud iti Opisina ti Mayor',
     'gs-water-truck': 'Water Truck',
-    'health-a-tertiary-level-philhealthaccredited-private':
-      'A tertiary level, PhilHealth-accredited pribadong hospital nagbibigay ti komprehensibong dagiti serbisyong medikal.',
     'health-accessibility': 'Aksesibilidad',
-    'health-aggub-bhs': 'Aggub BHS',
     'health-agriculture': 'Agrikultura',
-    'health-also-known-as-new-mmg-hospital-providing-quality':
-      'Also known as Baro a MMG Hospital, nagbibigay ti quality dagiti serbisio iti kalusugan iti ti community.',
-    'health-bagahabag-bhs': 'Bagahabag BHS',
-    'health-bangaan-bhs': 'Bangaan BHS',
-    'health-bangar-bhs': 'Bangar BHS',
-    'health-bintawan-road-brgy-quezon': 'Bintawan Road, Brgy. Quezon',
     'health-blgf-portal': 'BLGF Portal',
-    'health-buenavista-bhs': 'Buenavista BHS',
     'health-business': 'Negosio',
-    'health-calaocan-bhs': 'Calaocan BHS',
     'health-certificates': 'Dagiti Sertipiko',
     'health-citizens-charter': "Citizen's Charter",
     'health-cmci-dti-portal': 'CMCI DTI Portal',
-    'health-commando-bhs': 'Commando BHS',
-    'health-concepcion-bhs': 'Concepcion BHS',
     'health-contribute-code-with-us': 'Ag-ambag ti code kadakami',
-    'health-curifang-bhs': 'Curifang BHS',
-    'health-dadap-bhs': 'Dadap BHS',
     'health-education': 'Edukasion',
-    'health-empowering-the-people-of-solano-with-transparent':
+    'health-empowering-the-people-of-Muntinlupa-with-transparent':
       'Panangted ti bileg kadagiti umili ti Muntinlupa nga addaan ti transparente a panag-akses kadagiti serbisio, programa, ken pampubliko a pondo ti siudad.',
     'health-environment': 'Aglawlaw',
     'health-freedom-of-information': 'Wayawaya ti Impormasion',
     'health-health': 'Salun-at',
     'health-home': 'Pagtaengan',
     'health-infrastructure': 'Imprastraktura',
-    'health-lactawan-bhs': 'Lactawan BHS',
-    'health-lgu-solano-facebook': 'LGU Solano Facebook',
-    'health-medical-mission-group-hospital-health-services':
-      'Medical Mission Group Hospital & Health Dagiti serbisio Cooperative',
-    'health-nangalisan-bhs': 'Nangalisan BHS',
-    'health-national-highway-solano': 'Nailian Highway, Solano',
-    'health-ocapon-bhs': 'Ocapon BHS',
-    'health-official-lgu-solano-portal': 'Opisial a Portal ti LGU Solano',
+    'health-lgu-Muntinlupa-facebook': 'LGU Muntinlupa Facebook',
+    'health-official-lgu-Muntinlupa-portal': 'Opisial a Portal ti LGU Muntinlupa',
     'health-open-data-philippines': 'Open Data Philippines',
     'health-ordinance-framework': 'Balangkas ti Ordinansa',
-    'health-osmea-bhs': 'Osmeña BHS',
-    'health-paitan-bhs': 'Paitan BHS',
-    'health-pilar-bhs': 'Pilar BHS',
-    'health-pltciluis-a-tiam-medical-center': 'PLTCI-Luis A. Tiam Medical Center',
-    'health-poblacion-bhs': 'Poblacion BHS',
     'health-privacy-policy': 'Pagannurotan ti Pagkapribado',
-    'health-private-medical-center-offering-various':
-      'Pribado medical center offering various healthcare and diagnostic dagiti serbisio.',
     'health-public-safety': 'Kaligtasan Pampubliko',
-    'health-quezon-bhs': 'Quezon BHS',
     'health-quick-links': 'Dagiti Napartak a Silpo',
-    'health-quirino-bhs': 'Quirino BHS',
     'health-resolution-framework': 'Balangkas ti Resolusion',
     'health-resources': 'Dagiti Rekurso',
-    'health-roxas-bhs': 'Roxas BHS',
-    'health-salubris-inc-salubris-medical-center': 'SALUBRIS, INC. (Salubris Medical Center)',
     'health-sangguniang-bayan': 'Sangguniang Bayan',
     'health-services': 'Dagiti Serbisio',
     'health-sitemap': 'Mapa ti Site',
@@ -15533,8 +14980,6 @@ const translations = {
     'health-social-services': 'Serbisio Sosyal',
     'health-tax-payments': 'Panagbayad ti Buwis',
     'health-terms-of-use': 'Dagiti Kondision ti Panagusar',
-    'health-tucal-bhs': 'Tucal BHS',
-    'health-uddiawan-bhs': 'Uddiawan BHS',
     'health-hivcare-cta-eyebrow': 'Opisial a Direktorio manipud iti DOH',
     'health-hivcare-cta-heading':
       'Birukem ti Pasilidad para iti Panangagas ken Panangaywan iti HIV',
@@ -15545,10 +14990,11 @@ const translations = {
     'health-hivcare-cta-stat-mobile': 'Mobile-Friendly a Panagbirok',
     'health-hivcare-cta-stat-verified': 'Naverify ti DOH',
     'health-volunteer-with-us': 'Ag-volunteer kadakami',
-    'home-13980-hectares': '13,980 hectares',
     'home-16270-km': '162.70 km²',
     'home-1st-class': 'Umuna a Klase',
     'home-2024-census': '2024 Senso',
+    'home-3975-hectares': '3,975 ektarya',
+    'home-3975-km': '39.75 km²',
     'home-28': '28°',
     'home-29': '29°',
     'home-4-pm': '4 PM',
@@ -15569,70 +15015,40 @@ const translations = {
     'home-cmci-dti-portal': 'CMCI DTI Portal',
     'home-contact-us': 'Kontaken Dakami',
     'home-create-account': 'Gumawa ti Account',
+    'home-city-classification': 'Klasipikasion ti Siudad',
+    'home-history-unavailable': 'Agberipikasion pay dagiti detalyado a pakasaritaan ti Muntinlupa.',
+    'home-district-1-south': 'Distrito 1 (Abagatan a paset)',
+    'home-district-2-north': 'Distrito 2 (Amianan a paset)',
     'home-education': 'Edukasion',
-    'home-empowering-the-people-of-solano-with-transparent':
+    'home-empowering-the-people-of-Muntinlupa-with-transparent':
       'Panangted ti bileg kadagiti umili ti Muntinlupa nga addaan ti transparente a panag-akses kadagiti serbisio, programa, ken pampubliko a pondo ti siudad.',
     'home-environment': 'Aglawlaw',
     'home-father-alejandro-vidal': 'Padre Alejandro Vidal',
-    'home-fetching-the-latest-news-from-solano':
-      'Kinukuha ti pinakabagong damag manipud iti Solano.',
+    'home-fetching-the-latest-news-from-Muntinlupa':
+      'Kinukuha ti pinakabagong damag manipud iti Muntinlupa.',
     'home-find-a-service': 'Find a Serbisio',
     'home-freedom-of-information': 'Wayawaya ti Impormasion',
-    'home-governor-general-antonio-urbiztondo-declared':
-      'Indeklara ni Gobernador Heneral Antonio Urbiztondo ti Lumabang a kas baryo ti Bayombong gapu iti kaawan dagiti agnanaed ken sapul.',
     'home-health': 'Salun-at',
-    'home-history-1601':
-      'Naiturayan ti Muntinlupa iti panangbantay panrelihion dagiti Augustinian.',
-    'home-history-1869':
-      'Inaprobaran ti Civil Government ti panagporma iti ili manipud kadagiti barrio ti Muntinlupa.',
-    'home-history-1903':
-      'Inkabil ti Act No. 1008 ti Muntinlupa iti sakup ti Laguna ken iti babaen ti Biñan.',
-    'home-history-1905': 'Isubli ti Act No. 1308 ti Muntinlupa iti Probinsia ti Rizal.',
-    'home-history-1917':
-      'Inted ti Executive Order No. 108 ti independiente a kasasaad a munisipalidad ti Muntinlupa, a nagrugi idi Enero 1, 1918.',
-    'home-history-1975':
-      'Nagbalin ti Muntinlupa a maysa kadagiti 17 a munisipalidad ken siudad a mangbukel iti Metro Manila.',
-    'home-history-1995':
-      'Kinonbertir ti Republic Act No. 7926 ti Muntinlupa a kas highly urbanized city.',
-    'home-independent-municipality': 'Independiente a Munisipalidad',
-    'home-independent-municipality-since-1918':
-      'Nagrugi idi Enero 1, 1918 ti independiente a kasasaad a munisipalidad ti Muntinlupa.',
-    'home-hon-eduardo-d-tiongson': 'Hon. Eduardo D. Tiongson',
-    'home-hon-philip-a-dacayo': 'Hon. Philip A. Dacayo',
-    'home-history-1760':
-      'Ti orihinal a nagan ti ili ket Bintauan, maysa a pagnaedanan ti Gaddang a ita ket barangay ti Villaverde.',
-    'home-history-1767':
-      'Ti ili ket pormal a naipasdek babaen ni Padre Alejandro Vidal, maysa a padi a Dominikano a nangidaulo iti misyon nga Espanyol.',
-    'home-history-1768':
-      'Napanaganan iti Lungabang, manipud iti sao a Gaddang a lungab a kaipapananna ket rukib. Nabaliwan dagiti Espanyol iti Lumabang.',
-    'home-history-1853':
-      'Dimteng dagiti umuna nga Ilocano, inyeg ni Don Diego Lumicao, maysa a dati a gobernadorcillo.',
-    'home-history-1889':
-      'Nabaliwan ti nagan iti Solano tapno padayawan ni Gobernador Heneral Ramon Solano y Llanderal. Ti ili ket naipasayaat manen babaen ni Padre Juan Villaverde nga addaan 14 a magkakahanay a nalawa a kalsada, tunggal maysa ket 20 metro ti kalawa na, a mangbukel iti 100 a kuadrado a bloke.',
-    'home-history-1957':
-      'Dagiti baryo ti Ibung ken Bintawan ket naisina tapno mangbukel iti ili ti Ibung, a nabaliwan ti nagan iti Villaverde. Ti kalawa ti daga ti Solano ket nabassitan iti 13,980 ektarya.',
-    'home-ilocanos-arrived': 'Dimteng dagiti Ilocano',
+    'home-location-national-capital-region':
+      'Lokasion: National Capital Region (Metro Manila), Pilipinas',
     'home-income-classification': 'Klasipikasion ti Kita',
     'home-infrastructure': 'Imprastraktura',
-    'home-interactive-map-showing-the-location-of-solano':
-      'Interactive mapa showing the location of Solano Munisipalidad in Nueva Vizcaya, Philippines. The mapa is centered at coordinates 16.5167°N, 121.1833 °E. Usaren the plus and minus buttons or keyboard arrows to navigate the mapa.',
+    'home-interactive-map-showing-the-location-of-Muntinlupa':
+      'Interactive mapa showing the location of Muntinlupa Munisipalidad in Metro Manila, Philippines. The mapa is centered at coordinates 14.3939°N, 121.0412 °E. Usaren the plus and minus buttons or keyboard arrows to navigate the mapa.',
     'home-javascript-is-required-to-view-the-interactive-map':
       'JavaScript is kasapulan to kitaen the interactive mapa.',
     'home-land-area': 'Kalawa ti Daga',
-    'home-lgu-solano-facebook': 'LGU Solano Facebook',
-    'home-lgusolanonvgmailcom': 'lgusolanonv@gmail.com',
+    'home-lgu-Muntinlupa-facebook': 'LGU Muntinlupa Facebook',
     'home-loading': 'Agkarkarga',
     'home-loading-updates': 'Naglo-load ti dagiti update...',
-    'home-lungab': 'lungab',
-    'home-lungabang': 'Lungabang',
     'home-municipality': 'Munisipalidad',
-    'home-official-lgu-solano-portal': 'Opisial a Portal ti LGU Solano',
-    'home-once-the-largest': 'Idi Kadakkelan',
+    'home-official-lgu-Muntinlupa-portal': 'Opisial a Portal ti LGU Muntinlupa',
     'home-open-data-philippines': 'Open Data Philippines',
     'home-official-city-history': 'Basaen ti opisial a pakasaritaan ti siudad',
     'home-ordinance-framework': 'Balangkas ti Ordinansa',
     'home-popular': 'Sikat:',
     'home-population': 'Populasion',
+    'home-psa-2024-popcen': 'PSA 2024 POPCEN',
     'home-privacy-policy': 'Pagannurotan ti Pagkapribado',
     'home-public-safety': 'Kaligtasan Pampubliko',
     'home-quick-access-to-frequently-requested-municipal':
@@ -15640,7 +15056,6 @@ const translations = {
     'home-quick-links': 'Dagiti Napartak a Silpo',
     'home-ra-7926-city-charter':
       'Pinasingkedan ti Republic Act No. 7926 ti Muntinlupa a kas highly urbanized city.',
-    'home-ramon-solano-y-llanderal': 'Ramon Solano y Llanderal',
     'home-real-property-tax': 'Buwis ti Pudno a Sanikua',
     'home-resolution-framework': 'Balangkas ti Resolusion',
     'home-resources': 'Dagiti Rekurso',
@@ -15649,25 +15064,19 @@ const translations = {
     'home-sitemap': 'Mapa ti Site',
     'home-skip-to-main-content': 'Lumaktaw iti kangrunaan a linaon',
     'home-social-services': 'Serbisio Sosyal',
-    'home-solano': 'Solano',
-    'home-solano-at-a-glance': 'Muntinlupa iti Maysa a Panagkita',
-    'home-solano-municipal-hall-nueva-vizcaya-3708': 'Solano Munisipal Hall, Nueva Vizcaya 3708',
-    'home-solano-nueva-vizcaya-3708': 'Solano, Nueva Vizcaya 3708',
-    'home-solano-was-the-largest-municipality-in-the':
-      'Ti Solano ti kadakkelan a munisipalidad iti probinsia agingga a naisina ti Caliat ken Bintawan tapno agbalin a Quezon ken Villaverde.',
+    'home-Muntinlupa': 'Muntinlupa',
+    'home-Muntinlupa-at-a-glance': 'Muntinlupa iti Maysa a Panagkita',
     'home-tax-payments': 'Panagbayad ti Buwis',
     'home-terms-of-use': 'Dagiti Kondision ti Panagusar',
-    'home-the-1889-redevelopment-created-a-grid-of-100':
-      'Ti panagpasayaat idi 1889 ket nangaramid iti grid a 100 a kuadrado a bloke, tunggal maysa ket addaan dagup a kalawa a maysa nga ektarya, nga addaan kadagiti kalsada a mapan iti amianan-abagatan ken daya-laud.',
+    'home-two-legislative-districts': 'Iti 2 a distrito lehislativo',
+    'home-highly-urbanized-city': 'Highly Urbanized City (HUC)',
     'home-total-municipal-area': 'Dagup a Kalawa ti Munisipalidad',
     'home-urban-planning': 'Panagplano ti Ili',
     'home-view-all': 'Kitaen Amin',
     'home-view-all-officials': 'Kitaen All Dagiti opisyal',
-    'home-city-since-1995': 'Siudad Manipud 1995',
-    'home-view-solano-on-openstreetmap': 'Kitaen Solano on OpenStreetMap',
+    'home-view-Muntinlupa-on-openstreetmap': 'Kitaen Muntinlupa on OpenStreetMap',
     'home-view-statistics': 'Kitaen ti dagiti Estadistika',
-    'home-villaverde': 'Villaverde',
-    'home-weather-and-map-of-solano': 'Weather and Mapa of Solano',
+    'home-weather-and-map-of-Muntinlupa': 'Weather and Mapa of Muntinlupa',
     'hrm-10-minutes': '10 minuto',
     'hrm-105-days-for-female-employees': '105 aldaw para iti dagiti babaeng empleyado',
     'hrm-12-days': '1-2 aldaw',
@@ -15712,7 +15121,7 @@ const translations = {
     'hrm-education': 'Edukasion',
     'hrm-employee-id': 'Empleado ID',
     'hrm-employee-id-for-current-employees': 'Empleado ID (for agdama dagiti empleado)',
-    'hrm-empowering-the-people-of-solano-with-transparent':
+    'hrm-empowering-the-people-of-Muntinlupa-with-transparent':
       'Panangted ti bileg kadagiti umili ti Muntinlupa nga addaan ti transparente a panag-akses kadagiti serbisio, programa, ken pampubliko a pondo ti siudad.',
     'hrm-environment': 'Aglawlaw',
     'hrm-fee-free': 'Bayad: Libre',
@@ -15735,7 +15144,7 @@ const translations = {
     'hrm-hrmo-staff': 'HRMO Kawani',
     'hrm-human-resource-management-section': 'Panagtaripato ti Tao a Rekurso Seksion',
     'hrm-human-resource-management-section-mayors-office':
-      'Panagtaripato ti Tao a Rekurso Seksion, Opisina ti Mayor, Munisipalidad, Solano, Nueva Vizcaya',
+      'Panagtaripato ti Tao a Rekurso Seksion, Opisina ti Mayor, Munisipalidad, Muntinlupa, Metro Manila',
     'hrm-important-notes': 'Napateg a Paammo',
     'hrm-infrastructure': 'Imprastraktura',
     'hrm-issuance-of-certificate-of-employment': 'Panagipaay ti Sertipiko ti Trabaho',
@@ -15751,7 +15160,7 @@ const translations = {
     'hrm-leave-processing': 'Panagproseso ti Leave',
     'hrm-leave-type': 'Uri ti Leave',
     'hrm-legislative': 'Lehislatura',
-    'hrm-lgu-solano-facebook': 'LGU Solano Facebook',
+    'hrm-lgu-Muntinlupa-facebook': 'LGU Muntinlupa Facebook',
     'hrm-location': 'Lokasion',
     'hrm-maternity-leave': 'Maternity Leave',
     'hrm-mayors-office': 'Opisina ti Mayor',
@@ -15766,7 +15175,7 @@ const translations = {
     'hrm-office-personnel': 'Dagiti Tauhan ti Opisina',
     'hrm-official-certification-of-current-or-previous':
       'Opisial certification of agdama or napalabas employment status',
-    'hrm-official-lgu-solano-portal': 'Opisial a Portal ti LGU Solano',
+    'hrm-official-lgu-Muntinlupa-portal': 'Opisial a Portal ti LGU Muntinlupa',
     'hrm-official-record-of-employment-history-for-lgu':
       'Opisyal na rekord ti kasaysayan ti trabaho para iti dagiti empleyado ti LGU',
     'hrm-official-statement-of-accumulated-leave-credits':
@@ -15848,7 +15257,7 @@ const translations = {
     'infra-cmci-dti-portal': 'CMCI DTI Portal',
     'infra-contribute-code-with-us': 'Ag-ambag ti code kadakami',
     'infra-education': 'Edukasion',
-    'infra-empowering-the-people-of-solano-with-transparent':
+    'infra-empowering-the-people-of-Muntinlupa-with-transparent':
       'Panangted ti bileg kadagiti umili ti Muntinlupa nga addaan ti transparente a panag-akses kadagiti serbisio, programa, ken pampubliko a pondo ti siudad.',
     'infra-engineering-services': 'Dagiti Serbisio iti Inhinyeria',
     'infra-environment': 'Aglawlaw',
@@ -15857,12 +15266,12 @@ const translations = {
     'infra-health': 'Salun-at',
     'infra-home': 'Pagtaengan',
     'infra-infrastructure': 'Imprastraktura',
-    'infra-lgu-solano-facebook': 'LGU Solano Facebook',
+    'infra-lgu-Muntinlupa-facebook': 'LGU Muntinlupa Facebook',
     'infra-municipal-engineering-office': 'Opisina ti Inhinyero ti Munisipalidad',
     'infra-municipal-general-services-office': 'Opisina ti Sapasap a Serbisio ti Munisipalidad',
     'infra-municipal-planning-development': 'Munisipal Planning & Development',
     'infra-occupancy-permit': 'Permit ti Panagnaed',
-    'infra-official-lgu-solano-portal': 'Opisial a Portal ti LGU Solano',
+    'infra-official-lgu-Muntinlupa-portal': 'Opisial a Portal ti LGU Muntinlupa',
     'infra-open-data-philippines': 'Open Data Philippines',
     'infra-ordinance-framework': 'Balangkas ti Ordinansa',
     'infra-privacy-policy': 'Pagannurotan ti Pagkapribado',
@@ -15912,7 +15321,7 @@ const translations = {
     'leg-detailed-discussion-and-debate-on-the-proposed':
       'Detalyadong talakayan ken debate iti iminumungkahing ordinansa',
     'leg-education': 'Edukasion',
-    'leg-empowering-the-people-of-solano-with-transparent':
+    'leg-empowering-the-people-of-Muntinlupa-with-transparent':
       'Panangted ti bileg kadagiti umili ti Muntinlupa nga addaan ti transparente a panag-akses kadagiti serbisio, programa, ken pampubliko a pondo ti siudad.',
     'leg-environment': 'Aglawlaw',
     'leg-expressions-of-the-legislative-bodys-will-or':
@@ -15952,7 +15361,7 @@ const translations = {
       'Ti ordinansa ay nagkakabisa ken ipinapatupad iti loob ti munisipyo',
     'leg-ordinances': 'Dagiti Ordinansa',
     'leg-ordinances-and-resolutions-of-the-sangguniang':
-      'Dagiti ordinansa ken resolusion ti Sangguniang Bayan ti Solano',
+      'Dagiti ordinansa ken resolusion ti Sangguniang Bayan ti Muntinlupa',
     'leg-posting-publication': 'Panag-post / Publikasyon',
     'leg-posting-transmittal': 'Panag-post / Transmittal',
     'leg-privacy-policy': 'Pagannurotan ti Pagkapribado',
@@ -16034,7 +15443,7 @@ const translations = {
     'magri-certification-of-farm-location-and-area-cultivated':
       'Sertipikasion ti lokasion ti bukid ken lugar na sinasaka',
     'magri-certification-that-individual-is-a-registered':
-      'Sertipikasion na ti indibidwal ay isang rehistradong mannalon iti Solano',
+      'Sertipikasion na ti indibidwal ay isang rehistradong mannalon iti Muntinlupa',
     'magri-certifications': 'Dagiti Sertipikasion',
     'magri-certified-seeds-distribution': 'Nasertipikaran Seeds Distribution',
     'magri-citizens-charter': "Citizen's Charter",
@@ -16063,13 +15472,13 @@ const translations = {
     'magri-distribution-of-tilapia-carp-and-other-fingerlings':
       'Panagipakat ti dagiti tilapia, karpa, ken iba pang fingerling',
     'magri-education': 'Edukasion',
-    'magri-empowering-the-people-of-solano-with-transparent':
+    'magri-empowering-the-people-of-Muntinlupa-with-transparent':
       'Panangted ti bileg kadagiti umili ti Muntinlupa nga addaan ti transparente a panag-akses kadagiti serbisio, programa, ken pampubliko a pondo ti siudad.',
     'magri-environment': 'Aglawlaw',
     'magri-farm-location-certification': 'Sertipikasion ti Lokasion ti Bukid',
     'magri-farm-machinery-services': 'Farm Machinery Dagiti serbisio',
     'magri-farm-registration-certifications-and-agricultural':
-      'Panagparehistro ti bukid, dagiti sertipikasion, ken dagiti programang agrikultural para iti dagiti mannalon ti Solano',
+      'Panagparehistro ti bukid, dagiti sertipikasion, ken dagiti programang agrikultural para iti dagiti mannalon ti Muntinlupa',
     'magri-farmer-certification': 'Sertipikasion ti Mannalon',
     'magri-farmers-field-school': 'Eskuelaan iti Bukid ti dagiti Mannalon',
     'magri-farmers-organization': 'Organisasyon ti dagiti Mannalon',
@@ -16103,7 +15512,7 @@ const translations = {
     'magri-land-title-tax-declaration-lease-contract':
       'Land Title / Tax Declaration / Kontrata ti Panagabang',
     'magri-legislative': 'Lehislatura',
-    'magri-lgu-solano-facebook': 'LGU Solano Facebook',
+    'magri-lgu-Muntinlupa-facebook': 'LGU Muntinlupa Facebook',
     'magri-linkage-to-organic-markets-and-buyers':
       'Koneksyon iti dagiti organikong tiendaan ken mamimili',
     'magri-livestock': 'Dagiti Hayop',
@@ -16120,14 +15529,14 @@ const translations = {
     'magri-mun-agriculture': 'Mun. Agrikultura',
     'magri-municipal-agriculture-office': 'Opisina ti Agrikultura ti Munisipalidad',
     'magri-municipal-agriculture-office-municipal-hall':
-      'Departamento ti Agrikultura ti Munisipalidad Opisina, Munisipalidad, Solano, Nueva Vizcaya',
+      'Departamento ti Agrikultura ti Munisipalidad Opisina, Munisipalidad, Muntinlupa, Metro Manila',
     'magri-municipal-hall': 'Munisipio',
     'magri-no-payment-required': 'No Panagbayad Kasapulan',
     'magri-office': 'Opisina',
     'magri-office-information': 'Impormasion ti Opisina',
     'magri-official-certifications-issued-by-the-municipal':
       'Dagiti opisyal na sertipikasyon na ibinibigay ti Opisina ti Agrikultura ti Munisipalidad',
-    'magri-official-lgu-solano-portal': 'Opisial a Portal ti LGU Solano',
+    'magri-official-lgu-Muntinlupa-portal': 'Opisial a Portal ti LGU Muntinlupa',
     'magri-official-production-records-for-loan-and':
       'Dagiti opisyal na rekord ti produksyon para iti layunin ti pautang ken seguro',
     'magri-old-rsbsa-form-reference-number': 'Daan RSBSA Form / Reference Number',
@@ -16194,8 +15603,8 @@ const translations = {
       'Suporta para iti dagiti kasanayan iti organikong pagsasaka ken sertipikasion',
     'magri-support-for-pgs-and-thirdparty-organic':
       'Suporta para iti PGS ken third-party na organikong sertipikasion',
-    'magri-support-programs-for-corn-farmers-in-solano':
-      'Dagiti programa ti suporta para iti dagiti mannalon ti mais iti Solano',
+    'magri-support-programs-for-corn-farmers-in-Muntinlupa':
+      'Dagiti programa ti suporta para iti dagiti mannalon ti mais iti Muntinlupa',
     'magri-support-programs-for-rice-farmers-under-the-rice':
       'Dagiti programa ti suporta para iti dagiti mannalon ti bigas iti ilalim ti Rice Competitiveness Enhancement Fund (RCEF)',
     'magri-support-services-for-fisherfolk-and-aquaculture':
@@ -16271,7 +15680,7 @@ const translations = {
     'market-duration': 'Kaatiddog',
     'market-economic-enterprise-development-office': 'Economic Enterprise & Development Opisina',
     'market-education': 'Edukasion',
-    'market-empowering-the-people-of-solano-with-transparent':
+    'market-empowering-the-people-of-Muntinlupa-with-transparent':
       'Panangted ti bileg kadagiti umili ti Muntinlupa nga addaan ti transparente a panag-akses kadagiti serbisio, programa, ken pampubliko a pondo ti siudad.',
     'market-entrance-fees': 'Dagiti Bayad iti Pagpasok',
     'market-entrance-fees-are-based-on-goods-being-sold':
@@ -16316,7 +15725,7 @@ const translations = {
     'market-key-personnel-handling-public-market-services':
       'Key tauhan handling publiko market dagiti serbisio',
     'market-legislative': 'Lehislatura',
-    'market-lgu-solano-facebook': 'LGU Solano Facebook',
+    'market-lgu-Muntinlupa-facebook': 'LGU Muntinlupa Facebook',
     'market-location': 'Lokasion',
     'market-market-clearance': 'Clearance ti Tiendaan',
     'market-market-collector': 'Kolektor ti Tiendaan',
@@ -16328,7 +15737,7 @@ const translations = {
     'market-office-head': 'Pinuno ti Opisina',
     'market-office-information': 'Impormasion ti Opisina',
     'market-office-personnel': 'Dagiti Tauhan ti Opisina',
-    'market-official-lgu-solano-portal': 'Opisial a Portal ti LGU Solano',
+    'market-official-lgu-Muntinlupa-portal': 'Opisial a Portal ti LGU Muntinlupa',
     'market-open-data-philippines': 'Open Data Philippines',
     'market-ordinance-framework': 'Balangkas ti Ordinansa',
     'market-other-merchandise': 'Iba pang Paninda',
@@ -16360,8 +15769,7 @@ const translations = {
     'market-secure-and-fill-out-public-market-complaint-form':
       'Natalged and punuan out Publiko a Tiendaan reklamo form and isumite to the Market Supervisor',
     'market-seedo-head': 'SEEDO Puno',
-    'market-seedo-office-public-market-solano-nueva-vizcaya':
-      'SEEDO Opisina, Publiko a Tiendaan, Solano, Nueva Vizcaya',
+    'market-city-office-location': 'Kontaken ti City Market Office tapno mapasingkedan ti agdama a lokasionna.',
     'market-seedo-public-market': 'SEEDO - Publiko a Tiendaan',
     'market-select-a-service-to-view-the-detailed-process-and':
       'Agpili ti serbisio tapno makita ti detalyado a proseso ken dagiti kasapulan',
@@ -16434,7 +15842,7 @@ const translations = {
     'mbudget-documents-required': 'Dagiti Dokumento a Kasapulan',
     'mbudget-duration': 'Kaatiddog',
     'mbudget-education': 'Edukasion',
-    'mbudget-empowering-the-people-of-solano-with-transparent':
+    'mbudget-empowering-the-people-of-Muntinlupa-with-transparent':
       'Panangted ti bileg kadagiti umili ti Muntinlupa nga addaan ti transparente a panag-akses kadagiti serbisio, programa, ken pampubliko a pondo ti siudad.',
     'mbudget-ensure-all-documents-are-complete-before':
       'Ensure lahat ti dagiti dokumento ay kumpletong baro panagisumite',
@@ -16451,15 +15859,15 @@ const translations = {
     'mbudget-key-personnel-handling-budget-office-services':
       'Key tauhan handling budget opisina dagiti serbisio',
     'mbudget-legislative': 'Lehislatura',
-    'mbudget-lgu-solano-facebook': 'LGU Solano Facebook',
+    'mbudget-lgu-Muntinlupa-facebook': 'LGU Muntinlupa Facebook',
     'mbudget-local-school-board-ordinance': 'Lokal School Lupon Ordinansa',
     'mbudget-location': 'Lokasion',
     'mbudget-marcial-l-ramos-cpa': 'Marcial L. Ramos, CPA',
     'mbudget-melisa-claire-leal': 'Melisa Claire Leal',
     'mbudget-mun-budget': 'Mun. Badyet',
     'mbudget-municipal-budget-office': 'Opisina ti Badyet ti Munisipalidad',
-    'mbudget-municipal-budget-office-municipal-hall-solano':
-      'Munisipal Opisina ti Badyet, Munisipalidad, Solano, Nueva Vizcaya',
+    'mbudget-municipal-budget-office-municipal-hall-Muntinlupa':
+      'Munisipal Opisina ti Badyet, Munisipalidad, Muntinlupa, Metro Manila',
     'mbudget-municipal-budget-officer': 'Opisial ti Badyet ti Munisipalidad',
     'mbudget-municipal-hall': 'Munisipio',
     'mbudget-obligation-request': 'Kiddaw ti Obligasyon',
@@ -16471,7 +15879,7 @@ const translations = {
     'mbudget-office': 'Opisina',
     'mbudget-office-information': 'Impormasion ti Opisina',
     'mbudget-office-personnel': 'Dagiti Tauhan ti Opisina',
-    'mbudget-official-lgu-solano-portal': 'Opisial a Portal ti LGU Solano',
+    'mbudget-official-lgu-Muntinlupa-portal': 'Opisial a Portal ti LGU Muntinlupa',
     'mbudget-official-receipt': 'Opisial a Resibo',
     'mbudget-open-data-philippines': 'Open Data Philippines',
     'mbudget-ordinance-framework': 'Balangkas ti Ordinansa',
@@ -16600,7 +16008,7 @@ const translations = {
     'mc-duration': 'Kaatiddog',
     'mc-edgar-mc': 'Edgar Mc',
     'mc-education': 'Edukasion',
-    'mc-empowering-the-people-of-solano-with-transparent':
+    'mc-empowering-the-people-of-Muntinlupa-with-transparent':
       'Panangted ti bileg kadagiti umili ti Muntinlupa nga addaan ti transparente a panag-akses kadagiti serbisio, programa, ken pampubliko a pondo ti siudad.',
     'mc-environment': 'Aglawlaw',
     'mc-fee': 'Bayad',
@@ -16609,7 +16017,7 @@ const translations = {
       'Suroten these steps to agparehistro your kasar sertipiko',
     'mc-for-delayed-registration': 'For Nailadaw a Panagparehistro',
     'mc-for-engaged-couples-intending-to-get-married-in':
-      'Para iti dagiti magkasintahang nagbabalak magpakasal iti Solano',
+      'Para iti dagiti magkasintahang nagbabalak magpakasal iti Muntinlupa',
     'mc-for-timely-registration-within-1530-days':
       'Para iti Napapanahong Panagparehistro (Sa Loob ti 15/30 Aldaw)',
     'mc-forms-for-marriage-license-application': 'Dagiti form for kasar lisensia aplikasion',
@@ -16634,18 +16042,17 @@ const translations = {
     'mc-issuance-of-the-marriage-license': 'Issuance of the kasar lisensia',
     'mc-juvy': 'Juvy',
     'mc-legislative': 'Lehislatura',
-    'mc-lgu-solano-facebook': 'LGU Solano Facebook',
+    'mc-lgu-Muntinlupa-facebook': 'LGU Muntinlupa Facebook',
     'mc-license-validity': 'Bisa ti Lisensia',
     'mc-local-civil-registrar': 'Lokal a Civil Registrar',
     'mc-marriage-certificate-local-registration': 'Sertipiko ti Panagkasar (Local Registration)',
     'mc-mswdo-staff': 'MSWDO Kawani',
     'mc-mto-collection-officer': 'MTO Collection Opisyal',
-    'mc-municipal-hall-2nd-floor-solano-nueva-vizcaya':
-      'Munisipalidad, Maikadua a Kadsaaran Solano, Nueva Vizcaya',
+    'mc-city-office-location': 'Kontaken ti City Civil Registrar tapno mapasingkedan ti agdama a lokasionna.',
     'mc-nationwide': 'Buong Bansa',
     'mc-need-help': 'Kasapulan Tulong?',
     'mc-office-information': 'Impormasion ti Opisina',
-    'mc-official-lgu-solano-portal': 'Opisial a Portal ti LGU Solano',
+    'mc-official-lgu-Muntinlupa-portal': 'Opisial a Portal ti LGU Muntinlupa',
     'mc-official-receipt': 'Opisial a Resibo',
     'mc-oliver-receiving-officer': 'Oliver - Receiving Opisyal',
     'mc-open-data-philippines': 'Open Data Philippines',
@@ -16782,7 +16189,7 @@ const translations = {
       'I-download the kasar lisensia aplikasion form',
     'mcr-duration': 'Kaatiddog',
     'mcr-education': 'Edukasion',
-    'mcr-empowering-the-people-of-solano-with-transparent':
+    'mcr-empowering-the-people-of-Muntinlupa-with-transparent':
       'Panangted ti bileg kadagiti umili ti Muntinlupa nga addaan ti transparente a panag-akses kadagiti serbisio, programa, ken pampubliko a pondo ti siudad.',
     'mcr-environment': 'Aglawlaw',
     'mcr-fee': 'Bayad',
@@ -16804,7 +16211,7 @@ const translations = {
     'mcr-legal-capacity-to-contract-marriage-from-embassy':
       'Legal na Kakayahang Mag-asawa manipud iti Embahada',
     'mcr-legislative': 'Lehislatura',
-    'mcr-lgu-solano-facebook': 'LGU Solano Facebook',
+    'mcr-lgu-Muntinlupa-facebook': 'LGU Muntinlupa Facebook',
     'mcr-location': 'Lokasion',
     'mcr-marriage-certificate': 'Sertipiko ti Kasar',
     'mcr-marriage-certificate-of-parents-if-legitimate':
@@ -16825,7 +16232,7 @@ const translations = {
     'mcr-municipal-civil-registrar': 'Civil Registrar ti Munisipalidad',
     'mcr-municipal-civil-registrars-office': 'Munisipal Opisina ti Sibil a Rehistrador',
     'mcr-municipal-civil-registrars-office-2nd-floor':
-      'Munisipal Opisina ti Sibil a Rehistrador, Maikadua a Kadsaaran, Munisipalidad, Solano, Nueva Vizcaya',
+      'Kontaken ti city office tapno mapasingkedan ti agdama a lokasion ti Civil Registrar’s Office',
     'mcr-municipal-hall-2f': 'Munisipal Hall, 2F',
     'mcr-nbipolice-clearance': 'NBI/Police Clearance',
     'mcr-negative-certification-from-psa': 'Negatibong Sertipikasion manipud iti PSA',
@@ -16836,7 +16243,7 @@ const translations = {
     'mcr-office-head': 'Pinuno ti Opisina',
     'mcr-office-information': 'Impormasion ti Opisina',
     'mcr-office-personnel': 'Dagiti Tauhan ti Opisina',
-    'mcr-official-lgu-solano-portal': 'Opisial a Portal ti LGU Solano',
+    'mcr-official-lgu-Muntinlupa-portal': 'Opisial a Portal ti LGU Muntinlupa',
     'mcr-official-receipt': 'Opisial a Resibo',
     'mcr-open-data-philippines': 'Open Data Philippines',
     'mcr-order-of-payment': 'Order of Panagbayad',
@@ -16863,11 +16270,11 @@ const translations = {
     'mcr-ra-9048-clerical-error-correction': 'RA 9048 - Panagkorehir ti Klerikal na Error',
     'mcr-register-births-and-deaths-within-30-days-to':
       'Irehistro ti dagiti kapanganakan ken pagkamatay iti loob ti 30 aldaw upang maiwasan ti dagiti multa',
-    'mcr-registration-of-birth-for-children-born-in-solano':
-      'Panagparehistro ti kapanganakan para iti dagiti batang ipinanganak iti Solano, Nueva Vizcaya',
+    'mcr-registration-of-birth-for-children-born-in-Muntinlupa':
+      'Panagparehistro ti kapanganakan para iti dagiti batang ipinanganak iti Muntinlupa, Metro Manila',
     'mcr-registration-of-death': 'Registration of Ipapatay',
     'mcr-registration-of-death-for-persons-who-died-in':
-      'Panagparehistro ti pagkamatay para iti dagiti taong namatay iti Solano, Nueva Vizcaya',
+      'Panagparehistro ti pagkamatay para iti dagiti taong namatay iti Muntinlupa, Metro Manila',
     'mcr-registration-of-live-birth': 'Panagparehistro ti Kapanganakan',
     'mcr-registration-of-marriage': 'Registration of Kasar',
     'mcr-registration-officer': 'Opisyal ti Panagparehistro',
@@ -16876,7 +16283,7 @@ const translations = {
     'mcr-representatives-must-have-authorization-letter':
       'Ti dagiti pannakabagi ay dapat may sulat ti awtorisasyon ken dagiti balidong ID',
     'mcr-request-for-certified-true-copies-of-civil':
-      'Agkiddaw for nasertipikaran pudno dagiti kopia of civil registry dagiti dokumento registered in Solano',
+      'Agkiddaw for nasertipikaran pudno dagiti kopia of civil registry dagiti dokumento registered in Muntinlupa',
     'mcr-requirements': 'Dagiti Kasapulan',
     'mcr-resolution-framework': 'Balangkas ti Resolusion',
     'mcr-resources': 'Dagiti Rekurso',
@@ -16949,7 +16356,7 @@ const translations = {
     'mgs-duration': 'Kaatiddog',
     'mgs-education': 'Edukasion',
     'mgs-electricity': 'Koriente',
-    'mgs-empowering-the-people-of-solano-with-transparent':
+    'mgs-empowering-the-people-of-Muntinlupa-with-transparent':
       'Panangted ti bileg kadagiti umili ti Muntinlupa nga addaan ti transparente a panag-akses kadagiti serbisio, programa, ken pampubliko a pondo ti siudad.',
     'mgs-environment': 'Aglawlaw',
     'mgs-equipment-accountability-is-strictly-enforced':
@@ -16974,7 +16381,7 @@ const translations = {
     'mgs-key-personnel-handling-general-services-operations':
       'Key tauhan handling sapasap dagiti serbisio operations',
     'mgs-legislative': 'Lehislatura',
-    'mgs-lgu-solano-facebook': 'LGU Solano Facebook',
+    'mgs-lgu-Muntinlupa-facebook': 'LGU Muntinlupa Facebook',
     'mgs-light-vehicle': 'Magaan na Lugan',
     'mgs-light-vehicles': 'Dagiti Magaan na Lugan',
     'mgs-location': 'Lokasion',
@@ -16988,13 +16395,13 @@ const translations = {
     'mgs-motorcycles': 'Dagiti Motorsiklo',
     'mgs-municipal-general-services-office': 'Opisina ti Sapasap a Serbisio ti Munisipalidad',
     'mgs-municipal-general-services-office-municipal-hall':
-      'Munisipal Opisina ti Sapasap a Serbisio, Munisipalidad, Solano, Nueva Vizcaya',
+      'Munisipal Opisina ti Sapasap a Serbisio, Munisipalidad, Muntinlupa, Metro Manila',
     'mgs-municipal-hall': 'Munisipio',
     'mgs-none': 'Awan',
     'mgs-office': 'Opisina',
     'mgs-office-information': 'Impormasion ti Opisina',
     'mgs-office-personnel': 'Dagiti Tauhan ti Opisina',
-    'mgs-official-lgu-solano-portal': 'Opisial a Portal ti LGU Solano',
+    'mgs-official-lgu-Muntinlupa-portal': 'Opisial a Portal ti LGU Muntinlupa',
     'mgs-open-data-philippines': 'Open Data Philippines',
     'mgs-operators-pool': 'Pool ti dagiti Operator',
     'mgs-ordinance-framework': 'Balangkas ti Ordinansa',
@@ -17070,8 +16477,7 @@ const translations = {
     'mgs-volunteer-with-us': 'Ag-volunteer kadakami',
     'mgs-water': 'Danum',
     'mpdo-12-days': '1-2 Aldaw',
-    'mpdo-2nd-floor-municipal-hall-solano-nueva-vizcaya':
-      'Maikadua a Kadsaaran, Munisipalidad, Solano, Nueva Vizcaya',
+    'mpdo-city-office-location': 'Kontaken ti City Planning Office tapno mapasingkedan ti agdama a lokasionna.',
     'mpdo-30-days': '30+ Aldaw',
     'mpdo-510-days': '5-10 Aldaw',
     'mpdo-8am-5pm': '8AM - 5PM',
@@ -17119,7 +16525,7 @@ const translations = {
     'mpdo-downloadable-resources': 'Dagiti Mai-download a Rekurso',
     'mpdo-duly-accomplished-application-form': 'Wastong napunang Application Form',
     'mpdo-education': 'Edukasion',
-    'mpdo-empowering-the-people-of-solano-with-transparent':
+    'mpdo-empowering-the-people-of-Muntinlupa-with-transparent':
       'Panangted ti bileg kadagiti umili ti Muntinlupa nga addaan ti transparente a panag-akses kadagiti serbisio, programa, ken pampubliko a pondo ti siudad.',
     'mpdo-environment': 'Aglawlaw',
     'mpdo-environmental-compliance-certificate-if-required':
@@ -17143,7 +16549,7 @@ const translations = {
     'mpdo-land-use-reclassification': 'Daga Usaren Reclassification',
     'mpdo-latest-real-property-tax-receipt': 'Latest Buwis ti Kukua Resibo',
     'mpdo-legislative': 'Lehislatura',
-    'mpdo-lgu-solano-facebook': 'LGU Solano Facebook',
+    'mpdo-lgu-Muntinlupa-facebook': 'LGU Muntinlupa Facebook',
     'mpdo-location': 'Lokasion',
     'mpdo-locational-clearance': 'Locational Clearance',
     'mpdo-locational-clearance-is-required-before-building':
@@ -17154,7 +16560,7 @@ const translations = {
       'Opisina ti Panagplano ken Panagrang-ay ti Munisipalidad',
     'mpdo-office': 'Opisina',
     'mpdo-office-information': 'Impormasion ti Opisina',
-    'mpdo-official-lgu-solano-portal': 'Opisial a Portal ti LGU Solano',
+    'mpdo-official-lgu-Muntinlupa-portal': 'Opisial a Portal ti LGU Muntinlupa',
     'mpdo-ongoing': 'Agtultuloy',
     'mpdo-open-data-philippines': 'Open Data Philippines',
     'mpdo-ordinance-framework': 'Balangkas ti Ordinansa',
@@ -17209,7 +16615,6 @@ const translations = {
     'mswdo-13-days': '1-3 Aldaw',
     'mswdo-1530-days': '15-30 Aldaw',
     'mswdo-2-tracks': '2 Track',
-    'mswdo-22-barangays': '22 Barangay',
     'mswdo-34-years': '3-4 Tawen',
     'mswdo-4ps-members': 'Dagiti Miyembro ti 4Ps',
     'mswdo-60-years': '60 Tawen+',
@@ -17277,7 +16682,7 @@ const translations = {
     'mswdo-emergency-financial-assistance-for-various-needs':
       "Emergency na tulong pinansyal para iti iba't ibang pangangailangan",
     'mswdo-employment-facilitation-ef': 'Panagpasimple ti Trabaho (EF)',
-    'mswdo-empowering-the-people-of-solano-with-transparent':
+    'mswdo-empowering-the-people-of-Muntinlupa-with-transparent':
       'Panangted ti bileg kadagiti umili ti Muntinlupa nga addaan ti transparente a panag-akses kadagiti serbisio, programa, ken pampubliko a pondo ti siudad.',
     'mswdo-enrollment-requirements': 'Dagiti Kasapulan iti Pagpapatala',
     'mswdo-environment': 'Aglawlaw',
@@ -17318,7 +16723,7 @@ const translations = {
     'mswdo-infrastructure': 'Imprastraktura',
     'mswdo-interest': 'Interes',
     'mswdo-legal-assistance': 'Tulong Legal',
-    'mswdo-lgu-solano-facebook': 'LGU Solano Facebook',
+    'mswdo-lgu-Muntinlupa-facebook': 'LGU Muntinlupa Facebook',
     'mswdo-livelihood': 'Kabuhayan',
     'mswdo-loan-amount': 'Halaga ti Pautang',
     'mswdo-location': 'Lokasion',
@@ -17343,7 +16748,7 @@ const translations = {
     'mswdo-nutritious-snacks-and-meals-during-day-care-hours':
       'Masustansyang meryenda ken makan iti oras ti day care.',
     'mswdo-office-hours': 'Oras ti Opisina',
-    'mswdo-official-lgu-solano-portal': 'Opisial a Portal ti LGU Solano',
+    'mswdo-official-lgu-Muntinlupa-portal': 'Opisial a Portal ti LGU Muntinlupa',
     'mswdo-open-data-philippines': 'Open Data Philippines',
     'mswdo-ordinance-framework': 'Balangkas ti Ordinansa',
     'mswdo-parent-education-on-proper-nutrition-and-child':
@@ -17521,7 +16926,7 @@ const translations = {
     'mswdosvc-educational-assistance': 'Tulong Pang-edukasion',
     'mswdosvc-emergency-cases-are-given-priority':
       'Ti dagiti kaso ti emergency ay binibigyan ti prayoridad',
-    'mswdosvc-empowering-the-people-of-solano-with-transparent':
+    'mswdosvc-empowering-the-people-of-Muntinlupa-with-transparent':
       'Panangted ti bileg kadagiti umili ti Muntinlupa nga addaan ti transparente a panag-akses kadagiti serbisio, programa, ken pampubliko a pondo ti siudad.',
     'mswdosvc-encoding-and-processing-of-pwd-id': 'Pag-encode ken panagproseso ti PWD ID',
     'mswdosvc-encoding-and-processing-of-senior-citizen-id':
@@ -17565,7 +16970,7 @@ const translations = {
       'Dagiti kangrunaan a tauhan na humahawak ti dagiti serbisio ti kagalingang panlipunan',
     'mswdosvc-legal-assistance-referral': 'Legal tulong referral',
     'mswdosvc-legislative': 'Lehislatura',
-    'mswdosvc-lgu-solano-facebook': 'LGU Solano Facebook',
+    'mswdosvc-lgu-Muntinlupa-facebook': 'LGU Muntinlupa Facebook',
     'mswdosvc-livelihood-assistance-programs': 'Livelihood tulong programs',
     'mswdosvc-location': 'Lokasion',
     'mswdosvc-medical-certificate-indicating-type-of-disability':
@@ -17575,8 +16980,8 @@ const translations = {
     'mswdosvc-medical-certificatehospital-bill-for-medical':
       'Medical Certificate/Hospital Bill (for medical tulong)',
     'mswdosvc-mswdo-head': 'MSWDO Puno',
-    'mswdosvc-mswdo-office-2nd-floor-municipal-hall-solano':
-      'MSWDO Opisina, Maikadua a Kadsaaran, Munisipalidad, Solano, Nueva Vizcaya',
+    'mswdosvc-mswdo-office-2nd-floor-municipal-hall-Muntinlupa':
+      'MSWDO Opisina, Maikadua a Kadsaaran, Munisipalidad, Muntinlupa, Metro Manila',
     'mswdosvc-mswdo-services': 'Dagiti Serbisio ti MSWDO',
     'mswdosvc-municipal-hall-2nd-floor': 'Munisipal Hall, Maikadua a Kadsaaran',
     'mswdosvc-municipal-social-welfare-development-office':
@@ -17585,7 +16990,7 @@ const translations = {
     'mswdosvc-office-head-social-welfare-officer': 'Pinuno ti Opisina / Social Welfare Officer',
     'mswdosvc-office-information': 'Impormasion ti Opisina',
     'mswdosvc-office-personnel': 'Dagiti Tauhan ti Opisina',
-    'mswdosvc-official-lgu-solano-portal': 'Opisial a Portal ti LGU Solano',
+    'mswdosvc-official-lgu-Muntinlupa-portal': 'Opisial a Portal ti LGU Muntinlupa',
     'mswdosvc-open-data-philippines': 'Open Data Philippines',
     'mswdosvc-ordinance-framework': 'Balangkas ti Ordinansa',
     'mswdosvc-osca-focal-person': 'OSCA Focal Tao',
@@ -17601,7 +17006,7 @@ const translations = {
     'mswdosvc-processing-information': 'Impormasion ti Panagproseso',
     'mswdosvc-programs-and-services-for-womens-welfare-and':
       'Dagiti programa ken serbisio para iti kagalingan ken proteksyon ti dagiti kababaihan',
-    'mswdosvc-proof-of-residence-in-solano': 'Patunay ti paninirahan iti Solano',
+    'mswdosvc-proof-of-residence-in-Muntinlupa': 'Patunay ti paninirahan iti Muntinlupa',
     'mswdosvc-provision-of-immediate-interventionassistance':
       'Panagipaay ti agarang interbensyon/tulong',
     'mswdosvc-public-safety': 'Kaligtasan Pampubliko',
@@ -17697,21 +17102,21 @@ const translations = {
     'news-cmci-dti-portal': 'CMCI DTI Portal',
     'news-contribute-code-with-us': 'Ag-ambag ti code kadakami',
     'news-education': 'Edukasion',
-    'news-empowering-the-people-of-solano-with-transparent':
+    'news-empowering-the-people-of-Muntinlupa-with-transparent':
       'Panangted ti bileg kadagiti umili ti Muntinlupa nga addaan ti transparente a panag-akses kadagiti serbisio, programa, ken pampubliko a pondo ti siudad.',
     'news-environment': 'Aglawlaw',
-    'news-fetching-news-and-updates-from-solano':
-      'Kinukuha ti dagiti damag ken update manipud iti Solano.',
+    'news-fetching-news-and-updates-from-Muntinlupa':
+      'Kinukuha ti dagiti damag ken update manipud iti Muntinlupa.',
     'news-freedom-of-information': 'Wayawaya ti Impormasion',
     'news-health': 'Salun-at',
     'news-home': 'Pagtaengan',
     'news-infrastructure': 'Imprastraktura',
-    'news-lgu-solano-facebook': 'LGU Solano Facebook',
+    'news-lgu-Muntinlupa-facebook': 'LGU Muntinlupa Facebook',
     'news-loading': 'Agkarkarga',
     'news-loading-news': 'Naglo-load ti damag...',
     'news-news': 'Damag',
     'news-news-updates': 'Damag ken dagiti Update',
-    'news-official-lgu-solano-portal': 'Opisial a Portal ti LGU Solano',
+    'news-official-lgu-Muntinlupa-portal': 'Opisial a Portal ti LGU Muntinlupa',
     'news-open-data-philippines': 'Open Data Philippines',
     'news-ordinance-framework': 'Balangkas ti Ordinansa',
     'news-privacy-policy': 'Pagannurotan ti Pagkapribado',
@@ -17724,7 +17129,7 @@ const translations = {
     'news-skip-to-main-content': 'Lumaktaw iti kangrunaan a linaon',
     'news-social-services': 'Serbisio Sosyal',
     'news-stay-informed-about-the-latest-happenings-in':
-      'Agtalinaed a may kaalaman tungkol iti dagiti pinakabagong pangyayari iti Solano',
+      'Agtalinaed a may kaalaman tungkol iti dagiti pinakabagong pangyayari iti Muntinlupa',
     'news-tax-payments': 'Panagbayad ti Buwis',
     'news-terms-of-use': 'Dagiti Kondision ti Panagusar',
     'news-volunteer-with-us': 'Ag-volunteer kadakami',
@@ -17738,7 +17143,7 @@ const translations = {
     'officials-contribute-code-with-us': 'Ag-ambag ti code kadakami',
     'officials-education': 'Edukasion',
     'officials-elected-officials': 'Dagiti Nahalal nga Opisial',
-    'officials-empowering-the-people-of-solano-with-transparent':
+    'officials-empowering-the-people-of-Muntinlupa-with-transparent':
       'Panangted ti bileg kadagiti umili ti Muntinlupa nga addaan ti transparente a panag-akses kadagiti serbisio, programa, ken pampubliko a pondo ti siudad.',
     'officials-environment': 'Aglawlaw',
     'officials-executive-branch': 'Ehekutibo a Sanga',
@@ -17757,12 +17162,12 @@ const translations = {
     'officials-hon-thomas-dave-c-santos': 'Hon. Thomas Dave C. Santos',
     'officials-hon-walter-d-savedra-sr': 'Hon. Walter D. Savedra, Sr.',
     'officials-infrastructure': 'Imprastraktura',
-    'officials-lgu-solano-facebook': 'LGU Solano Facebook',
+    'officials-lgu-Muntinlupa-facebook': 'LGU Muntinlupa Facebook',
     'officials-meet-the-leaders-serving-muntinlupa':
       'Ammoen dagiti napili a lider a mangserserbi iti Siudad ti Muntinlupa',
     'officials-municipal-mayor': 'Mayor ti Munisipalidad',
     'officials-municipal-vice-mayor': 'Bise Mayor ti Munisipalidad',
-    'officials-official-lgu-solano-portal': 'Opisial a Portal ti LGU Solano',
+    'officials-official-lgu-Muntinlupa-portal': 'Opisial a Portal ti LGU Muntinlupa',
     'officials-open-data-philippines': 'Open Data Philippines',
     'officials-ordinance-framework': 'Balangkas ti Ordinansa',
     'officials-privacy-policy': 'Pagannurotan ti Pagkapribado',
@@ -17779,8 +17184,6 @@ const translations = {
     'officials-tax-payments': 'Panagbayad ti Buwis',
     'officials-terms-of-use': 'Dagiti Kondision ti Panagusar',
     'officials-volunteer-with-us': 'Ag-volunteer kadakami',
-    'offline-emergency-hotlines-solano-nueva-vizcaya':
-      'Dagiti Emergency Hotline - Solano, Nueva Vizcaya',
     'offline-fire-bfp': 'Apuy (BFP)',
     'offline-municipal-hall': 'Munisipio',
     'offline-police-pnp': 'Polis (PNP)',
@@ -17798,7 +17201,7 @@ const translations = {
     'ord-cmci-dti-portal': 'CMCI DTI Portal',
     'ord-contribute-code-with-us': 'Ag-ambag ti code kadakami',
     'ord-education': 'Edukasion',
-    'ord-empowering-the-people-of-solano-with-transparent':
+    'ord-empowering-the-people-of-Muntinlupa-with-transparent':
       'Panangted ti bileg kadagiti umili ti Muntinlupa nga addaan ti transparente a panag-akses kadagiti serbisio, programa, ken pampubliko a pondo ti siudad.',
     'ord-environment': 'Aglawlaw',
     'ord-freedom-of-information': 'Wayawaya ti Impormasion',
@@ -17806,8 +17209,8 @@ const translations = {
     'ord-home': 'Pagtaengan',
     'ord-infrastructure': 'Imprastraktura',
     'ord-legislative': 'Lehislatura',
-    'ord-lgu-solano-facebook': 'LGU Solano Facebook',
-    'ord-official-lgu-solano-portal': 'Opisial a Portal ti LGU Solano',
+    'ord-lgu-Muntinlupa-facebook': 'LGU Muntinlupa Facebook',
+    'ord-official-lgu-Muntinlupa-portal': 'Opisial a Portal ti LGU Muntinlupa',
     'ord-open-data-philippines': 'Open Data Philippines',
     'ord-ordinance-framework': 'Balangkas ti Ordinansa',
     'ord-privacy-policy': 'Pagannurotan ti Pagkapribado',
@@ -17861,7 +17264,7 @@ const translations = {
     'privacy-education': 'Edukasion',
     'privacy-email-address-when-you-contact-us-or-submit':
       'Ag-email address (when you kontaken us or isumite feedback)',
-    'privacy-empowering-the-people-of-solano-with-transparent':
+    'privacy-empowering-the-people-of-Muntinlupa-with-transparent':
       'Panangted ti bileg kadagiti umili ti Muntinlupa nga addaan ti transparente a panag-akses kadagiti serbisio, programa, ken pampubliko a pondo ti siudad.',
     'privacy-environment': 'Aglawlaw',
     'privacy-essential-cookies': 'Dagiti Mahahalagang Cookie:',
@@ -17893,7 +17296,7 @@ const translations = {
     'privacy-legal-requirements': 'Legal Dagiti kasapulan:',
     'privacy-legislative': 'Lehislatura',
     'privacy-legitimate-interest': 'Legitimate Interes:',
-    'privacy-lgu-solano-facebook': 'LGU Solano Facebook',
+    'privacy-lgu-Muntinlupa-facebook': 'LGU Muntinlupa Facebook',
     'privacy-managing-cookies': 'Panagtaripato ti dagiti Cookie',
     'privacy-material-changes-may-be-announced-on-our-website':
       'Ti dagiti mahahalagang pagbabago ay maaaring ianunsyo iti aming website',
@@ -17902,7 +17305,7 @@ const translations = {
     'privacy-national-privacy-commission': 'Nailian Privacy Komisyon',
     'privacy-not': 'saan',
     'privacy-number-of-visitors-and-page-views': 'Bilang ti dagiti bisita ken page view',
-    'privacy-official-lgu-solano-portal': 'Opisial a Portal ti LGU Solano',
+    'privacy-official-lgu-Muntinlupa-portal': 'Opisial a Portal ti LGU Muntinlupa',
     'privacy-open-data-philippines': 'Open Data Philippines',
     'privacy-ordinance-framework': 'Balangkas ti Ordinansa',
     'privacy-our-website-may-contain-links-to-external':
@@ -18042,7 +17445,7 @@ const translations = {
     'propdec-education': 'Edukasion',
     'propdec-effectivity-of-assessment': 'Effectivity of Panagpatasa',
     'propdec-effectivity-quarter-and-year': 'Quarter ken Tawen ti Bisa',
-    'propdec-empowering-the-people-of-solano-with-transparent':
+    'propdec-empowering-the-people-of-Muntinlupa-with-transparent':
       'Panangted ti bileg kadagiti umili ti Muntinlupa nga addaan ti transparente a panag-akses kadagiti serbisio, programa, ken pampubliko a pondo ti siudad.',
     'propdec-environment': 'Aglawlaw',
     'propdec-estimated-economic-life': 'Tinatayang Buhay Pang-ekonomiya',
@@ -18053,7 +17456,7 @@ const translations = {
     'propdec-freedom-of-information': 'Wayawaya ti Impormasion',
     'propdec-full-name-of-owner': 'Naan-anay Name of Akinkukua',
     'propdec-government': 'Gobierno',
-    'propdec-ground-floor-municipal-hall-solano': 'Umuna a Kadsaaran, Munisipalidad, Solano',
+    'propdec-ground-floor-municipal-hall-Muntinlupa': 'Umuna a Kadsaaran, Munisipalidad, Muntinlupa',
     'propdec-handles-property-assessment-tax-declaration-and':
       'Handles kukua panagpatasa, buwis declaration, and real kukua dagiti rekord.',
     'propdec-health': 'Salun-at',
@@ -18069,7 +17472,7 @@ const translations = {
     'propdec-land-declaration': 'Deklarasyon ti Daga',
     'propdec-land-tax-declaration': 'Daga Deklarasion ti Buwis',
     'propdec-legislative': 'Lehislatura',
-    'propdec-lgu-solano-facebook': 'LGU Solano Facebook',
+    'propdec-lgu-Muntinlupa-facebook': 'LGU Muntinlupa Facebook',
     'propdec-list-of-machineries-with-specifications':
       'Listahan ti dagiti Makinarya na may Detalye',
     'propdec-location': 'Lokasion',
@@ -18083,7 +17486,7 @@ const translations = {
     'propdec-occupancy-permit': 'Permit ti Panagnaed',
     'propdec-octtctcloa-no': 'OCT/TCT/CLOA No.',
     'propdec-office': 'Opisina',
-    'propdec-official-lgu-solano-portal': 'Opisial a Portal ti LGU Solano',
+    'propdec-official-lgu-Muntinlupa-portal': 'Opisial a Portal ti LGU Muntinlupa',
     'propdec-open-data-philippines': 'Open Data Philippines',
     'propdec-ordinance-framework': 'Balangkas ti Ordinansa',
     'propdec-owner-information': 'Impormasion ti Akinkukua',
@@ -18112,7 +17515,7 @@ const translations = {
     'propdec-tax-clearance-certificate': 'Tax Clearance Sertipiko',
     'propdec-tax-declaration': 'Deklarasion ti Buwis',
     'propdec-tax-declaration-form-for-real-property-assessment':
-      'Form ti tax declaration para iti panagpatasa ti tunay na kukua iti Solano, Nueva Vizcaya',
+      'Form ti tax declaration para iti panagpatasa ti tunay na kukua iti Muntinlupa, Metro Manila',
     'propdec-tax-payments': 'Panagbayad ti Buwis',
     'propdec-tax-payments-2': 'Buwis ken Panagbayad',
     'propdec-taxableexempt-status': 'Katayuang Buwisable/Exempt',
@@ -18133,7 +17536,7 @@ const translations = {
     'reso-cmci-dti-portal': 'CMCI DTI Portal',
     'reso-contribute-code-with-us': 'Ag-ambag ti code kadakami',
     'reso-education': 'Edukasion',
-    'reso-empowering-the-people-of-solano-with-transparent':
+    'reso-empowering-the-people-of-Muntinlupa-with-transparent':
       'Panangted ti bileg kadagiti umili ti Muntinlupa nga addaan ti transparente a panag-akses kadagiti serbisio, programa, ken pampubliko a pondo ti siudad.',
     'reso-environment': 'Aglawlaw',
     'reso-freedom-of-information': 'Wayawaya ti Impormasion',
@@ -18141,8 +17544,8 @@ const translations = {
     'reso-home': 'Pagtaengan',
     'reso-infrastructure': 'Imprastraktura',
     'reso-legislative': 'Lehislatura',
-    'reso-lgu-solano-facebook': 'LGU Solano Facebook',
-    'reso-official-lgu-solano-portal': 'Opisial a Portal ti LGU Solano',
+    'reso-lgu-Muntinlupa-facebook': 'LGU Muntinlupa Facebook',
+    'reso-official-lgu-Muntinlupa-portal': 'Opisial a Portal ti LGU Muntinlupa',
     'reso-open-data-philippines': 'Open Data Philippines',
     'reso-ordinance-framework': 'Balangkas ti Ordinansa',
     'reso-privacy-policy': 'Pagannurotan ti Pagkapribado',
@@ -18173,7 +17576,7 @@ const translations = {
     'safety-emergency-hotlines': 'Dagiti Emergency Hotline',
     'safety-emergency-response-and-disaster-preparedness':
       'Dagiti programa ti pagtugon iti emergency ken panagisagana iti didigra.',
-    'safety-empowering-the-people-of-solano-with-transparent':
+    'safety-empowering-the-people-of-Muntinlupa-with-transparent':
       'Panangted ti bileg kadagiti umili ti Muntinlupa nga addaan ti transparente a panag-akses kadagiti serbisio, programa, ken pampubliko a pondo ti siudad.',
     'safety-environment': 'Aglawlaw',
     'safety-fee': 'Bayad:',
@@ -18185,11 +17588,11 @@ const translations = {
     'safety-health': 'Salun-at',
     'safety-home': 'Pagtaengan',
     'safety-infrastructure': 'Imprastraktura',
-    'safety-lgu-solano-facebook': 'LGU Solano Facebook',
+    'safety-lgu-Muntinlupa-facebook': 'LGU Muntinlupa Facebook',
     'safety-medical': 'Medikal',
     'safety-medical-emergency-hotlines': 'Dagiti Medikal na Emergency Hotline',
     'safety-office': 'Opisina:',
-    'safety-official-lgu-solano-portal': 'Opisial a Portal ti LGU Solano',
+    'safety-official-lgu-Muntinlupa-portal': 'Opisial a Portal ti LGU Muntinlupa',
     'safety-open-data-philippines': 'Open Data Philippines',
     'safety-ordinance-framework': 'Balangkas ti Ordinansa',
     'safety-privacy-policy': 'Pagannurotan ti Pagkapribado',
@@ -18229,7 +17632,7 @@ const translations = {
     'sitemap-contribute-code-with-us': 'Ag-ambag ti code kadakami',
     'sitemap-education': 'Edukasion',
     'sitemap-elected-officials': 'Dagiti Nahalal nga Opisial',
-    'sitemap-empowering-the-people-of-solano-with-transparent':
+    'sitemap-empowering-the-people-of-Muntinlupa-with-transparent':
       'Panangted ti bileg kadagiti umili ti Muntinlupa nga addaan ti transparente a panag-akses kadagiti serbisio, programa, ken pampubliko a pondo ti siudad.',
     'sitemap-engineering-office': 'Opisina ti Inhinyero',
     'sitemap-environment': 'Aglawlaw',
@@ -18247,19 +17650,19 @@ const translations = {
     'sitemap-infrastructure': 'Imprastraktura',
     'sitemap-legislative': 'Lehislatura',
     'sitemap-legislative-documents': 'Dagiti Dokumentong Lehislatibo',
-    'sitemap-lgu-solano-facebook': 'LGU Solano Facebook',
+    'sitemap-lgu-Muntinlupa-facebook': 'LGU Muntinlupa Facebook',
     'sitemap-local-civil-registrar': 'Lokal a Civil Registrar',
     'sitemap-main-navigation': 'Kangrunaan a Nabigasyon',
-    'sitemap-municipal-offices': 'Dagiti Opisina ti Munisipalidad',
-    'sitemap-navigate-all-pages-and-services-of-better-solano':
+    'sitemap-municipal-offices': 'Dagiti Serbisio ti Siudad',
+    'sitemap-navigate-all-pages-and-services-of-better-Muntinlupa':
       'Navigate all pages and dagiti serbisio of Better Muntinlupa',
     'sitemap-navigation': 'Nabigasyon',
     'sitemap-new-business-application': 'Baro Business Aplikasion',
     'sitemap-news': 'Damag',
-    'sitemap-official-lgu-solano-portal': 'Opisial a Portal ti LGU Solano',
-    'sitemap-official-solano-website': 'Opisial Solano Website',
-    'sitemap-online-payment-order': 'Online Panagbayad Order',
-    'sitemap-online-services': 'Dagiti Online na Serbisio',
+    'sitemap-official-lgu-Muntinlupa-portal': 'Opisial a Portal ti LGU Muntinlupa',
+    'sitemap-official-Muntinlupa-website': 'Opisial Muntinlupa Website',
+    'sitemap-online-payment-order': 'Impormasion ti Order ti Panagbayad',
+    'sitemap-online-services': 'Impormasion Dagiti Serbisyo ti Siudad',
     'sitemap-open-data-philippines': 'Open Data Philippines',
     'sitemap-ordinance-framework': 'Balangkas ti Ordinansa',
     'sitemap-planning-office': 'Opisina ti Panagplano',
@@ -18285,7 +17688,7 @@ const translations = {
     'sitemap-transparency': 'Transparensiya',
     'sitemap-treasurers-office': 'Opisina ti Tesorero',
     'sitemap-tricycle-franchising': 'Prangkisa ti Traysikel',
-    'sitemap-via-filipizen': 'iti pamamagitan ti Filipizen',
+    'sitemap-via-filipizen': 'Dagiti serbisyo ti siudad',
     'sitemap-volunteer-with-us': 'Ag-volunteer kadakami',
     'slaughter-1-hour': '1 oras',
     'slaughter-10-minutes': '10 minuto',
@@ -18339,7 +17742,7 @@ const translations = {
     'slaughter-duration': 'Kaatiddog',
     'slaughter-economic-enterprise-development-office': 'Economic Enterprise & Development Opisina',
     'slaughter-education': 'Edukasion',
-    'slaughter-empowering-the-people-of-solano-with-transparent':
+    'slaughter-empowering-the-people-of-Muntinlupa-with-transparent':
       'Panangted ti bileg kadagiti umili ti Muntinlupa nga addaan ti transparente a panag-akses kadagiti serbisio, programa, ken pampubliko a pondo ti siudad.',
     'slaughter-environment': 'Aglawlaw',
     'slaughter-facility-maintenance': 'Panagtaginayon ti Pasilidad',
@@ -18363,7 +17766,7 @@ const translations = {
     'slaughter-large': 'Dakkel',
     'slaughter-large-cattle-registration-certificate': 'Dakkel Cattle Registration Sertipiko',
     'slaughter-legislative': 'Lehislatura',
-    'slaughter-lgu-solano-facebook': 'LGU Solano Facebook',
+    'slaughter-lgu-Muntinlupa-facebook': 'LGU Muntinlupa Facebook',
     'slaughter-location': 'Lokasion',
     'slaughter-meat-inspection-certificate-is-required-for-meat':
       'Meat Inspeksion Sertipiko is kasapulan for meat transport',
@@ -18374,7 +17777,7 @@ const translations = {
     'slaughter-office-head': 'Pinuno ti Opisina',
     'slaughter-office-information': 'Impormasion ti Opisina',
     'slaughter-office-personnel': 'Dagiti Tauhan ti Opisina',
-    'slaughter-official-lgu-solano-portal': 'Opisial a Portal ti LGU Solano',
+    'slaughter-official-lgu-Muntinlupa-portal': 'Opisial a Portal ti LGU Muntinlupa',
     'slaughter-open-data-philippines': 'Open Data Philippines',
     'slaughter-operations-management': 'Panagtaripato ti Operasyon',
     'slaughter-ordinance-framework': 'Balangkas ti Ordinansa',
@@ -18401,8 +17804,7 @@ const translations = {
     'slaughter-see-fee-schedule': 'See bayad schedule',
     'slaughter-seedo-head': 'SEEDO Puno',
     'slaughter-seedo-slaughterhouse': 'SEEDO - Pagpartian',
-    'slaughter-seedo-slaughterhouse-solano-nueva-vizcaya':
-      'SEEDO Pagpartian, Solano, Nueva Vizcaya',
+    'slaughter-city-office-location': 'Kontaken ti City Office tapno mapasingkedan ti agdama a lokasion ti pasilidad.',
     'slaughter-select-a-service-to-view-the-detailed-process':
       'Select a serbisio to kitaen the detailed iproseso, dagiti kasapulan, and dagiti bayad',
     'slaughter-services': 'Dagiti Serbisio',
@@ -18452,7 +17854,7 @@ const translations = {
     'social-cmci-dti-portal': 'CMCI DTI Portal',
     'social-contribute-code-with-us': 'Ag-ambag ti code kadakami',
     'social-education': 'Edukasion',
-    'social-empowering-the-people-of-solano-with-transparent':
+    'social-empowering-the-people-of-Muntinlupa-with-transparent':
       'Panangted ti bileg kadagiti umili ti Muntinlupa nga addaan ti transparente a panag-akses kadagiti serbisio, programa, ken pampubliko a pondo ti siudad.',
     'social-environment': 'Aglawlaw',
     'social-fee': 'Bayad:',
@@ -18460,9 +17862,9 @@ const translations = {
     'social-health': 'Salun-at',
     'social-home': 'Pagtaengan',
     'social-infrastructure': 'Imprastraktura',
-    'social-lgu-solano-facebook': 'LGU Solano Facebook',
+    'social-lgu-Muntinlupa-facebook': 'LGU Muntinlupa Facebook',
     'social-mswdo-services': 'Dagiti Serbisio ti MSWDO',
-    'social-official-lgu-solano-portal': 'Opisial a Portal ti LGU Solano',
+    'social-official-lgu-Muntinlupa-portal': 'Opisial a Portal ti LGU Muntinlupa',
     'social-open-data-philippines': 'Open Data Philippines',
     'social-ordinance-framework': 'Balangkas ti Ordinansa',
     'social-privacy-policy': 'Pagannurotan ti Pagkapribado',
@@ -18488,13 +17890,8 @@ const translations = {
     'stats-90-ci-47-81': '90% CI: 4.7% - 8.1%',
     'stats-90-ci-47-92': '90% CI: 4.7% - 9.2%',
     'stats-accessibility': 'Aksesibilidad',
-    'stats-aggub': 'Aggub',
     'stats-agriculture': 'Agrikultura',
     'stats-annual-income': 'Tinawen a Kita',
-    'stats-bagahabag': 'Bagahabag',
-    'stats-bangaan': 'Bangaan',
-    'stats-bangar': 'Bangar',
-    'stats-bascaran': 'Bascaran',
     'stats-blgf-portal': 'BLGF Portal',
     'stats-bureau-of-local-government-finance-blgf': 'Bureau of Lokal Gobierno Finance (BLGF)',
     'stats-business': 'Negosio',
@@ -18503,13 +17900,8 @@ const translations = {
       'Pagganap ti Cities and Municipalities Competitiveness Index (CMCI) 2016-2024',
     'stats-citizens-charter': "Citizen's Charter",
     'stats-cmci-dti-portal': 'CMCI DTI Portal',
-    'stats-communal': 'Communal',
-    'stats-comparative-view-of-all-22-barangays': 'Comparative kitaen of all 22 barangays',
     'stats-competitiveness': 'Kompetitibidad',
-    'stats-concepcion': 'Concepcion',
     'stats-contribute-code-with-us': 'Ag-ambag ti code kadakami',
-    'stats-curifang': 'Curifang',
-    'stats-dadap': 'Dadap',
     'stats-distribution': 'Panagipakat',
     'stats-dti-cities-and-municipalities-competitiveness':
       'DTI Cities and Municipalities Competitiveness Index (CMCI)',
@@ -18519,7 +17911,7 @@ const translations = {
     'stats-economic-sectors': 'Dagiti Sektor ti Ekonomiya',
     'stats-economy': 'Ekonomiya',
     'stats-education': 'Edukasion',
-    'stats-empowering-the-people-of-solano-with-transparent':
+    'stats-empowering-the-people-of-Muntinlupa-with-transparent':
       'Panangted ti bileg kadagiti umili ti Muntinlupa nga addaan ti transparente a panag-akses kadagiti serbisio, programa, ken pampubliko a pondo ti siudad.',
     'stats-environment': 'Aglawlaw',
     'stats-finance': 'Pananalapi',
@@ -18545,19 +17937,14 @@ const translations = {
     'stats-key-economic-data-and-business-statistics': 'Key economic datos and business statistics',
     'stats-key-indicators-trend-20162024':
       'Trend ti dagiti Kangrunaan a Tagapagpahiwatig (2016-2024)',
-    'stats-lactawan': 'Lactawan',
-    'stats-lgu-solano-facebook': 'LGU Solano Facebook',
+    'stats-lgu-Muntinlupa-facebook': 'LGU Muntinlupa Facebook',
     'stats-local-4055': 'Lokal 40.55%',
     'stats-municipal-data': 'Datos ti Munisipalidad',
     'stats-municipal-income': 'Kita ti Munisipalidad',
-    'stats-official-lgu-solano-portal': 'Opisial a Portal ti LGU Solano',
+    'stats-official-lgu-Muntinlupa-portal': 'Opisial a Portal ti LGU Muntinlupa',
     'stats-ordinance-framework': 'Balangkas ti Ordinansa',
-    'stats-osmea': 'Osmeña',
     'stats-overview': 'Pangkabuklan',
     'stats-philippine-statistics-authority-psa': 'Awtoridad ti Estadistika ti Pilipinas (PSA)',
-    'stats-pilar-d-galima': 'Pilar D. Galima',
-    'stats-poblacion-north': 'Poblacion North',
-    'stats-poblacion-south': 'Poblacion South',
     'stats-population-bar-chart': 'Bar Chart ti Populasyon',
     'stats-population-by-barangay': 'Populasion Sigun iti Barangay',
     'stats-population-trends': 'Dagiti Trend ti Populasion',
@@ -18565,31 +17952,22 @@ const translations = {
     'stats-poverty-statistics': 'Estadistika ti Kinapanglaw',
     'stats-privacy-policy': 'Pagannurotan ti Pagkapribado',
     'stats-public-safety': 'Kaligtasan Pampubliko',
-    'stats-quezon': 'Quezon',
     'stats-quick-links': 'Dagiti Napartak a Silpo',
-    'stats-quirino': 'Quirino',
     'stats-resiliency': 'Katatagan',
     'stats-resiliency-trend': 'Trend ti Katatagan',
     'stats-resolution-framework': 'Balangkas ti Resolusion',
     'stats-resources': 'Dagiti Rekurso',
-    'stats-roxas': 'Roxas',
-    'stats-san-juan': 'San Juan',
-    'stats-san-luis': 'San Luis',
     'stats-sangguniang-bayan': 'Sangguniang Bayan',
     'stats-services': 'Dagiti Serbisio',
     'stats-sitemap': 'Mapa ti Site',
     'stats-skip-to-main-content': 'Lumaktaw iti kangrunaan a linaon',
     'stats-social-services': 'Serbisio Sosyal',
-    'stats-solano-competitive-index': 'Competitive Index ti Solano',
+    'stats-Muntinlupa-competitive-index': 'Competitive Index ti Muntinlupa',
     'stats-tax-payments': 'Panagbayad ti Buwis',
     'stats-terms-of-use': 'Dagiti Kondision ti Panagusar',
     'stats-trade-amp-commerce': 'Kalakalan ken Komersyo',
-    'stats-tucal': 'Tucal',
-    'stats-uddiawan': 'Uddiawan',
-    'stats-view-all-22-barangays': 'Kitaen all 22 barangays',
     'stats-visual': 'Biswal',
     'stats-volunteer-with-us': 'Ag-volunteer kadakami',
-    'stats-wacal': 'Wacal',
     'svc-accessibility': 'Aksesibilidad',
     'svc-agriculture': 'Agrikultura',
     'svc-blgf-portal': 'BLGF Portal',
@@ -18600,7 +17978,7 @@ const translations = {
     'svc-cmci-dti-portal': 'CMCI DTI Portal',
     'svc-contribute-code-with-us': 'Ag-ambag ti code kadakami',
     'svc-education': 'Edukasion',
-    'svc-empowering-the-people-of-solano-with-transparent':
+    'svc-empowering-the-people-of-Muntinlupa-with-transparent':
       'Panangted ti bileg kadagiti umili ti Muntinlupa nga addaan ti transparente a panag-akses kadagiti serbisio, programa, ken pampubliko a pondo ti siudad.',
     'svc-environment': 'Aglawlaw',
     'svc-freedom-of-information': 'Wayawaya ti Impormasion',
@@ -18610,9 +17988,9 @@ const translations = {
     'svc-health': 'Salun-at',
     'svc-home': 'Pagtaengan',
     'svc-infrastructure': 'Imprastraktura',
-    'svc-lgu-solano-facebook': 'LGU Solano Facebook',
+    'svc-lgu-Muntinlupa-facebook': 'LGU Muntinlupa Facebook',
     'svc-need-financial-help': 'Kasapulan Financial Tulong',
-    'svc-official-lgu-solano-portal': 'Opisial a Portal ti LGU Solano',
+    'svc-official-lgu-Muntinlupa-portal': 'Opisial a Portal ti LGU Muntinlupa',
     'svc-open-data-philippines': 'Open Data Philippines',
     'svc-ordinance-framework': 'Balangkas ti Ordinansa',
     'svc-person-with-disability': 'Tao nga Addaan Kapansanan',
@@ -18640,34 +18018,34 @@ const translations = {
     'tax-cmci-dti-portal': 'CMCI DTI Portal',
     'tax-contribute-code-with-us': 'Ag-ambag ti code kadakami',
     'tax-education': 'Edukasion',
-    'tax-empowering-the-people-of-solano-with-transparent':
+    'tax-empowering-the-people-of-Muntinlupa-with-transparent':
       'Panangted ti bileg kadagiti umili ti Muntinlupa nga addaan ti transparente a panag-akses kadagiti serbisio, programa, ken pampubliko a pondo ti siudad.',
     'tax-environment': 'Aglawlaw',
     'tax-freedom-of-information': 'Wayawaya ti Impormasion',
     'tax-health': 'Salun-at',
     'tax-home': 'Pagtaengan',
     'tax-infrastructure': 'Imprastraktura',
-    'tax-lgu-solano-facebook': 'LGU Solano Facebook',
+    'tax-lgu-Muntinlupa-facebook': 'LGU Muntinlupa Facebook',
     'tax-municipal-accounting-office': 'Opisina ti Accounting ti Munisipalidad',
     'tax-municipal-assessors-office': 'Opisina ti Assessor ti Munisipalidad',
     'tax-municipal-budget-office': 'Opisina ti Badyet ti Munisipalidad',
     'tax-municipal-treasurers-office': 'Opisina ti Tesorero ti Munisipalidad',
     'tax-obligation-requests-barangay-budget-review-and':
       'Obligation dagiti kiddaw, barangay budget repasuen, and SEF budget preparation',
-    'tax-official-lgu-solano-portal': 'Opisial a Portal ti LGU Solano',
-    'tax-online-payment-order': 'Online Panagbayad Order',
+    'tax-official-lgu-Muntinlupa-portal': 'Opisial a Portal ti LGU Muntinlupa',
+    'tax-online-payment-order': 'Impormasion ti Order ti Panagbayad',
     'tax-open-data-philippines': 'Open Data Philippines',
     'tax-ordinance-framework': 'Balangkas ti Ordinansa',
     'tax-preaudit-of-disbursements-payroll-check-issuance':
       'Pre-audit ti dagiti disbursement, payroll, panagipaay ti tseke, ken pag-uulat pinansyal',
     'tax-privacy-policy': 'Pagannurotan ti Pagkapribado',
     'tax-process-payment-orders-for-various-municipal-fees':
-      'Iproseso panagbayad orders for various munisipal dagiti bayad',
+      'Kitaen ti impormasion maipapan kadagiti order ti panagbayad para kadagiti bayad ti siudad.',
     'tax-property-declaration-tax-assessment-and-land':
       'Kukua declaration, buwis panagpatasa, and daga dagiti rekord',
     'tax-public-safety': 'Kaligtasan Pampubliko',
     'tax-quick-links': 'Dagiti Napartak a Silpo',
-    'tax-real-property-tax-billing-payment': 'Buwis ti Kukua Billing & Panagbayad',
+    'tax-real-property-tax-billing-payment': 'Impormasion ti Buwis ken Panagbayad ti Kukua',
     'tax-resolution-framework': 'Balangkas ti Resolusion',
     'tax-resources': 'Dagiti Rekurso',
     'tax-sangguniang-bayan': 'Sangguniang Bayan',
@@ -18680,7 +18058,7 @@ const translations = {
     'tax-tax-payments': 'Panagbayad ti Buwis',
     'tax-terms-of-use': 'Dagiti Kondision ti Panagusar',
     'tax-view-and-pay-your-real-property-tax-amilyar-online':
-      'View iti pay iyong buwis iti tunay na kukua (amilyar) online',
+      'Kitaen ti impormasion maipapan iti buwis ti kukua ken panagbayad.',
     'tax-volunteer-with-us': 'Ag-volunteer kadakami',
     'terms-a-clear-description-of-your-concern': 'Nalawag a deskripsion ti pakaseknaam',
     'terms-acceptance-of-terms': 'Panangawat kadagiti Kondision',
@@ -18751,7 +18129,7 @@ const translations = {
     'terms-editorial-decisions-about-content-rest-with-the':
       'Editorial decisions about content rest with the website team, guided by publiko interes and civic responsibility.',
     'terms-education': 'Edukasion',
-    'terms-empowering-the-people-of-solano-with-transparent':
+    'terms-empowering-the-people-of-Muntinlupa-with-transparent':
       'Panangted ti bileg kadagiti umili ti Muntinlupa nga addaan ti transparente a panag-akses kadagiti serbisio, programa, ken pampubliko a pondo ti siudad.',
     'terms-environment': 'Aglawlaw',
     'terms-errorfree-or-uninterrupted': 'Awan ti error wenno walang pagkaantala',
@@ -18792,13 +18170,13 @@ const translations = {
     'terms-legislative': 'Lehislatura',
     'terms-legitimate-concerns-will-be-reviewed-in-good':
       'Legitimate concerns will be reviewed in nasayaat faith by volunteers.',
-    'terms-lgu-solano-facebook': 'LGU Solano Facebook',
+    'terms-lgu-Muntinlupa-facebook': 'LGU Muntinlupa Facebook',
     'terms-limitation-of-liability': 'Limitasion ti Responsabilidad',
     'terms-modifications': 'Dagiti Pagbabago',
     'terms-no-professional-advice': 'Awan ti Propesyonal na Payo',
     'terms-noninfringement-of-intellectual-property-rights':
       'Non-infringement of intellectual kukua rights',
-    'terms-official-lgu-solano-portal': 'Opisial a Portal ti LGU Solano',
+    'terms-official-lgu-Muntinlupa-portal': 'Opisial a Portal ti LGU Muntinlupa',
     'terms-open-data-philippines': 'Open Data Philippines',
     'terms-ordinance-framework': 'Balangkas ti Ordinansa',
     'terms-our-response-process': 'Our Response Iproseso',
@@ -18926,7 +18304,7 @@ const translations = {
     'treas-discount': 'Diskuento:',
     'treas-discountpenalty': 'Diskwento/Multa',
     'treas-education': 'Edukasion',
-    'treas-empowering-the-people-of-solano-with-transparent':
+    'treas-empowering-the-people-of-Muntinlupa-with-transparent':
       'Panangted ti bileg kadagiti umili ti Muntinlupa nga addaan ti transparente a panag-akses kadagiti serbisio, programa, ken pampubliko a pondo ti siudad.',
     'treas-environment': 'Aglawlaw',
     'treas-fee': 'Bayad:',
@@ -18936,8 +18314,7 @@ const translations = {
     'treas-free': 'Libre',
     'treas-freedom-of-information': 'Wayawaya ti Impormasion',
     'treas-government': 'Gobierno',
-    'treas-ground-floor-municipal-hall-solano-nueva-vizcaya':
-      'Umuna a Kadsaaran, Munisipalidad, Solano, Nueva Vizcaya',
+    'treas-city-office-location': 'Kontaken ti City Treasurer tapno mapasingkedan ti agdama a lokasionna.',
     'treas-health': 'Salun-at',
     'treas-home': 'Pagtaengan',
     'treas-hours': 'Oras',
@@ -18958,7 +18335,7 @@ const translations = {
       'Itago all opisial dagiti resibo for dagiti rekord',
     'treas-late-payment': 'Huling Panagbayad',
     'treas-legislative': 'Lehislatura',
-    'treas-lgu-solano-facebook': 'LGU Solano Facebook',
+    'treas-lgu-Muntinlupa-facebook': 'LGU Muntinlupa Facebook',
     'treas-location': 'Lokasion',
     'treas-march-31': 'Marso 31',
     'treas-maximum-72-36-months': 'Pinakamataas na 72% (36 bulan)',
@@ -18969,7 +18346,7 @@ const translations = {
     'treas-no-discountpenalty': 'Awan ti diskwento/multa',
     'treas-office': 'Opisina',
     'treas-office-information': 'Impormasion ti Opisina',
-    'treas-official-lgu-solano-portal': 'Opisial a Portal ti LGU Solano',
+    'treas-official-lgu-Muntinlupa-portal': 'Opisial a Portal ti LGU Muntinlupa',
     'treas-official-receipt': 'Opisial a Resibo',
     'treas-open-data-philippines': 'Open Data Philippines',
     'treas-ordinance-framework': 'Balangkas ti Ordinansa',
@@ -19009,7 +18386,7 @@ const translations = {
     'treas-tax-assessment-inquiry': 'Buwis Panagpatasa Panagsaludsod',
     'treas-tax-clearance': 'Tax Clearance',
     'treas-tax-collection-fee-payments-and-financial':
-      'Tax koleksyon, fee dagiti panagbayad, iti financial dagiti serbisio para iti Solano dagiti residente',
+      'Tax koleksyon, fee dagiti panagbayad, iti financial dagiti serbisio para iti Muntinlupa dagiti residente',
     'treas-tax-declaration-assessment': 'Deklarasion ti Buwis / Panagpatasa',
     'treas-tax-payments': 'Panagbayad ti Buwis',
     'treas-tax-payments-2': 'Buwis ken Panagbayad',
@@ -19052,7 +18429,7 @@ const translations = {
     'tricycle-contact': 'Kontaken',
     'tricycle-contribute-code-with-us': 'Ag-ambag ti code kadakami',
     'tricycle-education': 'Edukasion',
-    'tricycle-empowering-the-people-of-solano-with-transparent':
+    'tricycle-empowering-the-people-of-Muntinlupa-with-transparent':
       'Panangted ti bileg kadagiti umili ti Muntinlupa nga addaan ti transparente a panag-akses kadagiti serbisio, programa, ken pampubliko a pondo ti siudad.',
     'tricycle-encoding-of-application': 'Encoding of Aplikasion',
     'tricycle-environment': 'Aglawlaw',
@@ -19073,7 +18450,7 @@ const translations = {
     'tricycle-inspection-of-tricycle-unit': 'Inspeksion of Tricycle Yunit',
     'tricycle-legislative': 'Lehislatura',
     'tricycle-mayors-approval': "Mayor's Panag-apruba",
-    'tricycle-municipal-hall-solano-nueva-vizcaya': 'Munisipalidad, Solano, Nueva Vizcaya',
+    'tricycle-city-office-location': 'Kontaken ti City Office tapno mapasingkedan ti agdama a lokasionna.',
     'tricycle-municipal-mayor-approves-the-application-form':
       'Mayor ti Munisipalidad approves the aplikasion form',
     'tricycle-municipal-treasurers-office-collects-the-fees':
@@ -19157,66 +18534,64 @@ const translations = {
     'safety-preparedness-desc': 'Panagsanay ken dagiti resources para iti disaster readiness',
     'safety-relief': 'Tulong iti Kalamidad',
     'safety-relief-desc': 'Relief goods ken suporta iti panaglikas',
-    'tax-online-badge': 'Online Services babaen ti Filipizen',
+    'tax-online-badge': 'Dagiti Serbisyo ti Buwis ti Siudad',
     'tax-property': 'Buwis ti Kukua',
     'tax-property-desc': 'Tawenantawen a buwis ti daga ken dagiti pagpasayaat',
 
-    // Solano Quiz
-    'accessibility-solano-quiz': 'Solano Quiz',
-    'acct-solano-quiz': 'Solano Quiz',
-    'agri-solano-quiz': 'Solano Quiz',
-    'assessor-solano-quiz': 'Solano Quiz',
-    'birth-solano-quiz': 'Solano Quiz',
-    'biz-solano-quiz': 'Solano Quiz',
-    'bpls-solano-quiz': 'Solano Quiz',
-    'budget-solano-quiz': 'Solano Quiz',
-    'cert-solano-quiz': 'Solano Quiz',
-    'civil-solano-quiz': 'Solano Quiz',
-    'contact-solano-quiz': 'Solano Quiz',
-    'death-solano-quiz': 'Solano Quiz',
-    'edu-solano-quiz': 'Solano Quiz',
-    'eng-solano-quiz': 'Solano Quiz',
-    'env-solano-quiz': 'Solano Quiz',
-    'err403-solano-quiz': 'Solano Quiz',
-    'err404-solano-quiz': 'Solano Quiz',
-    'err500-solano-quiz': 'Solano Quiz',
-    'faq-solano-quiz': 'Solano Quiz',
-    'gensvc-solano-quiz': 'Solano Quiz',
-    'gov-solano-quiz': 'Solano Quiz',
-    'health-solano-quiz': 'Solano Quiz',
-    'home-solano-quiz': 'Solano Quiz',
-    'hr-solano-quiz': 'Solano Quiz',
-    'infra-solano-quiz': 'Solano Quiz',
-    'legis-solano-quiz': 'Solano Quiz',
-    'magri-solano-quiz': 'Solano Quiz',
-    'market-solano-quiz': 'Solano Quiz',
-    'marriage-solano-quiz': 'Solano Quiz',
-    'mbudget-solano-quiz': 'Solano Quiz',
-    'mcivil-solano-quiz': 'Solano Quiz',
-    'mgensvc-solano-quiz': 'Solano Quiz',
-    'mswdo-solano-quiz': 'Solano Quiz',
-    'mswdo-svc-solano-quiz': 'Solano Quiz',
-    'news-solano-quiz': 'Solano Quiz',
-    'officials-solano-quiz': 'Solano Quiz',
-    'ord-solano-quiz': 'Solano Quiz',
-    'plan-solano-quiz': 'Solano Quiz',
-    'privacy-solano-quiz': 'Solano Quiz',
-    'propdec-solano-quiz': 'Solano Quiz',
-    'reso-solano-quiz': 'Solano Quiz',
-    'safety-solano-quiz': 'Solano Quiz',
-    'sitemap-solano-quiz': 'Solano Quiz',
-    'slaughter-solano-quiz': 'Solano Quiz',
-    'social-solano-quiz': 'Solano Quiz',
-    'stats-solano-quiz': 'Solano Quiz',
-    'svc-solano-quiz': 'Solano Quiz',
-    'tax-solano-quiz': 'Solano Quiz',
-    'terms-solano-quiz': 'Solano Quiz',
-    'treas-solano-quiz': 'Solano Quiz',
-    'tricycle-solano-quiz': 'Solano Quiz',
-    'home-how-well-do-you-know-solano-nueva-vizcaya':
-      'Kasano ti pannakaammom iti Solano, Nueva Vizcaya?',
+    // Muntinlupa Quiz
+    'accessibility-Muntinlupa-quiz': 'Muntinlupa Quiz',
+    'acct-Muntinlupa-quiz': 'Muntinlupa Quiz',
+    'agri-Muntinlupa-quiz': 'Muntinlupa Quiz',
+    'assessor-Muntinlupa-quiz': 'Muntinlupa Quiz',
+    'birth-Muntinlupa-quiz': 'Muntinlupa Quiz',
+    'biz-Muntinlupa-quiz': 'Muntinlupa Quiz',
+    'bpls-Muntinlupa-quiz': 'Muntinlupa Quiz',
+    'budget-Muntinlupa-quiz': 'Muntinlupa Quiz',
+    'cert-Muntinlupa-quiz': 'Muntinlupa Quiz',
+    'civil-Muntinlupa-quiz': 'Muntinlupa Quiz',
+    'contact-Muntinlupa-quiz': 'Muntinlupa Quiz',
+    'death-Muntinlupa-quiz': 'Muntinlupa Quiz',
+    'edu-Muntinlupa-quiz': 'Muntinlupa Quiz',
+    'eng-Muntinlupa-quiz': 'Muntinlupa Quiz',
+    'env-Muntinlupa-quiz': 'Muntinlupa Quiz',
+    'err403-Muntinlupa-quiz': 'Muntinlupa Quiz',
+    'err404-Muntinlupa-quiz': 'Muntinlupa Quiz',
+    'err500-Muntinlupa-quiz': 'Muntinlupa Quiz',
+    'faq-Muntinlupa-quiz': 'Muntinlupa Quiz',
+    'gensvc-Muntinlupa-quiz': 'Muntinlupa Quiz',
+    'gov-Muntinlupa-quiz': 'Muntinlupa Quiz',
+    'health-Muntinlupa-quiz': 'Muntinlupa Quiz',
+    'home-Muntinlupa-quiz': 'Muntinlupa Quiz',
+    'hr-Muntinlupa-quiz': 'Muntinlupa Quiz',
+    'infra-Muntinlupa-quiz': 'Muntinlupa Quiz',
+    'legis-Muntinlupa-quiz': 'Muntinlupa Quiz',
+    'magri-Muntinlupa-quiz': 'Muntinlupa Quiz',
+    'market-Muntinlupa-quiz': 'Muntinlupa Quiz',
+    'marriage-Muntinlupa-quiz': 'Muntinlupa Quiz',
+    'mbudget-Muntinlupa-quiz': 'Muntinlupa Quiz',
+    'mcivil-Muntinlupa-quiz': 'Muntinlupa Quiz',
+    'mgensvc-Muntinlupa-quiz': 'Muntinlupa Quiz',
+    'mswdo-Muntinlupa-quiz': 'Muntinlupa Quiz',
+    'mswdo-svc-Muntinlupa-quiz': 'Muntinlupa Quiz',
+    'news-Muntinlupa-quiz': 'Muntinlupa Quiz',
+    'officials-Muntinlupa-quiz': 'Muntinlupa Quiz',
+    'ord-Muntinlupa-quiz': 'Muntinlupa Quiz',
+    'plan-Muntinlupa-quiz': 'Muntinlupa Quiz',
+    'privacy-Muntinlupa-quiz': 'Muntinlupa Quiz',
+    'propdec-Muntinlupa-quiz': 'Muntinlupa Quiz',
+    'reso-Muntinlupa-quiz': 'Muntinlupa Quiz',
+    'safety-Muntinlupa-quiz': 'Muntinlupa Quiz',
+    'sitemap-Muntinlupa-quiz': 'Muntinlupa Quiz',
+    'slaughter-Muntinlupa-quiz': 'Muntinlupa Quiz',
+    'social-Muntinlupa-quiz': 'Muntinlupa Quiz',
+    'stats-Muntinlupa-quiz': 'Muntinlupa Quiz',
+    'svc-Muntinlupa-quiz': 'Muntinlupa Quiz',
+    'tax-Muntinlupa-quiz': 'Muntinlupa Quiz',
+    'terms-Muntinlupa-quiz': 'Muntinlupa Quiz',
+    'treas-Muntinlupa-quiz': 'Muntinlupa Quiz',
+    'tricycle-Muntinlupa-quiz': 'Muntinlupa Quiz',
     'home-evaluate-your-familiarity-with-the-municipalitys':
-      'Evaluaren ti pannakaammom iti tawid, kultural a pagbigbigan, ken heograpiko a kapatgan ti munisipalidad babaen ti maysa nga interactive a panagsubok ti pannakaammo a naidisinio tapno ipakita ti maysa kadagiti kalatakan a lokalidad ti Nueva Vizcaya.',
+      'Evaluaren ti pannakaammom iti tawid, kultural a pagbigbigan, ken heograpiko a kapatgan ti munisipalidad babaen ti maysa nga interactive a panagsubok ti pannakaammo a naidisinio tapno ipakita ti maysa kadagiti kalatakan a lokalidad ti Metro Manila.',
     'home-take-the-quiz': 'Subokan ti Quiz',
   },
 };

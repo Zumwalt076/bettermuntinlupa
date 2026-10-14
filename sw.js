@@ -3,7 +3,7 @@
  * Enterprise-grade PWA with versioned caching, runtime strategies, and offline resilience.
  */
 
-var CACHE_VERSION = 'v6';
+var CACHE_VERSION = 'v8';
 var STATIC_CACHE = 'bettermuntinlupa-static-' + CACHE_VERSION;
 var RUNTIME_CACHE = 'bettermuntinlupa-runtime-' + CACHE_VERSION;
 var OFFLINE_URL = '/offline.html';
@@ -17,7 +17,7 @@ var PRECACHE_URLS = [
   '/assets/css/footer.css',
   '/assets/css/accessibility.css',
   '/assets/js/main.js',
-  '/assets/js/translations.js',
+  '/assets/js/translations.js?v=8',
   '/assets/js/info-bar.js',
   '/assets/images/logo/better-muntinlupa-logo.svg',
   '/assets/images/logo/better-muntinlupa-logo-white.svg',
